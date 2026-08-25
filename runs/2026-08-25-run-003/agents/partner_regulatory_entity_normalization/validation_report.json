@@ -1,0 +1,70 @@
+{
+  "checks": {
+    "all_329_original_partner_entities_mapped_once": true,
+    "all_decisions_terminal_zero_pending": true,
+    "canonical_partition_closes": true,
+    "duplicate_groups_have_exact_basis": true,
+    "evidence_refs_close": true,
+    "multilisting_review_terminal": true,
+    "no_fuzzy_or_suffix_stripping_basis": true,
+    "npn_tag_fields_present": true,
+    "original_entities_preserved_in_merge_map": true,
+    "overlay_exactly_duplicate_groups": true,
+    "relationship_refs_close": true,
+    "required_ten_duplicate_groups_fixed": true,
+    "security_union_not_empty": true,
+    "source_records_preserved": true,
+    "source_refs_close": true,
+    "source_snapshot_hash_pinned": true
+  },
+  "counts": {
+    "canonical_partner_entities": 316,
+    "duplicate_groups": 13,
+    "manual_multilisting_review": 20,
+    "merged_away_entities": 13,
+    "snapshot_partner_listed_entities": 329
+  },
+  "required_duplicate_groups": [
+    [
+      "coreweave",
+      "npn-issuer-0f21b8aa69ac3580"
+    ],
+    [
+      "entity_70b6644e2c2a916d",
+      "npn-issuer-b77edd9e7010e111"
+    ],
+    [
+      "entity_e4b76123e847422c",
+      "t_mobile_us"
+    ],
+    [
+      "alibaba",
+      "entity_448ee47d0990d0c2"
+    ],
+    [
+      "entity_c13dcedb27ebe7f7",
+      "npn-issuer-8603eeefab8517c7"
+    ],
+    [
+      "elastic",
+      "entity_cff4787c0eeaf22e"
+    ],
+    [
+      "entity_1ba13f36f5792a1b",
+      "npn-issuer-fc55b1f0a87affc6"
+    ],
+    [
+      "entity_30f6a80d17a88625",
+      "entity_30f6d340bb3ce3f2"
+    ],
+    [
+      "entity_8a954030356bd7f0",
+      "verizon"
+    ],
+    [
+      "quanta",
+      "quanta_computer"
+    ]
+  ],
+  "status": "pass"
+}

@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_d0f1bad43e89d5eb",
+    "audit_record_sha256": "3f68d77c98785873429bea825547974380a501e2178e0531c6c43c00d80d4b25",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260629181709",
+    "candidate_url": "https://web.archive.org/web/20260629181709id_/https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
+    "canonical_url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Ffirefly-aerospace-nvidia-jetson-lunar-orbit&timestamp=20260629",
+    "response_sha256": "83e37e97a98611d5f4243ea2df66b4d097c73c90606c366fa2e7ca35ed195a53",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "3f68d77c98785873429bea825547974380a501e2178e0531c6c43c00d80d4b25",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_d0f1bad43e89d5eb",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit",
+    "content_or_audit_sha256": "3f68d77c98785873429bea825547974380a501e2178e0531c6c43c00d80d4b25",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-06-29",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time"
+  }
+}

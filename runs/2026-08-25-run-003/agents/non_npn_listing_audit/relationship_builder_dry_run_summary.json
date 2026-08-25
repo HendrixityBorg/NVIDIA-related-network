@@ -1,0 +1,59 @@
+{
+  "article_recovery_mentions_included": 5005,
+  "article_recovery_observations_included": 2050,
+  "checks": {
+    "all_claim_input_evidence_retained": true,
+    "all_decisions_terminal": true,
+    "anchor_mentions_never_exceed_unknown_partner": true,
+    "approved_decisions_have_claim_key": true,
+    "article_investment_never_creates_investee": true,
+    "blocked_recovery_articles_never_exceed_unknown_partner": true,
+    "claim_evidence_resolves": true,
+    "claim_types_in_scope": true,
+    "claims_only_resolved_registry_entities": true,
+    "dedup_keys_unique": true,
+    "directions_canonical": true,
+    "entity_resolution_evidence_not_counted_as_relationship_independence": true,
+    "inferred_supplier_customer_cap_59": true,
+    "investee_evidence_only_13f": true,
+    "investee_exactly_seven_latest_13f_listed_issuers": true,
+    "low_confidence_claims_are_partner_and_capped": true,
+    "low_confidence_score_breakdown_and_fact_status_contract": true,
+    "low_terminal_decisions_included_or_researched_nonlisted": true,
+    "one_decision_per_input_observation": true,
+    "origin_terminal_status_and_inference_retained": true,
+    "presentation_logo_architecture_never_exceed_low_partner": true,
+    "product_scopes_resolve_frozen_tree": false,
+    "reject_decisions_have_no_claim_key": true,
+    "researched_entity_resolution_required_for_release": true,
+    "single_product_scope_per_claim": true,
+    "source_urls_and_locators_retained": true,
+    "zero_pending": true
+  },
+  "claim_type_counts": {
+    "customer": 140,
+    "investee": 7,
+    "partner": 1373,
+    "supplier": 8
+  },
+  "claims": 1528,
+  "decision_rows": 9078,
+  "decision_status_counts": {
+    "approve_unknown": 4822,
+    "approved": 429,
+    "needs_more_evidence": 1750,
+    "reject": 2077
+  },
+  "evidence_fingerprints": 8872,
+  "generated_at": "2026-08-25T14:15:00.384782+00:00",
+  "global_listing_overlay_rows_accepted": {
+    "context_bound_aliases": 1,
+    "entities": 30,
+    "listing_evidence": 44,
+    "safe_exact_aliases": 89
+  },
+  "input_observations_expected": 9078,
+  "investee_claims": 7,
+  "pass": false,
+  "pending": 0
+}

@@ -1,0 +1,30 @@
+{
+  "alias_rows": 227,
+  "candidate_names": 3716,
+  "checks": {
+    "manual_risky_name_overrides_applied": true,
+    "no_fuzzy_promotion": true,
+    "one_terminal_status_per_candidate": true,
+    "registry_never_labels_unverified_as_listed": true,
+    "resolved_have_exchange_ticker": true
+  },
+  "fuzzy_promotions": 0,
+  "generated_at": "2026-08-25T11:06:14.554183+00:00",
+  "listing_evidence_rows": 130,
+  "pass": true,
+  "pending": 0,
+  "registry_entities": 130,
+  "source_input_counts": {
+    "filing_or_presentation": 3152,
+    "npn": 21,
+    "official_article_2025": 273,
+    "official_article_2026": 28,
+    "official_product_solution_page": 375
+  },
+  "status_counts": {
+    "ambiguous": 5,
+    "rejected": 60,
+    "resolved": 181,
+    "unresolved": 3470
+  }
+}

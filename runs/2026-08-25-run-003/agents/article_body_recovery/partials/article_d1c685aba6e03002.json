@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_d1c685aba6e03002",
+    "audit_record_sha256": "81c305a3fb7b9a04b5f2527589fd5a116a99f9c0e9b96fdaba10fa717efffeec",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260527171811",
+    "candidate_url": "https://web.archive.org/web/20260527171811id_/https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence/",
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-factories-the-new-infrastructure-of-intelligence&timestamp=20260527",
+    "response_sha256": "bd262c051641fa9f48b9f8746a67b694f8a0249758fbdbfa1211991448207f6e",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "81c305a3fb7b9a04b5f2527589fd5a116a99f9c0e9b96fdaba10fa717efffeec",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_d1c685aba6e03002",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-factories-the-new-infrastructure-of-intelligence",
+    "content_or_audit_sha256": "81c305a3fb7b9a04b5f2527589fd5a116a99f9c0e9b96fdaba10fa717efffeec",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-05-27",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "AI Factories: The New Infrastructure of Intelligence"
+  }
+}

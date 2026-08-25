@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "all_terminal_pending_zero": true,
+    "all_upstream_validations_pass": true,
+    "canonical_frontier_exact_316": true,
+    "decision_ledger_exact_316": true,
+    "directness_enum_valid": true,
+    "entity_endpoints_canonical": true,
+    "evidence_refs_close": true,
+    "independence_bounded_by_unique_publishers": true,
+    "inferred_confidence_below_60": true,
+    "news_never_confirmed_without_regulatory_support": true,
+    "no_access_bypass_or_full_text": true,
+    "no_local_absolute_paths": true,
+    "one_primary_context_per_origin_publication": true,
+    "original_product_scope_retained": true,
+    "product_scopes_canonical_or_general": true,
+    "relationship_five_tuple_unique": true,
+    "scores_equal_breakdown_and_cap": true
+  },
+  "counts": {
+    "claims": 48,
+    "decisions": 316,
+    "evidence": 271,
+    "frontier": 316,
+    "pending": 0
+  },
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,272 @@
+{
+  "version": "2026-08-25.2",
+  "policy": "first matching rule wins; every approval rule is constrained by exact canonical entity where needed and case-insensitive literal phrases over one retained SEC mention context; no semantic/fuzzy expansion",
+  "rules": [
+    {
+      "rule_id": "supplier_confirmed_coreweave_msa",
+      "canonical_entity_ids": ["coreweave"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "corporate_general",
+      "required_patterns": ["provide NVIDIA with our infrastructure and platform services", "NVIDIA has paid us"],
+      "reason": "CoreWeave states that it provides services to NVIDIA under order forms and discloses aggregate payments received from NVIDIA."
+    },
+    {
+      "rule_id": "supplier_confirmed_coreweave_residual_cloud_capacity",
+      "canonical_entity_ids": ["coreweave"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "cloud-services",
+      "required_patterns": ["NVIDIA is obligated to purchase the residual unsold capacity", "reserved cloud computing capacity"],
+      "reason": "CoreWeave's material agreement expressly obligates NVIDIA to purchase qualifying residual unsold cloud capacity."
+    },
+    {
+      "rule_id": "supplier_confirmed_iren_cloud_services",
+      "canonical_entity_ids": ["entity_045454fe093dec63"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "cloud-services",
+      "any_patterns": ["we will provide NVIDIA Corporation with dedicated GPU services", "$3.4bn AI Cloud contract with NVIDIA", "$3.4 billion five-year AI Cloud contract with NVIDIA"],
+      "reason": "IREN discloses a five-year agreement to provide dedicated GPU/cloud services to NVIDIA, including an approximately $3.4 billion contract value."
+    },
+    {
+      "rule_id": "supplier_confirmed_fabrinet_nvidia_revenue",
+      "canonical_entity_ids": ["fabrinet"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "networking",
+      "any_patterns": ["NVIDIA Corporation and Cisco Systems, Inc. contributed 27.6%", "Cisco Systems, Inc., NVIDIA Corporation, Nokia Corporation and Amazon.com, Inc. contributed", "NVIDIA Corporation 27.6 %", "NVIDIA Corporation 16.3 %"],
+      "reason": "Fabrinet identifies NVIDIA as a significant customer and quantifies NVIDIA's share of Fabrinet revenue."
+    },
+    {
+      "rule_id": "supplier_confirmed_coherent_optics",
+      "canonical_entity_ids": ["coherent"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "networking",
+      "any_patterns": ["NVIDIA multi-billion-dollar purchase commitment", "multi-billion-dollar purchase commitment with NVIDIA", "strategic multi-year supply agreement with NVIDIA for advanced lasers and optical networking products"],
+      "reason": "Coherent discloses a supply agreement and NVIDIA purchase commitment for advanced laser and optical networking products."
+    },
+    {
+      "rule_id": "supplier_confirmed_lumentum_lasers",
+      "canonical_entity_ids": ["lumentum"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "networking",
+      "required_patterns": ["NVIDIA multi-billion purchase commitment", "advanced laser components"],
+      "reason": "Lumentum discloses NVIDIA's multi-billion purchase commitment and capacity rights for advanced laser components."
+    },
+    {
+      "rule_id": "supplier_confirmed_memory_supply",
+      "canonical_entity_ids": ["sk-hynix"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "architectures-and-core-technologies",
+      "required_patterns": ["technology partnership with NVIDIA", "includes the supply of memory semiconductors"],
+      "reason": "SK hynix expressly states that its NVIDIA arrangement includes supply of memory semiconductors."
+    },
+    {
+      "rule_id": "supplier_confirmed_tsmc_named_customer",
+      "canonical_entity_ids": ["tsmc"],
+      "classification": "supplier_confirmed",
+      "product_scope_id": "architectures-and-core-technologies",
+      "required_patterns": ["supporting its customers", "Apple, NVIDIA, AMD, Broadcom, and Qualcomm"],
+      "reason": "TSMC's filing identifies NVIDIA among customers supported by its semiconductor manufacturing expansion."
+    },
+    {
+      "rule_id": "customer_confirmed_coreweave_nvidia_gpu_supplier",
+      "canonical_entity_ids": ["coreweave"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "required_patterns": ["NVIDIA supplies the Company with NVIDIA GPUs"],
+      "reason": "CoreWeave expressly states that NVIDIA supplies it with NVIDIA GPUs."
+    },
+    {
+      "rule_id": "customer_confirmed_supermicro_nvidia_supplier",
+      "canonical_entity_ids": ["supermicro"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "any_patterns": ["our suppliers, including Intel, AMD and NVIDIA", "key component suppliers, such as Intel, AMD and NVIDIA, to provide us with components"],
+      "reason": "Supermicro expressly identifies NVIDIA as a supplier of materials or key components."
+    },
+    {
+      "rule_id": "customer_confirmed_hp_nvidia_supplier",
+      "canonical_entity_ids": ["entity_25d551a42ba53013"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "geforce",
+      "required_patterns": ["rely on Intel, AMD, and NVIDIA, or other suppliers to provide us", "processors for the majority of our PCs and workstations"],
+      "reason": "HP expressly identifies NVIDIA among suppliers providing processors for PCs and workstations."
+    },
+    {
+      "rule_id": "customer_confirmed_hpe_nvidia_single_source_supplier",
+      "canonical_entity_ids": ["hpe"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "required_patterns": ["single-source suppliers", "NVIDIA for Graphics Processing Units"],
+      "reason": "HPE expressly identifies NVIDIA as a single-source supplier for graphics processing units."
+    },
+    {
+      "rule_id": "customer_confirmed_nebius_nvidia_gpu_supplier",
+      "canonical_entity_ids": ["nebius"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "required_patterns": ["we currently rely on Nvidia for the GPU chips we use", "other suppliers for other key components"],
+      "reason": "Nebius expressly identifies NVIDIA as the source it relies on for GPU chips and contrasts it with other component suppliers."
+    },
+    {
+      "rule_id": "customer_confirmed_oracle_direct_gpu_purchase",
+      "canonical_entity_ids": ["oracle"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "required_patterns": ["continue to buy the latest GPUs from NVIDIA"],
+      "reason": "Oracle expressly states that it buys the latest GPUs from NVIDIA."
+    },
+    {
+      "rule_id": "customer_confirmed_iren_named_equipment_supplier",
+      "canonical_entity_ids": ["entity_045454fe093dec63"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "required_patterns": ["equipment suppliers for data centers", "NVIDIA, Supermicro and WekaIO"],
+      "reason": "IREN expressly includes NVIDIA in its list of equipment suppliers for data-center operations."
+    },
+    {
+      "rule_id": "customer_confirmed_bitdeer_direct_purchase",
+      "canonical_entity_ids": ["npn-issuer-ad81309481717c2b"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "required_patterns": ["we have procured the following equipment from NVIDIA Corporation", "total purchase amount of approximately US$13.2 million"],
+      "reason": "Bitdeer expressly states that it procured NVIDIA DGX/HGX equipment from NVIDIA Corporation for approximately US$13.2 million."
+    },
+    {
+      "rule_id": "customer_confirmed_ingram_nvidia_supplier",
+      "canonical_entity_ids": ["ingram_micro"],
+      "classification": "customer_confirmed",
+      "product_scope_id": "corporate_general",
+      "required_patterns": ["computer hardware suppliers", "NVIDIA", "we also work with suppliers"],
+      "reason": "Ingram Micro expressly includes NVIDIA among the computer-hardware and technology suppliers with which it works as a distributor."
+    },
+    {
+      "rule_id": "customer_confirmed_explicit_from_nvidia",
+      "classification": "customer_confirmed",
+      "product_scope_id": "data-center",
+      "any_patterns": ["purchased directly from NVIDIA", "purchase from NVIDIA", "procure from NVIDIA", "NVIDIA is our supplier", "NVIDIA was our supplier", "NVIDIA is a vendor", "NVIDIA was a vendor"],
+      "reason": "The filer explicitly identifies NVIDIA as counterparty/supplier or states that it purchased/procured from NVIDIA."
+    },
+    {
+      "rule_id": "customer_inferred_nvidia_gpu_purchase_or_deployment",
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "data-center",
+      "any_patterns": ["purchase agreement for 248 NVIDIA H100", "purchase agreement for 568 NVIDIA H100", "purchase agreement for 1,080 NVIDIA H200", "acquired 1,896 NVIDIA H100 and H200", "all of the GPUs used in our infrastructure today are NVIDIA GPUs", "deploy NVIDIA H100", "deploy NVIDIA H200", "deliver NVIDIA H100", "deliver NVIDIA H200", "NVIDIA GB200 NVL72-based instances"],
+      "reason": "The filing establishes purchase, ownership, use or deployment of NVIDIA-branded GPUs, but the retained context does not establish that NVIDIA was the direct seller."
+    },
+    {
+      "rule_id": "customer_inferred_qumulusai_gpu_operation",
+      "canonical_entity_ids": ["npn-issuer-ea0992ccf8964407"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "data-center",
+      "required_patterns": ["QumulusAI delivers both direct, bare-metal access and virtualized environments powered by top-tier NVIDIA GPUs"],
+      "reason": "QumulusAI states that it operates bare-metal and virtualized environments powered by NVIDIA GPUs, but elsewhere identifies OEM system vendors, leaving NVIDIA's direct seller role unclear."
+    },
+    {
+      "rule_id": "customer_inferred_oss_nvidia_gpu_systems",
+      "canonical_entity_ids": ["npn-issuer-707b51d1c6951b12"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "data-center",
+      "required_patterns": ["we work closely with NVIDIA to design and build systems which use multiple GPUs"],
+      "reason": "One Stop Systems states that it designs and builds systems using multiple NVIDIA GPUs, but does not identify the direct procurement counterparty."
+    },
+    {
+      "rule_id": "customer_inferred_digitalocean_nvidia_gpu_operation",
+      "canonical_entity_ids": ["npn-issuer-61a6a741280baa3b"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "data-center",
+      "any_patterns": ["DigitalOcean customers now have access to NVIDIA HGX H200s", "on-demand access to NVIDIA H100 instances for customers"],
+      "reason": "DigitalOcean discloses operating NVIDIA GPU capacity for customers, but not whether NVIDIA was its direct seller."
+    },
+    {
+      "rule_id": "customer_inferred_weride_drive_thor_use",
+      "canonical_entity_ids": ["weride"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "drive",
+      "any_patterns": ["powered by NVIDIA's latest DRIVE AGX Thor chips", "powered by NVIDIA’s latest DRIVE AGX Thor chips", "GXR, is powered by NVIDIA DRIVE X Thor chips"],
+      "reason": "WeRide discloses deployed vehicles/platforms powered by NVIDIA DRIVE Thor, while Lenovo supplies the domain controller and direct NVIDIA procurement is not established."
+    },
+    {
+      "rule_id": "customer_inferred_aurora_drive_thor_testing",
+      "canonical_entity_ids": ["aurora_innovation"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "drive",
+      "any_patterns": ["received computer samples from AUMOVIO with NVIDIA’s DRIVE Thor system-on- a-chip, which we are now testing", "architecture that integrates two NVIDIA DRIVE Thor system-on-a-chips into a unified platform optimized to power the Aurora Driver"],
+      "reason": "Aurora discloses testing/integration of NVIDIA DRIVE Thor supplied through its hardware partner, so NVIDIA product use is established but direct seller status is unclear."
+    },
+    {
+      "rule_id": "customer_inferred_telus_nvidia_gpu_factory",
+      "canonical_entity_ids": ["telus"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "data-center",
+      "any_patterns": ["facility is powered by NVIDIA graphics processing units", "facility, powered by NVIDIA graphics processing units and Hewlett Packard Enterprise (HPE) computing infrastructure, is now operational"],
+      "reason": "TELUS states that its operational Sovereign AI Factory is powered by NVIDIA GPUs and HPE infrastructure; the direct NVIDIA seller is not identified."
+    },
+    {
+      "rule_id": "customer_inferred_cognizant_ai_factory",
+      "canonical_entity_ids": ["cognizant"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "data-center",
+      "required_patterns": ["launch of Cognizant AI Factory", "powered by Dell Technologies and NVIDIA AI infrastructure and software platform"],
+      "reason": "Cognizant discloses an AI Factory powered by Dell and NVIDIA infrastructure/software; NVIDIA technology use is clear but direct procurement is not."
+    },
+    {
+      "rule_id": "customer_inferred_ouster_subsidiary_nvidia_platform",
+      "canonical_entity_ids": ["npn-issuer-e4cd6add33e52e4e"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "robotics",
+      "required_patterns": ["our wholly-owned subsidiary, Stereolabs", "AI compute powered by NVIDIA’s platform"],
+      "reason": "Ouster states that its wholly owned Stereolabs subsidiary operates AI compute powered by NVIDIA's platform; direct NVIDIA procurement is not disclosed."
+    },
+    {
+      "rule_id": "customer_inferred_akamai_gpu_deployment",
+      "canonical_entity_ids": ["entity_4917dceee4bc0f17"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "data-center",
+      "required_patterns": ["introduced new NVIDIA graphics processing units", "deploy AI inferencing workloads"],
+      "reason": "Akamai says it introduced NVIDIA GPUs for customer workloads, but does not identify the direct seller."
+    },
+    {
+      "rule_id": "customer_inferred_li_auto_nvidia_chips",
+      "canonical_entity_ids": ["li-auto"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "drive",
+      "required_patterns": ["models rely on chips produced by NVIDIA"],
+      "reason": "Li Auto states that current/high-end models rely on NVIDIA-produced chips, but does not identify a direct purchase counterparty."
+    },
+    {
+      "rule_id": "customer_inferred_pony_nvidia_orin_procurement",
+      "canonical_entity_ids": ["pony-ai"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "drive",
+      "required_patterns": ["imported certain raw materials, primarily NVIDIA Orin-X chips", "from overseas suppliers"],
+      "reason": "Pony.ai discloses procurement/use of NVIDIA Orin-X chips through unspecified overseas suppliers, so the NVIDIA seller is unclear."
+    },
+    {
+      "rule_id": "customer_inferred_nokia_arc_pro_use",
+      "canonical_entity_ids": ["nokia"],
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "networking",
+      "required_patterns": ["we leverage the NVIDIA ARC-Pro accelerated computing platform", "evolve our Cloud RAN into a Cloud AI-RAN solution"],
+      "reason": "Nokia states that it uses the NVIDIA ARC-Pro platform in its AI-RAN product work, while purchase and direct seller terms are not disclosed."
+    },
+    {
+      "rule_id": "customer_inferred_drive_use",
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "drive",
+      "any_patterns": ["feature centralized computing with the NVIDIA DRIVE", "running software from NVIDIA"],
+      "reason": "The filing establishes use/deployment of NVIDIA DRIVE technology but does not establish the direct contracting or purchase counterparty."
+    },
+    {
+      "rule_id": "customer_inferred_nvqlink_deployment",
+      "classification": "customer_inferred_directness_unclear",
+      "product_scope_id": "nvqlink",
+      "required_patterns": ["partnership with NVIDIA", "deploy a NVQLink-enabled"],
+      "reason": "The filing establishes planned deployment of an NVIDIA NVQLink-enabled system, while direct purchase/seller identity remains unclear."
+    }
+  ],
+  "non_directional_patterns": {
+    "compatibility_only": ["compatibility with NVIDIA", "compatible with NVIDIA", "CUDA-Q"],
+    "risk_or_competition": ["competitor", "competition", "supply chain constraints", "geopolitical", "risk factors"],
+    "partner_only": ["partner to NVIDIA", "partnership with NVIDIA", "work with NVIDIA", "collaboration with NVIDIA"],
+    "reference_or_product_description_only": ["NVIDIA A100s and H100s are examples", "NVIDIA InfiniBand", "NVIDIA GPUs", "NVIDIA platform"]
+  }
+}

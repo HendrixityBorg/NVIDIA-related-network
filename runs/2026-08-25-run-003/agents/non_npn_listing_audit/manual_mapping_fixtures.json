@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "cutoff": "2026-08-25",
+  "policy": {
+    "direct_issuer": "May confirm the endpoint identity when exact alias and listing evidence agree; relationship semantics still come from the NVIDIA evidence.",
+    "brand_to_listed_parent": "Endpoint recommendation is inferred even when ownership is explicit; final relationship must cite both NVIDIA evidence and mapping evidence.",
+    "contextual_inferred_entity": "Endpoint recommendation remains unknown and confidence must stay below 60.",
+    "multi_listed_group": "Select the largest listed candidate by cutoff market capitalization only as a representative inference; preserve every candidate and do not imply the whole group equals that issuer."
+  },
+  "mappings": [
+    {
+      "aliases": ["OUTSCALE"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "dassault_systemes",
+      "parent_legal_name": "Dassault Systèmes SE",
+      "mapping_evidence_url": "https://www.3ds.com/cloud/outscale",
+      "mapping_evidence_publisher": "Dassault Systèmes",
+      "mapping_evidence_date": "2026-08-25",
+      "mapping_evidence_locator": "OUTSCALE product/brand page",
+      "rationale": "The frozen NVIDIA article also states that Dassault Systèmes deploys through its OUTSCALE sovereign cloud platform."
+    },
+    {
+      "aliases": ["SIMULIA"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "dassault_systemes",
+      "parent_legal_name": "Dassault Systèmes SE",
+      "mapping_evidence_url": "https://www.3ds.com/products/simulia",
+      "mapping_evidence_publisher": "Dassault Systèmes",
+      "mapping_evidence_date": "2026-08-25",
+      "mapping_evidence_locator": "SIMULIA product page",
+      "rationale": "SIMULIA is presented as a Dassault Systèmes product brand."
+    },
+    {
+      "aliases": ["Wonder Dynamics", "Wonder Animation"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "entity_523b08dc6024a071",
+      "parent_legal_name": "Autodesk, Inc.",
+      "mapping_evidence_url": "https://adsknews.autodesk.com/en/news/autodesk-acquires-wonder-dynamics/",
+      "mapping_evidence_publisher": "Autodesk",
+      "mapping_evidence_date": "2024-05-21",
+      "mapping_evidence_locator": "headline and acquisition announcement",
+      "rationale": "The frozen NVIDIA body independently describes Wonder Dynamics as an Autodesk company."
+    },
+    {
+      "aliases": ["AVEVA"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "schneider_electric",
+      "parent_legal_name": "Schneider Electric SE",
+      "mapping_evidence_url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-completes-aveva-acquisition-63d13390140343ee2d0e6150",
+      "mapping_evidence_publisher": "Schneider Electric",
+      "mapping_evidence_date": "2023-01-18",
+      "mapping_evidence_locator": "headline and completion statement",
+      "rationale": "AVEVA is no longer a separately listed endpoint after Schneider Electric completed the acquisition."
+    },
+    {
+      "aliases": ["Universal Robots"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "teradyne",
+      "parent_legal_name": "Teradyne, Inc.",
+      "parent_securities": [{"exchange": "Nasdaq", "ticker": "TER"}],
+      "mapping_evidence_url": "https://www.teradyne.com/companies/universal-robots/",
+      "mapping_evidence_publisher": "Teradyne",
+      "mapping_evidence_date": "2026-08-25",
+      "mapping_evidence_locator": "Teradyne companies > Universal Robots",
+      "rationale": "Universal Robots is a Teradyne operating company."
+    },
+    {
+      "aliases": ["Streamlabs", "Streamlabs Intelligent Streaming Agent", "Streamlabs Intelligent AI Assistant"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "logitech",
+      "parent_legal_name": "Logitech International S.A.",
+      "parent_securities": [{"exchange": "Nasdaq", "ticker": "LOGI"}, {"exchange": "SIX Swiss Exchange", "ticker": "LOGN"}],
+      "mapping_evidence_url": "https://ir.logitech.com/press-releases/press-release-details/2019/Logitech-to-Acquire-Streamlabs/default.aspx",
+      "mapping_evidence_publisher": "Logitech",
+      "mapping_evidence_date": "2019-09-26",
+      "mapping_evidence_locator": "headline and transaction description",
+      "rationale": "Streamlabs is mapped to listed parent Logitech; dual listings identify one issuer, not competing parent candidates."
+    },
+    {
+      "aliases": ["Monks"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "s4_capital",
+      "parent_legal_name": "S4 Capital plc",
+      "parent_securities": [{"exchange": "London Stock Exchange", "ticker": "SFOR"}],
+      "mapping_evidence_url": "https://www.s4capital.com/",
+      "mapping_evidence_publisher": "S4 Capital",
+      "mapping_evidence_date": "2026-08-25",
+      "mapping_evidence_locator": "company/Monks description",
+      "rationale": "The frozen NVIDIA body says S4 Capital's Monks."
+    },
+    {
+      "aliases": ["Kling AI"],
+      "resolution_kind": "brand_to_listed_parent",
+      "parent_entity_id": "kuaishou",
+      "parent_legal_name": "Kuaishou Technology",
+      "parent_securities": [{"exchange": "Hong Kong Stock Exchange", "ticker": "1024"}],
+      "mapping_evidence_url": "https://ir.kuaishou.com/",
+      "mapping_evidence_publisher": "Kuaishou Technology",
+      "mapping_evidence_date": "2026-08-25",
+      "mapping_evidence_locator": "investor site product/company materials",
+      "rationale": "Kling AI is a Kuaishou product; keep the NVIDIA relationship endpoint inferred."
+    },
+    {
+      "aliases": ["NTT DATA", "NTT DATA Group", "NTT Data Japan", "NTT DATA Japan"],
+      "resolution_kind": "acquired_or_wholly_owned_subsidiary_to_listed_parent",
+      "parent_entity_id": "ntt",
+      "parent_legal_name": "Nippon Telegraph and Telephone Corporation",
+      "parent_securities": [{"exchange": "Tokyo Stock Exchange", "ticker": "9432"}],
+      "mapping_evidence_url": "https://www.jpx.co.jp/english/news/1023/20250829-12.html",
+      "mapping_evidence_publisher": "Japan Exchange Group",
+      "mapping_evidence_date": "2025-08-29",
+      "mapping_evidence_locator": "delisting schedule row for NTT DATA Group Corporation (code 9613), delisting date 2025-09-26",
+      "additional_mapping_evidence": [
+        {
+          "url": "https://group.ntt/en/newsrelease/2025/05/08/250508b.html",
+          "publisher": "NTT",
+          "date": "2025-05-08",
+          "locator": "transaction announcement describing NTT's tender offer and planned full ownership of NTT DATA Group"
+        }
+      ],
+      "rationale": "NTT DATA Group ceased to be an active listed issuer on 2025-09-26. At the 2026-08-25 cutoff, the endpoint must be inferred to the still-listed ultimate parent NTT rather than code 9613."
+    }
+  ],
+  "direct_issuer_fixtures": [
+    {"aliases": ["Pure Storage"], "legal_name": "Pure Storage, Inc.", "entity_id": "pure_storage", "securities": [{"exchange": "NYSE", "ticker": "PSTG"}], "evidence_url": "https://www.nyse.com/quote/XNYS:PSTG", "publisher": "NYSE"},
+    {"aliases": ["Trend Micro"], "legal_name": "Trend Micro Incorporated", "entity_id": "trend_micro", "securities": [{"exchange": "Tokyo Stock Exchange", "ticker": "4704"}], "evidence_url": "https://www.jpx.co.jp/english/", "publisher": "Japan Exchange Group"},
+    {"aliases": ["ROBOTIS"], "legal_name": "ROBOTIS Co., Ltd.", "entity_id": "robotis", "securities": [{"exchange": "KOSDAQ", "ticker": "108490"}], "evidence_url": "https://global.krx.co.kr/", "publisher": "Korea Exchange"},
+    {"aliases": ["WeRide"], "legal_name": "WeRide Inc.", "entity_id": "weride", "securities": [{"exchange": "Nasdaq", "ticker": "WRD"}], "evidence_url": "https://www.nasdaq.com/market-activity/stocks/wrd", "publisher": "Nasdaq"},
+    {"aliases": ["Magna"], "legal_name": "Magna International Inc.", "entity_id": "magna", "securities": [{"exchange": "NYSE", "ticker": "MGA"}, {"exchange": "Toronto Stock Exchange", "ticker": "MG"}], "evidence_url": "https://www.magna.com/investors", "publisher": "Magna International"},
+    {"aliases": ["LG Electronics"], "legal_name": "LG Electronics Inc.", "entity_id": "lg_electronics", "securities": [{"exchange": "Korea Exchange", "ticker": "066570"}], "evidence_url": "https://global.krx.co.kr/", "publisher": "Korea Exchange"},
+    {"aliases": ["KDDI"], "legal_name": "KDDI Corporation", "entity_id": "kddi", "securities": [{"exchange": "Tokyo Stock Exchange", "ticker": "9433"}], "evidence_url": "https://www.jpx.co.jp/english/", "publisher": "Japan Exchange Group"},
+    {"aliases": ["Temenos"], "legal_name": "Temenos AG", "entity_id": "temenos", "securities": [{"exchange": "SIX Swiss Exchange", "ticker": "TEMN"}], "evidence_url": "https://www.six-group.com/en/market-data/shares/share-explorer/share-details.CH0012453913CHF4.html", "publisher": "SIX"},
+    {"aliases": ["Telenor Group", "Telenor"], "legal_name": "Telenor ASA", "entity_id": "telenor", "securities": [{"exchange": "Oslo Børs", "ticker": "TEL"}], "evidence_url": "https://www.euronext.com/en/products/equities/NO0010063308-XOSL", "publisher": "Euronext"},
+    {"aliases": ["Orange"], "legal_name": "Orange S.A.", "entity_id": "orange", "securities": [{"exchange": "Euronext Paris", "ticker": "ORA"}], "evidence_url": "https://www.euronext.com/en/products/equities/FR0000133308-XPAR", "publisher": "Euronext"},
+    {"aliases": ["Taboola"], "legal_name": "Taboola.com Ltd.", "entity_id": "taboola", "securities": [{"exchange": "Nasdaq", "ticker": "TBLA"}], "evidence_url": "https://www.nasdaq.com/market-activity/stocks/tbla", "publisher": "Nasdaq"},
+    {"aliases": ["Tata Consultancy Services", "Tata Consultancy Services (TCS"], "legal_name": "Tata Consultancy Services Limited", "entity_id": "tcs", "securities": [{"exchange": "National Stock Exchange of India", "ticker": "TCS"}], "evidence_url": "https://www.nseindia.com/get-quotes/equity?symbol=TCS", "publisher": "NSE India"}
+  ],
+  "multi_listed_groups": [
+    {
+      "aliases": ["Samsung"],
+      "selected_parent": "Samsung Electronics Co., Ltd.",
+      "selected_security": "KRX:005930",
+      "endpoint_fact_status": "unknown",
+      "candidates": [
+        {"name": "Samsung Electronics", "security": "KRX:005930", "market_cap_usd": 1219000000000, "market_cap_source_url": "https://companiesmarketcap.com/samsung/marketcap/"},
+        {"name": "Samsung Biologics", "security": "KRX:207940", "market_cap_usd": 53020000000, "market_cap_source_url": "https://companiesmarketcap.com/samsung-biologics/marketcap/"},
+        {"name": "Samsung C&T", "security": "KRX:028260", "market_cap_usd": 43390000000, "market_cap_source_url": "https://companiesmarketcap.com/samsung-ct-corporation/marketcap/"},
+        {"name": "Samsung SDS", "security": "KRX:018260", "market_cap_usd": 12680000000, "market_cap_source_url": "https://companiesmarketcap.com/samsung-sds/marketcap/"},
+        {"name": "Samsung SDI", "security": "KRX:006400", "market_cap_usd": 11770000000, "market_cap_source_url": "https://companiesmarketcap.com/samsung-sdi/marketcap/"}
+      ]
+    },
+    {
+      "aliases": ["Hyundai Motor Group"],
+      "selected_parent": "Hyundai Motor Company",
+      "selected_security": "KRX:005380",
+      "endpoint_fact_status": "unknown",
+      "candidates": [
+        {"name": "Hyundai Motor", "security": "KRX:005380", "market_cap_usd": 79650000000, "market_cap_source_url": "https://companiesmarketcap.com/hyundai/marketcap/"},
+        {"name": "Kia", "security": "KRX:000270", "market_cap_usd": 37880000000, "market_cap_source_url": "https://companiesmarketcap.com/kia/marketcap/"},
+        {"name": "Hyundai Mobis", "security": "KRX:012330", "market_cap_usd": 32090000000, "market_cap_source_url": "https://companiesmarketcap.com/hyundai-mobis/marketcap/"}
+      ]
+    },
+    {
+      "aliases": ["SK Group"],
+      "selected_parent": "SK hynix Inc.",
+      "selected_security": "KRX:000660",
+      "endpoint_fact_status": "unknown",
+      "candidates": [
+        {"name": "SK hynix", "security": "KRX:000660", "market_cap_usd": 860760000000, "market_cap_source_url": "https://companiesmarketcap.com/sk-hynix/marketcap/"},
+        {"name": "SK Telecom", "security": "KRX:017670", "market_cap_usd": 15080000000, "market_cap_source_url": "https://companiesmarketcap.com/sk-telecom/marketcap/"}
+      ]
+    },
+    {
+      "aliases": ["LG Group"],
+      "selected_parent": "LG Energy Solution, Ltd.",
+      "selected_security": "KRX:373220",
+      "endpoint_fact_status": "unknown",
+      "candidates": [
+        {"name": "LG Energy Solution", "security": "KRX:373220", "market_cap_usd": 59090000000, "market_cap_source_url": "https://companiesmarketcap.com/lg-energy-solution/marketcap/"},
+        {"name": "LG Electronics", "security": "KRX:066570", "market_cap_usd": 26020000000, "market_cap_source_url": "https://companiesmarketcap.com/lg-electronics/marketcap/"},
+        {"name": "LG Chem", "security": "KRX:051910", "market_cap_usd": 14870000000, "market_cap_source_url": "https://companiesmarketcap.com/lg-chem/marketcap/"},
+        {"name": "LG Corp", "security": "KRX:003550", "market_cap_usd": 12540000000, "market_cap_source_url": "https://companiesmarketcap.com/lg-corp/marketcap/"}
+      ]
+    },
+    {
+      "aliases": ["Doosan Group"],
+      "selected_parent": "Doosan Enerbility Co., Ltd.",
+      "selected_security": "KRX:034020",
+      "endpoint_fact_status": "unknown",
+      "candidates": [
+        {"name": "Doosan Enerbility", "security": "KRX:034020", "market_cap_usd": 37270000000, "market_cap_source_url": "https://companiesmarketcap.com/doosan-enerbility/marketcap/"},
+        {"name": "Doosan Corporation", "security": "KRX:000150", "market_cap_usd": 14220000000, "market_cap_source_url": "https://companiesmarketcap.com/doosan/marketcap/"},
+        {"name": "Doosan Bobcat", "security": "KRX:241560", "market_cap_usd": 4220000000, "market_cap_source_url": "https://companiesmarketcap.com/doosan-bobcat/marketcap/"}
+      ]
+    }
+  ],
+  "known_non_listed": [
+    "Hugging Face", "OpenAI", "Mistral AI", "Together AI", "VAST Data", "WEKA", "Deloitte", "DDN", "Black Forest Labs", "Agility Robotics", "Skild AI", "Discord", "Checkout.com", "Dataiku", "Weights & Biases", "Cloudera", "World Wide Technology (WWT", "EXXACT", "General Atomics", "Zipline", "Vention", "Invisible AI", "Thinking Machines Lab"
+  ],
+  "known_noise_or_non_entity": [
+    "Instagram", "Facebook", "Threads", "LinkedIn", "Studio YouTube channel", "Studio newsletter", "Into the Omniverse", "Learn OpenUSD", "OpenUSD", "Universal Scene Description (OpenUSD", "AI agents", "AI factories", "AI factory", "LLMs", "NIM microservices", "Isaac Lab", "Isaac Sim", "Isaac GR00T N1.6", "Project G-Assist", "RTX PRO Servers", "GeForce RTX", "IGX", "Google Gemini", "Gemma", "Google Gemma", "ComfyUI", "FLUX.1-dev", "Nemotron Labs", "SimReady", "FourCastNet", "Advanced LLMs", "AI-Q blueprint", "AI reasoning", "Deep Learning Institute", "CUDA Graphs", "Cosmos 3 Edge", "Blue Lion"
+  ],
+  "market_cap_method": {
+    "publisher": "CompaniesMarketCap.com",
+    "accessed_at": "2026-08-25",
+    "use": "Relative representative selection only; not authoritative valuation evidence and not a claim that the selected issuer equals the whole corporate group.",
+    "currency": "USD",
+    "numeric_precision": "Values are the rounded August 2026 figures displayed in public page descriptions."
+  }
+}

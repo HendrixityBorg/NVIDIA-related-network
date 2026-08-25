@@ -1,0 +1,6 @@
+{"conflict_id": "FP-C001", "resolution": "Use filed XML values as U.S. dollars; the 8-row total is $63,439,974,569. Do not multiply by 1,000.", "status": "resolved", "topic": "13F value units"}
+{"conflict_id": "FP-C002", "entity": "Space Exploration Technologies Corp.", "resolution": "Retain raw holding but exclude from current listed-company graph.", "status": "resolved", "topic": "13F private security"}
+{"conflict_id": "FP-C003", "resolution": "Untitled logo walls/covers are unknown; titled product/collaboration pages are fact placement, not automatic proof of supplier/customer role.", "status": "resolved", "topic": "logo-only evidence"}
+{"conflict_id": "FP-C004", "resolution": "Preserve 22%, 14% and unnamed indirect-company observations as unknown; do not guess identity.", "status": "resolved", "topic": "anonymous major customers"}
+{"conflict_id": "FP-C005", "resolution": "Primary filing is isAmendment=false; no 13F-HR/A filed through cutoff in SEC recent filing index.", "status": "resolved", "topic": "13F amendment"}
+{"conflict_id": "FP-C006", "resolution": "NVIDIA acquired substantially all 3dfx assets, not the listed issuer; retain as acquisition-review boundary and do not place it in the current listed-company graph.", "status": "resolved", "topic": "3dfx transaction classification"}

@@ -1,0 +1,26 @@
+{
+  "audited_target_count": 950,
+  "combined_relationship_claim_count": 441,
+  "coverage_rate_of_973": 0.220966,
+  "decision_counts": {
+    "rejected_false_homonym": 3,
+    "rejected_parent_private_or_delisted_at_cutoff": 1,
+    "resolved_listed_endpoint": 192,
+    "unresolved_after_multisource_screen": 754
+  },
+  "frozen_group_count": 973,
+  "new_relationship_claim_count": 399,
+  "new_resolved_count": 192,
+  "pending_count": 0,
+  "prior_resolved_count": 23,
+  "rejected_false_homonym_count": 4,
+  "research_cutoff": "2026-08-25",
+  "resolution_kind_counts": {
+    "brand_to_parent": 11,
+    "direct_issuer": 96,
+    "subsidiary_to_parent": 85
+  },
+  "terminal_decision_count": 950,
+  "total_listed_group_coverage": 215,
+  "unresolved_count": 754
+}

@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "validated_at": "2026-08-25T16:30:00+08:00",
+  "cutoff": "2026-08-25",
+  "counts": {
+    "entities": 31,
+    "active_listed_entities": 30,
+    "historical_entities": 1,
+    "aliases": 95,
+    "safe_exact_aliases": 89,
+    "context_bound_aliases": 1,
+    "ambiguous_aliases": 3,
+    "evidence_records": 44,
+    "decision_records": 202,
+    "candidate_decisions_with_observations": 153
+  },
+  "gates": {
+    "json_parse": "pass",
+    "referential_integrity": "pass",
+    "no_fuzzy_matching": "pass",
+    "high_risk_disambiguation": "pass",
+    "ansys_cutoff_status": "pass",
+    "all_required_targets_terminal": "pass"
+  },
+  "errors": [],
+  "warnings": []
+}

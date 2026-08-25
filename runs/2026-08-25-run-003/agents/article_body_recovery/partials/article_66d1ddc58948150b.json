@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_66d1ddc58948150b",
+    "audit_record_sha256": "50da15774c5ff0f17d74070d9204fdc7047dbbfeb8f2d7127efb5476e519878a",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260518231616",
+    "candidate_url": "https://web.archive.org/web/20260518231616id_/https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+    "canonical_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-cpu-delivery&timestamp=20260518",
+    "response_sha256": "72cb938300bce5d55953258be22ac3733474d89699f7b83c0e4984c907f061ec",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "50da15774c5ff0f17d74070d9204fdc7047dbbfeb8f2d7127efb5476e519878a",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_66d1ddc58948150b",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/vera-cpu-delivery",
+    "content_or_audit_sha256": "50da15774c5ff0f17d74070d9204fdc7047dbbfeb8f2d7127efb5476e519878a",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-05-18",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs"
+  }
+}

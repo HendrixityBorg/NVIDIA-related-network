@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_967ff8ebe301ec40",
+    "audit_record_sha256": "0a1d3442baba6f0e2273a6a68fecb931003b47ed911f14957bf0115b4e452aea",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260319160308",
+    "candidate_url": "https://web.archive.org/web/20260319160308id_/https://blogs.nvidia.com/blog/gtc-2026-news/",
+    "canonical_url": "https://blogs.nvidia.com/blog/gtc-2026-news",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fgtc-2026-news&timestamp=20260319",
+    "response_sha256": "7a96a0047c7d4ff7cc5e2bf3b224b0b8f8add791cd1924cc48e41cf05d6bd231",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "0a1d3442baba6f0e2273a6a68fecb931003b47ed911f14957bf0115b4e452aea",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_967ff8ebe301ec40",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/gtc-2026-news",
+    "content_or_audit_sha256": "0a1d3442baba6f0e2273a6a68fecb931003b47ed911f14957bf0115b4e452aea",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-03-19",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "NVIDIA GTC 2026: Live Updates on What’s Next in AI"
+  }
+}

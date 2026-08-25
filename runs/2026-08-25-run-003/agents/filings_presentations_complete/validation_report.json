@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "check": "exactly 10-K + 13F cover/table + six PDFs",
+      "passed": true
+    },
+    {
+      "check": "all scoped sources uniquely identified and processed",
+      "passed": true
+    },
+    {
+      "check": "source URL/publisher/hash/size/access metadata complete",
+      "passed": true
+    },
+    {
+      "check": "PDF page total reconciles to 379",
+      "passed": true
+    },
+    {
+      "check": "per-PDF page counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "unique page ids",
+      "passed": true
+    },
+    {
+      "check": "allowed page terminal states only",
+      "passed": true
+    },
+    {
+      "check": "all pages closed: 153 candidate, 226 no-candidate, 0 inaccessible",
+      "passed": true
+    },
+    {
+      "check": "all raw observations resolve source",
+      "passed": true
+    },
+    {
+      "check": "all raw observations carry evidence/provenance",
+      "passed": true
+    },
+    {
+      "check": "all listed candidates resolve observation",
+      "passed": true
+    },
+    {
+      "check": "13F all 8 rows in order",
+      "passed": true
+    },
+    {
+      "check": "13F period/accession/non-amendment",
+      "passed": true
+    },
+    {
+      "check": "13F value total $63,439,974,569",
+      "passed": true
+    },
+    {
+      "check": "13F units/put-call/share fields",
+      "passed": true
+    },
+    {
+      "check": "13F 7 listed + 1 private classification",
+      "passed": true
+    },
+    {
+      "check": "completed public acquisition separated from current graph",
+      "passed": true
+    },
+    {
+      "check": "asset purchase distinguished from company acquisition",
+      "passed": true
+    },
+    {
+      "check": "zero unresolved conflicts",
+      "passed": true
+    },
+    {
+      "check": "public frontier has no local cache paths",
+      "passed": true
+    },
+    {
+      "check": "temporary full source cache removed",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "13f_classification": {
+      "listed": 7,
+      "private": 1
+    },
+    "13f_rows": 8,
+    "acquisition_review_rows": 6,
+    "listed_candidate_occurrences": 458,
+    "page_terminal_states": {
+      "processed_no_candidate": 226,
+      "processed_with_candidate": 153
+    },
+    "pdf_pages": 379,
+    "raw_observations": 4984,
+    "sources": 9,
+    "unique_listed_candidate_entities": 108
+  },
+  "generated_at": "2026-08-25T00:00:00+08:00",
+  "passed": true
+}

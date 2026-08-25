@@ -1,0 +1,29 @@
+{
+  "blocked": 39,
+  "body_coverage_complete": false,
+  "body_covered": 558,
+  "checks": {
+    "access_audit_has_597_rows": true,
+    "all_rows_terminal": true,
+    "blocked_rows_have_complete_access_audit_and_reason": true,
+    "covered_rows_have_body_hash": true,
+    "every_terminal_row_has_source_family_locator_hash_and_constraints": true,
+    "ledger_exactly_matches_manifest": true,
+    "ledger_has_597_unique_rows": true,
+    "manifest_has_597_unique_blogs": true,
+    "no_article_investee_claims": true,
+    "no_wayback_or_rss_full_html_retained": true
+  },
+  "counts_by_recovery_method": {
+    "blocked": 39,
+    "direct": 7,
+    "rss": 16,
+    "wayback": 535
+  },
+  "ledger_rows": 597,
+  "manifest_total": 597,
+  "observations": 2050,
+  "pass": true,
+  "pending": 0,
+  "terminal_rows": 597
+}

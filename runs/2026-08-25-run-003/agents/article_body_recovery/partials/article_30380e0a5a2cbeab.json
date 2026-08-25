@@ -1,0 +1,46 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_30380e0a5a2cbeab",
+    "audit_record_sha256": "039d2512790cd46c0d4f712fc7c296b74f737a71604742a2a3ba2d7d1daf251c",
+    "availability_attempts": [
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fyour-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia&timestamp=20250506",
+        "result": "no_available_snapshot"
+      },
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fyour-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia%2F&timestamp=20250506",
+        "result": "no_available_snapshot"
+      }
+    ],
+    "canonical_url": "https://blogs.nvidia.com/blog/your-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia",
+    "error": "RuntimeError: {\"availability_attempts\": [{\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fyour-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia&timestamp=20250506\", \"result\": \"no_available_snapshot\"}, {\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fyour-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia%2F&timestamp=20250506\", \"result\": \"no_available_snapshot\"}], \"result\": \"no_acceptable_snapshot\"}",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "recovery_method": "blocked",
+    "result": "no_acceptable_snapshot",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "039d2512790cd46c0d4f712fc7c296b74f737a71604742a2a3ba2d7d1daf251c",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_30380e0a5a2cbeab",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/your-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia",
+    "content_or_audit_sha256": "039d2512790cd46c0d4f712fc7c296b74f737a71604742a2a3ba2d7d1daf251c",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: {\"availability_attempts\": [{\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fyour-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia&timestamp=20250506\", \"result\": \"no_available_snapshot\"}, {\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fyour-service-teams-just-got-a-new-coworker-and-its-a-15b-parameter-super-genius-built-by-servicenow-and-nvidia%2F&timestamp=20250506\", \"result\": \"no_available_snapshot\"}], \"result\": \"no_acceptable_snapshot\"}",
+    "processing_status": "access_blocked",
+    "published_date": "2025-05-06",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Your Service Teams Just Got a New Coworker — and It’s a 15B-Parameter Super Genius Built by ServiceNow and NVIDIA"
+  }
+}

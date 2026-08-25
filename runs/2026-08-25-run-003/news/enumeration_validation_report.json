@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "articles_match_summary": true,
+    "blog_count_matches_summary": true,
+    "no_page_errors": true,
+    "no_unknown_type": true,
+    "page_items_match_raw_observations": true,
+    "press_release_count_matches_summary": true
+  },
+  "counts": {
+    "archive_pages": 78,
+    "blog": 597,
+    "canonical_articles": 765,
+    "press_release": 168,
+    "raw_archive_observations": 771
+  },
+  "downstream_body_recovery": {
+    "status": "tracked by the separate fail-closed article recovery gate",
+    "validation_report": "runs/2026-08-25-run-003/agents/article_body_recovery/validation_report.json"
+  },
+  "errors": [],
+  "status": "pass"
+}

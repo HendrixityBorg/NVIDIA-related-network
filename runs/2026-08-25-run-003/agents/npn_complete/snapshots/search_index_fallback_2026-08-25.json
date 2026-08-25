@@ -1,0 +1,22 @@
+{
+  "snapshot_id": "npn-search-index-fallback-2026-08-25",
+  "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=1&limit=15",
+  "publisher": "NVIDIA Corporation",
+  "access_path": "public search index rendering of official page",
+  "retrieved_at": "2026-08-25T10:20:00Z",
+  "index_recency_note": "search result reported crawled approximately three weeks earlier",
+  "runtime_text_observed": "1 - 15 of 985 items",
+  "not_direct_page_snapshot": true,
+  "observations": [
+    {"name": "2CRSi", "partner_types": ["Solution Provider"], "competencies": ["Compute", "Visualization"]},
+    {"name": "2CRSi USA", "partner_types": ["Solution Provider"], "competencies": ["Compute", "Visualization"]},
+    {"name": "3Point Consulting Ltd", "partner_types": ["Solution Advisor"], "competencies": ["NVIDIA Enterprise Software"]},
+    {"name": "AMAX Information Technologies (Suzhou) Co Ltd", "partner_types": ["Solution Provider"], "competencies": ["Compute", "Visualization"]},
+    {"name": "AMAX Ireland", "partner_types": ["Solution Provider"], "competencies": ["Compute", "DGX AI Compute Systems", "Visualization"]},
+    {"name": "AMSYS Innovative Solutions", "partner_types": ["Solution Provider"], "competencies": ["Visualization"]},
+    {"name": "ANEO", "partner_types": ["Solution Advisor"], "competencies": ["NVIDIA Technologies", "NVIDIA Enterprise Software"]},
+    {"name": "APPLIED CO.,LTD", "partner_types": ["Solution Provider"], "competencies": ["Visualization"]},
+    {"name": "ASA Computers Inc", "partner_types": ["Solution Provider"], "competencies": ["Compute", "Networking"]}
+  ],
+  "license_access_note": "Only structured factual observations and a short locator are redistributed; official HTML was not obtained or copied."
+}

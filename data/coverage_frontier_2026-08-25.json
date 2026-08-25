@@ -1,0 +1,264 @@
+{
+  "schema_version": "2.0",
+  "cutoff_at": "2026-08-25T23:59:59+08:00",
+  "evidence_start_date": "2025-01-01",
+  "definition": "Deterministic v2 closure summary over frozen run validation reports. It does not enumerate or invent final snapshot source IDs.",
+  "release_ready": true,
+  "artifacts": [
+    {
+      "family": "product_tree",
+      "validation_report": "runs/2026-08-25-run-003/product_tree_v2/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "taxonomy_observations": 797,
+        "source_observations": 168,
+        "page_section_observations": 436,
+        "edge_observations": 335,
+        "relation_candidate_observations": 594,
+        "canonical_objects": 623,
+        "conflict_records": 203,
+        "merge_decisions": 623,
+        "canonical_url_groups": 126
+      }
+    },
+    {
+      "family": "official_article_enumeration",
+      "validation_report": "runs/2026-08-25-run-003/news/enumeration_validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "archive_pages": 78,
+        "blog": 597,
+        "canonical_articles": 765,
+        "press_release": 168,
+        "raw_archive_observations": 771
+      }
+    },
+    {
+      "family": "article_body_recovery",
+      "validation_report": "runs/2026-08-25-run-003/agents/article_body_recovery/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "manifest_total": 597,
+        "manifest_expected": 597,
+        "terminal_rows": 597,
+        "ledger_rows": 597,
+        "body_covered": 558,
+        "access_blocked": 39
+      }
+    },
+    {
+      "family": "filings_and_presentations",
+      "validation_report": "runs/2026-08-25-run-003/agents/filings_presentations_complete/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "13f_classification": {
+          "listed": 7,
+          "private": 1
+        },
+        "13f_rows": 8,
+        "acquisition_review_rows": 6,
+        "listed_candidate_occurrences": 458,
+        "page_terminal_states": {
+          "processed_no_candidate": 226,
+          "processed_with_candidate": 153
+        },
+        "pdf_pages": 379,
+        "raw_observations": 4984,
+        "sources": 9,
+        "unique_listed_candidate_entities": 108
+      }
+    },
+    {
+      "family": "npn_runtime",
+      "validation_report": "runs/2026-08-25-run-003/agents/npn_runtime_complete/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "observed_raw_observations": 997,
+        "unique_raw_observation_ids": 997
+      }
+    },
+    {
+      "family": "npn_group_review",
+      "validation_report": "runs/2026-08-25-run-003/agents/npn_runtime_complete/group_validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "entity_group_count": 973,
+        "listed_group_match_count": 23,
+        "relationship_claim_count": 47
+      }
+    },
+    {
+      "family": "npn_listed_parent_resolution",
+      "validation_report": "runs/2026-08-25-run-003/agents/npn_listed_parent_resolution/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "complete_claims": 441,
+        "decisions": 950,
+        "new_claims": 399,
+        "rejected": 4,
+        "resolution_kinds": {
+          "brand_to_parent": 11,
+          "direct_issuer": 96,
+          "subsidiary_to_parent": 85
+        },
+        "resolved_entities": 137,
+        "resolved_groups": 192,
+        "unresolved": 754
+      }
+    },
+    {
+      "family": "partner_regulatory_entity_normalization",
+      "validation_report": "runs/2026-08-25-run-003/agents/partner_regulatory_entity_normalization/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "canonical_partner_entities": 316,
+        "duplicate_groups": 13,
+        "manual_multilisting_review": 20,
+        "merged_away_entities": 13,
+        "snapshot_partner_listed_entities": 329
+      }
+    },
+    {
+      "family": "partner_regulatory_sec_cik_hydration",
+      "validation_report": "runs/2026-08-25-run-003/agents/partner_regulatory_entity_normalization/sec_cik_hydration_validation.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {}
+    },
+    {
+      "family": "partner_regulatory_source_registry",
+      "validation_report": "runs/2026-08-25-run-003/agents/partner_regulatory_source_registry/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "active_public_sources": 30,
+        "future_not_public_sources": 1,
+        "issuer_route_records": 329,
+        "issuer_source_route_edges": 400,
+        "listed_partner_issuers_expected": 329,
+        "listing_regions": 23,
+        "regulator_sources": 31
+      }
+    },
+    {
+      "family": "partner_regulatory_sec_review",
+      "validation_report": "runs/2026-08-25-run-003/agents/partner_regulatory_sec_review/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "candidates": 254,
+        "claims": 31,
+        "contexts": 1973,
+        "decisions": 1973,
+        "evidence": 1973,
+        "frontier": 316,
+        "pending": 0
+      }
+    },
+    {
+      "family": "partner_regulatory_apac_review",
+      "validation_report": "runs/2026-08-25-run-003/agents/partner_regulatory_apac_review/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "decision_rows": 104
+      }
+    },
+    {
+      "family": "partner_regulatory_emea_review",
+      "validation_report": "runs/2026-08-25-run-003/agents/partner_regulatory_emea_review/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "audits": 48,
+        "candidates": 10,
+        "decisions": 48,
+        "evidence": 10,
+        "frontier": 48
+      }
+    },
+    {
+      "family": "partner_regulatory_integration",
+      "validation_report": "runs/2026-08-25-run-003/agents/partner_regulatory_integration/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "claims": 48,
+        "decisions": 316,
+        "evidence": 271,
+        "frontier": 316,
+        "pending": 0
+      }
+    },
+    {
+      "family": "base_entity_resolution",
+      "validation_report": "runs/2026-08-25-run-003/agents/entity_resolution_complete/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "candidate_names": 3716,
+        "registry_entities": 130
+      }
+    },
+    {
+      "family": "global_listing_overlay",
+      "validation_report": "runs/2026-08-25-run-003/agents/global_listing_overlay/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "entities": 31,
+        "active_listed_entities": 30,
+        "historical_entities": 1,
+        "aliases": 95,
+        "safe_exact_aliases": 89,
+        "context_bound_aliases": 1,
+        "ambiguous_aliases": 3,
+        "evidence_records": 44,
+        "decision_records": 202,
+        "candidate_decisions_with_observations": 153
+      }
+    },
+    {
+      "family": "non_npn_listing_resolution",
+      "validation_report": "runs/2026-08-25-run-003/agents/non_npn_listing_audit/researched_resolution_validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {}
+    },
+    {
+      "family": "listing_temporal_audit",
+      "validation_report": "runs/2026-08-25-run-003/agents/listing_temporal_audit/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {}
+    },
+    {
+      "family": "relationship_review",
+      "validation_report": "runs/2026-08-25-run-003/agents/relationship_review_complete/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "claims": 1528,
+        "decision_rows": 9078
+      }
+    },
+    {
+      "family": "peer_review",
+      "validation_report": "runs/2026-08-25-run-003/agents/peers_complete/validation_report.json",
+      "status": "pass",
+      "pending": 0,
+      "reported_counts": {
+        "peer_relationship_records": 21,
+        "unique_peer_issuers": 13
+      }
+    }
+  ]
+}

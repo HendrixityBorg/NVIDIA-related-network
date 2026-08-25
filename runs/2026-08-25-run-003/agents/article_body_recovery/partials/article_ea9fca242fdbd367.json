@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_ea9fca242fdbd367",
+    "audit_record_sha256": "05fb205463aed5d431a7b17850333b02ed8598ddd69bbbf14c5b174fefad5cf9",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260319041646",
+    "candidate_url": "https://web.archive.org/web/20260319041646id_/https://blogs.nvidia.com/blog/build-robots-with-ai/",
+    "canonical_url": "https://blogs.nvidia.com/blog/build-robots-with-ai",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fbuild-robots-with-ai&timestamp=20260318",
+    "response_sha256": "d701d9b8fc74366e55396f723277ac78f199057eb24435b34789ba86b480f7a4",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "05fb205463aed5d431a7b17850333b02ed8598ddd69bbbf14c5b174fefad5cf9",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_ea9fca242fdbd367",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/build-robots-with-ai",
+    "content_or_audit_sha256": "05fb205463aed5d431a7b17850333b02ed8598ddd69bbbf14c5b174fefad5cf9",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "processing_status": "access_blocked",
+    "published_date": "2026-03-18",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "From Simulation to Production: How to Build Robots With AI"
+  }
+}

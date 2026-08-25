@@ -1,0 +1,217 @@
+{
+  "page": 1,
+  "range": {
+    "end": 15,
+    "start": 1,
+    "total": 996
+  },
+  "records": [
+    {
+      "competencies": [
+        "Compute",
+        "Visualization"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(1)",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/2crsi-logo.svg",
+      "name": "2CRSi",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "position": 1,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/2crsi/"
+    },
+    {
+      "competencies": [
+        "Visualization",
+        "Compute"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(2)",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/2crsi-logo.svg",
+      "name": "2CRSi USA",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "position": 2,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/2crsi-usa/"
+    },
+    {
+      "competencies": [
+        "NVIDIA Enterprise Software"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(3)",
+      "logo_url": null,
+      "name": "3Point Consulting Ltd",
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "position": 3,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/3point-consulting-ltd/"
+    },
+    {
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(4)",
+      "logo_url": null,
+      "name": "5C",
+      "partner_types": [
+        "Data Center Partner"
+      ],
+      "position": 4,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/5c/"
+    },
+    {
+      "competencies": [
+        "Compute",
+        "Visualization"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(5)",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/@xi-logo.svg",
+      "name": "@Xi Computer Corporation",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "position": 5,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xi-computer-corporation/"
+    },
+    {
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(6)",
+      "logo_url": null,
+      "name": "A.T. Kearney",
+      "partner_types": [
+        "Global Systems Integrator"
+      ],
+      "position": 6,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/a-t-kearney/"
+    },
+    {
+      "competencies": [
+        "Embedded Compute"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(7)",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/aaeon-logo.svg",
+      "name": "AAEON Technology Inc.",
+      "partner_types": [
+        "OEM"
+      ],
+      "position": 7,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/aaeon-technology-inc/"
+    },
+    {
+      "competencies": [
+        "Compute"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(8)",
+      "logo_url": null,
+      "name": "ABC Systems AG Applied Brainware & Computer Systems",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "position": 8,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/abc-systems-ag-applied-brainware-computer-systems/"
+    },
+    {
+      "competencies": [
+        "Compute",
+        "NVIDIA Enterprise Software"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(9)",
+      "logo_url": null,
+      "name": "ACP Holding Deutschland GmbH",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "position": 9,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/acp-holding-deutschland-gmbh/"
+    },
+    {
+      "competencies": [
+        "NVIDIA Virtual Desktops"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(10)",
+      "logo_url": null,
+      "name": "ACP Holding GmbH",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "position": 10,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/acp-holding-gmbh/"
+    },
+    {
+      "competencies": [
+        "NVIDIA Virtual Desktops"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(11)",
+      "logo_url": null,
+      "name": "ACS SpA",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "position": 11,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/acs-spa/"
+    },
+    {
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(12)",
+      "logo_url": null,
+      "name": "ADC Consulting",
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "position": 12,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/adc-consulting/"
+    },
+    {
+      "competencies": [
+        "DGX AI Compute Systems",
+        "DGX Cloud",
+        "Compute",
+        "NVIDIA Enterprise Software",
+        "NVIDIA Virtual Desktops",
+        "Networking"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(13)",
+      "logo_url": null,
+      "name": "ADG National Investment And Technology Development Corporation",
+      "partner_types": [
+        "Distributor"
+      ],
+      "position": 13,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/adg-national-investment-and-technology-development-corporation/"
+    },
+    {
+      "competencies": [
+        "Embedded Compute",
+        "Visualization"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(14)",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/adlinktech-logo.svg",
+      "name": "ADLINK Technology Inc",
+      "partner_types": [
+        "OEM"
+      ],
+      "position": 14,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/adlink-technology-inc/"
+    },
+    {
+      "competencies": [
+        "Embedded Compute"
+      ],
+      "evidence_locator": "#main-hidden [data-testid=\"kui-card-root\"]:nth-of-type(15)",
+      "logo_url": null,
+      "name": "AI Blox",
+      "partner_types": [
+        "OEM"
+      ],
+      "position": 15,
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/ai-blox/"
+    }
+  ],
+  "title": "NVIDIA Partners - NVIDIA United States",
+  "url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=1&limit=15"
+}

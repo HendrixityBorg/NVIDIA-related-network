@@ -1,0 +1,8 @@
+{
+  "superseded_artifact": "runs/2026-08-25-run-002/agents/product_tree",
+  "superseded_version": "product_tree_v1",
+  "superseding_artifact": "runs/2026-08-25-run-003/product_tree_v2",
+  "superseding_version": "product_tree_v2",
+  "policy": "v1 files remain immutable and all v1 taxonomy/source observations are included in v2 provenance.",
+  "research_cutoff": "2026-08-25"
+}

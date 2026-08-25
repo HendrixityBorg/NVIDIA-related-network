@@ -1,0 +1,114 @@
+{
+  "article_recovery_control_files": [
+    {
+      "path": "runs/2026-08-25-run-003/agents/article_body_recovery/article_processing.jsonl",
+      "rows": 597,
+      "sha256": "3ba680e0aae2729ec23051ec61d5d56be56a93197096867d94df34f138ceae35"
+    },
+    {
+      "path": "runs/2026-08-25-run-003/agents/article_body_recovery/validation_report.json",
+      "rows": null,
+      "sha256": "81a00ae08788dd815887e1dfee6c217e3fed56b92984715f5e02454416eb7e7b"
+    },
+    {
+      "path": "runs/2026-08-25-run-003/agents/article_body_recovery/independent_validation_report.json",
+      "rows": null,
+      "sha256": "c2bbaf58812e53b8196654b56a328305522ed96eba1904b68ab9d56ff5849797"
+    }
+  ],
+  "article_recovery_dir": "runs/2026-08-25-run-003/agents/article_body_recovery",
+  "article_recovery_required": true,
+  "global_listing_overlay": "runs/2026-08-25-run-003/agents/global_listing_overlay",
+  "global_listing_overlay_files": [
+    {
+      "path": "runs/2026-08-25-run-003/agents/global_listing_overlay/entity_registry_overlay.jsonl",
+      "rows": 31,
+      "sha256": "b4ec641c5071f9a720bc2252c1fe80c97896a66873a8a7ccd952560ad395afa9"
+    },
+    {
+      "path": "runs/2026-08-25-run-003/agents/global_listing_overlay/aliases.jsonl",
+      "rows": 95,
+      "sha256": "a562381744f990fb8d24409c93115c0985c29025b83ccf46f217cb2ec5d51a43"
+    },
+    {
+      "path": "runs/2026-08-25-run-003/agents/global_listing_overlay/listing_evidence.jsonl",
+      "rows": 44,
+      "sha256": "0a28fb31a96fc7b8a8886a9a92eb4a2855d5b7f8e077695c1948abba32d363e0"
+    },
+    {
+      "path": "runs/2026-08-25-run-003/agents/global_listing_overlay/validation_report.json",
+      "rows": null,
+      "sha256": "07cb428dc8b6896eb5e9d48f83efdc55994943c00797688aa3a8359844719447"
+    }
+  ],
+  "global_listing_overlay_rows_accepted": {
+    "context_bound_aliases": 1,
+    "entities": 30,
+    "listing_evidence": 44,
+    "safe_exact_aliases": 89
+  },
+  "input_files": [
+    {
+      "path": "product_tree_v2/relation_candidates.jsonl",
+      "rows": 594,
+      "sha256": "015a07a8799c625f3d5263aba6c957579c76b824617fed9bc391661dcdbdda3b"
+    },
+    {
+      "path": "agents/official_articles_2025/observations.jsonl",
+      "rows": 503,
+      "sha256": "304c32692ed18f006bc3a62bbf6a5b5a8a5bd4497ec4a8515bc724b4df2b5d80"
+    },
+    {
+      "path": "agents/official_articles_2025/raw_relation_observations.jsonl",
+      "rows": 0,
+      "sha256": null
+    },
+    {
+      "path": "agents/official_articles_2026/observations.jsonl",
+      "rows": 90,
+      "sha256": "5a4cefcf5af749336adfa85fdea2d68ca80c11d420f5efef7930031b4e59661a"
+    },
+    {
+      "path": "agents/official_articles_2026/raw_relation_observations.jsonl",
+      "rows": 370,
+      "sha256": "91332c15d6b1625f0b5475319611effdf50e1605ff775c8606957ecd226fbd15"
+    },
+    {
+      "path": "agents/filings_presentations_complete/listed_candidates.jsonl",
+      "rows": 458,
+      "sha256": "c076a9dec21a94eab62b9e73a59ce53d7944063015db582600f4dadb90749e62"
+    },
+    {
+      "path": "agents/filings_presentations_complete/13f_holdings.jsonl",
+      "rows": 8,
+      "sha256": "702f323c647020df7e38f2333c8293a6686bef6854ca20701b5ff8c7c425850b"
+    },
+    {
+      "path": "agents/article_body_recovery/observations.jsonl",
+      "rows": 2050,
+      "sha256": "2396d8b1292ac9925701bb120bf6fd21803f0c1623d80211a3a916165d7e5454"
+    },
+    {
+      "path": "agents/article_body_recovery/entity_mentions.jsonl",
+      "rows": 5005,
+      "sha256": "1f6b3fc627de6ba1ed53606a307cc2e809e88f5f1ae8e2d0ec4da80ea40ae516"
+    }
+  ],
+  "researched_entity_registry_overlays": {
+    "files": [
+      {
+        "path": "runs/2026-08-25-run-003/agents/non_npn_listing_audit/researched_entity_registry_overlay.jsonl",
+        "sha256": "2ee252e08fa02e230154afd8ebd4a81551ebbcdd02c5befddca24df22e2749da"
+      }
+    ],
+    "listed_rows": 75
+  },
+  "researched_entity_resolution_ledger": "runs/2026-08-25-run-003/agents/non_npn_listing_audit/researched_resolution_ledger.jsonl",
+  "researched_entity_resolution_required": true,
+  "researched_entity_resolution_sha256": "1e706e7cce2857d0e671b896f6552fc0065cf4ec611291b9f08f52e9a3c2864f",
+  "researched_entity_resolution_summary": {
+    "inferred": 34,
+    "largest_market_cap": 5,
+    "rows": 5009
+  }
+}

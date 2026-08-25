@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "shard": "robotics_autonomous_vehicles",
+  "generated_at": "2026-08-25T18:00:00+08:00",
+  "status": "pass",
+  "counts": {
+    "sources": 27,
+    "seed_sources": 2,
+    "pending_sources": 0,
+    "page_sections": 112,
+    "taxonomy_nodes": 103,
+    "solution_product_edges": 122,
+    "relation_candidate_observations": 113,
+    "candidate_statuses": {
+      "inferred": 8,
+      "confirmed": 104,
+      "unknown": 1
+    }
+  },
+  "closure": {
+    "seed_pages_processed": 2,
+    "seed_pages_expected": 2,
+    "unprocessed_seed_sections": 0,
+    "pending_in_scope_links": 0,
+    "sources_without_section_decision": 0,
+    "nodes_without_provenance": 0,
+    "candidates_without_provenance": 0
+  },
+  "errors": []
+}

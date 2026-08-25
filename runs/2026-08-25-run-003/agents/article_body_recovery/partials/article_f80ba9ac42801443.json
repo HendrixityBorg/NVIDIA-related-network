@@ -1,0 +1,173 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "Building Smarter Autonomous Machines: NVIDIA Announces Early Access for Omniverse Sensor RTX | NVIDIA Blog",
+    "article_id": "article_f80ba9ac42801443",
+    "audit_record_sha256": "3761e7dd2940a995e623f88d6836bc2291475d84457e7b6b69f667f5e150ae77",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250107043510",
+    "candidate_url": "https://web.archive.org/web/20250107043510id_/https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines/",
+    "canonical_url": "https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 98229,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20250107043510id_/https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines/",
+    "replay_http_status": 200,
+    "replay_sha256": "1c48861605b6b81e20a70674d6ce6cdce1da67b03b3872f3a3595cbc7705a9f9",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fomniverse-sensor-rtx-autonomous-machines&timestamp=20250106",
+    "response_sha256": "9a5736ef05ae1e440d90b76edee01c9ceb0557d2ce7e98b620a3b28f12e8c142",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250107043510",
+      "article_id": "article_f80ba9ac42801443",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Mega is an Omniverse Blueprint that offers enterprises a reference architecture of NVIDIA accelerated computing, AI, NVIDIA Isaac and NVIDIA Omniverse technologies. Enterprises can use it to develop digital twins and test AI-powered robot brains that drive robots, cameras, equipment and more to handle enormous complexity and scale.",
+      "entity_name_normalized_hint": "Mega",
+      "entity_name_raw": "Mega",
+      "evidence_locator": "body.block[7]",
+      "exchange": null,
+      "linked_url": "https://blogs.nvidia.com/blog/mega-omniverse-blueprint",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-01-06",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250107043510id_/https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250107043510",
+      "article_id": "article_f80ba9ac42801443",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "AV toolchain provider Foretellix has integrated the blueprint into its Foretify AV development toolchain to transform object-level simulation into physically accurate sensor simulation.",
+      "entity_name_normalized_hint": "Foretify AV development toolchain",
+      "entity_name_raw": "Foretify AV development toolchain",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "linked_url": "http://www.foretellix.com/foretellix-nvidia-ai-centric",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-01-06",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250107043510id_/https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 596,
+      "archive_timestamp": "20250107043510",
+      "article_id": "article_f80ba9ac42801443",
+      "body_recovery_method": "wayback",
+      "body_sha256": "1c48861605b6b81e20a70674d6ce6cdce1da67b03b3872f3a3595cbc7705a9f9",
+      "classification_rationale": "product adoption/use wording",
+      "content_fingerprint": "5618b0853695832865e051d963ba445f06ffe10690894707808ac82f3058b2b0",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Mega",
+      "entity_name_raw": "Mega",
+      "evidence_excerpt": "Mega is an Omniverse Blueprint that offers enterprises a reference architecture of NVIDIA accelerated computing, AI, NVIDIA Isaac and NVIDIA Omniverse technologies. Enterprises can use it to develop digital twins and test AI-powered robot brains that drive robots, cameras, equipment and more to handle enormous complexity and scale.",
+      "evidence_locator": "body.block[7]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_9ecb19b30de08269b0",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Accelerated Computing",
+          "source_node_id": "accelerated-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DRIVE",
+          "source_node_id": "drive"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-01-06",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20250107043510id_/https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "3761e7dd2940a995e623f88d6836bc2291475d84457e7b6b69f667f5e150ae77",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 596,
+    "archive_timestamp": "20250107043510",
+    "article_id": "article_f80ba9ac42801443",
+    "block_count": 21,
+    "body_coverage_status": "complete",
+    "body_sha256": "1c48861605b6b81e20a70674d6ce6cdce1da67b03b3872f3a3595cbc7705a9f9",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines",
+    "content_or_audit_sha256": "1c48861605b6b81e20a70674d6ce6cdce1da67b03b3872f3a3595cbc7705a9f9",
+    "entity_mention_count": 2,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 5520,
+    "extracted_text_sha256": "f913be055cbf9b69268ea38ec39b02d414b4bc5fb9c04b03f2dc6cb24d62ab38",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20250107043510id_/https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines/",
+    "freshness_bucket": "over_365_days_within_research_window",
+    "freshness_factor_for_root_scoring": 0.55,
+    "observation_count": 1,
+    "processing_reason": "body parsed; 2 entity mentions; 1 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2025-01-06",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20250107043510id_/https://blogs.nvidia.com/blog/omniverse-sensor-rtx-autonomous-machines/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "Building Smarter Autonomous Machines: NVIDIA Announces Early Access for Omniverse Sensor RTX"
+  }
+}

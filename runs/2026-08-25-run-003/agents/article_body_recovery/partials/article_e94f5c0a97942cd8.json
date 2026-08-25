@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_e94f5c0a97942cd8",
+    "audit_record_sha256": "9cdd26a7a9c966b440413fd74df1cca1434de1c03519aada5b5b82e34058f886",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260306083846",
+    "candidate_url": "https://web.archive.org/web/20260306083846id_/https://blogs.nvidia.com/blog/lilly-ai-factory-live/",
+    "canonical_url": "https://blogs.nvidia.com/blog/lilly-ai-factory-live",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Flilly-ai-factory-live&timestamp=20260226",
+    "response_sha256": "b2e3939b663adfe16f9951bff3fc2e5670aebe1751b7a28ad26ac40aa2f01e12",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "9cdd26a7a9c966b440413fd74df1cca1434de1c03519aada5b5b82e34058f886",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_e94f5c0a97942cd8",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/lilly-ai-factory-live",
+    "content_or_audit_sha256": "9cdd26a7a9c966b440413fd74df1cca1434de1c03519aada5b5b82e34058f886",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "processing_status": "access_blocked",
+    "published_date": "2026-02-26",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Now Live: The World’s Most Powerful AI Factory for Pharmaceutical Discovery and Development"
+  }
+}

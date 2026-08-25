@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c4d21d930a13d67b",
+    "audit_record_sha256": "5ef32c272b3cf2e007846160ae7c22705de8264cad752372731d1e4b5dd6e316",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250919133844",
+    "candidate_url": "https://web.archive.org/web/20250919133844id_/https://blogs.nvidia.com/blog/blackwell-ai-inference/",
+    "canonical_url": "https://blogs.nvidia.com/blog/blackwell-ai-inference",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fblackwell-ai-inference&timestamp=20250918",
+    "response_sha256": "c1e8920ebb959bd2b6cf0738512518ed61aecd4598a433b89a9977e51d1425eb",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "5ef32c272b3cf2e007846160ae7c22705de8264cad752372731d1e4b5dd6e316",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c4d21d930a13d67b",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/blackwell-ai-inference",
+    "content_or_audit_sha256": "5ef32c272b3cf2e007846160ae7c22705de8264cad752372731d1e4b5dd6e316",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-09-18",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "NVIDIA Blackwell: Born for Extreme-Scale AI Inference"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "access_blocked": 0,
+  "candidate_claims": 10,
+  "directness_counts": {
+    "direct": 2,
+    "unclear": 8
+  },
+  "excluded_apac_primary_secondary_europe_listing": [
+    "pegatron",
+    "samsung_electronics"
+  ],
+  "fact_status_counts": {
+    "confirmed": 1,
+    "inferred": 9
+  },
+  "input_route_rows": 329,
+  "limitations": [
+    "A searched_no_hit terminal means no directional evidence was found in the public official results reviewed; it is not proof that no commercial relationship exists.",
+    "Issuer announcements are capped at inferred; integration/compatibility/partner wording alone is not promoted.",
+    "No paywall, login, captcha, robots restriction or rate limit was bypassed."
+  ],
+  "pending": 0,
+  "public_search_unavailable": 0,
+  "regulatory_confirmed_claims": 1,
+  "relationship_type_counts": {
+    "bidirectional_entities": 0,
+    "customer": 10,
+    "supplier": 0
+  },
+  "research_object": "NVIDIA Partner counterpart regulatory reverse review — EMEA, UK, Canada and other non-APAC/non-US-only issuers",
+  "research_window": {
+    "end": "2026-08-25",
+    "start": "2025-01-01"
+  },
+  "scope_total": 48,
+  "source_kind_counts": {
+    "company_news": 4,
+    "regulatory_filing": 6
+  },
+  "terminal_counts": {
+    "regulatory_hit": 10,
+    "searched_no_hit": 38
+  }
+}

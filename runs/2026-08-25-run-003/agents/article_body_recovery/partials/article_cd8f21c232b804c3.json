@@ -1,0 +1,467 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "NVIDIA DGX SuperPOD Sets the Stage for Rubin-Based Systems | NVIDIA Blog",
+    "article_id": "article_cd8f21c232b804c3",
+    "audit_record_sha256": "e951858ba9e20c9ac6a4ac9f6106bab5f31cb95ffb6740e9e3d9a3d6def63f10",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260106015654",
+    "candidate_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+    "canonical_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 111661,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+    "replay_http_status": 200,
+    "replay_sha256": "cabb842d5f209476428918d088710a86a2390da6b3cd350968a1738d9f3ea21f",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fdgx-superpod-rubin&timestamp=20260105",
+    "response_sha256": "07c36962bf7385ee51b063bd2868d19466cbb1227944413b3acaf7fb602fb8f8",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "The Rubin platform unites six chips — the NVIDIA Vera CPU , Rubin GPU, NVLink 6 Switch , ConnectX-9 SuperNIC, BlueField-4 DPU and Spectrum-6 Ethernet Switch — through an advanced codesign approach that accelerates training and reduces the cost of inference token generation.",
+      "entity_name_normalized_hint": "NVLink 6 Switch",
+      "entity_name_raw": "NVLink 6 Switch",
+      "evidence_locator": "body.block[3]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/data-center/nvlink/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "DGX SuperPOD remains the foundational design for deploying Rubin‑based systems across enterprise and research environments.",
+      "entity_name_normalized_hint": "DGX SuperPOD",
+      "entity_name_raw": "DGX SuperPOD",
+      "evidence_locator": "body.block[4]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/data-center/dgx-superpod",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "The Rubin platform used in the new DGX systems introduces five major technology advancements designed to drive a step‑function increase in intelligence and efficiency:",
+      "entity_name_normalized_hint": "Rubin platform",
+      "entity_name_raw": "Rubin platform",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/data-center/technologies/rubin/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "NVIDIA DGX SuperPOD with DGX Rubin NVL8 systems delivers 64 DGX Rubin NVL8 systems featuring 512 Rubin GPUs. NVIDIA DGX Rubin NVL8 systems bring Rubin performance into a liquid-cooled form factor with x86 CPUs to give organizations an efficient on-ramp to the Rubin era for any AI project in the develop‑to‑deploy pipeline. Powered by eight NVIDIA Rubin GPUs and sixth-generation NVLink, each DGX Rubin NVL8 delivers 5.5x NVFP4 FLOPS compared with NVIDIA Blackwell systems.",
+      "entity_name_normalized_hint": "DGX Rubin NVL8 systems",
+      "entity_name_raw": "DGX Rubin NVL8 systems",
+      "evidence_locator": "body.block[24]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/data-center/dgx-rubin-nvl8/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "The Rubin platform redefines the data center as a high-performance AI factory with revolutionary networking, featuring NVIDIA Spectrum-6 Ethernet switches, NVIDIA Quantum-X800 InfiniBand switches, BlueField-4 DPUs and ConnectX-9 SuperNICs, designed to sustain the world’s most massive AI workloads. By integrating these innovations into the NVIDIA DGX SuperPOD, the Rubin platform eliminates the traditional bottlenecks of scale, congestion and reliability.",
+      "entity_name_normalized_hint": "BlueField-4",
+      "entity_name_raw": "BlueField-4",
+      "evidence_locator": "body.block[26]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/networking/products/data-processing-unit/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "The Rubin platform redefines the data center as a high-performance AI factory with revolutionary networking, featuring NVIDIA Spectrum-6 Ethernet switches, NVIDIA Quantum-X800 InfiniBand switches, BlueField-4 DPUs and ConnectX-9 SuperNICs, designed to sustain the world’s most massive AI workloads. By integrating these innovations into the NVIDIA DGX SuperPOD, the Rubin platform eliminates the traditional bottlenecks of scale, congestion and reliability.",
+      "entity_name_normalized_hint": "ConnectX-9",
+      "entity_name_raw": "ConnectX-9",
+      "evidence_locator": "body.block[26]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/networking/products/ethernet/supernic/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 232,
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "body_sha256": "cabb842d5f209476428918d088710a86a2390da6b3cd350968a1738d9f3ea21f",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "0c7136e27c180c4ca724157292ba92320839d4ca4293fda66d31dedc23248802",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "NVLink 6 Switch",
+      "entity_name_raw": "NVLink 6 Switch",
+      "evidence_excerpt": "The Rubin platform unites six chips — the NVIDIA Vera CPU , Rubin GPU, NVLink 6 Switch , ConnectX-9 SuperNIC, BlueField-4 DPU and Spectrum-6 Ethernet Switch — through an advanced codesign approach that accelerates training and reduces the cost of inference token generation.",
+      "evidence_locator": "body.block[3]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_087b0ce8352cda0aa9",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "ConnectX-9 SuperNIC",
+          "source_node_id": "v2-networking-quantum-connectx9"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "BlueField-4 DPU",
+          "source_node_id": "bluefield-4-dpu"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "BlueField",
+          "source_node_id": "bluefield-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Inference",
+          "source_node_id": "inference"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Vera CPU",
+          "source_node_id": "vera-cpu"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVLink",
+          "source_node_id": "nvlink"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 232,
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "body_sha256": "cabb842d5f209476428918d088710a86a2390da6b3cd350968a1738d9f3ea21f",
+      "classification_rationale": "product adoption/use wording",
+      "content_fingerprint": "73cb0ebaedccac13976dcb3ac7438ab99c70608b2f9eea2a3ae28224f3f6f193",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "DGX Rubin NVL8 systems",
+      "entity_name_raw": "DGX Rubin NVL8 systems",
+      "evidence_excerpt": "NVIDIA DGX SuperPOD with DGX Rubin NVL8 systems delivers 64 DGX Rubin NVL8 systems featuring 512 Rubin GPUs. NVIDIA DGX Rubin NVL8 systems bring Rubin performance into a liquid-cooled form factor with x86 CPUs to give organizations an efficient on-ramp to the Rubin era for any AI project in the develop‑to‑deploy pipeline. Powered by eight NVIDIA Rubin GPUs and sixth-generation NVLink, each DGX Rubin NVL8 delivers 5.5x NVFP4 FLOPS compared with NVIDIA Blackwell systems.",
+      "evidence_locator": "body.block[24]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_357e49a011eeb714bf",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Sixth-Generation NVLink",
+          "source_node_id": "v2-networking-nvlink-gen6"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DGX Rubin NVL8",
+          "source_node_id": "dgx-rubin-nvl8"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DGX SuperPOD",
+          "source_node_id": "dgx-superpod"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA DGX",
+          "source_node_id": "dgx-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Blackwell",
+          "source_node_id": "blackwell"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVLink",
+          "source_node_id": "nvlink"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 232,
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "body_sha256": "cabb842d5f209476428918d088710a86a2390da6b3cd350968a1738d9f3ea21f",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "e2fd1932e58c50488b2c356fc631d74a81f0d2af3763c67ea256fa84eb98bea5",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "BlueField-4",
+      "entity_name_raw": "BlueField-4",
+      "evidence_excerpt": "The Rubin platform redefines the data center as a high-performance AI factory with revolutionary networking, featuring NVIDIA Spectrum-6 Ethernet switches, NVIDIA Quantum-X800 InfiniBand switches, BlueField-4 DPUs and ConnectX-9 SuperNICs, designed to sustain the world’s most massive AI workloads. By integrating these innovations into the NVIDIA DGX SuperPOD, the Rubin platform eliminates the traditional bottlenecks of scale, congestion and reliability.",
+      "evidence_locator": "body.block[26]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_c2bf67f3ccc19199c0",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "InfiniBand Switches",
+          "source_node_id": "v2-networking-quantum-switches"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Quantum",
+          "source_node_id": "quantum-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DGX SuperPOD",
+          "source_node_id": "dgx-superpod"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Quantum-X800",
+          "source_node_id": "quantum-x800"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Data Center",
+          "source_node_id": "data-center"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Networking",
+          "source_node_id": "networking"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA DGX",
+          "source_node_id": "dgx-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "BlueField",
+          "source_node_id": "bluefield-platform"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 232,
+      "archive_timestamp": "20260106015654",
+      "article_id": "article_cd8f21c232b804c3",
+      "body_recovery_method": "wayback",
+      "body_sha256": "cabb842d5f209476428918d088710a86a2390da6b3cd350968a1738d9f3ea21f",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "e2fd1932e58c50488b2c356fc631d74a81f0d2af3763c67ea256fa84eb98bea5",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "ConnectX-9",
+      "entity_name_raw": "ConnectX-9",
+      "evidence_excerpt": "The Rubin platform redefines the data center as a high-performance AI factory with revolutionary networking, featuring NVIDIA Spectrum-6 Ethernet switches, NVIDIA Quantum-X800 InfiniBand switches, BlueField-4 DPUs and ConnectX-9 SuperNICs, designed to sustain the world’s most massive AI workloads. By integrating these innovations into the NVIDIA DGX SuperPOD, the Rubin platform eliminates the traditional bottlenecks of scale, congestion and reliability.",
+      "evidence_locator": "body.block[26]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_73c726747f0d50d1fd",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "InfiniBand Switches",
+          "source_node_id": "v2-networking-quantum-switches"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Quantum",
+          "source_node_id": "quantum-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DGX SuperPOD",
+          "source_node_id": "dgx-superpod"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Quantum-X800",
+          "source_node_id": "quantum-x800"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Data Center",
+          "source_node_id": "data-center"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Networking",
+          "source_node_id": "networking"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA DGX",
+          "source_node_id": "dgx-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "BlueField",
+          "source_node_id": "bluefield-platform"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-05",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "e951858ba9e20c9ac6a4ac9f6106bab5f31cb95ffb6740e9e3d9a3d6def63f10",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 232,
+    "archive_timestamp": "20260106015654",
+    "article_id": "article_cd8f21c232b804c3",
+    "block_count": 41,
+    "body_coverage_status": "complete",
+    "body_sha256": "cabb842d5f209476428918d088710a86a2390da6b3cd350968a1738d9f3ea21f",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/dgx-superpod-rubin",
+    "content_or_audit_sha256": "cabb842d5f209476428918d088710a86a2390da6b3cd350968a1738d9f3ea21f",
+    "entity_mention_count": 6,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 7361,
+    "extracted_text_sha256": "4cebb4b3cb2a4f3fd20a7e679c8fedac075f7e0217468c72ce71df387ac28441",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+    "freshness_bucket": "181_365_days",
+    "freshness_factor_for_root_scoring": 0.75,
+    "observation_count": 4,
+    "processing_reason": "body parsed; 6 entity mentions; 4 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2026-01-05",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20260106015654id_/https://blogs.nvidia.com/blog/dgx-superpod-rubin/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "NVIDIA DGX SuperPOD Sets the Stage for Rubin-Based Systems"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "acceptance_checks": {
+    "all_rows_terminal": true,
+    "blocked_rows_have_complete_access_audit_and_reason": true,
+    "covered_rows_have_hash": true,
+    "ledger_exactly_matches_597_blog_manifest": true,
+    "no_article_investee_claims": true,
+    "no_third_party_full_html_retained": true,
+    "pending_zero": true
+  },
+  "access_blocked": 39,
+  "body_coverage_complete": false,
+  "body_covered": 558,
+  "counts_by_recovery_method": {
+    "blocked": 39,
+    "direct": 7,
+    "rss": 16,
+    "wayback": 535
+  },
+  "cutoff": "2026-08-25",
+  "entity_mentions": 5005,
+  "generated_at": "2026-08-25T12:29:20.599887+00:00",
+  "investment_policy_check": {
+    "article_investee_observations": 0,
+    "required": 0,
+    "rule": "article investment semantics remain unknown; latest NVIDIA 13F is sole final investee source"
+  },
+  "ledger_rows": 597,
+  "manifest_expected": 597,
+  "manifest_total": 597,
+  "observations": 2050,
+  "pass": true,
+  "pending": 0,
+  "raw_third_party_html_retained": false,
+  "terminal_ledger_complete": true,
+  "terminal_rows": 597
+}

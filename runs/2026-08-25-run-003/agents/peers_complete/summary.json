@@ -1,0 +1,21 @@
+{
+  "cutoff": "2026-08-25",
+  "categories_required": 8,
+  "categories_reviewed": 8,
+  "peer_relationship_records": 21,
+  "unique_peer_issuers": 13,
+  "confirmed_records": 17,
+  "inferred_records": 4,
+  "pending_count": 0,
+  "source_evidence_records": 50,
+  "category_counts": {
+    "Data Center Compute": 5,
+    "Networking": 4,
+    "AI Software & Cloud": 3,
+    "Gaming/Consumer": 2,
+    "Pro Viz/Design/Simulation": 2,
+    "Robotics/Edge/Embedded": 2,
+    "Automotive": 3,
+    "Healthcare/Life Sciences": 0
+  }
+}

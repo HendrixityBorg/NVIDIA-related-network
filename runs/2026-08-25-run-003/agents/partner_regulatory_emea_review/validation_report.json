@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "access_audit_complete": true,
+    "all_actual_search_not_route_only": true,
+    "directness_orthogonal_field_present": true,
+    "no_full_source_text_retained": true,
+    "one_terminal_per_issuer": true,
+    "partner_roles_retained": true,
+    "pending_zero": true,
+    "scope_exact_48": true,
+    "source_cap_valid": true
+  },
+  "counts": {
+    "audits": 48,
+    "candidates": 10,
+    "decisions": 48,
+    "evidence": 10,
+    "frontier": 48
+  },
+  "errors": [],
+  "pass": true
+}

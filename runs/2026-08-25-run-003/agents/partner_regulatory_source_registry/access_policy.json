@@ -1,0 +1,70 @@
+{
+  "allowed_actions": [
+    "Open public search and issuer pages in an ordinary browser.",
+    "Use documented public APIs only with required keys, identification and rate limits.",
+    "Download public filing attachments for research and retain URL, publisher, filing date and locator.",
+    "Use a low-rate manual workflow when a portal depends on JavaScript or session state."
+  ],
+  "as_of": "2026-08-25",
+  "minimum_evidence_capture": [
+    "source_id",
+    "official_url",
+    "publisher_or_operator",
+    "filing_or_release_date",
+    "document_type",
+    "issuer_identifier",
+    "locator_or_accession",
+    "retrieved_at",
+    "language",
+    "correction_or_version_status"
+  ],
+  "non_bypass_rule": "Never bypass login, paywall, CAPTCHA, robots denial, browser integrity check, API-key requirement, rate limit, or source terms.",
+  "prohibited_actions": [
+    "Circumvent CAPTCHA, WAF, browser checks, authentication, geographic controls or payment.",
+    "Replay private/internal endpoints discovered from authenticated sessions.",
+    "Rotate identities or IPs to evade throttling.",
+    "Treat an unofficial mirror or search snippet as the regulatory filing of record.",
+    "Infer that no filing exists solely from a transient 403/429/5xx response."
+  ],
+  "scope": "Public regulatory and exchange disclosure retrieval for listed Partner issuers only.",
+  "source_specific_controls": {
+    "eu_esap_future": {
+      "expected_public_by": "2027-07",
+      "public_at_cutoff": false
+    },
+    "in_nse_filings": {
+      "bypass_403_forbidden": true,
+      "initial_public_cookie_may_be_required": true
+    },
+    "jp_edinet": {
+      "api_key_required_for_api": true,
+      "browser_search_public": true
+    },
+    "no_newsweb": {
+      "bulk_republication_forbidden_without_permission": true,
+      "database_reuse_restricted": true
+    },
+    "us_sec_edgar": {
+      "identified_user_agent_required": true,
+      "max_requests_per_second": 10,
+      "respect_retry_after": true
+    }
+  },
+  "terminal_states": {
+    "access_controlled_login": "Requested material requires account/authority/payment; do not enter or bypass without separate authorization.",
+    "captcha_or_human_challenge": "Human challenge encountered; do not automate or bypass; mark manual review.",
+    "document_link_broken_or_removed": "Search metadata exists but official attachment is unavailable; preserve metadata and escalate.",
+    "future_not_public": "Source exists institutionally but was not open to the public at the cutoff; it cannot satisfy the route.",
+    "historical_archive_required": "Current portal retention does not cover the period; use the named official legacy archive.",
+    "identifier_missing": "Required CIK/LEI/stock code/internal issuer identifier is absent; resolve it through a public issuer profile first.",
+    "issuer_outside_source_jurisdiction": "Issuer is listed elsewhere or has a different home Member State; route to the competent source.",
+    "js_session_required": "Static request cannot execute required public UI; use an ordinary interactive browser once.",
+    "manual_review_required": "Ambiguous issuer, multiple securities, language, correction, or delisting state requires human review.",
+    "no_documents_in_date_range": "Exact issuer found, but no requested document in the bounded period.",
+    "no_exact_issuer_match": "Search completed on the official source but no exact legal entity/security match was found.",
+    "public_results_available": "Exact issuer and requested document are publicly retrievable; capture the official URL and filing metadata.",
+    "rate_limited": "429 or explicit throttle; stop and honor Retry-After/published limits.",
+    "source_terms_prohibit_automation": "Terms limit automated copying/reuse; stop automation and use compliant manual access.",
+    "source_unavailable_transient": "Official source returned maintenance/5xx/timeout; retry later at low frequency."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_5f00dc6269aecb93",
+    "audit_record_sha256": "ec945d993af31704d99a97c0e9c7d8d57f11ee80978673b358e318827f432871",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250812012035",
+    "candidate_url": "https://web.archive.org/web/20250812012035id_/https://blogs.nvidia.com/blog/physical-ai-research-siggraph-2025/",
+    "canonical_url": "https://blogs.nvidia.com/blog/physical-ai-research-siggraph-2025",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fphysical-ai-research-siggraph-2025&timestamp=20250811",
+    "response_sha256": "482d8a9351d6c42d23bb68eca87d2aa7addfd6ce3943b2659ac7bf4417cfd897",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "ec945d993af31704d99a97c0e9c7d8d57f11ee80978673b358e318827f432871",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_5f00dc6269aecb93",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/physical-ai-research-siggraph-2025",
+    "content_or_audit_sha256": "ec945d993af31704d99a97c0e9c7d8d57f11ee80978673b358e318827f432871",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-08-11",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "NVIDIA Research Shapes Physical AI"
+  }
+}

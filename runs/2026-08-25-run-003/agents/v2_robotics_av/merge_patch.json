@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "base": "arti/runs/2026-08-25-run-002/agents/product_tree/product_taxonomy.jsonl",
+  "base_snapshot": "2026-08-25 product tree v1",
+  "shard": "robotics_autonomous_vehicles",
+  "instructions": "Root integrator should deduplicate by canonical_key, retain all observed paths/evidence, and resolve listed type conflicts explicitly.",
+  "add_nodes": [
+    "rav.robotics.arch.three",
+    "rav.robotics.stage.training",
+    "rav.robotics.stage.simulation",
+    "rav.robotics.stage.inference",
+    "rav.robotics.use.humanoid",
+    "rav.robotics.use.learning",
+    "rav.robotics.use.simulation",
+    "rav.robotics.use.synthetic",
+    "rav.robotics.use.digital-twins",
+    "rav.robotics.use.safety",
+    "rav.robotics.solution.robotics",
+    "rav.product.rtx-pro-server",
+    "rav.product.isaac.cumotion",
+    "rav.product.isaac.foundationpose",
+    "rav.product.isaac.foundationstereo",
+    "rav.product.isaac.syntheticadetr",
+    "rav.product.isaac.teleop",
+    "rav.product.isaac.nvblox",
+    "rav.product.isaac.cuvslam",
+    "rav.product.isaac.compass",
+    "rav.product.isaac.ros",
+    "rav.product.isaac.sim",
+    "rav.product.isaac.lab",
+    "rav.product.isaac.lab-arena",
+    "rav.product.isaac.newton",
+    "rav.product.isaac.gr00t",
+    "rav.product.isaac.osmo",
+    "rav.product.agx",
+    "rav.product.openusd",
+    "rav.product.nim",
+    "rav.product.blueprints",
+    "rav.product.mega",
+    "rav.product.halos-outside-in",
+    "rav.av",
+    "rav.av.arch.three",
+    "rav.av.stage.model",
+    "rav.av.stage.simulation",
+    "rav.av.stage.vehicle",
+    "rav.av.stage.hyperion",
+    "rav.av.stage.models",
+    "rav.av.stage.safety",
+    "rav.av.model.data-processing",
+    "rav.av.model.continuous",
+    "rav.av.model.sdg",
+    "rav.av.model.curation",
+    "rav.av.model.training",
+    "rav.av.product.data-factory",
+    "rav.av.product.dgx",
+    "rav.av.product.cosmos-data",
+    "rav.av.product.ai-enterprise",
+    "rav.av.product.nurec",
+    "rav.av.product.asset-harvester",
+    "rav.av.product.fixer",
+    "rav.av.product.harmonizer",
+    "rav.av.product.cosmos-dreams",
+    "rav.av.product.cosmos-transfer",
+    "rav.av.product.drive-agx",
+    "rav.av.product.hyperion",
+    "rav.av.product.hyperion10",
+    "rav.av.product.hyperion8",
+    "rav.av.product.agx-thor",
+    "rav.av.product.agx-orin",
+    "rav.av.product.driveos",
+    "rav.av.product.drive-av",
+    "rav.av.product.auto-nims",
+    "rav.av.product.alpamayo",
+    "rav.av.product.alpamayo-1-nano",
+    "rav.av.product.alpamayo-1-5-nano",
+    "rav.av.product.alpamayo-2-super",
+    "rav.av.product.alpasim",
+    "rav.av.product.alpagym",
+    "rav.av.product.open-datasets",
+    "rav.av.product.coc-label",
+    "rav.av.product.halos",
+    "rav.av.product.halos-os",
+    "rav.av.product.halos-core",
+    "rav.av.product.halos-sdk",
+    "rav.av.product.halos-apps",
+    "rav.av.product.halos-workflow",
+    "rav.av.product.halos-sef",
+    "rav.av.product.halos-lab",
+    "rav.av.sim.neural-reconstruction",
+    "rav.av.sim.world-generation",
+    "rav.av.sim.scenario-variation",
+    "rav.av.sim.closed-loop",
+    "rav.av.safety.platform",
+    "rav.av.safety.algorithmic",
+    "rav.av.safety.ecosystem"
+  ],
+  "merge_existing_canonical_keys": [
+    "ai-enterprise",
+    "cosmos",
+    "cuopt",
+    "dgx-platform",
+    "edge-ai",
+    "igx",
+    "isaac",
+    "jetson",
+    "jetson-agx-thor",
+    "metropolis",
+    "omniverse",
+    "ovx",
+    "physx",
+    "robotics",
+    "vision-ai"
+  ],
+  "type_update_proposals": [
+    {
+      "canonical_key": "alpamayo",
+      "v1_type": "software",
+      "proposed_v2_type": "platform",
+      "reason": "The current official Alpamayo page defines a portfolio/family spanning open VLA models, simulation frameworks, and physical AI datasets, not a single software item.",
+      "source_id": "RAV-S025",
+      "locator": "lines 56-59 and 151-173"
+    },
+    {
+      "canonical_key": "halos",
+      "v1_type": "software",
+      "proposed_v2_type": "platform",
+      "reason": "The current official Halos page calls it a full-stack safety system spanning architecture, models, chips, software, tools, and services.",
+      "source_id": "RAV-S026",
+      "locator": "lines 59-62 and 136-202"
+    },
+    {
+      "canonical_key": "drive-hyperion",
+      "v1_type": "product",
+      "proposed_v2_type": "reference_architecture",
+      "reason": "Current page explicitly calls Hyperion a production-ready development platform and reference architecture.",
+      "source_id": "RAV-S024",
+      "locator": "lines 45-47"
+    }
+  ],
+  "conflicts": [
+    {
+      "conflict_id": "RAV-CONFLICT-001",
+      "field": "alpamayo_2_super_parameter_count",
+      "status": "unresolved_source_conflict",
+      "observations": [
+        {
+          "value": "32B",
+          "source_id": "RAV-S024",
+          "locator": "lines 123-128"
+        },
+        {
+          "value": "34B",
+          "source_id": "RAV-S020",
+          "locator": "lines 235-240"
+        },
+        {
+          "value": "34B",
+          "source_id": "RAV-S025",
+          "locator": "lines 153-158"
+        }
+      ],
+      "handling": "Use 34B as current primary display only if root accepts two current corroborating pages; preserve the 32B observation and do not silently overwrite it."
+    },
+    {
+      "conflict_id": "RAV-CONFLICT-002",
+      "field": "halos_engineering_years",
+      "status": "page_version_variation",
+      "observations": [
+        {
+          "value": "15,000+",
+          "source_id": "RAV-S020",
+          "locator": "lines 107-110"
+        },
+        {
+          "value": "18,600+",
+          "source_id": "RAV-S026",
+          "locator": "lines 80-88"
+        }
+      ],
+      "handling": "Treat the dedicated Halos page as the more specific/current metric; retain the landing-page statement as an older or rounded observation."
+    }
+  ],
+  "redirects": [
+    {
+      "from": "https://www.nvidia.com/en-us/use-cases/synthetic-data/",
+      "to": "https://www.nvidia.com/en-us/use-cases/synthetic-data-physical-ai/"
+    },
+    {
+      "from": "https://www.nvidia.com/en-us/self-driving-cars/partners/",
+      "to": "https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/"
+    }
+  ]
+}

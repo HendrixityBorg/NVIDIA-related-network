@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "all_973_groups_accounted_for": true,
+    "all_evidence_refs_close": true,
+    "all_securities_exchange_ticker_active": true,
+    "claim_evidence_union_closes": true,
+    "claim_fact_status_matches_endpoint_resolution": true,
+    "claim_keys_unique": true,
+    "claim_tags_and_groups_retained": true,
+    "direct_status_and_cap": true,
+    "each_mapping_has_npn_and_listing_evidence": true,
+    "edf_not_promoted": true,
+    "exactly_950_target_decisions": true,
+    "known_false_homonyms_rejected": true,
+    "no_failed_market_metadata": true,
+    "no_fuzzy_promotion": true,
+    "one_mapping_per_group": true,
+    "parent_status_and_cap": true,
+    "partition_closes": true,
+    "sec_fixture_hash_pinned": true,
+    "temporal_parent_corrections": true,
+    "zero_pending_all_terminal": true
+  },
+  "counts": {
+    "complete_claims": 441,
+    "decisions": 950,
+    "new_claims": 399,
+    "rejected": 4,
+    "resolution_kinds": {
+      "brand_to_parent": 11,
+      "direct_issuer": 96,
+      "subsidiary_to_parent": 85
+    },
+    "resolved_entities": 137,
+    "resolved_groups": 192,
+    "unresolved": 754
+  },
+  "status": "pass"
+}

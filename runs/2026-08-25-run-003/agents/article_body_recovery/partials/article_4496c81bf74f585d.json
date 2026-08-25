@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_4496c81bf74f585d",
+    "audit_record_sha256": "3616a128688d2cb1392c5cfee9bf2d66524f99b434285d9d75188ae79ff8714e",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250926013804",
+    "candidate_url": "https://web.archive.org/web/20250926013804id_/https://blogs.nvidia.com/blog/ai-day-ho-chi-minh-city/",
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-day-ho-chi-minh-city",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-day-ho-chi-minh-city&timestamp=20250925",
+    "response_sha256": "98a745b7606097bf83f944059e748027281e8487be27924b6f6d18f989dcc8b4",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "3616a128688d2cb1392c5cfee9bf2d66524f99b434285d9d75188ae79ff8714e",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_4496c81bf74f585d",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-day-ho-chi-minh-city",
+    "content_or_audit_sha256": "3616a128688d2cb1392c5cfee9bf2d66524f99b434285d9d75188ae79ff8714e",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-09-25",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "‘Vietnam Puts AI at the Center of Its Economic Strategy,’ Deputy Director of the Vietnam National Innovation Center Says at NVIDIA AI Day Ho Chi Minh City"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "additive_listed_entity_rows": 75,
+  "canonical_expected_rows": 5009,
+  "canonical_rows": 5009,
+  "geely_observation_ids": [
+    "robotics_av:RAV-C0052",
+    "robotics_av:RAV-C0089"
+  ],
+  "generated_at": "2026-08-25T14:14:18+00:00",
+  "ntt_data_resolution": {
+    "confidence": 69,
+    "selected_entity_id": "ntt",
+    "terminal_category": "resolved_inferred_parent"
+  },
+  "source_native_nonbuilder_record_ids": 29,
+  "source_native_raw_relation_rows_added": 96,
+  "terminal_category_counts": {
+    "ambiguous_after_research": 3791,
+    "non_entity": 839,
+    "private_or_delisted": 76,
+    "resolved_exact": 269,
+    "resolved_inferred_parent": 29,
+    "resolved_largest_listed_parent": 5
+  },
+  "unique_actual_upstream_observation_ids": 13263
+}

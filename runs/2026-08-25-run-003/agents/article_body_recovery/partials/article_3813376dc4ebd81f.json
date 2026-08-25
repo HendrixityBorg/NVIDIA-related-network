@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_3813376dc4ebd81f",
+    "audit_record_sha256": "3ab0410418d7ee65da257ba4add7f677f862116290e2002e87a1ed021fec9247",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260426075427",
+    "candidate_url": "https://web.archive.org/web/20260426075427id_/https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing/",
+    "canonical_url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fearth-day-2026-ai-accelerated-computing&timestamp=20260422",
+    "response_sha256": "1336dd7ab49101f73c3a9a371b82d27e9e1bd25a39a295129facbc4dde8a1e80",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "3ab0410418d7ee65da257ba4add7f677f862116290e2002e87a1ed021fec9247",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_3813376dc4ebd81f",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
+    "content_or_audit_sha256": "3ab0410418d7ee65da257ba4add7f677f862116290e2002e87a1ed021fec9247",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-04-22",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet"
+  }
+}

@@ -1,0 +1,410 @@
+# NVIDIA 官方产品树（研究截点 2026-08-25）
+
+树中导航节点：**373**；去除 category 后按规范名合并为 **292** 个 canonical 名称；官方 frontier 页面：**59**。节点类型统计：architecture=4，category=36，industry=14，platform=17，product=90，reference_architecture=5，sdk=13，service=15，software=79，solution=73，technology=27。
+
+本树以 NVIDIA 当前官方 Products、Software、Solutions、Industries 四个索引为封闭入口，并展开关键组合页到命名产品族/产品项。树保留官方交叉列示，因此导航节点数不是独立产品数；机器文件用 `canonical_key` 将同名对象合并，防止把跨栏目出现误算成多个独立产品。
+
+## 树
+
+- Products  _[category; current]_
+  - Cloud Services  _[category; current]_
+    - BioNeMo  _[platform; current]_
+    - DGX Cloud  _[service; current]_
+      - DSX OS  _[software; current]_
+      - Exemplar Cloud  _[service; current]_
+    - NeMo  _[platform; current]_
+      - NeMo Curator  _[software; current]_
+      - NeMo Data Designer  _[software; current]_
+      - NeMo Anonymizer  _[software; current]_
+      - NeMo Safe Synthesizer  _[software; current]_
+      - NeMo Evaluator  _[software; current]_
+      - NeMo Guardrails  _[software; current]_
+      - NeMo Auditor  _[software; current]_
+    - Omniverse Cloud  _[service; index_listed_redirect_mismatch]_
+    - NGC Private Registry  _[service; current]_
+    - NVIDIA NGC  _[service; current]_
+  - Data Center  _[category; current]_
+    - Current Data Center Product Portfolio  _[category; current]_
+      - Vera Rubin NVL72  _[product; current]_
+      - Groq 3 LPX  _[product; current]_
+      - DGX Vera Rubin NVL72  _[product; current]_
+      - HGX Rubin NVL8  _[product; current]_
+      - DGX Rubin NVL8  _[product; current]_
+      - Vera CPU  _[product; current]_
+      - GB300 NVL72  _[product; current]_
+      - GB200 NVL72  _[product; current]_
+      - RTX PRO 4500 Blackwell Server Edition  _[product; current]_
+      - RTX PRO 6000 Blackwell Server Edition  _[product; current]_
+    - Current Marketplace Data Center GPU Portfolio  _[category; current]_
+      - RTX PRO 6000 Blackwell Server Edition  _[product; current]_
+      - RTX PRO 4500 Blackwell Server Edition  _[product; current]_
+      - H200  _[product; current]_
+      - H200 NVL  _[product; current]_
+      - L4  _[product; current]_
+      - L40  _[product; current]_
+      - L40S  _[product; current]_
+    - Supported but Not in Current Marketplace GPU Page  _[category; supported_not_current_marketplace_portfolio]_
+      - H100  _[product; supported_not_current_marketplace_portfolio]_
+      - H100 NVL  _[product; supported_not_current_marketplace_portfolio]_
+      - A40  _[product; supported_not_current_marketplace_portfolio]_
+      - A10  _[product; supported_not_current_marketplace_portfolio]_
+      - A16  _[product; supported_not_current_marketplace_portfolio]_
+    - DGX Platform  _[platform; current]_
+      - DGX SuperPOD  _[product; current]_
+      - DGX BasePOD  _[product; current]_
+      - DGX Spark  _[product; current]_
+      - DGX Station  _[product; current]_
+      - DGX Quantum  _[product; current]_
+      - DGX Cloud  _[service; current]_
+      - Mission Control  _[software; current]_
+    - HGX Platform  _[platform; current]_
+      - HGX Vera Rubin NVL8  _[product; current]_
+      - HGX Rubin NVL8  _[product; current]_
+      - HGX B300  _[product; current]_
+      - HGX B200  _[product; current]_
+    - MGX  _[reference_architecture; current]_
+    - STX  _[reference_architecture; current]_
+    - OVX Systems  _[product; current]_
+    - CPU Platforms  _[platform; current]_
+      - Vera CPU  _[product; current]_
+      - Grace CPU Superchip  _[product; current]_
+      - Grace CPU C1  _[product; current]_
+      - GH200 Grace Hopper Superchip  _[product; current]_
+      - GB200 NVL4  _[product; current]_
+    - Virtual GPU  _[software; current]_
+    - RTX PRO Servers  _[platform; current]_
+  - Embedded, Robotics, and Edge  _[category; current]_
+    - Jetson Platform  _[platform; current]_
+      - Jetson Thor series  _[product; current]_
+      - Jetson AGX Orin series  _[product; current]_
+      - Jetson Orin NX series  _[product; current]_
+      - Jetson Orin Nano series  _[product; current]_
+      - Jetson AGX Xavier series  _[product; current]_
+      - Jetson Xavier NX series  _[product; current]_
+      - Jetson TX2 series  _[product; current]_
+      - Jetson Nano  _[product; current]_
+      - JetPack SDK  _[sdk; current]_
+    - IGX Platform  _[platform; current]_
+      - IGX Thor  _[product; current]_
+      - Halos OS for IGX  _[software; current]_
+    - DRIVE Platform  _[platform; current]_
+      - DRIVE Hyperion  _[product; current]_
+      - DRIVE AGX Thor  _[product; current]_
+      - DRIVE AGX Orin  _[product; current]_
+      - DRIVE AV  _[software; current]_
+      - DriveOS  _[software; current]_
+      - Alpamayo  _[software; current]_
+      - Halos  _[software; current]_
+    - Isaac  _[platform; current]_
+      - Isaac GR00T  _[software; current]_
+      - Isaac Sim  _[software; current]_
+      - Isaac Lab  _[software; current]_
+      - Isaac ROS  _[software; current]_
+      - OSMO  _[software; current]_
+      - Newton  _[software; current]_
+    - Metropolis  _[platform; current]_
+    - Clara AGX  _[product; index_listed_redirect_mismatch]_
+  - Networking  _[category; current]_
+    - Spectrum Ethernet Platform  _[platform; current]_
+      - Spectrum-X  _[product; current]_
+      - Spectrum-XGS  _[product; current]_
+      - Spectrum Ethernet Switch Systems  _[product; current]_
+      - ConnectX Ethernet SuperNICs  _[product; current]_
+      - BlueField DPUs  _[product; current]_
+      - LinkX Cables and Transceivers  _[product; current]_
+    - Quantum InfiniBand Platform  _[platform; current]_
+      - Quantum-X800  _[product; current]_
+      - ConnectX InfiniBand Adapters  _[product; current]_
+      - BlueField DPUs  _[product; current]_
+      - Quantum InfiniBand Switches  _[product; current]_
+      - InfiniBand Routers and Gateways  _[product; current]_
+      - Long-Haul Systems  _[product; current]_
+    - BlueField Platform  _[platform; current]_
+      - BlueField-4 DPU  _[product; current]_
+      - BlueField-4 STX Storage Processor  _[product; current]_
+      - BlueField-3 DPU  _[product; current]_
+    - Networking Software  _[category; current]_
+      - DOCA  _[software; current]_
+      - DSX Air  _[software; current]_
+      - NetQ  _[software; current]_
+      - UFM  _[software; current]_
+      - Cumulus Linux  _[software; current]_
+      - Pure SONiC  _[software; current]_
+    - Magnum IO  _[software; current]_
+      - GPUDirect Storage  _[technology; current]_
+      - NVMe SNAP  _[technology; current]_
+      - GPUDirect RDMA  _[technology; current]_
+      - HPC-X  _[technology; current]_
+      - NCCL  _[technology; current]_
+      - UCX  _[technology; current]_
+      - SHARP  _[technology; current]_
+      - NetQ  _[technology; current]_
+      - UFM  _[technology; current]_
+  - Gaming and Creating  _[category; current]_
+    - GeForce  _[platform; current]_
+      - Graphics Cards and Desktops  _[category; current]_
+        - GeForce RTX 50 Series  _[product; current]_
+        - GeForce RTX 5090  _[product; current]_
+        - GeForce RTX 5080  _[product; current]_
+        - GeForce RTX 5070 Family  _[product; current]_
+        - GeForce RTX 5060 Family  _[product; current]_
+        - GeForce RTX 5050  _[product; current]_
+      - GeForce RTX 50 Series Laptops  _[product; current]_
+      - GeForce RTX 40 Series Laptops  _[product; current]_
+      - DLSS  _[technology; current]_
+      - Reflex  _[technology; current]_
+      - G-SYNC  _[technology; current]_
+      - Max-Q  _[technology; current]_
+      - RTX Remix  _[technology; current]_
+    - GeForce NOW  _[service; current]_
+    - NVIDIA Studio  _[platform; current]_
+    - NVIDIA App  _[software; current]_
+    - NVIDIA Broadcast  _[software; current]_
+    - SHIELD TV  _[product; current]_
+    - RTX AI PCs  _[solution; current]_
+  - Professional Visualization and Workstations  _[category; current]_
+    - RTX PRO Desktop GPUs  _[category; current]_
+      - RTX PRO 6000 Blackwell Workstation Edition  _[product; current]_
+      - RTX PRO 6000 Blackwell Max-Q Workstation Edition  _[product; current]_
+      - RTX PRO 5000 Blackwell  _[product; current]_
+      - RTX PRO 4500 Blackwell Workstation Edition  _[product; current]_
+      - RTX PRO 4000 Blackwell  _[product; current]_
+      - RTX PRO 4000 Blackwell SFF Edition  _[product; current]_
+      - RTX PRO 2000 Blackwell  _[product; current]_
+      - RTX 6000 Ada  _[product; current_or_legacy_listed]_
+      - RTX 5000 Ada  _[product; current_or_legacy_listed]_
+      - RTX 4500 Ada  _[product; current_or_legacy_listed]_
+      - RTX 4000 Ada  _[product; current_or_legacy_listed]_
+      - RTX 4000 SFF Ada  _[product; current_or_legacy_listed]_
+      - RTX 2000 Ada  _[product; current_or_legacy_listed]_
+    - RTX PRO Laptop GPUs  _[product; current]_
+    - DGX Spark  _[product; current]_
+    - DGX Station  _[product; current]_
+
+- Software and Services  _[category; current]_
+  - AI Training and Inference Frameworks  _[category; current]_
+    - Dynamo  _[software; current]_
+    - NeMo Framework  _[software; current]_
+    - Nemotron  _[software; current]_
+    - NIM Microservices  _[software; current]_
+  - Physical AI  _[category; current]_
+    - Autonomous Vehicles Dataset  _[software; current]_
+    - CAE  _[software; current]_
+    - Omniverse  _[software; current]_
+    - Isaac  _[software; current]_
+    - Isaac Sim  _[software; current]_
+    - DRIVE  _[software; current]_
+    - Cosmos  _[software; current]_
+  - Interactivity Systems  _[category; current]_
+    - Riva  _[software; current]_
+  - SDKs and Application-Specific Frameworks  _[category; current]_
+    - Maxine  _[sdk; current]_
+    - cuLitho  _[sdk; current]_
+    - Morpheus  _[sdk; current]_
+    - RAPIDS  _[sdk; current]_
+    - HPC SDK  _[sdk; current]_
+    - Merlin  _[sdk; current]_
+    - Aerial  _[sdk; current]_
+    - Metropolis  _[sdk; current]_
+  - Productivity Apps and Tools  _[category; current]_
+    - Omniverse  _[software; current]_
+    - AI Workbench  _[software; current]_
+    - DCGM / GPU Monitoring  _[software; current]_
+    - NVIDIA App  _[software; current]_
+    - NVIDIA App for Enterprise  _[software; current]_
+    - RTX Desktop Manager  _[software; current]_
+    - Maxine Video Conferencing  _[software; current]_
+  - Cloud Services  _[category; current]_
+    - Base Command Manager  _[service; current]_
+    - BioNeMo  _[service; current]_
+    - Fleet Command  _[service; current]_
+    - NeMo  _[service; current]_
+    - NGC Catalog  _[service; current]_
+    - Omniverse  _[service; current]_
+  - Developer Software  _[category; current]_
+    - CUDA Toolkit  _[sdk; current]_
+    - NVIDIA FLARE  _[sdk; current]_
+    - Texture Tools Exporter  _[sdk; current]_
+    - Nsight Developer Tools  _[sdk; current]_
+  - Gaming and Creating Software  _[category; current]_
+    - NVIDIA Studio  _[software; current]_
+    - GeForce NOW  _[software; current]_
+    - RTX Remix  _[software; current]_
+    - NVIDIA App  _[software; current]_
+    - NVIDIA Broadcast  _[software; current]_
+    - SHIELD Software  _[software; current]_
+  - Healthcare and Life Sciences  _[category; current]_
+    - BioNeMo  _[software; current]_
+    - Clara  _[software; current]_
+    - Holoscan SDK  _[software; current]_
+    - MONAI  _[software; current]_
+    - Parabricks  _[software; current]_
+    - NVIDIA FLARE  _[software; current]_
+  - Infrastructure  _[category; current]_
+    - Cloud Native Support  _[software; current]_
+    - Base Command Manager  _[software; current]_
+    - Slinky  _[software; current]_
+    - Fleet Command  _[software; current]_
+    - Magnum IO  _[software; current]_
+    - Networking Software  _[software; current]_
+    - NVIDIA AI Enterprise  _[software; current]_
+    - Slurm  _[software; current]_
+    - Virtual GPU  _[software; current]_
+    - Mission Control  _[software; current]_
+    - Run:ai  _[software; current]_
+  - Drivers  _[category; current]_
+    - NVIDIA Drivers  _[software; current]_
+    - Ethernet Drivers  _[software; current]_
+    - GeForce Game Ready Drivers  _[software; current]_
+    - NVIDIA Studio Drivers  _[software; current]_
+    - InfiniBand Drivers  _[software; current]_
+    - NVIDIA Control Panel  _[software; current]_
+    - RTX Enterprise Drivers  _[software; current]_
+  - AI Models by Use Case  _[category; current]_
+    - Code Generation  _[solution; current]_
+    - Digital Twins  _[solution; current]_
+    - Drug Discovery  _[solution; current]_
+    - Image Generation  _[solution; current]_
+    - Image-to-Embedding  _[solution; current]_
+    - Image-to-Text  _[solution; current]_
+    - Medical Imaging  _[solution; current]_
+    - Object Detection  _[solution; current]_
+    - Optical Character Recognition  _[solution; current]_
+    - Retrieval-Augmented Generation  _[solution; current]_
+    - Route Optimization  _[solution; current]_
+    - Speech-to-Animation  _[solution; current]_
+    - Speech-to-Text  _[solution; current]_
+    - Synthetic Data Generation  _[solution; current]_
+    - Text Translation  _[solution; current]_
+    - Text-to-Embedding  _[solution; current]_
+    - Text-to-Image  _[solution; current]_
+    - Text-to-Speech  _[solution; current]_
+    - Weather Simulation  _[solution; current]_
+  - NVIDIA AI Enterprise  _[platform; current]_
+  - NVIDIA Build  _[service; current]_
+    - NIM APIs  _[service; current]_
+    - NVIDIA Blueprints  _[reference_architecture; current]_
+
+- Solutions  _[category; current]_
+  - Artificial Intelligence  _[category; current]_
+    - AI Overview  _[solution; current]_
+    - AI Platform  _[solution; current]_
+    - Conversational AI  _[solution; current]_
+    - Cybersecurity  _[solution; current]_
+    - Data Analytics  _[solution; current]_
+    - Generative / Agentic AI  _[solution; current]_
+    - Inference  _[solution; current]_
+    - Machine Learning  _[solution; current]_
+    - Predictions and Forecasting  _[solution; current]_
+    - AI Workflows  _[solution; current]_
+  - Cloud and Data Center  _[category; current]_
+    - Cloud and Data Center Overview  _[solution; current]_
+    - Accelerated Computing  _[solution; current]_
+    - Cloud Computing  _[solution; current]_
+    - Colocation  _[solution; current]_
+    - MLOps  _[solution; current]_
+    - Networking  _[solution; current]_
+    - Virtualization  _[solution; current]_
+  - Design and Simulation  _[category; current]_
+    - Design and Simulation Overview  _[solution; current]_
+    - Computer-Aided Engineering  _[solution; current]_
+    - Digital Twin Development  _[solution; current]_
+    - Rendering  _[solution; current]_
+    - Robotic Simulation  _[solution; current]_
+    - Scientific Visualization  _[solution; current]_
+    - Vehicle Simulation  _[solution; current]_
+  - Robotics and Edge AI  _[category; current]_
+    - Robotics and Edge AI Overview  _[solution; current]_
+    - Robotics  _[solution; current]_
+    - Edge AI  _[solution; current]_
+    - Vision AI  _[solution; current]_
+  - High-Performance Computing  _[category; current]_
+    - HPC Overview  _[solution; current]_
+    - HPC and AI  _[solution; current]_
+    - Scientific Visualization  _[solution; current]_
+    - Simulation and Modeling  _[solution; current]_
+    - Quantum Computing  _[solution; current]_
+  - Autonomous Vehicles  _[category; current]_
+    - Autonomous Vehicles Overview  _[solution; current]_
+    - In-Vehicle Computing  _[solution; current]_
+    - AI Training  _[solution; current]_
+    - AV Simulation  _[solution; current]_
+    - Safety  _[solution; current]_
+  - Industry Solutions (Solutions Index)  _[category; current]_
+    - Architecture, Engineering, Construction  _[solution; current]_
+    - Automotive  _[solution; current]_
+    - Consumer Internet  _[solution; current]_
+    - Cybersecurity  _[solution; current]_
+    - Energy  _[solution; current]_
+    - Financial Services  _[solution; current]_
+    - Healthcare and Life Sciences  _[solution; current]_
+    - Higher Education  _[solution; current]_
+    - Game Development  _[solution; current]_
+    - Industrial Sector  _[solution; current]_
+    - Manufacturing  _[solution; current]_
+    - Media and Entertainment  _[solution; current]_
+    - Government  _[solution; current]_
+    - Restaurants  _[solution; current]_
+    - Retail and CPG  _[solution; current]_
+
+- Industries  _[category; current]_
+  - Architecture, Engineering, Construction, and Operations  _[industry; current]_
+  - Automotive  _[industry; current]_
+  - Energy  _[industry; current]_
+  - Financial Services  _[industry; current]_
+  - Government  _[industry; current]_
+  - Healthcare and Life Sciences  _[industry; current]_
+  - Higher Education and Research  _[industry; current]_
+  - Industrial Sector  _[industry; current]_
+  - Media and Entertainment  _[industry; current]_
+  - Restaurants and Quick-Service  _[industry; current]_
+  - Retail and Consumer Packaged Goods  _[industry; current]_
+  - Robotics  _[industry; current]_
+  - Semiconductor  _[industry; current]_
+  - Telecommunications  _[industry; current]_
+
+- Architectures and Core Technologies  _[category; current]_
+  - Vera Rubin  _[architecture; current]_
+  - Blackwell  _[architecture; current]_
+  - Hopper  _[architecture; current]_
+  - Ada Lovelace  _[architecture; current]_
+  - MGX  _[reference_architecture; current]_
+  - STX  _[reference_architecture; current]_
+  - CUDA  _[technology; current]_
+  - CUDA-X  _[technology; current]_
+  - NVLink  _[technology; current]_
+  - NVLink Switch  _[technology; current]_
+  - NVLink-C2C  _[technology; current]_
+  - NVLink Fusion  _[technology; current]_
+  - Tensor Cores  _[technology; current]_
+  - Multi-Instance GPU  _[technology; current]_
+  - Confidential Computing  _[technology; current]_
+  - RTX  _[technology; current]_
+  - DLSS  _[technology; current]_
+  - G-SYNC  _[technology; current]_
+  - OpenUSD  _[technology; current]_
+
+## 完整性判据
+
+本轮 `frontier complete` 的含义是：四个当前官方总索引的所有栏目和列名均已形成节点或明确的交叉/异常记录；Data Center、DGX/HGX/MGX/CPU、Jetson/IGX/DRIVE/Isaac、Networking、GeForce/RTX PRO、NeMo/NIM/Dynamo 等组合页已展开到页面明确列示的产品族或产品项；每个节点均有官方 URL、访问时间和 locator；frontier 中没有 `pending` 状态。
+
+它不表示对整个 nvidia.com 做无限深度抓取，也不表示枚举 Build/NGC 中持续变化的每个模型、容器、API、驱动版本、地区商店 SKU、配件或历史停产型号。那些边界若要纳入，应单独建立有版本/分页上限的子 frontier。
+
+## 已知盲区和异常
+
+- NVIDIA 网站高度动态且依赖 JavaScript；本轮使用公开可渲染内容，不绕过任何访问控制。直接 `robots.txt` 请求曾被对端 reset，因此没有据此扩张自动抓取；改用公开搜索索引和 NVIDIA 页面内链接。
+- Products 索引存在导航陈旧或目标合并：`BioNeMo` 与 `Clara AGX` 链接落到 Healthcare and Life Sciences；`Omniverse Cloud` 落到 DGX Cloud。三者保留 `index_listed_redirect_mismatch`/说明，不把重定向当作独立产品存续的强证据。
+- GeForce NOW 的 en-US 链接在访问环境中重定向到 en-AU，产品名仍由美国 Products 索引确认；未采集地区价格/套餐。
+- RTX PRO、Jetson 页面同时展示当代与旧代仍列示产品；旧代项标注 `current_or_legacy_listed`，不能仅凭在页面出现断言仍在产。
+- 数据中心 GPU 的 `current` 口径取自截点时 NVIDIA Marketplace GPU 分类页，并由 2025-08 官方 line card 交叉验证；H100/H100 NVL 与 A40/A10/A16 在官方支持/虚拟化比较页仍出现，但不在该 current Marketplace 页，因此单列为 `supported_not_current_marketplace_portfolio`。这不是停产判断。
+- 2026 年页面已出现 Vera Rubin、Rubin、Groq 3 LPX 等新组合；它们是截点时当前页面事实，不应回填为 2025 年历史事实。
+- 产品与平台边界是研究规范化判断。例如 DGX 是平台，具体 DGX 系统是产品；MGX/STX 是参考架构；CUDA/NVLink 是技术；NIM/NeMo/Dynamo 是软件或平台。原始官方措辞与 locator 均保留，便于 reviewer 调整分类。
+
+## 文件
+
+- `product_taxonomy.json`：嵌套产品树、类型定义和范围元数据。
+- `product_taxonomy.jsonl`：每行一个规范化节点，含父节点、路径和证据。
+- `canonical_index.jsonl`：每行一个 canonical 对象，含主类型、别名、全部路径、冲突处理和证据。
+- `source_frontier.jsonl`：每行一个已处理官方入口/组合页。
+- `build_taxonomy.py`：可复现生成脚本。
+- `validate_taxonomy.py`：ID、provenance、canonical、关键类型与 GPU 状态校验。

@@ -1,0 +1,76 @@
+{
+  "schema_version": "npn-runtime-capture-manifest-v1",
+  "research_cutoff": "2026-08-25T23:59:59+08:00",
+  "publisher": "NVIDIA Corporation",
+  "official_directory_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=1&limit=45",
+  "initial_observation": {
+    "observed_at": "2026-08-25T18:40:00+08:00",
+    "runtime_total": 996,
+    "captured_cards": 15,
+    "snapshot_path": "npn_browser/pages/page_001.json",
+    "status": "superseded_same_day_runtime_observation"
+  },
+  "final_freeze": {
+    "retrieved_at_start": "2026-08-25T11:55:59.235Z",
+    "retrieved_at_end": "2026-08-25T12:01:53.080Z",
+    "runtime_total": 997,
+    "page_count": 23,
+    "page_size": 45,
+    "page_record_counts": [
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      7
+    ],
+    "raw_observations": 997,
+    "unique_names": 997,
+    "unique_profile_urls": 995,
+    "unique_full_card_fingerprints": 997,
+    "snapshot_glob": "agents/npn_runtime_browser/pages/page_*.json",
+    "status": "final_frozen_population"
+  },
+  "drift_reconciliation": {
+    "from_total": 996,
+    "to_total": 997,
+    "delta": 1,
+    "resolved": true,
+    "treatment": "Use the later complete 997-card population as the frozen runtime fixture; retain the earlier 996 observation as temporal provenance.",
+    "uncertainty": "The two totals establish an intraday directory change but do not by themselves identify which listing was added, removed, or reclassified; no unsupported causal claim is made."
+  },
+  "ui_reconciliation": {
+    "issue": "The React page retained previously rendered cards in a duplicated desktop/mobile DOM while the pagination range excluded them.",
+    "rule": "Only when renderer candidates exceeded the declared page range, remove full-card fingerprints already present in the current candidate set or an earlier frozen page.",
+    "dropped_transitional_dom_cards": 57,
+    "audit_location": "selection_audit.dropped_transitional_cards in every page fixture",
+    "fuzzy_matching_used": false
+  },
+  "access": {
+    "method": "ordinary visible public page in the in-app browser, serial pagination in one session",
+    "login_required": false,
+    "paywall": false,
+    "captcha_seen": false,
+    "rate_limit_bypassed": false,
+    "proxy_used": false,
+    "access_control_bypassed": false,
+    "redistribution": "structured visible card facts and evidence locators only; no full page HTML retained"
+  }
+}

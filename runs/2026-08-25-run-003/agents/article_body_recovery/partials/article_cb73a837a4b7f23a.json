@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_cb73a837a4b7f23a",
+    "audit_record_sha256": "5230afe75afe2ee026e8546c6b612827a4b511b5410363b6765ac4dc79a37af3",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260215221112",
+    "candidate_url": "https://web.archive.org/web/20260215221112id_/https://blogs.nvidia.com/blog/ai-day-sao-paulo/",
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-day-sao-paulo",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-day-sao-paulo&timestamp=20260212",
+    "response_sha256": "6cbccc5dedf5b7eaf9d11c824b166cbebd4e9340bf073d949f8115912226164e",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "5230afe75afe2ee026e8546c6b612827a4b511b5410363b6765ac4dc79a37af3",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_cb73a837a4b7f23a",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-day-sao-paulo",
+    "content_or_audit_sha256": "5230afe75afe2ee026e8546c6b612827a4b511b5410363b6765ac4dc79a37af3",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-02-12",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Code, Compute and Connection: Inside the Inaugural NVIDIA AI Day São Paulo"
+  }
+}

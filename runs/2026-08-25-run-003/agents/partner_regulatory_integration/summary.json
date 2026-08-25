@@ -1,0 +1,90 @@
+{
+  "canonical_claim_total": 48,
+  "canonical_evidence_total": 271,
+  "canonical_partner_total": 316,
+  "directness_counts": {
+    "direct": 22,
+    "indirect": 1,
+    "unclear": 25
+  },
+  "disclaimer": "Research service output; not investment advice.",
+  "fact_status_counts": {
+    "confirmed": 22,
+    "inferred": 26
+  },
+  "frontier_terminal_counts": {
+    "access_blocked": 7,
+    "direction_claims_found": 44,
+    "public_search_unavailable": 30,
+    "regulatory_hit_no_approved_direction_claim": 99,
+    "route_or_identifier_terminal_no_direction_claim": 2,
+    "searched_no_direction_claim": 134
+  },
+  "limitations": [
+    "No-hit is not proof of no commercial relationship.",
+    "News cannot support confirmed; inferred supplier/customer is capped below 60.",
+    "corporate_general is used for mixed or unreliably matched product scopes."
+  ],
+  "pending": 0,
+  "product_scope_counts": {
+    "architectures-and-core-technologies": 2,
+    "cloud-computing": 2,
+    "cloud-services": 2,
+    "corporate_general": 11,
+    "data-center": 15,
+    "dgx-superpod": 1,
+    "drive": 6,
+    "geforce": 1,
+    "networking": 4,
+    "nvidia-ai-enterprise": 1,
+    "nvqlink": 1,
+    "robotics": 1,
+    "v2-ai-enterprise-factory": 1
+  },
+  "relationship_type_counts": {
+    "customer": 40,
+    "supplier": 8
+  },
+  "research_object": "NVIDIA canonical Partner regulatory reverse-direction integration",
+  "research_window": {
+    "end": "2026-08-25",
+    "start": "2025-01-01"
+  },
+  "upstream_claim_counts": {
+    "apac": 7,
+    "emea": 10,
+    "sec": 31
+  },
+  "upstream_claim_total": 48,
+  "upstream_validation": {
+    "apac": {
+      "counts": null,
+      "pass": true,
+      "status": "pass"
+    },
+    "emea": {
+      "counts": {
+        "audits": 48,
+        "candidates": 10,
+        "decisions": 48,
+        "evidence": 10,
+        "frontier": 48
+      },
+      "pass": true,
+      "status": null
+    },
+    "sec": {
+      "counts": {
+        "candidates": 254,
+        "claims": 31,
+        "contexts": 1973,
+        "decisions": 1973,
+        "evidence": 1973,
+        "frontier": 316,
+        "pending": 0
+      },
+      "pass": true,
+      "status": "pass"
+    }
+  }
+}

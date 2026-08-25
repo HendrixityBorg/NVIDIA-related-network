@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "edge_integrity_valid": true,
+    "frontier_zero_pending": true,
+    "logo_only_not_final_relationship": true,
+    "relation_candidate_provenance_valid": true,
+    "robots_parameter_exclusion_recorded": true,
+    "sections_zero_pending": true,
+    "taxonomy_provenance_valid": true,
+    "three_seeds_present": true
+  },
+  "counts": {
+    "broken_provenance_links": 0,
+    "candidate_statuses": {
+      "confirmed": 35,
+      "inferred": 288,
+      "unknown": 8
+    },
+    "excluded_by_robots": 1,
+    "frontier_records": 38,
+    "page_sections": 229,
+    "pending_sections": 0,
+    "pending_sources": 0,
+    "relation_candidates": 331,
+    "reviewed_or_decided_frontier_records": 38,
+    "seed_pages": 3,
+    "solution_product_edges": 119,
+    "taxonomy_nodes": 220,
+    "unmapped_product_candidates": 0
+  },
+  "errors": [],
+  "generated_at": "2026-08-25T20:30:00+08:00",
+  "research_cutoff": "2026-08-25",
+  "status": "pass"
+}

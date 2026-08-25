@@ -1,0 +1,48 @@
+{
+  "fragment": "v2_dc_hpc",
+  "research_cutoff": "2026-08-25",
+  "generated_at": "2026-08-25T20:00:00+08:00",
+  "counts": {
+    "seed_pages": 2,
+    "frontier_records": 44,
+    "frontier_processed": 36,
+    "frontier_redirected": 7,
+    "frontier_no_candidate": 1,
+    "page_sections": 95,
+    "taxonomy_nodes": 101,
+    "nodes_added": 63,
+    "nodes_augmented": 38,
+    "solution_product_edges": 94,
+    "relation_candidate_observations": 150,
+    "merge_conflicts_logged": 10
+  },
+  "errors": {
+    "pending_sources": [],
+    "sources_missing_required_fields": [],
+    "nodes_missing_required_fields": [],
+    "edges_missing_required_fields": [],
+    "dangling_edges": [],
+    "duplicate_source_ids": [],
+    "duplicate_node_keys": [],
+    "bad_page_section_refs": [],
+    "bad_candidate_refs": [],
+    "bad_candidate_product_refs": []
+  },
+  "gates": {
+    "two_seeds_processed": true,
+    "zero_pending_frontier": true,
+    "all_frontier_records_valid": true,
+    "all_page_sections_processed": true,
+    "all_nodes_traceable": true,
+    "all_edges_traceable": true,
+    "all_candidates_traceable": true,
+    "identifiers_unique": true
+  },
+  "scope_notes": [
+    "Closure is limited to Product, Solution, Technology, Workload, and Use Case links explicitly presented by the two seeds and reviewed family/item pages.",
+    "Header/footer repetition, forms, training, catalogs, events, news/blog article bodies, gated documents, and generic corporate/industry navigation are outside this fragment.",
+    "Dynamic tab markup can flatten logo-to-tab membership; those observations remain unclassified rather than guessed.",
+    "This is an incremental fragment for the root v2 merger, not a standalone claim that all seven secondary sites are complete."
+  ],
+  "overall_status": "pass"
+}

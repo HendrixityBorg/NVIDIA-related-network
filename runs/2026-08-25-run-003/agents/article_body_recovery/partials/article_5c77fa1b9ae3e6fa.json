@@ -1,0 +1,1266 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "Into the Omniverse: Physical AI Open Models and Frameworks Advance Robots and Autonomous Systems | NVIDIA Blog",
+    "article_id": "article_5c77fa1b9ae3e6fa",
+    "audit_record_sha256": "756c0c62ee52ae29e86d7cf1984ce08147cc5c07186045d1d1b31d9de9216683",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260130025928",
+    "candidate_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+    "canonical_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 115645,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+    "replay_http_status": 200,
+    "replay_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fphysical-ai-open-models-robot-autonomous-systems-omniverse&timestamp=20260129",
+    "response_sha256": "b9a84bf15655a15114b8c5923c6e553fae1f8e745de901975c97d05adb8b6a4e",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advancements in OpenUSD and NVIDIA Omniverse .",
+      "entity_name_normalized_hint": "Into the Omniverse",
+      "entity_name_raw": "Into the Omniverse",
+      "evidence_locator": "body.block[1]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/omniverse/news/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advancements in OpenUSD and NVIDIA Omniverse .",
+      "entity_name_normalized_hint": "OpenUSD",
+      "entity_name_raw": "OpenUSD",
+      "evidence_locator": "body.block[1]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/omniverse/usd/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "OpenUSD provides the common framework that standardizes how 3D data is shared across these physical AI tools, enabling developers to build accurate digital twins and reuse them seamlessly from simulation to deployment. NVIDIA Omniverse libraries, built on OpenUSD, serve as the source of ground‑truth simulation that feeds the entire stack.",
+      "entity_name_normalized_hint": "OpenUSD",
+      "entity_name_raw": "OpenUSD",
+      "evidence_locator": "body.block[4]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/glossary/openusd/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "The stack taps into NVIDIA Cosmos world models; NVIDIA Isaac technologies, including the new Isaac Lab-Arena open source framework for policy evaluation; the NVIDIA Alpamayo open portfolio of AI models, simulation frameworks and physical AI datasets for autonomous vehicles; and the NVIDIA OSMO framework to orchestrate training across compute environments.",
+      "entity_name_normalized_hint": "Isaac Lab-Arena",
+      "entity_name_raw": "Isaac Lab-Arena",
+      "evidence_locator": "body.block[7]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/lab-arena",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "entity_name_normalized_hint": "NEURA Robotics",
+      "entity_name_raw": "NEURA Robotics",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "linked_url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7417671927001124865/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "entity_name_normalized_hint": "Isaac Sim",
+      "entity_name_raw": "Isaac Sim",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/sim",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "entity_name_normalized_hint": "Isaac Lab",
+      "entity_name_raw": "Isaac Lab",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/lab",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "entity_name_normalized_hint": "Isaac GR00T foundation",
+      "entity_name_raw": "Isaac GR00T foundation",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/gr00t",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "In addition, NEURA Robotics is collaborating with SAP and NVIDIA to integrate SAP’s Joule agents with its robots, using the Mega NVIDIA Omniverse Blueprint to simulate and refine robot behavior in complex, realistic operational scenarios before those agents and behaviors are deployed into the company’s Neuraverse ecosystem, as well as in real‑world fleets.",
+      "entity_name_normalized_hint": "Mega NVIDIA Omniverse Blueprint",
+      "entity_name_raw": "Mega NVIDIA Omniverse Blueprint",
+      "evidence_locator": "body.block[13]",
+      "exchange": null,
+      "linked_url": "https://build.nvidia.com/nvidia/mega-multi-robot-fleets-for-industrial-automation",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Intbot is using the NVIDIA Cosmos Reason 2 open model to give its social robots a “sixth sense” for the real world — using the model’s reasoning capabilities to identify simple social cues and safety context that go beyond simple scripted tasks. In its Cosmos Cookbook recipe , Intbot demonstrates how reasoning vision language models can aid robots in deciding when to speak and how to more naturally interact with humans.",
+      "entity_name_normalized_hint": "Intbot",
+      "entity_name_raw": "Intbot",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "linked_url": "https://www.youtube.com/watch?v=u9sI_fTM_So",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Intbot is using the NVIDIA Cosmos Reason 2 open model to give its social robots a “sixth sense” for the real world — using the model’s reasoning capabilities to identify simple social cues and safety context that go beyond simple scripted tasks. In its Cosmos Cookbook recipe , Intbot demonstrates how reasoning vision language models can aid robots in deciding when to speak and how to more naturally interact with humans.",
+      "entity_name_normalized_hint": "Cosmos Cookbook recipe",
+      "entity_name_raw": "Cosmos Cookbook recipe",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "linked_url": "https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/inference/reason2/intbot_showcase/inference.html",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Hugging Face and NVIDIA are bringing together their robotics communities by integrating NVIDIA Isaac GR00T N models and simulation frameworks into the LeRobot ecosystem . Developers can now access Isaac GR00T N1.6 models and Isaac Lab‑Arena directly within LeRobot to streamline policy training and evaluation.",
+      "entity_name_normalized_hint": "LeRobot ecosystem",
+      "entity_name_raw": "LeRobot ecosystem",
+      "evidence_locator": "body.block[19]",
+      "exchange": null,
+      "linked_url": "https://huggingface.co/lerobot",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "ROBOTIS , a leading developer of smart servos, industrial actuators, manipulators, open-source humanoid platforms and educational robotic kits, built an open source sim-to-real pipeline using NVIDIA Isaac technologies. The workflow starts with high‑fidelity data generation in Isaac Sim, scales up training sets using GR00T‑Mimic for augmentation and then fine‑tunes a VLA‑based Isaac GR00T N model that deploys directly to hardware — accelerating the transition from simulation to robust real‑world tasks.",
+      "entity_name_normalized_hint": "ROBOTIS",
+      "entity_name_raw": "ROBOTIS",
+      "evidence_locator": "body.block[21]",
+      "exchange": null,
+      "linked_url": "https://www.linkedin.com/posts/yoonseokpyo_robotis-aiworker-aimanipulator-ugcPost-7351915450059907072-Bhl6/?utm_source=share&utm_medium=member_ios&rcm=ACoAAAHM3LUBdKoQgtNLqhTl_3CNBhYDXsVf0sM",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Watch NVIDIA founder and CEO Jensen Huang’s CES special presentation .",
+      "entity_name_normalized_hint": "CES special presentation",
+      "entity_name_raw": "CES special presentation",
+      "evidence_locator": "body.block[27]",
+      "exchange": null,
+      "linked_url": "https://www.youtube.com/watch?v=0NBILspM4c4",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Participate in the Cosmos Cookoff , a hands-on physical AI challenge where developers use Cosmos Reason to power robotics, autonomous systems and vision AI workflows.",
+      "entity_name_normalized_hint": "Cosmos Cookoff",
+      "entity_name_raw": "Cosmos Cookoff",
+      "evidence_locator": "body.block[29]",
+      "exchange": null,
+      "linked_url": "https://luma.com/nvidia-cosmos-cookoff?utm_source=web",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "1af0bae32b84f15900a65eeaf62267d4d610c1c058f90f2868af119c83f6fed0",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Into the Omniverse",
+      "entity_name_raw": "Into the Omniverse",
+      "evidence_excerpt": "Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advancements in OpenUSD and NVIDIA Omniverse .",
+      "evidence_locator": "body.block[1]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_8e8dae0deb158f9f75",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OpenUSD",
+          "source_node_id": "openusd"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "1af0bae32b84f15900a65eeaf62267d4d610c1c058f90f2868af119c83f6fed0",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "OpenUSD",
+      "entity_name_raw": "OpenUSD",
+      "evidence_excerpt": "Editor’s note: This post is part of Into the Omniverse , a series focused on how developers, 3D practitioners and enterprises can transform their workflows using the latest advancements in OpenUSD and NVIDIA Omniverse .",
+      "evidence_locator": "body.block[1]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_a25440e8f6c6848756",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OpenUSD",
+          "source_node_id": "openusd"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "220bfae63104396da193aa797a36d23d8b4319ad0c1f6546daf2fceca9be63f3",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "OpenUSD",
+      "entity_name_raw": "OpenUSD",
+      "evidence_excerpt": "OpenUSD provides the common framework that standardizes how 3D data is shared across these physical AI tools, enabling developers to build accurate digital twins and reuse them seamlessly from simulation to deployment. NVIDIA Omniverse libraries, built on OpenUSD, serve as the source of ground‑truth simulation that feeds the entire stack.",
+      "evidence_locator": "body.block[4]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_c03b54752dd2acfb6a",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Physical AI",
+          "source_node_id": "physical-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OpenUSD",
+          "source_node_id": "openusd"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "218d031bae67d0c70f09d9d894ccae0dccdb0e8728e808cd3219f42b0fd7871e",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "Isaac Lab-Arena",
+      "entity_name_raw": "Isaac Lab-Arena",
+      "evidence_excerpt": "The stack taps into NVIDIA Cosmos world models; NVIDIA Isaac technologies, including the new Isaac Lab-Arena open source framework for policy evaluation; the NVIDIA Alpamayo open portfolio of AI models, simulation frameworks and physical AI datasets for autonomous vehicles; and the NVIDIA OSMO framework to orchestrate training across compute environments.",
+      "evidence_locator": "body.block[7]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_1bbfe6c0f0c96243f2",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Autonomous Vehicles",
+          "source_node_id": "autonomous-vehicles"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab-Arena",
+          "source_node_id": "isaac-lab-arena"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Alpamayo",
+          "source_node_id": "alpamayo"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA OSMO",
+          "source_node_id": "osmo"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Physical AI",
+          "source_node_id": "physical-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Alpamayo",
+          "source_node_id": "alpamayo"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OSMO",
+          "source_node_id": "osmo"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "1ed87621a8c8d657704b0ab9e773e9db962241a67b3490a0426eb5874379969c",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "NEURA Robotics",
+      "entity_name_raw": "NEURA Robotics",
+      "evidence_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_d5d28242d759cdfadf",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OpenUSD",
+          "source_node_id": "openusd"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "1ed87621a8c8d657704b0ab9e773e9db962241a67b3490a0426eb5874379969c",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Isaac Sim",
+      "entity_name_raw": "Isaac Sim",
+      "evidence_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_a3ced523b9e51a4211",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OpenUSD",
+          "source_node_id": "openusd"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "1ed87621a8c8d657704b0ab9e773e9db962241a67b3490a0426eb5874379969c",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Isaac Lab",
+      "entity_name_raw": "Isaac Lab",
+      "evidence_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_5bfbfbb97c53e3be61",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OpenUSD",
+          "source_node_id": "openusd"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "1ed87621a8c8d657704b0ab9e773e9db962241a67b3490a0426eb5874379969c",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Isaac GR00T foundation",
+      "entity_name_raw": "Isaac GR00T foundation",
+      "evidence_excerpt": "NEURA Robotics is building cognitive robots on a full NVIDIA stack, using Isaac Sim and Isaac Lab to train its 4NE1 humanoid and MiPA service robots in OpenUSD‑based digital twins before deployment in domestic settings and workplaces. The company used NVIDIA Isaac GR00T‑Mimic to post‑train the Isaac GR00T foundation model for its platforms.",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_5f39dc1873b4a35ca3",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "OpenUSD",
+          "source_node_id": "openusd"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "b0f43c6ff5c66fa118a2a614ce8810777d1bbfee52e3fba6060f18596fe74b8c",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Mega NVIDIA Omniverse Blueprint",
+      "entity_name_raw": "Mega NVIDIA Omniverse Blueprint",
+      "evidence_excerpt": "In addition, NEURA Robotics is collaborating with SAP and NVIDIA to integrate SAP’s Joule agents with its robots, using the Mega NVIDIA Omniverse Blueprint to simulate and refine robot behavior in complex, realistic operational scenarios before those agents and behaviors are deployed into the company’s Neuraverse ecosystem, as well as in real‑world fleets.",
+      "evidence_locator": "body.block[13]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_949e30bc8cf42bd7f6",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Mega NVIDIA Omniverse Blueprint",
+          "source_node_id": "mega-omniverse-blueprint"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "2c7f594306bd5f99f7d86f4dc8a748ccba16a4cf9360447c91f51678f0f47723",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Intbot",
+      "entity_name_raw": "Intbot",
+      "evidence_excerpt": "Intbot is using the NVIDIA Cosmos Reason 2 open model to give its social robots a “sixth sense” for the real world — using the model’s reasoning capabilities to identify simple social cues and safety context that go beyond simple scripted tasks. In its Cosmos Cookbook recipe , Intbot demonstrates how reasoning vision language models can aid robots in deciding when to speak and how to more naturally interact with humans.",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_872d82a452fd73a65f",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Safety",
+          "source_node_id": "safety"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "2c7f594306bd5f99f7d86f4dc8a748ccba16a4cf9360447c91f51678f0f47723",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Cosmos Cookbook recipe",
+      "entity_name_raw": "Cosmos Cookbook recipe",
+      "evidence_excerpt": "Intbot is using the NVIDIA Cosmos Reason 2 open model to give its social robots a “sixth sense” for the real world — using the model’s reasoning capabilities to identify simple social cues and safety context that go beyond simple scripted tasks. In its Cosmos Cookbook recipe , Intbot demonstrates how reasoning vision language models can aid robots in deciding when to speak and how to more naturally interact with humans.",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_c9415b685e28e39e61",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Safety",
+          "source_node_id": "safety"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "c530050b261eecb87cfae2487d2d9b4f2a602cb48a291c770cdc94863b76902f",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "LeRobot ecosystem",
+      "entity_name_raw": "LeRobot ecosystem",
+      "evidence_excerpt": "Hugging Face and NVIDIA are bringing together their robotics communities by integrating NVIDIA Isaac GR00T N models and simulation frameworks into the LeRobot ecosystem . Developers can now access Isaac GR00T N1.6 models and Isaac Lab‑Arena directly within LeRobot to streamline policy training and evaluation.",
+      "evidence_locator": "body.block[19]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_630e57a7ad25c80048",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "product adoption/use wording",
+      "content_fingerprint": "53792529f59e6ac91c9edb539423edd3064377f1c1ff241b44556b0e1d035ec8",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "ROBOTIS",
+      "entity_name_raw": "ROBOTIS",
+      "evidence_excerpt": "ROBOTIS , a leading developer of smart servos, industrial actuators, manipulators, open-source humanoid platforms and educational robotic kits, built an open source sim-to-real pipeline using NVIDIA Isaac technologies. The workflow starts with high‑fidelity data generation in Isaac Sim, scales up training sets using GR00T‑Mimic for augmentation and then fine‑tunes a VLA‑based Isaac GR00T N model that deploys directly to hardware — accelerating the transition from simulation to robust real‑world tasks.",
+      "evidence_locator": "body.block[21]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_0accc1bf6c9cad886a",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 208,
+      "archive_timestamp": "20260130025928",
+      "article_id": "article_5c77fa1b9ae3e6fa",
+      "body_recovery_method": "wayback",
+      "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "c68b8565ed4717538ace52243422c2f3d9b97cbf31e7e4bfb6f558b3d153e745",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "CES special presentation",
+      "entity_name_raw": "CES special presentation",
+      "evidence_excerpt": "Watch NVIDIA founder and CEO Jensen Huang’s CES special presentation .",
+      "evidence_locator": "body.block[27]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_603505e53d58594152",
+      "product_context": [
+        {
+          "mapping_origin": "no_explicit_product_in_block",
+          "product_name": "corporate_general",
+          "source_node_id": "corporate_general"
+        }
+      ],
+      "product_mapping_status": "corporate_general",
+      "published_date": "2026-01-29",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "756c0c62ee52ae29e86d7cf1984ce08147cc5c07186045d1d1b31d9de9216683",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 208,
+    "archive_timestamp": "20260130025928",
+    "article_id": "article_5c77fa1b9ae3e6fa",
+    "block_count": 29,
+    "body_coverage_status": "complete",
+    "body_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse",
+    "content_or_audit_sha256": "42d72929a6d37d09bd1733208a01d4f592507084a4c06391b14f18a80fa9c966",
+    "entity_mention_count": 15,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 7432,
+    "extracted_text_sha256": "538a379cce8393286b55f9348115f360a42b571f2372983945bceb991a895b4a",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+    "freshness_bucket": "181_365_days",
+    "freshness_factor_for_root_scoring": 0.75,
+    "observation_count": 14,
+    "processing_reason": "body parsed; 15 entity mentions; 14 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2026-01-29",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20260130025928id_/https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "Into the Omniverse: Physical AI Open Models and Frameworks Advance Robots and Autonomous Systems"
+  }
+}

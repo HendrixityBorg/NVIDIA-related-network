@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-08-25T00:00:00+08:00",
+  "policy": "Only public no-login official NVIDIA pages are requested; bounded retries and delay; no robots, login, paywall, CAPTCHA, rate-limit, or other access-control bypass.",
+  "sources": [
+    {
+      "host": "nvidianews.nvidia.com",
+      "robots_url": "https://nvidianews.nvidia.com/robots.txt",
+      "result": "Publicly fetched by parent manifest run; /news article paths are not disallowed; /file is disallowed and is not requested.",
+      "requested_path_scope": "/news/<article-slug> only"
+    },
+    {
+      "host": "blogs.nvidia.com",
+      "robots_url": "https://blogs.nvidia.com/robots.txt",
+      "result": "Direct robots retrieval was intermittently reset in the parent access audit. Canonical article pages are ordinary public no-login pages linked by NVIDIA Newsroom. No disallowed-path inference is made; bounded requests stop on access failure.",
+      "requested_path_scope": "/blog/<article-slug>/ only"
+    }
+  ],
+  "license_note": "Copyright remains with NVIDIA. Compressed HTML snapshots are retained solely for reproducibility and evidence audit; no license to republish is inferred.",
+  "credentials_or_restricted_data": "none"
+}

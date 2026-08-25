@@ -1,0 +1,47 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_6e7cbe0f0a8bae43",
+    "audit_record_sha256": "d898f99ab62aed663ac99f4d06a82b45f1aea6bc97fac0163d37e05556eac177",
+    "availability_attempts": [
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstarcloud&timestamp=20251015",
+        "result": "no_available_snapshot"
+      }
+    ],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20251016055524",
+    "candidate_url": "https://web.archive.org/web/20251016055524id_/https://blogs.nvidia.com/blog/starcloud/",
+    "canonical_url": "https://blogs.nvidia.com/blog/starcloud",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstarcloud%2F&timestamp=20251015",
+    "response_sha256": "670e4770a10fe9a279150a3308e8b9382f94d3aa3169fa840c4d90cb51c11d33",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "d898f99ab62aed663ac99f4d06a82b45f1aea6bc97fac0163d37e05556eac177",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_6e7cbe0f0a8bae43",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/starcloud",
+    "content_or_audit_sha256": "d898f99ab62aed663ac99f4d06a82b45f1aea6bc97fac0163d37e05556eac177",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-10-15",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "How Starcloud Is Bringing Data Centers to Outer Space"
+  }
+}

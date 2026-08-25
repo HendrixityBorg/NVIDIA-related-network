@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_3ae57f872d461560",
+    "audit_record_sha256": "8505dc4e1396c65b7347ef57cabb75636edfeb6a54803fcd4030cb463f37a36c",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260127025940",
+    "candidate_url": "https://web.archive.org/web/20260127025940id_/https://blogs.nvidia.com/blog/nvidia-earth-2-open-models/",
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-earth-2-open-models",
+    "error": "RuntimeError: attempt 1: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvidia-earth-2-open-models&timestamp=20260126",
+    "response_sha256": "f18d093ad5a11275e525bb0e09e33a20b8024d19b6d67600a9b6222426a76da0",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "8505dc4e1396c65b7347ef57cabb75636edfeb6a54803fcd4030cb463f37a36c",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_3ae57f872d461560",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-earth-2-open-models",
+    "content_or_audit_sha256": "8505dc4e1396c65b7347ef57cabb75636edfeb6a54803fcd4030cb463f37a36c",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "processing_status": "access_blocked",
+    "published_date": "2026-01-26",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "NVIDIA Launches Earth-2 Family of Open Models — the World’s First Fully Open, Accelerated Set of Models and Tools for AI Weather"
+  }
+}

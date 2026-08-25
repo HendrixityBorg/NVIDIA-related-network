@@ -1,0 +1,74 @@
+{
+  "pass": true,
+  "cutoff": "2026-08-25",
+  "scope": "non-NPN frozen NVIDIA sources",
+  "npn_excluded": true,
+  "canonical_ledger_rows": 5009,
+  "canonical_candidate_review_rows": 5009,
+  "unified_frontier_rows": 4913,
+  "source_native_raw_relation_rows_added": 96,
+  "terminal_category_counts": {
+    "resolved_exact": 269,
+    "resolved_inferred_parent": 29,
+    "resolved_largest_listed_parent": 5,
+    "private_or_delisted": 76,
+    "non_entity": 839,
+    "ambiguous_after_research": 3791
+  },
+  "high_quality_relation_candidate_rows": 1546,
+  "high_quality_terminal_category_counts": {
+    "resolved_exact": 251,
+    "resolved_inferred_parent": 29,
+    "resolved_largest_listed_parent": 5,
+    "private_or_delisted": 76,
+    "non_entity": 645,
+    "ambiguous_after_research": 540
+  },
+  "source_observation_counts": {
+    "nvidia_blog_body": 2050,
+    "nvidia_blog_mention": 5005,
+    "nvidia_filing_or_presentation": 5438,
+    "nvidia_press_release": 516,
+    "nvidia_product_solution_page": 594,
+    "reviewed_peer": 13
+  },
+  "blocked_blog_blind_spots": 39,
+  "additive_listed_entity_rows": 75,
+  "canonical_schema_validation": {
+    "pass": true,
+    "missing_researched_candidate_ids": [],
+    "selected_unknown_entity_ids": [],
+    "duplicate_resolution_ids": false
+  },
+  "relationship_builder_integration": {
+    "all_approve_unknown_or_needs_more_evidence_have_claim_or_researched_terminal": true,
+    "low_status_without_research_id": 0,
+    "researched_ledger_required_gate": true,
+    "note": "Entity-research integration gates pass. Product-scope canonicalization is owned by the relationship-builder shard."
+  },
+  "critical_corrections": {
+    "geely": {
+      "terminal_category": "resolved_inferred_parent",
+      "selected_entity_id": "geely_auto",
+      "security": "HKEX:0175",
+      "confidence_cap": 69,
+      "observation_ids": [
+        "robotics_av:RAV-C0052",
+        "robotics_av:RAV-C0089"
+      ]
+    },
+    "ntt_data": {
+      "terminal_category": "resolved_inferred_parent",
+      "selected_entity_id": "ntt",
+      "security": "TSE:9432",
+      "historical_security": "TSE:9613 delisted 2025-09-26"
+    },
+    "largest_listed_parent_cases": [
+      "Samsung -> Samsung Electronics",
+      "Hyundai Motor Group -> Hyundai Motor",
+      "SK Group -> SK hynix",
+      "LG Group -> LG Energy Solution",
+      "Doosan Group -> Doosan Enerbility"
+    ]
+  }
+}

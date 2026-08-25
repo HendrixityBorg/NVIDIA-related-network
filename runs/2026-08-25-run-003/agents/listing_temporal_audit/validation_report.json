@@ -1,0 +1,32 @@
+{
+  "audit_as_of": "2026-08-25",
+  "status": "pass",
+  "pending_count": 0,
+  "files": {
+    "corrections.jsonl": {"records": 19, "json_parse": "pass"},
+    "entity_registry_overlay.jsonl": {"records": 10, "json_parse": "pass"},
+    "decision_ledger.jsonl": {"records": 10, "json_parse": "pass"},
+    "listing_evidence.jsonl": {"records": 11, "json_parse": "pass"}
+  },
+  "correction_status_counts": {
+    "applied_upstream_verified": 13,
+    "applied_verified_after_integration": 4,
+    "verified_no_change": 2
+  },
+  "cross_reference_checks": {
+    "all_overlay_evidence_ids_exist": true,
+    "all_decision_evidence_ids_exist": true,
+    "all_overlay_inputs_have_decisions": true,
+    "all_active_security_records_have_exchange_and_ticker": true,
+    "no_record_uses_EDF_ANSS_ALTR_as_active_security_at_cutoff": true
+  },
+  "pending_merge_names": [],
+  "verified_high_risk": {
+    "EDF": "delisted_2023-06-08_no_active_listed_parent",
+    "NTT_DATA": "9613_inactive_parent_9432_active_legal_name_NTT_Inc",
+    "VMware": "acquired_2023-11-22_active_parent_AVGO",
+    "Ansys": "acquired_and_delisted_2025-07-17_active_parent_SNPS",
+    "SCSK": "delisted_2026-03-12_active_parent_8053",
+    "Altair": "acquired_and_delisted_2025-03-26_active_parent_SIE"
+  }
+}

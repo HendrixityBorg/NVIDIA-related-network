@@ -1,0 +1,243 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources | NVIDIA Blog",
+    "article_id": "article_3250958fa872fd08",
+    "audit_record_sha256": "35494c8a8f9e6d6a6bebc7073e70ed25aa290b4739d3661888522c0dfdb885f9",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250406174631",
+    "candidate_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+    "canonical_url": "https://blogs.nvidia.com/blog/national-robotics-week-2025",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 105455,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+    "replay_http_status": 200,
+    "replay_sha256": "fe2b35588114fb3476170bfb4b2046b91bb404808dd7ff69ba61e60b893e485f",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnational-robotics-week-2025&timestamp=20250406",
+    "response_sha256": "b54767d4b5d02dac98769bbd157b57129c4ef55b7b7e6458ac34939f5941147f",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250406174631",
+      "article_id": "article_3250958fa872fd08",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "For example, by providing robot foundation models like NVIDIA GR00T N1 , frameworks such as NVIDIA Isaac Sim and Isaac Lab for robot simulation and training, and synthetic data generation pipelines to help train robots for diverse tasks, the NVIDIA Isaac and GR00T platforms are empowering researchers and developers to push the boundaries of robotics.",
+      "entity_name_normalized_hint": "Isaac Lab",
+      "entity_name_raw": "Isaac Lab",
+      "evidence_locator": "body.block[4]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/lab",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-04-06",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/national-robotics-week-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250406174631",
+      "article_id": "article_3250958fa872fd08",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "For example, by providing robot foundation models like NVIDIA GR00T N1 , frameworks such as NVIDIA Isaac Sim and Isaac Lab for robot simulation and training, and synthetic data generation pipelines to help train robots for diverse tasks, the NVIDIA Isaac and GR00T platforms are empowering researchers and developers to push the boundaries of robotics.",
+      "entity_name_normalized_hint": "GR00T",
+      "entity_name_raw": "GR00T",
+      "evidence_locator": "body.block[4]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/gr00t",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-04-06",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/national-robotics-week-2025",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 506,
+      "archive_timestamp": "20250406174631",
+      "article_id": "article_3250958fa872fd08",
+      "body_recovery_method": "wayback",
+      "body_sha256": "fe2b35588114fb3476170bfb4b2046b91bb404808dd7ff69ba61e60b893e485f",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "c42cb6fd3286e480c30eba308caca83bca5f3cff6dc6aaf1d3608315243ce422",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "Isaac Lab",
+      "entity_name_raw": "Isaac Lab",
+      "evidence_excerpt": "For example, by providing robot foundation models like NVIDIA GR00T N1 , frameworks such as NVIDIA Isaac Sim and Isaac Lab for robot simulation and training, and synthetic data generation pipelines to help train robots for diverse tasks, the NVIDIA Isaac and GR00T platforms are empowering researchers and developers to push the boundaries of robotics.",
+      "evidence_locator": "body.block[4]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_4d747ab32c8ac66311",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Synthetic Data Generation",
+          "source_node_id": "synthetic-data-generation"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-04-06",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/national-robotics-week-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 506,
+      "archive_timestamp": "20250406174631",
+      "article_id": "article_3250958fa872fd08",
+      "body_recovery_method": "wayback",
+      "body_sha256": "fe2b35588114fb3476170bfb4b2046b91bb404808dd7ff69ba61e60b893e485f",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "c42cb6fd3286e480c30eba308caca83bca5f3cff6dc6aaf1d3608315243ce422",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "GR00T",
+      "entity_name_raw": "GR00T",
+      "evidence_excerpt": "For example, by providing robot foundation models like NVIDIA GR00T N1 , frameworks such as NVIDIA Isaac Sim and Isaac Lab for robot simulation and training, and synthetic data generation pipelines to help train robots for diverse tasks, the NVIDIA Isaac and GR00T platforms are empowering researchers and developers to push the boundaries of robotics.",
+      "evidence_locator": "body.block[4]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_8596314bcfe90a05ae",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Synthetic Data Generation",
+          "source_node_id": "synthetic-data-generation"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Isaac",
+          "source_node_id": "isaac"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Sim",
+          "source_node_id": "isaac-sim"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-04-06",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/national-robotics-week-2025",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "35494c8a8f9e6d6a6bebc7073e70ed25aa290b4739d3661888522c0dfdb885f9",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 506,
+    "archive_timestamp": "20250406174631",
+    "article_id": "article_3250958fa872fd08",
+    "block_count": 5,
+    "body_coverage_status": "complete",
+    "body_sha256": "fe2b35588114fb3476170bfb4b2046b91bb404808dd7ff69ba61e60b893e485f",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/national-robotics-week-2025",
+    "content_or_audit_sha256": "fe2b35588114fb3476170bfb4b2046b91bb404808dd7ff69ba61e60b893e485f",
+    "entity_mention_count": 2,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 1171,
+    "extracted_text_sha256": "baf93108b56bd1e4c3f3eb86a867318cf96a23e2c9f0171cf088c125e2bad059",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+    "freshness_bucket": "over_365_days_within_research_window",
+    "freshness_factor_for_root_scoring": 0.55,
+    "observation_count": 2,
+    "processing_reason": "body parsed; 2 entity mentions; 2 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2025-04-06",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20250406174631id_/https://blogs.nvidia.com/blog/national-robotics-week-2025/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "National Robotics Week — Latest Physical AI Research, Breakthroughs and Resources"
+  }
+}

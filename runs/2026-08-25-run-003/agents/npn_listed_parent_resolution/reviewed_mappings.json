@@ -1,0 +1,2892 @@
+{
+  "mappings": [
+    {
+      "issuer": {
+        "display_name": "2CRSi",
+        "entity_id": "two_crsi",
+        "exchange": "Euronext Paris",
+        "legal_name": "2CRSi S.A.",
+        "ticker": "AL2SI",
+        "yahoo_symbol": "AL2SI.PA"
+      },
+      "name": "2CRSi",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "AAEON",
+        "entity_id": "aaeon",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "AAEON Technology Inc.",
+        "ticker": "6579",
+        "yahoo_symbol": "6579.TW"
+      },
+      "name": "AAEON Technology Inc.",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Accton",
+        "entity_id": "accton",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "Accton Technology Corporation",
+        "ticker": "2345",
+        "yahoo_symbol": "2345.TW"
+      },
+      "name": "Accton",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Accton",
+        "entity_id": "accton",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "Accton Technology Corporation",
+        "ticker": "2345",
+        "yahoo_symbol": "2345.TW"
+      },
+      "mapping_source": {
+        "excerpt": "The China card is a regional operating entity of Accton Technology.",
+        "locator": "About Accton",
+        "publisher": "Accton Technology",
+        "url": "https://www.accton.com/about-accton/"
+      },
+      "name": "Accton Technology China",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "ADLINK",
+        "entity_id": "adlink",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "ADLINK Technology Inc.",
+        "ticker": "6166",
+        "yahoo_symbol": "6166.TW"
+      },
+      "name": "ADLINK Technology Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Alibaba Group",
+        "entity_id": "entity_448ee47d0990d0c2",
+        "exchange": "NYSE",
+        "legal_name": "Alibaba Group Holding Limited",
+        "ticker": "BABA",
+        "yahoo_symbol": "BABA"
+      },
+      "mapping_source": {
+        "excerpt": "Alibaba Group identifies Alibaba Cloud as one of its businesses.",
+        "locator": "Businesses > Alibaba Cloud",
+        "publisher": "Alibaba Group",
+        "url": "https://www.alibabagroup.com/en-US/about-alibaba-businesses-1747707161551974400"
+      },
+      "name": "Alibaba Cloud Computing (Beijing) Co Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Applied Co.",
+        "entity_id": "applied_japan",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Applied Co., Ltd.",
+        "ticker": "3020",
+        "yahoo_symbol": "3020.T"
+      },
+      "name": "APPLIED CO.,LTD",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Arcadis",
+        "entity_id": "arcadis",
+        "exchange": "Euronext Amsterdam",
+        "legal_name": "Arcadis N.V.",
+        "ticker": "ARCAD",
+        "yahoo_symbol": "ARCAD.AS"
+      },
+      "name": "Arcadis NV",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "mapping_source": {
+        "excerpt": "The regional Arrow card is an operating unit of Arrow Electronics, Inc.",
+        "locator": "Company information",
+        "publisher": "Arrow Electronics",
+        "url": "https://investor.arrow.com/company-information"
+      },
+      "name": "Arrow AGC EMEA",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "mapping_source": {
+        "excerpt": "The regional Arrow card is an operating unit of Arrow Electronics, Inc.",
+        "locator": "Company information",
+        "publisher": "Arrow Electronics",
+        "url": "https://investor.arrow.com/company-information"
+      },
+      "name": "Arrow AIS EMEA",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "mapping_source": {
+        "excerpt": "The regional Arrow card is an operating unit of Arrow Electronics, Inc.",
+        "locator": "Company information",
+        "publisher": "Arrow Electronics",
+        "url": "https://investor.arrow.com/company-information"
+      },
+      "name": "Arrow Asia Pac Limited",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "mapping_source": {
+        "excerpt": "The regional Arrow card is an operating unit of Arrow Electronics, Inc.",
+        "locator": "Company information",
+        "publisher": "Arrow Electronics",
+        "url": "https://investor.arrow.com/company-information"
+      },
+      "name": "Arrow ECS EMEA",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "name": "Arrow Electronics",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "mapping_source": {
+        "excerpt": "The regional Arrow card is an operating unit of Arrow Electronics, Inc.",
+        "locator": "Company information",
+        "publisher": "Arrow Electronics",
+        "url": "https://investor.arrow.com/company-information"
+      },
+      "name": "Arrow Electronics NALA",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "mapping_source": {
+        "excerpt": "The regional Arrow card is an operating unit of Arrow Electronics, Inc.",
+        "locator": "Company information",
+        "publisher": "Arrow Electronics",
+        "url": "https://investor.arrow.com/company-information"
+      },
+      "name": "Arrow Electronics Taiwan Limited (AET)",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "ASBIS",
+        "entity_id": "asbis",
+        "exchange": "Warsaw Stock Exchange",
+        "legal_name": "ASBISc Enterprises Plc",
+        "ticker": "ASB",
+        "yahoo_symbol": "ASB.WA"
+      },
+      "name": "ASBISс Enterprises PLC",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "AT&T",
+        "entity_id": "entity_a0c5e20aaea3f465",
+        "exchange": "NYSE",
+        "legal_name": "AT&T Inc.",
+        "ticker": "T",
+        "yahoo_symbol": "T"
+      },
+      "mapping_source": {
+        "excerpt": "AT&T Business is presented as an AT&T business segment/brand.",
+        "locator": "Corporate profile",
+        "publisher": "AT&T",
+        "url": "https://about.att.com/pages/corporate-profile"
+      },
+      "name": "AT&T Business",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Atea",
+        "entity_id": "atea",
+        "exchange": "Oslo Bors",
+        "legal_name": "Atea ASA",
+        "ticker": "ATEA",
+        "yahoo_symbol": "ATEA.OL"
+      },
+      "mapping_source": {
+        "excerpt": "Atea identifies Atea A/S as its Danish operating subsidiary; the listed issuer is Atea ASA.",
+        "locator": "Contact us > Denmark",
+        "publisher": "Atea ASA",
+        "url": "https://www.atea.com/contact-us/"
+      },
+      "name": "Atea A/S",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Atea",
+        "entity_id": "atea",
+        "exchange": "Oslo Bors",
+        "legal_name": "Atea ASA",
+        "ticker": "ATEA",
+        "yahoo_symbol": "ATEA.OL"
+      },
+      "mapping_source": {
+        "excerpt": "Atea identifies Atea AS as its Norwegian operating subsidiary; the listed issuer is Atea ASA.",
+        "locator": "Contact us > Norway",
+        "publisher": "Atea ASA",
+        "url": "https://www.atea.com/contact-us/"
+      },
+      "name": "Atea AS",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Atea",
+        "entity_id": "atea",
+        "exchange": "Oslo Bors",
+        "legal_name": "Atea ASA",
+        "ticker": "ATEA",
+        "yahoo_symbol": "ATEA.OL"
+      },
+      "mapping_source": {
+        "excerpt": "The Swedish AB is a regional operating subsidiary of Atea ASA.",
+        "locator": "About Atea",
+        "publisher": "Atea ASA",
+        "url": "https://www.atea.com/about-atea/"
+      },
+      "name": "Atea Sverige AB",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ateme",
+        "entity_id": "ateme",
+        "exchange": "Euronext Paris",
+        "legal_name": "Ateme S.A.",
+        "ticker": "ATEME",
+        "yahoo_symbol": "ATEME.PA"
+      },
+      "name": "Ateme",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "AtkinsRéalis",
+        "entity_id": "atkinsrealis",
+        "exchange": "Toronto Stock Exchange",
+        "legal_name": "AtkinsRéalis Group Inc.",
+        "ticker": "ATRL",
+        "yahoo_symbol": "ATRL.TO"
+      },
+      "name": "AtkinsRealis",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "AVerMedia",
+        "entity_id": "avermedia",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "AVerMedia Technologies, Inc.",
+        "ticker": "2417",
+        "yahoo_symbol": "2417.TW"
+      },
+      "name": "AVerMedia",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Avnet",
+        "entity_id": "avnet",
+        "exchange": "Nasdaq",
+        "legal_name": "Avnet, Inc.",
+        "ticker": "AVT",
+        "yahoo_symbol": "AVT"
+      },
+      "mapping_source": {
+        "excerpt": "Avnet's corporate site presents Avnet Integrated as part of the Avnet group offering.",
+        "locator": "About Avnet",
+        "publisher": "Avnet, Inc.",
+        "url": "https://www.avnet.com/americas/about-avnet/"
+      },
+      "name": "Avnet Integrated",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Axiomtek",
+        "entity_id": "axiomtek",
+        "exchange": "Taipei Exchange",
+        "legal_name": "Axiomtek Co., Ltd.",
+        "ticker": "3088",
+        "yahoo_symbol": "3088.TWO"
+      },
+      "name": "Axiomtek",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Basler",
+        "entity_id": "basler",
+        "exchange": "Xetra",
+        "legal_name": "Basler AG",
+        "ticker": "BSL",
+        "yahoo_symbol": "BSL.DE"
+      },
+      "name": "Basler AG",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Bechtle",
+        "entity_id": "bechtle",
+        "exchange": "Xetra",
+        "legal_name": "Bechtle AG",
+        "ticker": "BC8",
+        "yahoo_symbol": "BC8.DE"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/legal entity is part of the Bechtle group.",
+        "locator": "About Bechtle > Company",
+        "publisher": "Bechtle AG",
+        "url": "https://www.bechtle.com/de-en/about-bechtle/company"
+      },
+      "name": "Bechtle direct BV",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Bechtle",
+        "entity_id": "bechtle",
+        "exchange": "Xetra",
+        "legal_name": "Bechtle AG",
+        "ticker": "BC8",
+        "yahoo_symbol": "BC8.DE"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/legal entity is part of the Bechtle group.",
+        "locator": "About Bechtle > Company",
+        "publisher": "Bechtle AG",
+        "url": "https://www.bechtle.com/de-en/about-bechtle/company"
+      },
+      "name": "Bechtle France",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Bechtle",
+        "entity_id": "bechtle",
+        "exchange": "Xetra",
+        "legal_name": "Bechtle AG",
+        "ticker": "BC8",
+        "yahoo_symbol": "BC8.DE"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/legal entity is part of the Bechtle group.",
+        "locator": "About Bechtle > Company",
+        "publisher": "Bechtle AG",
+        "url": "https://www.bechtle.com/de-en/about-bechtle/company"
+      },
+      "name": "Bechtle Germany",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Bechtle",
+        "entity_id": "bechtle",
+        "exchange": "Xetra",
+        "legal_name": "Bechtle AG",
+        "ticker": "BC8",
+        "yahoo_symbol": "BC8.DE"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/legal entity is part of the Bechtle group.",
+        "locator": "About Bechtle > Company",
+        "publisher": "Bechtle AG",
+        "url": "https://www.bechtle.com/de-en/about-bechtle/company"
+      },
+      "name": "Bechtle Logistics & Service AG",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "BCE",
+        "entity_id": "bce",
+        "exchange": "Toronto Stock Exchange",
+        "legal_name": "BCE Inc.",
+        "ticker": "BCE",
+        "yahoo_symbol": "BCE.TO"
+      },
+      "mapping_source": {
+        "excerpt": "BCE describes Bell Canada as its principal operating subsidiary.",
+        "locator": "About BCE",
+        "publisher": "BCE Inc.",
+        "url": "https://www.bce.ca/about-bce"
+      },
+      "name": "Bell Canada",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "BIPROGY",
+        "entity_id": "biprogy",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "BIPROGY Inc.",
+        "ticker": "8056",
+        "yahoo_symbol": "8056.T"
+      },
+      "name": "BIPROGY Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "BYD Electronic",
+        "entity_id": "byd_electronic",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "BYD Electronic (International) Company Limited",
+        "ticker": "0285",
+        "yahoo_symbol": "0285.HK"
+      },
+      "name": "BYD Electronic (International) Company Limited",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "CANCOM",
+        "entity_id": "cancom",
+        "exchange": "Xetra",
+        "legal_name": "CANCOM SE",
+        "ticker": "COK",
+        "yahoo_symbol": "COK.DE"
+      },
+      "name": "CANCOM",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Capgemini",
+        "entity_id": "capgemini",
+        "exchange": "Euronext Paris",
+        "legal_name": "Capgemini SE",
+        "ticker": "CAP",
+        "yahoo_symbol": "CAP.PA"
+      },
+      "name": "Capgemini",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "CBRE",
+        "entity_id": "cbre",
+        "exchange": "NYSE",
+        "legal_name": "CBRE Group, Inc.",
+        "ticker": "CBRE",
+        "yahoo_symbol": "CBRE"
+      },
+      "mapping_source": {
+        "excerpt": "CBRE Limited is a local operating entity of the CBRE group.",
+        "locator": "About us",
+        "publisher": "CBRE Group, Inc.",
+        "url": "https://www.cbre.com/about-us"
+      },
+      "name": "CBRE Limited",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "China Greatwall Technology",
+        "entity_id": "china_greatwall",
+        "exchange": "Shenzhen Stock Exchange",
+        "legal_name": "China Greatwall Technology Group Co., Ltd.",
+        "ticker": "000066",
+        "yahoo_symbol": "000066.SZ"
+      },
+      "name": "China Greatwall Technology Group Co Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Cognizant",
+        "entity_id": "cognizant",
+        "exchange": "Nasdaq",
+        "legal_name": "Cognizant Technology Solutions Corporation",
+        "ticker": "CTSH",
+        "yahoo_symbol": "CTSH"
+      },
+      "mapping_source": {
+        "excerpt": "The U.S. operating corporation uses the Cognizant group identity.",
+        "locator": "About Cognizant",
+        "publisher": "Cognizant",
+        "url": "https://www.cognizant.com/us/en/about-cognizant"
+      },
+      "name": "Cognizant Technology Solutions U.S. Corporation",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Compal",
+        "entity_id": "compal",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "Compal Electronics, Inc.",
+        "ticker": "2324",
+        "yahoo_symbol": "2324.TW"
+      },
+      "name": "Compal Electronics Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Computacenter",
+        "entity_id": "computacenter",
+        "exchange": "London Stock Exchange",
+        "legal_name": "Computacenter plc",
+        "ticker": "CCC",
+        "yahoo_symbol": "CCC.L"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of the Computacenter group.",
+        "locator": "Who we are",
+        "publisher": "Computacenter plc",
+        "url": "https://www.computacenter.com/who-we-are"
+      },
+      "name": "Computacenter AG & Co oHG",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Computacenter",
+        "entity_id": "computacenter",
+        "exchange": "London Stock Exchange",
+        "legal_name": "Computacenter plc",
+        "ticker": "CCC",
+        "yahoo_symbol": "CCC.L"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of the Computacenter group.",
+        "locator": "Who we are",
+        "publisher": "Computacenter plc",
+        "url": "https://www.computacenter.com/who-we-are"
+      },
+      "name": "Computacenter BV",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Computacenter",
+        "entity_id": "computacenter",
+        "exchange": "London Stock Exchange",
+        "legal_name": "Computacenter plc",
+        "ticker": "CCC",
+        "yahoo_symbol": "CCC.L"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of the Computacenter group.",
+        "locator": "Who we are",
+        "publisher": "Computacenter plc",
+        "url": "https://www.computacenter.com/who-we-are"
+      },
+      "name": "Computacenter United States Inc.",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Dell Technologies",
+        "entity_id": "dell",
+        "exchange": "NYSE",
+        "legal_name": "Dell Technologies Inc.",
+        "ticker": "DELL",
+        "yahoo_symbol": "DELL"
+      },
+      "mapping_source": {
+        "excerpt": "Dell Datacenter is an NPN operating/brand card for Dell Technologies.",
+        "locator": "Corporate information",
+        "publisher": "Dell Technologies",
+        "url": "https://www.dell.com/en-us/lp/dt/corporate-info"
+      },
+      "name": "Dell Datacenter",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Dicker Data",
+        "entity_id": "dicker_data",
+        "exchange": "Australian Securities Exchange",
+        "legal_name": "Dicker Data Limited",
+        "ticker": "DDR",
+        "yahoo_symbol": "DDR.AX"
+      },
+      "name": "Dicker Data",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Digital China Holdings",
+        "entity_id": "digital_china",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "Digital China Holdings Limited",
+        "ticker": "0861",
+        "yahoo_symbol": "0861.HK"
+      },
+      "name": "Digital China Holdings Limited",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Digital China Holdings",
+        "entity_id": "digital_china",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "Digital China Holdings Limited",
+        "ticker": "0861",
+        "yahoo_symbol": "0861.HK"
+      },
+      "mapping_source": {
+        "excerpt": "The Macao entity is a regional operating subsidiary of Digital China Holdings.",
+        "locator": "About us",
+        "publisher": "Digital China Holdings",
+        "url": "https://www.digitalchina.com/en/about"
+      },
+      "name": "Digital China Macao Commercial Offshore Limited",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Dustin Group",
+        "entity_id": "dustin",
+        "exchange": "Nasdaq Stockholm",
+        "legal_name": "Dustin Group AB",
+        "ticker": "DUST",
+        "yahoo_symbol": "DUST.ST"
+      },
+      "mapping_source": {
+        "excerpt": "The Danish A/S is a regional operating subsidiary of Dustin Group.",
+        "locator": "About us",
+        "publisher": "Dustin Group",
+        "url": "https://www.dustingroup.com/en/about-us"
+      },
+      "name": "Dustin A/S",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Dustin Group",
+        "entity_id": "dustin",
+        "exchange": "Nasdaq Stockholm",
+        "legal_name": "Dustin Group AB",
+        "ticker": "DUST",
+        "yahoo_symbol": "DUST.ST"
+      },
+      "mapping_source": {
+        "excerpt": "The Netherlands BV is a regional operating subsidiary of Dustin Group.",
+        "locator": "About us",
+        "publisher": "Dustin Group",
+        "url": "https://www.dustingroup.com/en/about-us"
+      },
+      "name": "Dustin Netherlands BV",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "E2E Networks",
+        "entity_id": "e2e_networks",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "E2E Networks Limited",
+        "ticker": "E2E",
+        "yahoo_symbol": "E2E.NS"
+      },
+      "name": "E2E Networks Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "EDOM Technology",
+        "entity_id": "edom",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "EDOM Technology Co., Ltd.",
+        "ticker": "3048",
+        "yahoo_symbol": "3048.TW"
+      },
+      "name": "EDOM",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Arrow Electronics",
+        "entity_id": "arrow_electronics",
+        "exchange": "NYSE",
+        "legal_name": "Arrow Electronics, Inc.",
+        "ticker": "ARW",
+        "yahoo_symbol": "ARW"
+      },
+      "mapping_source": {
+        "excerpt": "Arrow identifies eInfochips as an Arrow company.",
+        "locator": "eInfochips company page",
+        "publisher": "Arrow Electronics",
+        "url": "https://www.arrow.com/company/einfochips"
+      },
+      "name": "eInfochips",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "ePlus",
+        "entity_id": "eplus",
+        "exchange": "Nasdaq",
+        "legal_name": "ePlus inc.",
+        "ticker": "PLUS",
+        "yahoo_symbol": "PLUS"
+      },
+      "mapping_source": {
+        "excerpt": "ePlus Technology is the operating brand/subsidiary of ePlus inc.",
+        "locator": "About us",
+        "publisher": "ePlus",
+        "url": "https://www.eplus.com/about-us"
+      },
+      "name": "ePlusTechnology",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "EverFocus",
+        "entity_id": "everfocus",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "EverFocus Electronics Corporation",
+        "ticker": "5484",
+        "yahoo_symbol": "5484.TW"
+      },
+      "name": "EverFocus Electronics Corp",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "entity_id": "entity_0518df695de579a3",
+        "upstream_entity_id": "entity_0518df695de579a3"
+      },
+      "name": "F5 Networks",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact operating/issuer identity manually reviewed against an already-validated entity-registry issuer."
+    },
+    {
+      "issuer": {
+        "display_name": "Teledyne Technologies",
+        "entity_id": "teledyne",
+        "exchange": "NYSE",
+        "legal_name": "Teledyne Technologies Incorporated",
+        "ticker": "TDY",
+        "yahoo_symbol": "TDY"
+      },
+      "mapping_source": {
+        "excerpt": "Teledyne announced completion of its acquisition of FLIR Systems.",
+        "locator": "Acquisition announcement",
+        "publisher": "Teledyne Technologies",
+        "url": "https://www.teledyne.com/en-us/news/Pages/Teledyne-Technologies-Completes-Acquisition-of-FLIR-Systems.aspx"
+      },
+      "name": "FLIR Integrated Imaging Solutions Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "FPT",
+        "entity_id": "fpt",
+        "exchange": "Ho Chi Minh Stock Exchange",
+        "legal_name": "FPT Corporation",
+        "ticker": "FPT",
+        "yahoo_symbol": "FPT.VN"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/business entity is part of FPT Corporation.",
+        "locator": "About FPT",
+        "publisher": "FPT Corporation",
+        "url": "https://fpt.com/en/about-us"
+      },
+      "name": "FPT Japan Holdings",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "FPT",
+        "entity_id": "fpt",
+        "exchange": "Ho Chi Minh Stock Exchange",
+        "legal_name": "FPT Corporation",
+        "ticker": "FPT",
+        "yahoo_symbol": "FPT.VN"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/business entity is part of FPT Corporation.",
+        "locator": "About FPT",
+        "publisher": "FPT Corporation",
+        "url": "https://fpt.com/en/about-us"
+      },
+      "name": "FPT Singapore",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "FPT",
+        "entity_id": "fpt",
+        "exchange": "Ho Chi Minh Stock Exchange",
+        "legal_name": "FPT Corporation",
+        "ticker": "FPT",
+        "yahoo_symbol": "FPT.VN"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/business entity is part of FPT Corporation.",
+        "locator": "About FPT",
+        "publisher": "FPT Corporation",
+        "url": "https://fpt.com/en/about-us"
+      },
+      "name": "FPT Smart Cloud",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "FPT",
+        "entity_id": "fpt",
+        "exchange": "Ho Chi Minh Stock Exchange",
+        "legal_name": "FPT Corporation",
+        "ticker": "FPT",
+        "yahoo_symbol": "FPT.VN"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/business entity is part of FPT Corporation.",
+        "locator": "About FPT",
+        "publisher": "FPT Corporation",
+        "url": "https://fpt.com/en/about-us"
+      },
+      "name": "FPT Software Europe SARL",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "FPT",
+        "entity_id": "fpt",
+        "exchange": "Ho Chi Minh Stock Exchange",
+        "legal_name": "FPT Corporation",
+        "ticker": "FPT",
+        "yahoo_symbol": "FPT.VN"
+      },
+      "mapping_source": {
+        "excerpt": "The named regional/business entity is part of FPT Corporation.",
+        "locator": "About FPT",
+        "publisher": "FPT Corporation",
+        "url": "https://fpt.com/en/about-us"
+      },
+      "name": "FPT USA Corporation",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Fujitsu",
+        "entity_id": "fujitsu",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Fujitsu Limited",
+        "ticker": "6702",
+        "yahoo_symbol": "6702.T"
+      },
+      "mapping_source": {
+        "excerpt": "FSAS Technologies is identified within the Fujitsu corporate group.",
+        "locator": "Group companies",
+        "publisher": "Fujitsu",
+        "url": "https://www.fujitsu.com/global/about/corporate/subsidiaries/"
+      },
+      "name": "FSAS Technologies SL",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "GIGABYTE",
+        "entity_id": "gigabyte_technology",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "GIGA-BYTE Technology Co., Ltd.",
+        "ticker": "2376",
+        "yahoo_symbol": "2376.TW"
+      },
+      "name": "GIGABYTE Technology Co., Ltd.",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Gorilla Technology",
+        "entity_id": "gorilla_technology",
+        "exchange": "Nasdaq",
+        "legal_name": "Gorilla Technology Group Inc.",
+        "ticker": "GRRR",
+        "yahoo_symbol": "GRRR"
+      },
+      "name": "Gorilla Technology Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "GS Engineering & Construction",
+        "entity_id": "gs_ec",
+        "exchange": "Korea Exchange",
+        "legal_name": "GS Engineering & Construction Corporation",
+        "ticker": "006360",
+        "yahoo_symbol": "006360.KS"
+      },
+      "name": "GS Engineering & Construction Corp",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "HCLTech",
+        "entity_id": "hcltech",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "HCL Technologies Limited",
+        "ticker": "HCLTECH",
+        "yahoo_symbol": "HCLTECH.NS"
+      },
+      "name": "HCL Technologies",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "HCLTech",
+        "entity_id": "hcltech",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "HCL Technologies Limited",
+        "ticker": "HCLTECH",
+        "yahoo_symbol": "HCLTECH.NS"
+      },
+      "name": "HCLTech",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Hitachi",
+        "entity_id": "entity_43cff1458d4aab47",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Hitachi, Ltd.",
+        "ticker": "6501",
+        "yahoo_symbol": "6501.T"
+      },
+      "mapping_source": {
+        "excerpt": "The named operating entity uses Hitachi group identity and is mapped to Hitachi, Ltd.",
+        "locator": "About Hitachi",
+        "publisher": "Hitachi, Ltd.",
+        "url": "https://www.hitachi.com/en/about/"
+      },
+      "name": "Hitachi Academy Co Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Hitachi",
+        "entity_id": "entity_43cff1458d4aab47",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Hitachi, Ltd.",
+        "ticker": "6501",
+        "yahoo_symbol": "6501.T"
+      },
+      "mapping_source": {
+        "excerpt": "The named operating entity uses Hitachi group identity and is mapped to Hitachi, Ltd.",
+        "locator": "About Hitachi",
+        "publisher": "Hitachi, Ltd.",
+        "url": "https://www.hitachi.com/en/about/"
+      },
+      "name": "Hitachi Digital",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Hitachi",
+        "entity_id": "entity_43cff1458d4aab47",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Hitachi, Ltd.",
+        "ticker": "6501",
+        "yahoo_symbol": "6501.T"
+      },
+      "mapping_source": {
+        "excerpt": "The named operating entity uses Hitachi group identity and is mapped to Hitachi, Ltd.",
+        "locator": "About Hitachi",
+        "publisher": "Hitachi, Ltd.",
+        "url": "https://www.hitachi.com/en/about/"
+      },
+      "name": "Hitachi Vantara LLC",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "HPE",
+        "entity_id": "hpe",
+        "exchange": "NYSE",
+        "legal_name": "Hewlett Packard Enterprise Company",
+        "ticker": "HPE",
+        "yahoo_symbol": "HPE"
+      },
+      "mapping_source": {
+        "excerpt": "HPE is the issuer's operating brand.",
+        "locator": "Investor relations",
+        "publisher": "Hewlett Packard Enterprise",
+        "url": "https://investors.hpe.com/"
+      },
+      "name": "HPE | Hewlett Packard Enterprise",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Huaqin Technology",
+        "entity_id": "huaqin",
+        "exchange": "Shanghai Stock Exchange",
+        "legal_name": "Huaqin Technology Co., Ltd.",
+        "ticker": "603296",
+        "yahoo_symbol": "603296.SS"
+      },
+      "name": "Huaqin Technology Co., Ltd.,",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "IBM",
+        "entity_id": "entity_7f4992b527dcdcb3",
+        "exchange": "NYSE",
+        "legal_name": "International Business Machines Corporation",
+        "ticker": "IBM",
+        "yahoo_symbol": "IBM"
+      },
+      "mapping_source": {
+        "excerpt": "The card is an IBM business/division brand, not a separate issuer.",
+        "locator": "Investor relations",
+        "publisher": "IBM",
+        "url": "https://www.ibm.com/investor"
+      },
+      "name": "IBM Cloud and Research",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "IBM",
+        "entity_id": "entity_7f4992b527dcdcb3",
+        "exchange": "NYSE",
+        "legal_name": "International Business Machines Corporation",
+        "ticker": "IBM",
+        "yahoo_symbol": "IBM"
+      },
+      "mapping_source": {
+        "excerpt": "The card is an IBM business/division brand, not a separate issuer.",
+        "locator": "Investor relations",
+        "publisher": "IBM",
+        "url": "https://www.ibm.com/investor"
+      },
+      "name": "IBM Consulting",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "IBM",
+        "entity_id": "entity_7f4992b527dcdcb3",
+        "exchange": "NYSE",
+        "legal_name": "International Business Machines Corporation",
+        "ticker": "IBM",
+        "yahoo_symbol": "IBM"
+      },
+      "mapping_source": {
+        "excerpt": "The card is an IBM business/division brand, not a separate issuer.",
+        "locator": "Investor relations",
+        "publisher": "IBM",
+        "url": "https://www.ibm.com/investor"
+      },
+      "name": "IBM Data & AI",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "IBM",
+        "entity_id": "entity_7f4992b527dcdcb3",
+        "exchange": "NYSE",
+        "legal_name": "International Business Machines Corporation",
+        "ticker": "IBM",
+        "yahoo_symbol": "IBM"
+      },
+      "mapping_source": {
+        "excerpt": "The card is an IBM business/division brand, not a separate issuer.",
+        "locator": "Investor relations",
+        "publisher": "IBM",
+        "url": "https://www.ibm.com/investor"
+      },
+      "name": "IBM Watson & Cloud",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "entity_id": "entity_0f9d3e220c6e69d9",
+        "upstream_entity_id": "entity_0f9d3e220c6e69d9"
+      },
+      "name": "Infosys Limited",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact operating/issuer identity manually reviewed against an already-validated entity-registry issuer."
+    },
+    {
+      "issuer": {
+        "display_name": "Infosys",
+        "entity_id": "entity_0f9d3e220c6e69d9",
+        "exchange": "NYSE",
+        "legal_name": "Infosys Limited",
+        "ticker": "INFY",
+        "yahoo_symbol": "INFY"
+      },
+      "mapping_source": {
+        "excerpt": "NALA is a regional Infosys partner-network card.",
+        "locator": "About Infosys",
+        "publisher": "Infosys",
+        "url": "https://www.infosys.com/about.html"
+      },
+      "name": "Infosys Limited - NALA",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro (Thailand) Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro Asia Ltd - Singapore",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "Ingram Micro Inc. is a wholly owned subsidiary of the listed Ingram Micro Holding Corporation.",
+        "locator": "Exhibit 21.1 subsidiaries table",
+        "publisher": "Ingram Micro Holding Corporation / U.S. SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026013588/exhibit211-subsidiariesoft.htm"
+      },
+      "name": "Ingram Micro Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro India Pvt Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro Indonesia",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro International Trading Limited",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro Malaysia",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro Pty Ltd ACN 112 487 996",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Ingram Micro",
+        "entity_id": "ingram_micro",
+        "exchange": "NYSE",
+        "legal_name": "Ingram Micro Holding Corporation",
+        "ticker": "INGM",
+        "yahoo_symbol": "INGM"
+      },
+      "mapping_source": {
+        "excerpt": "The regional legal entity is part of Ingram Micro.",
+        "locator": "About us",
+        "publisher": "Ingram Micro",
+        "url": "https://www.ingrammicro.com/en-us/about-us"
+      },
+      "name": "Ingram Micro Trading (Shanghai) Co Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Insight Enterprises",
+        "entity_id": "insight_enterprises",
+        "exchange": "Nasdaq",
+        "legal_name": "Insight Enterprises, Inc.",
+        "ticker": "NSIT",
+        "yahoo_symbol": "NSIT"
+      },
+      "mapping_source": {
+        "excerpt": "The regional operating entity is part of Insight Enterprises.",
+        "locator": "Company information",
+        "publisher": "Insight Enterprises",
+        "url": "https://investor.insight.com/company-information"
+      },
+      "name": "Insight Canada Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Insight Enterprises",
+        "entity_id": "insight_enterprises",
+        "exchange": "Nasdaq",
+        "legal_name": "Insight Enterprises, Inc.",
+        "ticker": "NSIT",
+        "yahoo_symbol": "NSIT"
+      },
+      "mapping_source": {
+        "excerpt": "The regional operating entity is part of Insight Enterprises.",
+        "locator": "Company information",
+        "publisher": "Insight Enterprises",
+        "url": "https://investor.insight.com/company-information"
+      },
+      "name": "Insight Direct USA Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "IONOS",
+        "entity_id": "ionos",
+        "exchange": "Xetra",
+        "legal_name": "IONOS Group SE",
+        "ticker": "IOS",
+        "yahoo_symbol": "IOS.DE"
+      },
+      "name": "IONOS SE",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Kontron",
+        "entity_id": "kontron",
+        "exchange": "Xetra",
+        "legal_name": "Kontron AG",
+        "ticker": "KTN",
+        "yahoo_symbol": "KTN.DE"
+      },
+      "name": "Kontron",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "L&T Technology Services",
+        "entity_id": "ltts",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "L&T Technology Services Limited",
+        "ticker": "LTTS",
+        "yahoo_symbol": "LTTS.NS"
+      },
+      "name": "L&T Technology Services",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "LDLC",
+        "entity_id": "ldlc",
+        "exchange": "Euronext Growth Paris",
+        "legal_name": "Groupe LDLC S.A.",
+        "ticker": "ALLDL",
+        "yahoo_symbol": "ALLDL.PA"
+      },
+      "name": "LDLC Group",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Leadtek Research",
+        "entity_id": "leadtek",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "Leadtek Research Inc.",
+        "ticker": "2465",
+        "yahoo_symbol": "2465.TW"
+      },
+      "mapping_source": {
+        "excerpt": "The Shanghai entity is a regional Leadtek operating company.",
+        "locator": "Global locations",
+        "publisher": "Leadtek Research",
+        "url": "https://www.leadtek.com/eng/about/contact/"
+      },
+      "name": "Leadtek (Shanghai) Research Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Leadtek Research",
+        "entity_id": "leadtek",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "Leadtek Research Inc.",
+        "ticker": "2465",
+        "yahoo_symbol": "2465.TW"
+      },
+      "name": "Leadtek Research Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Lenovo",
+        "entity_id": "lenovo_group",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "Lenovo Group Limited",
+        "ticker": "0992",
+        "yahoo_symbol": "0992.HK"
+      },
+      "mapping_source": {
+        "excerpt": "Lenovo DCG is the data-center-group brand of Lenovo Group.",
+        "locator": "Stock information",
+        "publisher": "Lenovo Group",
+        "url": "https://investor.lenovo.com/en/ir/stockinfo.php"
+      },
+      "name": "Lenovo DCG",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "LG CNS",
+        "entity_id": "lg_cns",
+        "exchange": "Korea Exchange",
+        "legal_name": "LG CNS Co., Ltd.",
+        "ticker": "064400",
+        "yahoo_symbol": "064400.KS"
+      },
+      "name": "LG CNS",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "LTIMindtree",
+        "entity_id": "ltimindtree",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "LTIMindtree Limited",
+        "ticker": "LTM",
+        "yahoo_symbol": "LTM.NS"
+      },
+      "name": "LTIMindtree",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Macnica Holdings",
+        "entity_id": "macnica",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Macnica Holdings, Inc.",
+        "ticker": "3132",
+        "yahoo_symbol": "3132.T"
+      },
+      "mapping_source": {
+        "excerpt": "Macnica identifies the named business as a group company.",
+        "locator": "Group companies",
+        "publisher": "Macnica Holdings",
+        "url": "https://holdings.macnica.co.jp/en/company/group.html"
+      },
+      "name": "Macnica Galaxy Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Macnica Holdings",
+        "entity_id": "macnica",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Macnica Holdings, Inc.",
+        "ticker": "3132",
+        "yahoo_symbol": "3132.T"
+      },
+      "mapping_source": {
+        "excerpt": "Macnica Inc. is a wholly owned operating subsidiary of listed Macnica Holdings.",
+        "locator": "Corporate disclosure: wholly owned subsidiary",
+        "publisher": "Macnica Holdings",
+        "url": "https://www.daiwair.co.jp/td_download.cgi?c=3132&i=3070722"
+      },
+      "name": "Macnica Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Mastek",
+        "entity_id": "mastek",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "Mastek Limited",
+        "ticker": "MASTEK",
+        "yahoo_symbol": "MASTEK.NS"
+      },
+      "name": "Mastek Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "MDS Tech",
+        "entity_id": "mds_tech",
+        "exchange": "KOSDAQ",
+        "legal_name": "MDS Tech Inc.",
+        "ticker": "086960",
+        "yahoo_symbol": "086960.KQ"
+      },
+      "name": "MDS Tech Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Mitsubishi Heavy Industries",
+        "entity_id": "mitsubishi_heavy",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Mitsubishi Heavy Industries, Ltd.",
+        "ticker": "7011",
+        "yahoo_symbol": "7011.T"
+      },
+      "name": "Mitsubishi Heavy Industries(MHI) Co Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "NationGate",
+        "entity_id": "nationgate",
+        "exchange": "Bursa Malaysia",
+        "legal_name": "NationGate Holdings Berhad",
+        "ticker": "0270",
+        "yahoo_symbol": "0270.KL"
+      },
+      "name": "NationGate Holdings Berhad",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "NAVER",
+        "entity_id": "naver",
+        "exchange": "Korea Exchange",
+        "legal_name": "NAVER Corporation",
+        "ticker": "035420",
+        "yahoo_symbol": "035420.KS"
+      },
+      "mapping_source": {
+        "excerpt": "NAVER corporate materials identify NAVER Cloud as an affiliate/subsidiary.",
+        "locator": "Affiliates",
+        "publisher": "NAVER Corporation",
+        "url": "https://www.navercorp.com/en/company/affiliates"
+      },
+      "name": "NAVER CLOUD Corp.",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Singtel",
+        "entity_id": "singtel",
+        "exchange": "Singapore Exchange",
+        "legal_name": "Singapore Telecommunications Limited",
+        "ticker": "Z74",
+        "yahoo_symbol": "Z74.SI"
+      },
+      "mapping_source": {
+        "excerpt": "Singtel identifies NCS as a group company.",
+        "locator": "Group companies > NCS",
+        "publisher": "Singtel",
+        "url": "https://www.singtel.com/about-us/company/ncs"
+      },
+      "name": "NCS PTE. LTD",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Nebius Group",
+        "entity_id": "nebius",
+        "exchange": "Nasdaq",
+        "legal_name": "Nebius Group N.V.",
+        "ticker": "NBIS",
+        "yahoo_symbol": "NBIS"
+      },
+      "mapping_source": {
+        "excerpt": "Nebius Group N.V. is the Nasdaq-listed holding company and Nebius B.V. is its principal operating subsidiary.",
+        "locator": "History and Development / Organizational Structure",
+        "publisher": "Nebius Group N.V. / U.S. SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm"
+      },
+      "name": "Nebius B.V.",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "NEC",
+        "entity_id": "nec",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "NEC Corporation",
+        "ticker": "6701",
+        "yahoo_symbol": "6701.T"
+      },
+      "name": "NEC Corporation",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "NEC",
+        "entity_id": "nec",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "NEC Corporation",
+        "ticker": "6701",
+        "yahoo_symbol": "6701.T"
+      },
+      "mapping_source": {
+        "excerpt": "The German GmbH is a regional operating company of NEC Corporation.",
+        "locator": "Global NEC group",
+        "publisher": "NEC",
+        "url": "https://www.nec.com/en/global/about/group/"
+      },
+      "name": "NEC Deutschland Gmbh",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "NetApp",
+        "entity_id": "entity_ad2a8ec8038a3da9",
+        "exchange": "Nasdaq",
+        "legal_name": "NetApp, Inc.",
+        "ticker": "NTAP",
+        "yahoo_symbol": "NTAP"
+      },
+      "mapping_source": {
+        "excerpt": "The regional card is an operating entity of NetApp, Inc.",
+        "locator": "Investor relations",
+        "publisher": "NetApp",
+        "url": "https://investors.netapp.com/"
+      },
+      "name": "NetApp Austria",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "NetApp",
+        "entity_id": "entity_ad2a8ec8038a3da9",
+        "exchange": "Nasdaq",
+        "legal_name": "NetApp, Inc.",
+        "ticker": "NTAP",
+        "yahoo_symbol": "NTAP"
+      },
+      "mapping_source": {
+        "excerpt": "The regional card is an operating entity of NetApp, Inc.",
+        "locator": "Investor relations",
+        "publisher": "NetApp",
+        "url": "https://investors.netapp.com/"
+      },
+      "name": "NetApp USA",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Netweb Technologies India",
+        "entity_id": "netweb_india",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "Netweb Technologies India Limited",
+        "ticker": "NETWEB",
+        "yahoo_symbol": "NETWEB.NS"
+      },
+      "name": "Netweb Technologies India Pvt Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Unisplendour",
+        "entity_id": "unisplendour",
+        "exchange": "Shenzhen Stock Exchange",
+        "legal_name": "Unisplendour Corporation Limited",
+        "ticker": "000938",
+        "yahoo_symbol": "000938.SZ"
+      },
+      "mapping_source": {
+        "excerpt": "H3C is controlled through listed Unisplendour; endpoint substitution is conservative and inferred.",
+        "locator": "Business > H3C",
+        "publisher": "Tsinghua Unigroup / Unisplendour",
+        "url": "https://www.unigroup.com.cn/en/business/h3c"
+      },
+      "name": "New H3C Information Technologies Co Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "NEXTDC",
+        "entity_id": "nextdc",
+        "exchange": "Australian Securities Exchange",
+        "legal_name": "NEXTDC Limited",
+        "ticker": "NXT",
+        "yahoo_symbol": "NXT.AX"
+      },
+      "name": "NextDC",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "NS Solutions",
+        "entity_id": "ns_solutions",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "NS Solutions Corporation",
+        "ticker": "2327",
+        "yahoo_symbol": "2327.T"
+      },
+      "name": "NS Solutions Corporation",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "NTT",
+        "entity_id": "ntt",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "NTT, Inc.",
+        "ticker": "9432",
+        "yahoo_symbol": "9432.T"
+      },
+      "mapping_sources": [
+        {
+          "excerpt": "NTT DATA Group became a wholly owned NTT group company before the research cutoff.",
+          "locator": "Group companies",
+          "publisher": "NTT",
+          "url": "https://group.ntt/en/group/"
+        },
+        {
+          "excerpt": "NTT announced the transaction to make NTT DATA Group a wholly owned subsidiary.",
+          "locator": "Tender offer / wholly owned subsidiary announcement",
+          "publisher": "NTT",
+          "url": "https://group.ntt/en/newsrelease/2025/05/08/250508b.html"
+        },
+        {
+          "excerpt": "JPX documents the 2025-09-26 delisting of security code 9613.",
+          "locator": "Delisting schedule for NTT DATA GROUP CORPORATION",
+          "publisher": "Japan Exchange Group",
+          "url": "https://www.jpx.co.jp/english/news/1023/20250829-12.html"
+        }
+      ],
+      "name": "NTT Data Group Corporation",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "NTT",
+        "entity_id": "ntt",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "NTT, Inc.",
+        "ticker": "9432",
+        "yahoo_symbol": "9432.T"
+      },
+      "mapping_sources": [
+        {
+          "excerpt": "NTT DATA Japan is within the listed NTT group at the research cutoff.",
+          "locator": "Group companies",
+          "publisher": "NTT",
+          "url": "https://group.ntt/en/group/"
+        },
+        {
+          "excerpt": "NTT announced the transaction to make NTT DATA Group a wholly owned subsidiary.",
+          "locator": "Tender offer / wholly owned subsidiary announcement",
+          "publisher": "NTT",
+          "url": "https://group.ntt/en/newsrelease/2025/05/08/250508b.html"
+        },
+        {
+          "excerpt": "JPX documents the 2025-09-26 delisting of security code 9613.",
+          "locator": "Delisting schedule for NTT DATA GROUP CORPORATION",
+          "publisher": "Japan Exchange Group",
+          "url": "https://www.jpx.co.jp/english/news/1023/20250829-12.html"
+        }
+      ],
+      "name": "NTT DATA JAPAN CORPORATION",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "NTT",
+        "entity_id": "ntt",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "NTT, Inc.",
+        "ticker": "9432",
+        "yahoo_symbol": "9432.T"
+      },
+      "mapping_source": {
+        "excerpt": "NTT DOCOMO BUSINESS is within the listed NTT group.",
+        "locator": "Group companies",
+        "publisher": "NTT",
+        "url": "https://group.ntt/en/group/"
+      },
+      "name": "NTT DOCOMO BUSINESS, INC.",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "NTT",
+        "entity_id": "ntt",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "NTT, Inc.",
+        "ticker": "9432",
+        "yahoo_symbol": "9432.T"
+      },
+      "mapping_source": {
+        "excerpt": "NTTPC Communications is within the listed NTT group.",
+        "locator": "Group companies",
+        "publisher": "NTT",
+        "url": "https://group.ntt/en/group/"
+      },
+      "name": "NTTPC Communications, Inc.",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Okaya & Co.",
+        "entity_id": "okaya_co",
+        "exchange": "Nagoya Stock Exchange",
+        "legal_name": "Okaya & Co., Ltd.",
+        "listing_source": {
+          "excerpt": "Okaya & Co. identifies securities code 7485 and its Nagoya Stock Exchange listing.",
+          "locator": "Corporate profile > Stock exchange listing / securities code",
+          "publisher": "Okaya & Co., Ltd.",
+          "url": "https://www.okaya.co.jp/en/corporate/profile/"
+        },
+        "ticker": "7485",
+        "yahoo_symbol": null
+      },
+      "mapping_source": {
+        "excerpt": "Okaya Electric Industries identifies Okaya & Co., Ltd. as its 100% shareholder; the NPN card is not the historical 6926 issuer.",
+        "locator": "Company outline > Shareholder",
+        "publisher": "Okaya Electric Industries",
+        "url": "https://www.okayaelec.co.jp/en/company/outline/"
+      },
+      "name": "Okaya Electronics Corp.",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Orbbec",
+        "entity_id": "orbbec",
+        "exchange": "Shanghai Stock Exchange STAR Market",
+        "legal_name": "Orbbec Inc.",
+        "ticker": "688322",
+        "yahoo_symbol": "688322.SS"
+      },
+      "name": "Orbbec Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Otsuka Corporation",
+        "entity_id": "otsuka_corp",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Otsuka Corporation",
+        "ticker": "4768",
+        "yahoo_symbol": "4768.T"
+      },
+      "name": "Otsuka Corporation",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "OVHcloud",
+        "entity_id": "ovhcloud",
+        "exchange": "Euronext Paris",
+        "legal_name": "OVH Groupe S.A.",
+        "ticker": "OVH",
+        "yahoo_symbol": "OVH.PA"
+      },
+      "name": "OVH",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "PC Partner Group",
+        "entity_id": "pc_partner",
+        "exchange": "Singapore Exchange",
+        "legal_name": "PC Partner Group Limited",
+        "ticker": "PCT",
+        "yahoo_symbol": "PCT.SI"
+      },
+      "mapping_source": {
+        "excerpt": "PC Partner Technology Pte Ltd is a wholly owned subsidiary of listed PC Partner Group Limited.",
+        "locator": "SGX introductory document, Appendix F",
+        "publisher": "PC Partner Group",
+        "url": "https://www.pcpartner.com/attachment/ac/1731423968OFmxQ.pdf"
+      },
+      "name": "PC Partner Technology Pte",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Persistent Systems",
+        "entity_id": "persistent_systems",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "Persistent Systems Limited",
+        "ticker": "PERSISTENT",
+        "yahoo_symbol": "PERSISTENT.NS"
+      },
+      "name": "Persistent Systems Limited",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Proact IT Group",
+        "entity_id": "proact",
+        "exchange": "Nasdaq Stockholm",
+        "legal_name": "Proact IT Group AB",
+        "ticker": "PACT",
+        "yahoo_symbol": "PACT.ST"
+      },
+      "mapping_source": {
+        "excerpt": "Proact IT Sweden AB is a wholly owned subsidiary of Proact IT Group AB.",
+        "locator": "Annual report Note 17",
+        "publisher": "Proact IT Group",
+        "url": "https://www.proact.eu/wp-content/uploads/2025/04/Annual-Sustainability-report-2024-Proact-IT-Group.pdf"
+      },
+      "name": "Proact IT Sweden",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "PT Tech Data Advanced Solutions",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Quanta Computer",
+        "entity_id": "quanta",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "Quanta Computer Inc.",
+        "ticker": "2382",
+        "yahoo_symbol": "2382.TW"
+      },
+      "name": "Quanta Computer Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Rashi Peripherals",
+        "entity_id": "rashi_peripherals",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "Rashi Peripherals Limited",
+        "ticker": "RPTECH",
+        "yahoo_symbol": "RPTECH.NS"
+      },
+      "name": "Rashi Peripherals Pvt Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Reply",
+        "entity_id": "reply",
+        "exchange": "Borsa Italiana",
+        "legal_name": "Reply S.p.A.",
+        "ticker": "REY",
+        "yahoo_symbol": "REY.MI"
+      },
+      "name": "Reply S.p.A.",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Ryoyo Ryosan Holdings",
+        "entity_id": "ryoyo_ryosan",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Ryoyo Ryosan Holdings, Inc.",
+        "ticker": "167A",
+        "yahoo_symbol": "167A.T"
+      },
+      "mapping_source": {
+        "excerpt": "Ryoyo Ryosan Inc. is the operating company under listed Ryoyo Ryosan Holdings Inc.",
+        "locator": "Company profile / group structure effective 2026-04-01",
+        "publisher": "Ryoyo Ryosan Holdings",
+        "url": "https://www.rr-hds.co.jp/company/profile/"
+      },
+      "name": "Ryoyo Ryosan",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Samsung SDS",
+        "entity_id": "samsung_sds",
+        "exchange": "Korea Exchange",
+        "legal_name": "Samsung SDS Co., Ltd.",
+        "ticker": "018260",
+        "yahoo_symbol": "018260.KS"
+      },
+      "name": "Samsung SDS",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Sangfor Technologies",
+        "entity_id": "sangfor",
+        "exchange": "Shenzhen Stock Exchange",
+        "legal_name": "Sangfor Technologies Inc.",
+        "ticker": "300454",
+        "yahoo_symbol": "300454.SZ"
+      },
+      "name": "Sangfor Technologies Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "SLB",
+        "entity_id": "slb",
+        "exchange": "NYSE",
+        "legal_name": "Schlumberger Limited",
+        "ticker": "SLB",
+        "yahoo_symbol": "SLB"
+      },
+      "mapping_source": {
+        "excerpt": "Schlumberger Technology Corporation is an operating entity of listed SLB.",
+        "locator": "About SLB",
+        "publisher": "SLB",
+        "url": "https://www.slb.com/about"
+      },
+      "name": "Schlumberger Technology Corporation",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Sumitomo Corporation",
+        "entity_id": "sumitomo_corporation",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Sumitomo Corporation",
+        "ticker": "8053",
+        "yahoo_symbol": "8053.T"
+      },
+      "mapping_sources": [
+        {
+          "excerpt": "Sumitomo's transaction made SCSK a wholly owned subsidiary; 9719 is historical at the cutoff.",
+          "locator": "Tender offer result / ownership structure",
+          "publisher": "Sumitomo Corporation",
+          "url": "https://www.sumitomocorp.com/-/media/Files/hq/news/release/2025/20630/20630_en.pdf"
+        },
+        {
+          "excerpt": "JPX records SCSK's 2026-03-12 delisting from the TSE Prime Market.",
+          "locator": "Delisting decision and date for SCSK Corporation",
+          "publisher": "Japan Exchange Group",
+          "url": "https://www.jpx.co.jp/english/news/1023/20260209-11.html"
+        }
+      ],
+      "name": "SCSK Corporation",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Sify Technologies",
+        "entity_id": "sify",
+        "exchange": "Nasdaq",
+        "legal_name": "Sify Technologies Limited",
+        "ticker": "SIFY",
+        "yahoo_symbol": "SIFY"
+      },
+      "mapping_source": {
+        "excerpt": "The North America corporation is an operating subsidiary of Sify Technologies Limited.",
+        "locator": "Investor relations",
+        "publisher": "Sify Technologies",
+        "url": "https://www.sifytechnologies.com/investors/"
+      },
+      "name": "Sify Technologies NA Corp",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Siili Solutions",
+        "entity_id": "siili",
+        "exchange": "Nasdaq Helsinki",
+        "legal_name": "Siili Solutions Oyj",
+        "ticker": "SIILI",
+        "yahoo_symbol": "SIILI.HE"
+      },
+      "name": "Siili Solutions Oyj",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "SNet Systems",
+        "entity_id": "snet_systems",
+        "exchange": "KOSDAQ",
+        "legal_name": "SNet Systems Inc.",
+        "ticker": "038680",
+        "yahoo_symbol": "038680.KQ"
+      },
+      "name": "SNet Systems Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "SoftBank Corp.",
+        "entity_id": "softbank_corp",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "SoftBank Corp.",
+        "ticker": "9434",
+        "yahoo_symbol": "9434.T"
+      },
+      "name": "SoftBank Corp",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Softcat",
+        "entity_id": "softcat",
+        "exchange": "London Stock Exchange",
+        "legal_name": "Softcat plc",
+        "ticker": "SCT",
+        "yahoo_symbol": "SCT.L"
+      },
+      "name": "Softcat Plc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "SoftwareOne",
+        "entity_id": "softwareone",
+        "exchange": "SIX Swiss Exchange",
+        "legal_name": "SoftwareOne Holding AG",
+        "ticker": "SWON",
+        "yahoo_symbol": "SWON.SW"
+      },
+      "mapping_source": {
+        "excerpt": "The German GmbH is an operating subsidiary of SoftwareOne Holding AG.",
+        "locator": "About us",
+        "publisher": "SoftwareOne",
+        "url": "https://www.softwareone.com/en/about-us"
+      },
+      "name": "SoftwareONE Deutschland GmbH",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Sopra Steria",
+        "entity_id": "sopra_steria",
+        "exchange": "Euronext Paris",
+        "legal_name": "Sopra Steria Group S.A.",
+        "ticker": "SOP",
+        "yahoo_symbol": "SOP.PA"
+      },
+      "name": "Sopra Steria Group",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "entity_id": "supermicro",
+        "upstream_entity_id": "supermicro"
+      },
+      "name": "Super Micro Computer Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact operating/issuer identity manually reviewed against an already-validated entity-registry issuer."
+    },
+    {
+      "issuer": {
+        "display_name": "Swisscom",
+        "entity_id": "swisscom",
+        "exchange": "SIX Swiss Exchange",
+        "legal_name": "Swisscom AG",
+        "ticker": "SCMN",
+        "yahoo_symbol": "SCMN.SW"
+      },
+      "name": "Swisscom AG",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "SYSTEX",
+        "entity_id": "systex",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "SYSTEX Corporation",
+        "ticker": "6214",
+        "yahoo_symbol": "6214.TW"
+      },
+      "mapping_source": {
+        "excerpt": "The Hong Kong legal entity is part of SYSTEX Corporation.",
+        "locator": "Global presence",
+        "publisher": "SYSTEX",
+        "url": "https://www.systex.com/en/about/global"
+      },
+      "name": "Systex Information (HK) Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Tata Consultancy Services",
+        "entity_id": "tcs",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "Tata Consultancy Services Limited",
+        "ticker": "TCS",
+        "yahoo_symbol": "TCS.NS"
+      },
+      "name": "Tata Consultancy Services Limited",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Tata Elxsi",
+        "entity_id": "tata_elxsi",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "Tata Elxsi Limited",
+        "ticker": "TATAELXSI",
+        "yahoo_symbol": "TATAELXSI.NS"
+      },
+      "name": "Tata Elxsi",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Tatung System Technologies",
+        "entity_id": "tatung_system",
+        "exchange": "Taipei Exchange",
+        "legal_name": "Tatung System Technologies Inc.",
+        "ticker": "8099",
+        "yahoo_symbol": "8099.TWO"
+      },
+      "name": "Tatung System Technologies Inc",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "TD Synnex EMEA",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "TD Synnex LATAM",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "Tech Data Advanced Private Limited",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "Tech Data Advanced Solutions (ANZ)",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "Tech Data Advanced Solutions (Singa",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "Tech Data Advanced Solutions (Singapore) Pte Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "TD SYNNEX",
+        "entity_id": "entity_30f6d340bb3ce3f2",
+        "exchange": "NYSE",
+        "legal_name": "TD SYNNEX Corporation",
+        "ticker": "SNX",
+        "yahoo_symbol": "SNX"
+      },
+      "mapping_source": {
+        "excerpt": "TD SYNNEX was formed through the merger with Tech Data; the named regional card is within the group.",
+        "locator": "About us",
+        "publisher": "TD SYNNEX",
+        "url": "https://www.tdsynnex.com/na/us/about-us/"
+      },
+      "name": "Tech Data Advanced Solutions (Vietnam)",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Tech Mahindra",
+        "entity_id": "tech_mahindra",
+        "exchange": "National Stock Exchange of India",
+        "legal_name": "Tech Mahindra Limited",
+        "ticker": "TECHM",
+        "yahoo_symbol": "TECHM.NS"
+      },
+      "name": "Tech Mahindra Limited",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Tencent",
+        "entity_id": "tencent",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "Tencent Holdings Limited",
+        "ticker": "0700",
+        "yahoo_symbol": "0700.HK"
+      },
+      "mapping_source": {
+        "excerpt": "Tencent presents cloud as a group business.",
+        "locator": "Business > Cloud and Smart Industries",
+        "publisher": "Tencent",
+        "url": "https://www.tencent.com/en-us/business.html"
+      },
+      "name": "Tencent Cloud Computing (Beijing) Co Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "ThunderSoft",
+        "entity_id": "thundersoft",
+        "exchange": "Shenzhen Stock Exchange",
+        "legal_name": "Thunder Software Technology Co., Ltd.",
+        "ticker": "300496",
+        "yahoo_symbol": "300496.SZ"
+      },
+      "name": "Thunder Software Technology Co.,Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Tokyo Electron Device",
+        "entity_id": "tokyo_electron_device",
+        "exchange": "Tokyo Stock Exchange",
+        "legal_name": "Tokyo Electron Device Limited",
+        "ticker": "2760",
+        "yahoo_symbol": "2760.T"
+      },
+      "name": "Tokyo Electron Device LTD",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Trane Technologies",
+        "entity_id": "entity_509b9323874f2293",
+        "exchange": "NYSE",
+        "legal_name": "Trane Technologies plc",
+        "ticker": "TT",
+        "yahoo_symbol": "TT"
+      },
+      "mapping_source": {
+        "excerpt": "The LLC card maps to listed Trane Technologies plc.",
+        "locator": "Investor relations",
+        "publisher": "Trane Technologies",
+        "url": "https://investors.tranetechnologies.com/"
+      },
+      "name": "Trane Technologies LLC",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Tsinghua Tongfang",
+        "entity_id": "tsinghua_tongfang",
+        "exchange": "Shanghai Stock Exchange",
+        "legal_name": "Tsinghua Tongfang Co., Ltd.",
+        "ticker": "600100",
+        "yahoo_symbol": "600100.SS"
+      },
+      "name": "TSINGHUA TONGFANG CO., LTD.",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "TZTEK Technology",
+        "entity_id": "tztek",
+        "exchange": "Shanghai Stock Exchange STAR Market",
+        "legal_name": "TZTEK Technology Co., Ltd.",
+        "ticker": "688003",
+        "yahoo_symbol": "688003.SS"
+      },
+      "name": "TZTEK Technology CO.,Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Uniquest",
+        "entity_id": "uniquest",
+        "exchange": "Korea Exchange",
+        "legal_name": "Uniquest Corporation",
+        "ticker": "077500",
+        "yahoo_symbol": "077500.KS"
+      },
+      "name": "Uniquest Corporation",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Unisplendour",
+        "entity_id": "unisplendour",
+        "exchange": "Shenzhen Stock Exchange",
+        "legal_name": "Unisplendour Corporation Limited",
+        "ticker": "000938",
+        "yahoo_symbol": "000938.SZ"
+      },
+      "mapping_source": {
+        "excerpt": "The Hong Kong legal entity is part of Unisplendour.",
+        "locator": "About Unisplendour",
+        "publisher": "Unisplendour",
+        "url": "https://www.unisplendour.com/en/about"
+      },
+      "name": "Unisplendour Xiaotong (Hong Kong) Limited",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Unisplendour",
+        "entity_id": "unisplendour",
+        "exchange": "Shenzhen Stock Exchange",
+        "legal_name": "Unisplendour Corporation Limited",
+        "ticker": "000938",
+        "yahoo_symbol": "000938.SZ"
+      },
+      "mapping_source": {
+        "excerpt": "The named legal entity is part of Unisplendour.",
+        "locator": "About Unisplendour",
+        "publisher": "Unisplendour",
+        "url": "https://www.unisplendour.com/en/about"
+      },
+      "name": "Unisplendour Xiaotong Technology Co Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "Broadcom",
+        "entity_id": "broadcom",
+        "exchange": "Nasdaq",
+        "legal_name": "Broadcom Inc.",
+        "ticker": "AVGO",
+        "yahoo_symbol": "AVGO"
+      },
+      "mapping_source": {
+        "excerpt": "Broadcom announced completion of its acquisition of VMware.",
+        "locator": "Acquisition completion announcement",
+        "publisher": "Broadcom Inc.",
+        "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-completes-acquisition-vmware"
+      },
+      "name": "VMware Inc",
+      "resolution_kind": "brand_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "VSTECS Holdings",
+        "entity_id": "vstecs",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "VSTECS Holdings Limited",
+        "ticker": "0856",
+        "yahoo_symbol": "0856.HK"
+      },
+      "mapping_source": {
+        "excerpt": "The Thailand entity is a regional subsidiary of VSTECS Holdings.",
+        "locator": "About us",
+        "publisher": "VSTECS Holdings",
+        "url": "https://www.vstecs.com/en/about-us"
+      },
+      "name": "VST ECS (Thailand) Co Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "VSTECS Holdings",
+        "entity_id": "vstecs",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "VSTECS Holdings Limited",
+        "ticker": "0856",
+        "yahoo_symbol": "0856.HK"
+      },
+      "mapping_source": {
+        "excerpt": "The Singapore entity is a regional subsidiary of VSTECS Holdings.",
+        "locator": "About us",
+        "publisher": "VSTECS Holdings",
+        "url": "https://www.vstecs.com/en/about-us"
+      },
+      "name": "VSTECS (Singapore) Pte Ltd",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "VSTECS Holdings",
+        "entity_id": "vstecs",
+        "exchange": "Hong Kong Stock Exchange",
+        "legal_name": "VSTECS Holdings Limited",
+        "ticker": "0856",
+        "yahoo_symbol": "0856.HK"
+      },
+      "mapping_source": {
+        "excerpt": "The Philippines entity is a regional subsidiary of VSTECS Holdings.",
+        "locator": "About us",
+        "publisher": "VSTECS Holdings",
+        "url": "https://www.vstecs.com/en/about-us"
+      },
+      "name": "VSTECS Phils Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "entity_id": "entity_98177a76742ec554",
+        "upstream_entity_id": "entity_98177a76742ec554"
+      },
+      "name": "Wipro Limited",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact operating/issuer identity manually reviewed against an already-validated entity-registry issuer."
+    },
+    {
+      "issuer": {
+        "display_name": "Worley",
+        "entity_id": "worley",
+        "exchange": "Australian Securities Exchange",
+        "legal_name": "Worley Limited",
+        "ticker": "WOR",
+        "yahoo_symbol": "WOR.AX"
+      },
+      "name": "Worley",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "WSP Global",
+        "entity_id": "wsp_global",
+        "exchange": "Toronto Stock Exchange",
+        "legal_name": "WSP Global Inc.",
+        "ticker": "WSP",
+        "yahoo_symbol": "WSP.TO"
+      },
+      "mapping_source": {
+        "excerpt": "WSP USA is the U.S. operating subsidiary of WSP Global.",
+        "locator": "Who we are",
+        "publisher": "WSP Global",
+        "url": "https://www.wsp.com/en-us/who-we-are"
+      },
+      "name": "WSP USA Inc",
+      "resolution_kind": "subsidiary_to_parent",
+      "review_reason": "Exact frozen card was manually reviewed as a brand/regional/legal-unit identity of the named listed parent; endpoint substitution remains an inference."
+    },
+    {
+      "issuer": {
+        "display_name": "XIILAB",
+        "entity_id": "xiilab",
+        "exchange": "KOSDAQ",
+        "legal_name": "XIILAB Co., Ltd.",
+        "ticker": "189330",
+        "yahoo_symbol": "189330.KQ"
+      },
+      "name": "XIILAB Co Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "Zero One Technology",
+        "entity_id": "zero_one_technology",
+        "exchange": "Taiwan Stock Exchange",
+        "legal_name": "Zero One Technology Co., Ltd.",
+        "ticker": "3029",
+        "yahoo_symbol": "3029.TW"
+      },
+      "name": "Zero One Technology Co Ltd",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    },
+    {
+      "issuer": {
+        "display_name": "ZTE",
+        "entity_id": "zte",
+        "exchange": "Shenzhen Stock Exchange",
+        "legal_name": "ZTE Corporation",
+        "ticker": "000063",
+        "yahoo_symbol": "000063.SZ"
+      },
+      "name": "ZTE corproation",
+      "resolution_kind": "direct_issuer",
+      "review_reason": "Exact frozen NPN card identity was manually reviewed against the frozen public-market listing metadata; no fuzzy matching."
+    }
+  ],
+  "matching_policy": "exact_frozen_name_only_human_reviewed",
+  "rejections": [
+    {
+      "decision": "rejected_parent_private_or_delisted_at_cutoff",
+      "name": "EXAION (EDF GROUP)",
+      "reason": "EDF was delisted from Euronext Paris on 2023-06-08 and was wholly owned by the French State; EXAION therefore has no active listed EDF endpoint at the 2026-08-25 cutoff.",
+      "sources": [
+        {
+          "excerpt": "EDF states that its shares were delisted and the French State held all share capital and voting rights.",
+          "locator": "Delisting of EDF shares",
+          "published_at": "2023-06-08",
+          "publisher": "EDF",
+          "url": "https://www.edf.fr/en/the-edf-group/dedicated-sections/investors-shareholders/the-edf-share/delisting-of-edf-shares"
+        }
+      ]
+    }
+  ],
+  "research_cutoff": "2026-08-25"
+}

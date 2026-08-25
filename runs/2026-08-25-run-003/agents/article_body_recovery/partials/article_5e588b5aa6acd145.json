@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_5e588b5aa6acd145",
+    "audit_record_sha256": "f52b34e35d72d4e42b39aa28e1a253ea0c6cfcb1ddf45b1819fcc1ce3cca12d2",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260616231606",
+    "candidate_url": "https://web.archive.org/web/20260616231606id_/https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-xr-ai",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvidia-xr-ai&timestamp=20260616",
+    "response_sha256": "59eeba72f757a01eac9b17ecf61f95f66a4c9e5dcf9aaeb350d0fba64e8f5eb1",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "f52b34e35d72d4e42b39aa28e1a253ea0c6cfcb1ddf45b1819fcc1ce3cca12d2",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_5e588b5aa6acd145",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-xr-ai",
+    "content_or_audit_sha256": "f52b34e35d72d4e42b39aa28e1a253ea0c6cfcb1ddf45b1819fcc1ce3cca12d2",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-06-16",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses"
+  }
+}

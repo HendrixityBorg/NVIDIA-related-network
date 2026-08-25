@@ -1,0 +1,70 @@
+{
+  "canonical_apac_issuers": 104,
+  "confirmed_claim_partner_ids": [
+    "compal",
+    "leadtek",
+    "quanta",
+    "samsung_electronics",
+    "snet_systems",
+    "tatung_system",
+    "unisplendour"
+  ],
+  "confirmed_direction_claims": 7,
+  "direction_candidates": 13,
+  "frontier_by_region": {
+    "AU": {
+      "access_blocked": 1,
+      "public_search_unavailable": 2
+    },
+    "CN": {
+      "regulatory_hit": 7,
+      "searched_no_hit": 4
+    },
+    "HK": {
+      "access_blocked": 4,
+      "public_search_unavailable": 5
+    },
+    "IN": {
+      "regulatory_hit": 6,
+      "searched_no_hit": 5
+    },
+    "JP": {
+      "public_search_unavailable": 22
+    },
+    "KR": {
+      "regulatory_hit": 8,
+      "searched_no_hit": 5
+    },
+    "MY": {
+      "access_blocked": 1
+    },
+    "SG": {
+      "public_search_unavailable": 3
+    },
+    "TW": {
+      "access_blocked": 1,
+      "regulatory_hit": 24,
+      "searched_no_hit": 5
+    },
+    "VN": {
+      "public_search_unavailable": 1
+    }
+  },
+  "frontier_rows": 104,
+  "frontier_terminal_counts": {
+    "access_blocked": 7,
+    "public_search_unavailable": 33,
+    "regulatory_hit": 45,
+    "searched_no_hit": 19
+  },
+  "pending_count": 0,
+  "raw_nvidia_contexts": 578,
+  "research_window": {
+    "end": "2026-08-25",
+    "start": "2025-01-01"
+  },
+  "scope_note": "searched_no_hit is bounded to searched_scope in source_frontier; it is not a claim that every document in every portal was machine-searchable.",
+  "snapshot_modified": false,
+  "status": "pass",
+  "unknown_direction_candidates": 6
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "2.0",
+  "research_cutoff": "2026-08-25",
+  "generated_at": "2026-08-25T12:29:58+00:00",
+  "inputs": {
+    "v1": "runs/2026-08-25-run-002/agents/product_tree",
+    "dc_hpc": "runs/2026-08-25-run-003/agents/v2_dc_hpc",
+    "robotics_av": "runs/2026-08-25-run-003/agents/v2_robotics_av",
+    "network_ai_design": "runs/2026-08-25-run-003/agents/v2_network_ai_design"
+  },
+  "v1_status": "superseded_by_product_tree_v2_inputs_preserved",
+  "shard_validation_status": {
+    "dc_hpc": true,
+    "robotics_av": true,
+    "network_ai_design": true
+  },
+  "seed_count": 7,
+  "seed_source_ids": [
+    "dc_hpc:DC001",
+    "dc_hpc:HPC001",
+    "robotics_av:RAV-S001",
+    "robotics_av:RAV-S020",
+    "network_ai_design:NAD001",
+    "network_ai_design:NAD002",
+    "network_ai_design:NAD003"
+  ],
+  "counts": {
+    "taxonomy_observations": 797,
+    "source_observations": 168,
+    "page_section_observations": 436,
+    "edge_observations": 335,
+    "relation_candidate_observations": 594,
+    "canonical_objects": 623,
+    "conflict_records": 203,
+    "merge_decisions": 623,
+    "canonical_url_groups": 126
+  },
+  "expected_input_counts": {
+    "taxonomy_observations": 797,
+    "source_observations": 168,
+    "page_section_observations": 436,
+    "edge_observations": 335,
+    "relation_candidate_observations": 594
+  },
+  "gates": {
+    "seven_of_seven_seeds": true,
+    "all_three_shards_pass": true,
+    "source_zero_pending": true,
+    "section_zero_pending": true,
+    "robots_exclusion_explicit": true,
+    "all_taxonomy_provenance_resolves": true,
+    "canonical_index_provenance_resolves": true,
+    "all_edge_provenance_resolves": true,
+    "all_candidate_provenance_resolves": true,
+    "canonical_keys_unique": true,
+    "source_ids_unique": true,
+    "observation_ids_unique": true,
+    "counts_reconcile": true
+  },
+  "errors": {
+    "pending_sources": [],
+    "pending_sections": [],
+    "duplicate_source_ids": [],
+    "taxonomy_bad_source_refs": [],
+    "taxonomy_bad_parent_refs": [],
+    "canonical_bad_observation_refs": [],
+    "canonical_bad_source_refs": [],
+    "canonical_dangling_parent_refs": [],
+    "edge_bad_source_refs": [],
+    "edge_dangling_refs": [],
+    "candidate_bad_source_refs": [],
+    "candidate_dangling_scope_refs": [],
+    "duplicate_canonical_keys": [],
+    "duplicate_observation_ids": [],
+    "duplicate_section_ids": [],
+    "duplicate_edge_ids": [],
+    "duplicate_candidate_ids": []
+  },
+  "overall_status": "pass"
+}

@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_105d8dda88ce1a75",
+    "audit_record_sha256": "d5e03e15323d865c7534408050e43a5b4452502cabd956ce855f80f8d19e2c4f",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260112225316",
+    "candidate_url": "https://web.archive.org/web/20260112225316id_/https://blogs.nvidia.com/blog/multiply-labs-isaac-omniverse/",
+    "canonical_url": "https://blogs.nvidia.com/blog/multiply-labs-isaac-omniverse",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fmultiply-labs-isaac-omniverse&timestamp=20260112",
+    "response_sha256": "fec437ce8e5a6571a2c8676690dc431b609e543ff9d0c00868d1a3950f49c178",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "d5e03e15323d865c7534408050e43a5b4452502cabd956ce855f80f8d19e2c4f",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_105d8dda88ce1a75",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/multiply-labs-isaac-omniverse",
+    "content_or_audit_sha256": "d5e03e15323d865c7534408050e43a5b4452502cabd956ce855f80f8d19e2c4f",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-01-12",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "AI’s Next Revolution: Multiply Labs Is Scaling Robotics-Driven Cell Therapy Biomanufacturing Labs"
+  }
+}

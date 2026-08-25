@@ -1,0 +1,18 @@
+{
+  "access_control_bypass": false,
+  "candidate_rows": 13,
+  "claim_rows": 7,
+  "decision_rows": 104,
+  "errors": [],
+  "evidence_rows": 13,
+  "frontier_rows": 104,
+  "pending_count": 0,
+  "snapshot_modified": false,
+  "status": "pass",
+  "terminal_counts": {
+    "access_blocked": 7,
+    "public_search_unavailable": 33,
+    "regulatory_hit": 45,
+    "searched_no_hit": 19
+  }
+}

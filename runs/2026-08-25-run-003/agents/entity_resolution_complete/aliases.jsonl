@@ -1,0 +1,227 @@
+{"alias": "Accenture", "alias_status": "reviewed", "entity_id": "entity_52ee1b9925ec62f9", "normalized_alias": "accenture"}
+{"alias": "Accenture plc", "alias_status": "reviewed", "entity_id": "entity_52ee1b9925ec62f9", "normalized_alias": "accenture"}
+{"alias": "Adobe Inc.", "alias_status": "reviewed", "entity_id": "entity_4c71d97ce3b3b1eb", "normalized_alias": "adobe"}
+{"alias": "Advanced Micro Devices", "alias_status": "reviewed", "entity_id": "amd", "normalized_alias": "advanced micro devices"}
+{"alias": "Advanced Micro Devices, Inc.", "alias_status": "reviewed", "entity_id": "amd", "normalized_alias": "advanced micro devices"}
+{"alias": "Airbnb, Inc.", "alias_status": "reviewed", "entity_id": "entity_372005e9d4926465", "normalized_alias": "airbnb"}
+{"alias": "Akamai", "alias_status": "reviewed", "entity_id": "entity_4917dceee4bc0f17", "normalized_alias": "akamai"}
+{"alias": "Alibaba Group Holding Limited", "alias_status": "reviewed", "entity_id": "entity_448ee47d0990d0c2", "normalized_alias": "alibaba group holding"}
+{"alias": "Alphabet", "alias_status": "reviewed", "entity_id": "alphabet", "normalized_alias": "alphabet"}
+{"alias": "Alphabet Inc.", "alias_status": "reviewed", "entity_id": "alphabet", "normalized_alias": "alphabet"}
+{"alias": "Alphabet / Google", "alias_status": "reviewed", "entity_id": "alphabet", "normalized_alias": "alphabet google"}
+{"alias": "Amazon", "alias_status": "reviewed", "entity_id": "amazon", "normalized_alias": "amazon"}
+{"alias": "Amazon.com, Inc.", "alias_status": "reviewed", "entity_id": "amazon", "normalized_alias": "amazon com"}
+{"alias": "Amazon Web Services", "alias_status": "reviewed", "entity_id": "amazon", "normalized_alias": "amazon web services"}
+{"alias": "Ambarella, Inc.", "alias_status": "reviewed", "entity_id": "entity_308b12d0462d61be", "normalized_alias": "ambarella"}
+{"alias": "Amdocs", "alias_status": "reviewed", "entity_id": "entity_a0dff6e69a76604b", "normalized_alias": "amdocs"}
+{"alias": "Amgen", "alias_status": "reviewed", "entity_id": "entity_a54d3d467d6bb9ee", "normalized_alias": "amgen"}
+{"alias": "Amgen Inc.", "alias_status": "reviewed", "entity_id": "entity_a54d3d467d6bb9ee", "normalized_alias": "amgen"}
+{"alias": "AMZN", "alias_status": "reviewed", "entity_id": "amazon", "normalized_alias": "amzn"}
+{"alias": "Apple", "alias_status": "reviewed", "entity_id": "entity_cfcf8c17a47a6583", "normalized_alias": "apple"}
+{"alias": "Applied Materials", "alias_status": "reviewed", "entity_id": "entity_e23426a8b7d12db7", "normalized_alias": "applied materials"}
+{"alias": "Arista Networks, Inc.", "alias_status": "reviewed", "entity_id": "entity_15a8288975208742", "normalized_alias": "arista networks"}
+{"alias": "AT&T Inc.", "alias_status": "reviewed", "entity_id": "entity_a0c5e20aaea3f465", "normalized_alias": "at and t"}
+{"alias": "Autodesk", "alias_status": "reviewed", "entity_id": "entity_523b08dc6024a071", "normalized_alias": "autodesk"}
+{"alias": "AVGO", "alias_status": "reviewed", "entity_id": "broadcom", "normalized_alias": "avgo"}
+{"alias": "AWS", "alias_status": "reviewed", "entity_id": "amazon", "normalized_alias": "aws"}
+{"alias": "Baidu, Inc.", "alias_status": "reviewed", "entity_id": "entity_2e5bb1306783001c", "normalized_alias": "baidu"}
+{"alias": "Barclays PLC", "alias_status": "reviewed", "entity_id": "entity_6458aee940ecef07", "normalized_alias": "barclays"}
+{"alias": "BlackRock, Inc.", "alias_status": "reviewed", "entity_id": "entity_d2a0adc09e0e0c1a", "normalized_alias": "blackrock"}
+{"alias": "BMS", "alias_status": "reviewed", "entity_id": "bristol-myers-squibb", "normalized_alias": "bms"}
+{"alias": "BMY", "alias_status": "reviewed", "entity_id": "bristol-myers-squibb", "normalized_alias": "bmy"}
+{"alias": "Booz Allen", "alias_status": "reviewed", "entity_id": "entity_c13dcedb27ebe7f7", "normalized_alias": "booz allen"}
+{"alias": "Box", "alias_status": "reviewed", "entity_id": "entity_c626c0df8c5af8f0", "normalized_alias": "box"}
+{"alias": "Bristol-Myers", "alias_status": "reviewed", "entity_id": "bristol-myers-squibb", "normalized_alias": "bristol myers"}
+{"alias": "Bristol Myers Squibb", "alias_status": "reviewed", "entity_id": "bristol-myers-squibb", "normalized_alias": "bristol myers squibb"}
+{"alias": "Bristol-Myers Squibb Company", "alias_status": "reviewed", "entity_id": "bristol-myers-squibb", "normalized_alias": "bristol myers squibb"}
+{"alias": "Broadcom Inc.", "alias_status": "reviewed", "entity_id": "broadcom", "normalized_alias": "broadcom"}
+{"alias": "BYD", "alias_status": "reviewed", "entity_id": "byd", "normalized_alias": "byd"}
+{"alias": "Cadence", "alias_status": "reviewed", "entity_id": "entity_e2e75fed82923cff", "normalized_alias": "cadence"}
+{"alias": "Cadence Design Systems, Inc.", "alias_status": "reviewed", "entity_id": "entity_e2e75fed82923cff", "normalized_alias": "cadence design systems"}
+{"alias": "Capital One Financial Corporation", "alias_status": "reviewed", "entity_id": "entity_76838547f66989b0", "normalized_alias": "capital one financial"}
+{"alias": "Caterpillar", "alias_status": "reviewed", "entity_id": "entity_92f9227a9f36d883", "normalized_alias": "caterpillar"}
+{"alias": "Cerence Inc.", "alias_status": "reviewed", "entity_id": "entity_31f0d340bb3ce3f2", "normalized_alias": "cerence"}
+{"alias": "Check Point", "alias_status": "reviewed", "entity_id": "entity_707ee6bc6f83c639", "normalized_alias": "check point"}
+{"alias": "Cisco", "alias_status": "reviewed", "entity_id": "cisco", "normalized_alias": "cisco"}
+{"alias": "Cisco Systems, Inc.", "alias_status": "reviewed", "entity_id": "cisco", "normalized_alias": "cisco systems"}
+{"alias": "Cloudflare", "alias_status": "reviewed", "entity_id": "entity_7b53b4ddea288792", "normalized_alias": "cloudflare"}
+{"alias": "Coca-Cola", "alias_status": "reviewed", "entity_id": "entity_2b5203893d6f1840", "normalized_alias": "coca cola"}
+{"alias": "Coherent", "alias_status": "reviewed", "entity_id": "coherent", "normalized_alias": "coherent"}
+{"alias": "Coherent Corp", "alias_status": "reviewed", "entity_id": "coherent", "normalized_alias": "coherent"}
+{"alias": "Coherent Corp.", "alias_status": "reviewed", "entity_id": "coherent", "normalized_alias": "coherent"}
+{"alias": "COHR", "alias_status": "reviewed", "entity_id": "coherent", "normalized_alias": "cohr"}
+{"alias": "CoreWeave", "alias_status": "reviewed", "entity_id": "coreweave", "normalized_alias": "coreweave"}
+{"alias": "CoreWeave, Inc.", "alias_status": "reviewed", "entity_id": "coreweave", "normalized_alias": "coreweave"}
+{"alias": "Corning", "alias_status": "reviewed", "entity_id": "corning", "normalized_alias": "corning"}
+{"alias": "Corning Incorporated", "alias_status": "reviewed", "entity_id": "corning", "normalized_alias": "corning"}
+{"alias": "Corteva, Inc.", "alias_status": "reviewed", "entity_id": "entity_f3592e7929714492", "normalized_alias": "corteva"}
+{"alias": "CrowdStrike", "alias_status": "reviewed", "entity_id": "entity_00f1818eb564c87d", "normalized_alias": "crowdstrike"}
+{"alias": "CrowdStrike Holdings, Inc.", "alias_status": "reviewed", "entity_id": "entity_00f1818eb564c87d", "normalized_alias": "crowdstrike holdings"}
+{"alias": "CRWV", "alias_status": "reviewed", "entity_id": "coreweave", "normalized_alias": "crwv"}
+{"alias": "CSCO", "alias_status": "reviewed", "entity_id": "cisco", "normalized_alias": "csco"}
+{"alias": "Dell", "alias_status": "reviewed", "entity_id": "dell", "normalized_alias": "dell"}
+{"alias": "DELL", "alias_status": "reviewed", "entity_id": "dell", "normalized_alias": "dell"}
+{"alias": "Dell Technologies", "alias_status": "reviewed", "entity_id": "dell", "normalized_alias": "dell technologies"}
+{"alias": "Dell Technologies Inc.", "alias_status": "reviewed", "entity_id": "dell", "normalized_alias": "dell technologies"}
+{"alias": "Deutsche Telekom", "alias_status": "reviewed", "entity_id": "entity_5fcbc57c5a0b3b70", "normalized_alias": "deutsche telekom"}
+{"alias": "Digital Realty", "alias_status": "reviewed", "entity_id": "entity_8ff15d37a785fa25", "normalized_alias": "digital realty"}
+{"alias": "Eaton", "alias_status": "reviewed", "entity_id": "entity_1ba13f36f5792a1b", "normalized_alias": "eaton"}
+{"alias": "eBay Inc.", "alias_status": "reviewed", "entity_id": "entity_ac3a755bec9acf4b", "normalized_alias": "ebay"}
+{"alias": "Elastic N.V.", "alias_status": "reviewed", "entity_id": "entity_cff4787c0eeaf22e", "normalized_alias": "elastic n v"}
+{"alias": "Eli Lilly", "alias_status": "reviewed", "entity_id": "eli-lilly", "normalized_alias": "eli lilly"}
+{"alias": "Equinix", "alias_status": "reviewed", "entity_id": "entity_70b6644e2c2a916d", "normalized_alias": "equinix"}
+{"alias": "Equinix, Inc.", "alias_status": "reviewed", "entity_id": "entity_70b6644e2c2a916d", "normalized_alias": "equinix"}
+{"alias": "F5", "alias_status": "reviewed", "entity_id": "entity_0518df695de579a3", "normalized_alias": "f5"}
+{"alias": "Fabrinet", "alias_status": "reviewed", "entity_id": "fabrinet", "normalized_alias": "fabrinet"}
+{"alias": "FN", "alias_status": "reviewed", "entity_id": "fabrinet", "normalized_alias": "fn"}
+{"alias": "Fortinet", "alias_status": "reviewed", "entity_id": "entity_cf00144b5fd024c3", "normalized_alias": "fortinet"}
+{"alias": "GE HealthCare", "alias_status": "reviewed", "entity_id": "entity_db58d610c7107f10", "normalized_alias": "ge healthcare"}
+{"alias": "GENB", "alias_status": "reviewed", "entity_id": "generate-biomedicines", "normalized_alias": "genb"}
+{"alias": "General Motors", "alias_status": "reviewed", "entity_id": "general-motors", "normalized_alias": "general motors"}
+{"alias": "Generate Biomedicines, Inc.", "alias_status": "reviewed", "entity_id": "generate-biomedicines", "normalized_alias": "generate biomedicines"}
+{"alias": "GLW", "alias_status": "reviewed", "entity_id": "corning", "normalized_alias": "glw"}
+{"alias": "GM", "alias_status": "reviewed", "entity_id": "general-motors", "normalized_alias": "gm"}
+{"alias": "GOOG", "alias_status": "reviewed", "entity_id": "alphabet", "normalized_alias": "goog"}
+{"alias": "GOOGL", "alias_status": "reviewed", "entity_id": "alphabet", "normalized_alias": "googl"}
+{"alias": "Google", "alias_status": "reviewed", "entity_id": "alphabet", "normalized_alias": "google"}
+{"alias": "GSK plc", "alias_status": "reviewed", "entity_id": "entity_a705c3564aa78d5b", "normalized_alias": "gsk"}
+{"alias": "Hewlett Packard Enterprise", "alias_status": "reviewed", "entity_id": "hpe", "normalized_alias": "hewlett packard enterprise"}
+{"alias": "Hewlett Packard Enterprise Company", "alias_status": "reviewed", "entity_id": "hpe", "normalized_alias": "hewlett packard enterprise"}
+{"alias": "Hitachi", "alias_status": "reviewed", "entity_id": "entity_43cff1458d4aab47", "normalized_alias": "hitachi"}
+{"alias": "Hitachi, Ltd.", "alias_status": "reviewed", "entity_id": "entity_43cff1458d4aab47", "normalized_alias": "hitachi"}
+{"alias": "HP", "alias_status": "reviewed", "entity_id": "entity_25d551a42ba53013", "normalized_alias": "hp"}
+{"alias": "HPE", "alias_status": "reviewed", "entity_id": "hpe", "normalized_alias": "hpe"}
+{"alias": "IBM", "alias_status": "reviewed", "entity_id": "entity_7f4992b527dcdcb3", "normalized_alias": "ibm"}
+{"alias": "Infleqtion", "alias_status": "reviewed", "entity_id": "entity_1557eea558315ed4", "normalized_alias": "infleqtion"}
+{"alias": "Infosys", "alias_status": "reviewed", "entity_id": "entity_0f9d3e220c6e69d9", "normalized_alias": "infosys"}
+{"alias": "Infosys Limited", "alias_status": "reviewed", "entity_id": "entity_0f9d3e220c6e69d9", "normalized_alias": "infosys"}
+{"alias": "INTC", "alias_status": "reviewed", "entity_id": "intel", "normalized_alias": "intc"}
+{"alias": "Intel", "alias_status": "reviewed", "entity_id": "intel", "normalized_alias": "intel"}
+{"alias": "Intel Corp", "alias_status": "reviewed", "entity_id": "intel", "normalized_alias": "intel"}
+{"alias": "Intel Corporation", "alias_status": "reviewed", "entity_id": "intel", "normalized_alias": "intel"}
+{"alias": "Intercontinental Exchange, Inc.", "alias_status": "reviewed", "entity_id": "entity_c40ab33380d8a155", "normalized_alias": "intercontinental exchange"}
+{"alias": "International Business Machines Corporation", "alias_status": "reviewed", "entity_id": "entity_7f4992b527dcdcb3", "normalized_alias": "international business machines"}
+{"alias": "IonQ", "alias_status": "reviewed", "entity_id": "entity_5590312b942509c8", "normalized_alias": "ionq"}
+{"alias": "IonQ, Inc.", "alias_status": "reviewed", "entity_id": "entity_5590312b942509c8", "normalized_alias": "ionq"}
+{"alias": "IQVIA", "alias_status": "reviewed", "entity_id": "entity_c295b955ef290e14", "normalized_alias": "iqvia"}
+{"alias": "IREN Limited", "alias_status": "reviewed", "entity_id": "entity_045454fe093dec63", "normalized_alias": "iren"}
+{"alias": "JD.com, Inc.", "alias_status": "reviewed", "entity_id": "entity_229a238f6fe7a62a", "normalized_alias": "jd com"}
+{"alias": "Keysight", "alias_status": "reviewed", "entity_id": "entity_c39458634af150ad", "normalized_alias": "keysight"}
+{"alias": "Keysight Technologies", "alias_status": "reviewed", "entity_id": "entity_c39458634af150ad", "normalized_alias": "keysight technologies"}
+{"alias": "KLA", "alias_status": "reviewed", "entity_id": "entity_013a9734e777a171", "normalized_alias": "kla"}
+{"alias": "Kroger Co.", "alias_status": "reviewed", "entity_id": "entity_e6a9635024929372", "normalized_alias": "kroger"}
+{"alias": "LCID", "alias_status": "reviewed", "entity_id": "lucid", "normalized_alias": "lcid"}
+{"alias": "LI", "alias_status": "reviewed", "entity_id": "li-auto", "normalized_alias": "li"}
+{"alias": "Li Auto", "alias_status": "reviewed", "entity_id": "li-auto", "normalized_alias": "li auto"}
+{"alias": "Lilly", "alias_status": "reviewed", "entity_id": "eli-lilly", "normalized_alias": "lilly"}
+{"alias": "LITE", "alias_status": "reviewed", "entity_id": "lumentum", "normalized_alias": "lite"}
+{"alias": "LLY", "alias_status": "reviewed", "entity_id": "eli-lilly", "normalized_alias": "lly"}
+{"alias": "Lockheed Martin", "alias_status": "reviewed", "entity_id": "entity_bc9739b3d88bdea2", "normalized_alias": "lockheed martin"}
+{"alias": "Lockheed Martin Corporation", "alias_status": "reviewed", "entity_id": "entity_bc9739b3d88bdea2", "normalized_alias": "lockheed martin"}
+{"alias": "Lucid", "alias_status": "reviewed", "entity_id": "lucid", "normalized_alias": "lucid"}
+{"alias": "Lucid Group, Inc.", "alias_status": "reviewed", "entity_id": "lucid", "normalized_alias": "lucid group"}
+{"alias": "Lumentum", "alias_status": "reviewed", "entity_id": "lumentum", "normalized_alias": "lumentum"}
+{"alias": "Lumentum Holdings Inc.", "alias_status": "reviewed", "entity_id": "lumentum", "normalized_alias": "lumentum holdings"}
+{"alias": "Marvell Technology, Inc", "alias_status": "reviewed", "entity_id": "entity_0141b39325dd665b", "normalized_alias": "marvell technology"}
+{"alias": "Marvell Technology, Inc.", "alias_status": "reviewed", "entity_id": "entity_0141b39325dd665b", "normalized_alias": "marvell technology"}
+{"alias": "Meta", "alias_status": "reviewed", "entity_id": "meta", "normalized_alias": "meta"}
+{"alias": "META", "alias_status": "reviewed", "entity_id": "meta", "normalized_alias": "meta"}
+{"alias": "Meta Platforms, Inc.", "alias_status": "reviewed", "entity_id": "meta", "normalized_alias": "meta platforms"}
+{"alias": "Micron Technology", "alias_status": "reviewed", "entity_id": "micron", "normalized_alias": "micron technology"}
+{"alias": "Micron Technology, Inc.", "alias_status": "reviewed", "entity_id": "micron", "normalized_alias": "micron technology"}
+{"alias": "Microsoft", "alias_status": "reviewed", "entity_id": "microsoft", "normalized_alias": "microsoft"}
+{"alias": "Microsoft Corporation", "alias_status": "reviewed", "entity_id": "microsoft", "normalized_alias": "microsoft"}
+{"alias": "Morningstar", "alias_status": "reviewed", "entity_id": "entity_348b8130a42afca7", "normalized_alias": "morningstar"}
+{"alias": "MSFT", "alias_status": "reviewed", "entity_id": "microsoft", "normalized_alias": "msft"}
+{"alias": "MU", "alias_status": "reviewed", "entity_id": "micron", "normalized_alias": "mu"}
+{"alias": "Nasdaq, Inc.", "alias_status": "reviewed", "entity_id": "entity_8a414b29aedc0d85", "normalized_alias": "nasdaq"}
+{"alias": "NBIS", "alias_status": "reviewed", "entity_id": "nebius", "normalized_alias": "nbis"}
+{"alias": "Nebius", "alias_status": "reviewed", "entity_id": "nebius", "normalized_alias": "nebius"}
+{"alias": "Nebius Group N.V.", "alias_status": "reviewed", "entity_id": "nebius", "normalized_alias": "nebius group n v"}
+{"alias": "NetApp", "alias_status": "reviewed", "entity_id": "entity_ad2a8ec8038a3da9", "normalized_alias": "netapp"}
+{"alias": "NetApp, Inc.", "alias_status": "reviewed", "entity_id": "entity_ad2a8ec8038a3da9", "normalized_alias": "netapp"}
+{"alias": "NIO", "alias_status": "reviewed", "entity_id": "nio", "normalized_alias": "nio"}
+{"alias": "NOK", "alias_status": "reviewed", "entity_id": "nokia", "normalized_alias": "nok"}
+{"alias": "Nokia", "alias_status": "reviewed", "entity_id": "nokia", "normalized_alias": "nokia"}
+{"alias": "Novartis AG", "alias_status": "reviewed", "entity_id": "entity_209ada5e4571def5", "normalized_alias": "novartis"}
+{"alias": "Nutanix", "alias_status": "reviewed", "entity_id": "entity_dab830c157b35c6f", "normalized_alias": "nutanix"}
+{"alias": "Nutanix, Inc.", "alias_status": "reviewed", "entity_id": "entity_dab830c157b35c6f", "normalized_alias": "nutanix"}
+{"alias": "OCI", "alias_status": "reviewed", "entity_id": "oracle", "normalized_alias": "oci"}
+{"alias": "Oracle", "alias_status": "reviewed", "entity_id": "oracle", "normalized_alias": "oracle"}
+{"alias": "Oracle Corporation", "alias_status": "reviewed", "entity_id": "oracle", "normalized_alias": "oracle"}
+{"alias": "Oracle Cloud Infrastructure", "alias_status": "reviewed", "entity_id": "oracle", "normalized_alias": "oracle cloud infrastructure"}
+{"alias": "Oracle / OCI", "alias_status": "reviewed", "entity_id": "oracle", "normalized_alias": "oracle oci"}
+{"alias": "ORCL", "alias_status": "reviewed", "entity_id": "oracle", "normalized_alias": "orcl"}
+{"alias": "Palantir", "alias_status": "reviewed", "entity_id": "entity_672dfc94dc16136e", "normalized_alias": "palantir"}
+{"alias": "Palantir Technologies Inc.", "alias_status": "reviewed", "entity_id": "entity_672dfc94dc16136e", "normalized_alias": "palantir technologies"}
+{"alias": "Palo Alto Networks", "alias_status": "reviewed", "entity_id": "entity_17f4c43c3bf4ce9a", "normalized_alias": "palo alto networks"}
+{"alias": "PepsiCo, Inc.", "alias_status": "reviewed", "entity_id": "entity_455ecceeec4e87f5", "normalized_alias": "pepsico"}
+{"alias": "Pfizer Inc.", "alias_status": "reviewed", "entity_id": "entity_0dafbc24e505dd0f", "normalized_alias": "pfizer"}
+{"alias": "Planet Labs", "alias_status": "reviewed", "entity_id": "entity_eddd288672690176", "normalized_alias": "planet labs"}
+{"alias": "Polestar", "alias_status": "reviewed", "entity_id": "polestar", "normalized_alias": "polestar"}
+{"alias": "PONY", "alias_status": "reviewed", "entity_id": "pony-ai", "normalized_alias": "pony"}
+{"alias": "Pony AI", "alias_status": "reviewed", "entity_id": "pony-ai", "normalized_alias": "pony ai"}
+{"alias": "Pony.ai", "alias_status": "reviewed", "entity_id": "pony-ai", "normalized_alias": "pony ai"}
+{"alias": "PSNY", "alias_status": "reviewed", "entity_id": "polestar", "normalized_alias": "psny"}
+{"alias": "PTC", "alias_status": "reviewed", "entity_id": "entity_526c1e3f94902ba0", "normalized_alias": "ptc"}
+{"alias": "Quantinuum", "alias_status": "reviewed", "entity_id": "entity_73ba1f6eff1a76fc", "normalized_alias": "quantinuum"}
+{"alias": "Rigetti Computing", "alias_status": "reviewed", "entity_id": "entity_20c55800beb241cd", "normalized_alias": "rigetti computing"}
+{"alias": "Rigetti Computing, Inc.", "alias_status": "reviewed", "entity_id": "entity_20c55800beb241cd", "normalized_alias": "rigetti computing"}
+{"alias": "Rivian", "alias_status": "reviewed", "entity_id": "rivian", "normalized_alias": "rivian"}
+{"alias": "Rivian Automotive, Inc.", "alias_status": "reviewed", "entity_id": "rivian", "normalized_alias": "rivian automotive"}
+{"alias": "RIVN", "alias_status": "reviewed", "entity_id": "rivian", "normalized_alias": "rivn"}
+{"alias": "Roblox Corporation", "alias_status": "reviewed", "entity_id": "entity_e2e9cadb338c82f4", "normalized_alias": "roblox"}
+{"alias": "Rockwell Automation", "alias_status": "reviewed", "entity_id": "entity_683ccc79bd9f20f6", "normalized_alias": "rockwell automation"}
+{"alias": "S&P Global Inc.", "alias_status": "reviewed", "entity_id": "entity_23fdecd9dbbcdd99", "normalized_alias": "s and p global"}
+{"alias": "SAP", "alias_status": "reviewed", "entity_id": "entity_927d59b4c9b724de", "normalized_alias": "sap"}
+{"alias": "SAP SE", "alias_status": "reviewed", "entity_id": "entity_927d59b4c9b724de", "normalized_alias": "sap"}
+{"alias": "ServiceNow", "alias_status": "reviewed", "entity_id": "entity_41361c8335aa2d3d", "normalized_alias": "servicenow"}
+{"alias": "ServiceNow, Inc.", "alias_status": "reviewed", "entity_id": "entity_41361c8335aa2d3d", "normalized_alias": "servicenow"}
+{"alias": "Shell", "alias_status": "reviewed", "entity_id": "entity_54e2287678ec198c", "normalized_alias": "shell"}
+{"alias": "Shell plc", "alias_status": "reviewed", "entity_id": "entity_54e2287678ec198c", "normalized_alias": "shell"}
+{"alias": "Shopify Inc.", "alias_status": "reviewed", "entity_id": "entity_62983e59c75cee98", "normalized_alias": "shopify"}
+{"alias": "Siemens Energy", "alias_status": "reviewed", "entity_id": "entity_9784af7677af0a4a", "normalized_alias": "siemens energy"}
+{"alias": "SK Hynix", "alias_status": "reviewed", "entity_id": "sk-hynix", "normalized_alias": "sk hynix"}
+{"alias": "SK hynix Inc.", "alias_status": "reviewed", "entity_id": "sk-hynix", "normalized_alias": "sk hynix"}
+{"alias": "SMCI", "alias_status": "reviewed", "entity_id": "supermicro", "normalized_alias": "smci"}
+{"alias": "Snap", "alias_status": "reviewed", "entity_id": "entity_afbf26bfc8bc8887", "normalized_alias": "snap"}
+{"alias": "SNPS", "alias_status": "reviewed", "entity_id": "synopsys", "normalized_alias": "snps"}
+{"alias": "SoftBank Group Corp.", "alias_status": "reviewed", "entity_id": "entity_b21f97e9f41bebc4", "normalized_alias": "softbank group"}
+{"alias": "Sony", "alias_status": "reviewed", "entity_id": "entity_271fe2cd28227580", "normalized_alias": "sony"}
+{"alias": "Stellantis", "alias_status": "reviewed", "entity_id": "stellantis", "normalized_alias": "stellantis"}
+{"alias": "Stellantis N.V.", "alias_status": "reviewed", "entity_id": "stellantis", "normalized_alias": "stellantis n v"}
+{"alias": "STLA", "alias_status": "reviewed", "entity_id": "stellantis", "normalized_alias": "stla"}
+{"alias": "Super Micro Computer", "alias_status": "reviewed", "entity_id": "supermicro", "normalized_alias": "super micro computer"}
+{"alias": "Supermicro", "alias_status": "reviewed", "entity_id": "supermicro", "normalized_alias": "supermicro"}
+{"alias": "Synopsys", "alias_status": "reviewed", "entity_id": "synopsys", "normalized_alias": "synopsys"}
+{"alias": "Synopsys, Inc.", "alias_status": "reviewed", "entity_id": "synopsys", "normalized_alias": "synopsys"}
+{"alias": "T-Mobile US, Inc.", "alias_status": "reviewed", "entity_id": "entity_e4b76123e847422c", "normalized_alias": "t mobile us"}
+{"alias": "Taiwan Semiconductor Manufacturing Company", "alias_status": "reviewed", "entity_id": "tsmc", "normalized_alias": "taiwan semiconductor manufacturing"}
+{"alias": "Taiwan Semiconductor Manufacturing Company Limited", "alias_status": "reviewed", "entity_id": "tsmc", "normalized_alias": "taiwan semiconductor manufacturing"}
+{"alias": "Tapestry", "alias_status": "reviewed", "entity_id": "entity_285dd42af8dfcf78", "normalized_alias": "tapestry"}
+{"alias": "TD SYNNEX", "alias_status": "reviewed", "entity_id": "entity_30f6a80d17a88625", "normalized_alias": "td synnex"}
+{"alias": "Tesla, Inc.", "alias_status": "reviewed", "entity_id": "tesla", "normalized_alias": "tesla"}
+{"alias": "TM", "alias_status": "reviewed", "entity_id": "toyota", "normalized_alias": "tm"}
+{"alias": "Toyota", "alias_status": "reviewed", "entity_id": "toyota", "normalized_alias": "toyota"}
+{"alias": "Toyota Motor Corporation", "alias_status": "reviewed", "entity_id": "toyota", "normalized_alias": "toyota motor"}
+{"alias": "Trane Technologies", "alias_status": "reviewed", "entity_id": "entity_509b9323874f2293", "normalized_alias": "trane technologies"}
+{"alias": "TSLA", "alias_status": "reviewed", "entity_id": "tesla", "normalized_alias": "tsla"}
+{"alias": "TSM", "alias_status": "reviewed", "entity_id": "tsmc", "normalized_alias": "tsm"}
+{"alias": "TSMC", "alias_status": "reviewed", "entity_id": "tsmc", "normalized_alias": "tsmc"}
+{"alias": "Uber", "alias_status": "reviewed", "entity_id": "uber", "normalized_alias": "uber"}
+{"alias": "UBER", "alias_status": "reviewed", "entity_id": "uber", "normalized_alias": "uber"}
+{"alias": "Uber Technologies, Inc.", "alias_status": "reviewed", "entity_id": "uber", "normalized_alias": "uber technologies"}
+{"alias": "UBS Group AG", "alias_status": "reviewed", "entity_id": "entity_b65f96536e4613a3", "normalized_alias": "ubs group"}
+{"alias": "UL Solutions", "alias_status": "reviewed", "entity_id": "entity_eb2594fb4f1d12b2", "normalized_alias": "ul solutions"}
+{"alias": "Unilever", "alias_status": "reviewed", "entity_id": "entity_5ad07c8bef4237cc", "normalized_alias": "unilever"}
+{"alias": "Unilever PLC", "alias_status": "reviewed", "entity_id": "entity_5ad07c8bef4237cc", "normalized_alias": "unilever"}
+{"alias": "Verizon Communications Inc.", "alias_status": "reviewed", "entity_id": "entity_8a954030356bd7f0", "normalized_alias": "verizon communications"}
+{"alias": "Vertiv", "alias_status": "reviewed", "entity_id": "entity_96918fe6ded1061b", "normalized_alias": "vertiv"}
+{"alias": "Visa Inc.", "alias_status": "reviewed", "entity_id": "entity_4c52fd0733bac3f2", "normalized_alias": "visa"}
+{"alias": "Walmart Inc.", "alias_status": "reviewed", "entity_id": "entity_a03e9806a6931359", "normalized_alias": "walmart"}
+{"alias": "Wipro Limited", "alias_status": "reviewed", "entity_id": "entity_98177a76742ec554", "normalized_alias": "wipro"}
+{"alias": "WPP", "alias_status": "reviewed", "entity_id": "entity_106f5fc39ab00aff", "normalized_alias": "wpp"}
+{"alias": "XPENG", "alias_status": "reviewed", "entity_id": "xpeng", "normalized_alias": "xpeng"}
+{"alias": "XPEV", "alias_status": "reviewed", "entity_id": "xpeng", "normalized_alias": "xpev"}
+{"alias": "Yum! Brands", "alias_status": "reviewed", "entity_id": "entity_b7a79a439656ba47", "normalized_alias": "yum brands"}
+{"alias": "Zscaler", "alias_status": "reviewed", "entity_id": "entity_48a0a1d6f71ef610", "normalized_alias": "zscaler"}

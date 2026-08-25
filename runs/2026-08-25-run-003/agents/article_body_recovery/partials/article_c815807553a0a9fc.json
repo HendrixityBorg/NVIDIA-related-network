@@ -1,0 +1,34 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c815807553a0a9fc",
+    "audit_record_sha256": "b52503eb6be2688200a62c80fcc81a8803b66aaf03886942012ac865cba23052",
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america",
+    "error": "ValueError: RSS date mismatch: 2026-08-05 vs 2026-07-01",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "recovery_method": "blocked",
+    "result": "access_blocked",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "b52503eb6be2688200a62c80fcc81a8803b66aaf03886942012ac865cba23052",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c815807553a0a9fc",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america",
+    "content_or_audit_sha256": "b52503eb6be2688200a62c80fcc81a8803b66aaf03886942012ac865cba23052",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "ValueError: RSS date mismatch: 2026-08-05 vs 2026-07-01",
+    "processing_status": "access_blocked",
+    "published_date": "2026-07-01",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "NVIDIA and Partners Build in America, for America"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "entity_group_count": 973,
+  "errors": [],
+  "exact_group_rule_counts": {
+    "explicit_reviewed_family": 4,
+    "legal_suffix_only": 5,
+    "region_suffix_with_observed_base": 14,
+    "same_profile_url": 2
+  },
+  "final_frozen_runtime_total": 997,
+  "fuzzy_matching_used": false,
+  "gates": {
+    "all_candidates_terminal": true,
+    "all_raw_observations_grouped_once": true,
+    "claim_product_scopes_valid": true,
+    "fuzzy_matching_prohibited": true,
+    "only_partner_claims_generated": true,
+    "only_safe_exact_aliases_used": true
+  },
+  "generated_at": "2026-08-25T12:12:06.429286+00:00",
+  "initial_runtime_observation_total": 996,
+  "listed_group_match_count": 23,
+  "listing_group_edge_count": 997,
+  "nonempty_specialization_observation_count": 34,
+  "pending_count": 0,
+  "raw_observation_count": 997,
+  "relationship_claim_count": 47,
+  "runtime_total_drift": 1,
+  "runtime_total_drift_status": "reconciled_in_final_browser_freeze",
+  "schema_version": "npn-group-validator-v1",
+  "specialization_values": [
+    "AI Factory",
+    "Reference Platform NCP"
+  ],
+  "status": "passed",
+  "terminal": true
+}

@@ -1,0 +1,4 @@
+{"conflict_id": "conflict_602c00e885d2452909", "resolution": "No claim: Earth-2 context may mean former Spire Global rather than NYSE:SR utility issuer.", "status": "resolved", "subject": "Spire", "type": "entity_homonym"}
+{"conflict_id": "conflict_a4aa4bfdbaa0fec91f", "resolution": "No claim: storage-logo context was not independently tied to the same-name SEC issuer.", "status": "resolved", "subject": "Everpure", "type": "entity_homonym"}
+{"conflict_id": "conflict_d53b6ac1ba2427cf42", "resolution": "No claim: 13F reviewer marked private_excluded_from_listed_graph.", "status": "resolved", "subject": "Space Exploration Technologies Corp.", "type": "listed_status_conflict"}
+{"conflict_id": "conflict_bafebfdcf0bf6b7d04", "resolution": "No investee claim from articles/presentations; only latest 13F rows are eligible.", "status": "resolved", "subject": "article investment wording", "type": "source_boundary"}

@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "snapshot": "data/snapshot_2026-08-25.json",
+  "partner_entity_ids": 316,
+  "partner_entities_with_cik": 170,
+  "efts_matching_documents": 470,
+  "retrieved_documents": 470,
+  "mention_contexts": 1973,
+  "partner_entities_with_hits": 89,
+  "frontier_status_counts": {
+    "non_sec_route_required": 146,
+    "regulatory_hit_pending_review": 89,
+    "searched_no_nvidia_hit": 81
+  },
+  "pending_direction_review": 1973,
+  "reused_frozen_documents": 338,
+  "access_control_bypass": false
+}

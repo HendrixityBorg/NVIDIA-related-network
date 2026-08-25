@@ -1,0 +1,16 @@
+{
+  "blocked_so_far": 39,
+  "body_covered_so_far": 558,
+  "counts_by_recovery_method": {
+    "blocked": 39,
+    "direct": 7,
+    "rss": 16,
+    "wayback": 535
+  },
+  "manifest_total": 597,
+  "pending": 0,
+  "remaining": 0,
+  "terminal_rows": 597,
+  "third_party_full_html_retained": false,
+  "updated_at": "2026-08-25T12:29:46.558577+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-08-25-run-003",
+  "research_subject": "NVIDIA Corporation",
+  "security_identifier": "NASDAQ: NVDA",
+  "cutoff_at": "2026-08-25T23:59:59+08:00",
+  "earliest_news_date": "2025-01-01",
+  "status": "complete",
+  "completed_at": "2026-08-25T20:36:25+08:00",
+  "supersedes_run": "2026-08-25-run-002",
+  "source_boundaries": {
+    "secondary_product_solution_seeds": 7,
+    "newsroom": "all archive items published in range",
+    "blog": "all posts published in range",
+    "npn": "all raw listings reported by the public marketplace at freeze time, subject to access audit",
+    "filings": ["latest_10-k", "latest_13f"],
+    "presentations": [
+      "GTC_2025_Keynote",
+      "GTC_Taipei_Computex_2025_Keynote",
+      "GTC_Paris_2025_Keynote",
+      "GTC_DC_2025_Keynote",
+      "Computex_2026_Keynote",
+      "NDR_July_2026"
+    ],
+    "excluded_filings": ["10-q", "8-k", "all_other_investor_relations_files"],
+    "blog_body_fallbacks": [
+      "official_nvidia_feedburner_rss",
+      "public_wayback_snapshot_when_legally_accessible"
+    ],
+    "npn_runtime_interface": "public NVIDIA Partner Locator API identified from the public Marketplace frontend; fail closed if robots/access checks fail",
+    "investor_side_of_nvda": "excluded",
+    "peer_granularity": "product_category"
+  },
+  "disclaimer": "Research artifact only; not investment advice."
+}

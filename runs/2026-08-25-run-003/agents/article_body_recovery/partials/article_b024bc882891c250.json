@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_b024bc882891c250",
+    "audit_record_sha256": "f71a7dca11effc4ff3ea98f4d6e087970e0026937c2619b3695875667f1d23a8",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250717181624",
+    "candidate_url": "https://web.archive.org/web/20250717181624id_/https://blogs.nvidia.com/blog/isambard-ai/",
+    "canonical_url": "https://blogs.nvidia.com/blog/isambard-ai",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fisambard-ai&timestamp=20250717",
+    "response_sha256": "3b15295fab1c03279e9abc2282d90e3223e19d966d41750d5fb76ae0de44fc93",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "f71a7dca11effc4ff3ea98f4d6e087970e0026937c2619b3695875667f1d23a8",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_b024bc882891c250",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/isambard-ai",
+    "content_or_audit_sha256": "f71a7dca11effc4ff3ea98f4d6e087970e0026937c2619b3695875667f1d23a8",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-07-17",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Isambard-AI, the UK’s Most Powerful AI Supercomputer, Goes Live"
+  }
+}

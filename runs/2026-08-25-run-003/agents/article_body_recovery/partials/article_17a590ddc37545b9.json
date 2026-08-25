@@ -1,0 +1,147 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "For Robotaxis, Safety Must Be Built In, Not Bolted On | NVIDIA Blog",
+    "article_id": "article_17a590ddc37545b9",
+    "audit_record_sha256": "334830e794a25cb7c0747ba7bd2328c435cfbcaa020377abe804a94f919ac8ed",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260611030702",
+    "candidate_url": "https://web.archive.org/web/20260611030702id_/https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+    "canonical_url": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 115189,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20260611030702id_/https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+    "replay_http_status": 200,
+    "replay_sha256": "7609d8080a57a59f094a615bb21481c78a440a4c43d6674b8c3efad3e9d72876",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fhalos-os-robotaxi-safety&timestamp=20260610",
+    "response_sha256": "30c002e451575be1065e345f72ef38248fb0f4d35ca7076fc2ff85607c53fbd2",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20260611030702",
+      "article_id": "article_17a590ddc37545b9",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Halos Core is compliant with ISO 26262 ASIL D, includes safety-certified support for NVIDIA CUDA and TensorRT, and provides the TensorRT Edge-LLM open source framework for high-performance large language model inference.",
+      "entity_name_normalized_hint": "ISO 26262",
+      "entity_name_raw": "ISO 26262",
+      "evidence_locator": "body.block[21]",
+      "exchange": null,
+      "linked_url": "https://www.iso.org/standard/68383.html",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2026-06-10",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20260611030702id_/https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 76,
+      "archive_timestamp": "20260611030702",
+      "article_id": "article_17a590ddc37545b9",
+      "body_recovery_method": "wayback",
+      "body_sha256": "7609d8080a57a59f094a615bb21481c78a440a4c43d6674b8c3efad3e9d72876",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "43c907969fa3b95db8b8168850cdf81bfcfc4f20ed650ccf1a6e0f7b113fe88e",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "ISO 26262",
+      "entity_name_raw": "ISO 26262",
+      "evidence_excerpt": "Halos Core is compliant with ISO 26262 ASIL D, includes safety-certified support for NVIDIA CUDA and TensorRT, and provides the TensorRT Edge-LLM open source framework for high-performance large language model inference.",
+      "evidence_locator": "body.block[21]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "0_90_days",
+      "freshness_factor_for_root_scoring": 1.0,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_63fc127d0caa43b03f",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Halos Core",
+          "source_node_id": "av-product-halos-core"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Inference",
+          "source_node_id": "inference"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "TensorRT",
+          "source_node_id": "v2-ai-inference-tensorrt"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Safety",
+          "source_node_id": "safety"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Halos",
+          "source_node_id": "halos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "CUDA",
+          "source_node_id": "cuda"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2026-06-10",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20260611030702id_/https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "334830e794a25cb7c0747ba7bd2328c435cfbcaa020377abe804a94f919ac8ed",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 76,
+    "archive_timestamp": "20260611030702",
+    "article_id": "article_17a590ddc37545b9",
+    "block_count": 38,
+    "body_coverage_status": "complete",
+    "body_sha256": "7609d8080a57a59f094a615bb21481c78a440a4c43d6674b8c3efad3e9d72876",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety",
+    "content_or_audit_sha256": "7609d8080a57a59f094a615bb21481c78a440a4c43d6674b8c3efad3e9d72876",
+    "entity_mention_count": 1,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 5792,
+    "extracted_text_sha256": "48569c4bf04680ab2c6096dd21a9dc4c4027654dc345bfa0e8f091f564165d76",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20260611030702id_/https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+    "freshness_bucket": "0_90_days",
+    "freshness_factor_for_root_scoring": 1.0,
+    "observation_count": 1,
+    "processing_reason": "body parsed; 1 entity mentions; 1 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2026-06-10",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20260611030702id_/https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On"
+  }
+}

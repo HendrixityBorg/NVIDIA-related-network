@@ -1,0 +1,152 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US | NVIDIA Blog",
+    "article_id": "article_f660cefa448f834f",
+    "audit_record_sha256": "d6b2330261b7d85dc1b806c83796f8989d520d46e7a11e4fc812456ef1e678c1",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20251018003759",
+    "candidate_url": "https://web.archive.org/web/20251018003759id_/https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+    "canonical_url": "https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 106470,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20251018003759id_/https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+    "replay_http_status": 200,
+    "replay_sha256": "f6ee3bead1f6190a8541097f5892a8923314fdaa85d71f71f03f148deef637ae",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Ftsmc-blackwell-manufacturing&timestamp=20251017",
+    "response_sha256": "7607716214d484d682fca397b6995951dbee6948d3b3ee977f16bc2c42ada347",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251018003759",
+      "article_id": "article_f660cefa448f834f",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Today’s achievement marks a huge step forward in semiconductor manufacturing and AI development in the U.S., paving the way for sustained American leadership in artificial intelligence. NVIDIA Blackwell GPUs offer exceptional performance, return on investment and energy efficiency for AI inference .",
+      "entity_name_normalized_hint": "AI inference",
+      "entity_name_raw": "AI inference",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/glossary/ai-inference/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-10-17",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251018003759id_/https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 312,
+      "archive_timestamp": "20251018003759",
+      "article_id": "article_f660cefa448f834f",
+      "body_recovery_method": "wayback",
+      "body_sha256": "f6ee3bead1f6190a8541097f5892a8923314fdaa85d71f71f03f148deef637ae",
+      "classification_rationale": "non-authoritative investment mention; latest NVIDIA 13F is the sole allowed source for final investee claims",
+      "content_fingerprint": "1801130c46ed55961ab54252dd3ba85105fbb24c581da0307bdecf3ce1757e7c",
+      "direction_hint": "investment event mentioned; investee direction not claimable from article",
+      "entity_name_normalized_hint": "AI inference",
+      "entity_name_raw": "AI inference",
+      "evidence_excerpt": "Today’s achievement marks a huge step forward in semiconductor manufacturing and AI development in the U.S., paving the way for sustained American leadership in artificial intelligence. NVIDIA Blackwell GPUs offer exceptional performance, return on investment and energy efficiency for AI inference .",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_506f965b16f58524b6",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Artificial Intelligence",
+          "source_node_id": "artificial-intelligence"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Manufacturing",
+          "source_node_id": "manufacturing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Semiconductor",
+          "source_node_id": "semiconductor"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Inference",
+          "source_node_id": "inference"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Blackwell",
+          "source_node_id": "blackwell"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Inference",
+          "source_node_id": "inference"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Energy",
+          "source_node_id": "energy"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-10-17",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20251018003759id_/https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "d6b2330261b7d85dc1b806c83796f8989d520d46e7a11e4fc812456ef1e678c1",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 312,
+    "archive_timestamp": "20251018003759",
+    "article_id": "article_f660cefa448f834f",
+    "block_count": 14,
+    "body_coverage_status": "complete",
+    "body_sha256": "f6ee3bead1f6190a8541097f5892a8923314fdaa85d71f71f03f148deef637ae",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing",
+    "content_or_audit_sha256": "f6ee3bead1f6190a8541097f5892a8923314fdaa85d71f71f03f148deef637ae",
+    "entity_mention_count": 1,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 2983,
+    "extracted_text_sha256": "6977e66ab737270aa8768e2cfcb201f57fa073211f0c38660cea0d0fce1e6d56",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20251018003759id_/https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+    "freshness_bucket": "181_365_days",
+    "freshness_factor_for_root_scoring": 0.75,
+    "observation_count": 1,
+    "processing_reason": "body parsed; 1 entity mentions; 1 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2025-10-17",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20251018003759id_/https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US"
+  }
+}

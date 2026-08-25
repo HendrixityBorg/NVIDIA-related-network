@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "confirmed_requires_primary_regulatory_evidence": true,
+    "human_review_signoff_valid": true,
+    "independence_bounded_by_distinct_publishers": true,
+    "inferred_commercial_below_60": true,
+    "integration_validation_pass": true,
+    "public_repository_hygiene_pass": true,
+    "relationship_five_tuple_unique": true,
+    "scores_equal_breakdown_and_caps": true,
+    "supplier_direction_and_primary_evidence_valid": true
+  },
+  "counts": {
+    "entities": 329,
+    "integration_claims": 48,
+    "new_confirmed_commercial_relationships": 22,
+    "new_partner_regulatory_commercial_relationships": 48,
+    "relationships": 2016,
+    "supplier_relationships": 16,
+    "supplier_unique_companies": 11
+  },
+  "cutoff_at": "2026-08-25T23:59:59+08:00",
+  "disclaimer": "Research service delivery audit; not investment advice.",
+  "errors": [],
+  "human_review_signoff": {
+    "disclaimer_confirmed": true,
+    "exceptions": [],
+    "review_scope": {
+      "new_confirmed_commercial_relationships": {
+        "completed": true,
+        "relationship_count": 22,
+        "relationship_ids_sha256": "adb6d1d47c79a39e2d2f723933ab05d874f636babefa99df454f27e6bd53902a"
+      },
+      "supplier_relationships": {
+        "completed": true,
+        "relationship_count": 16,
+        "relationship_ids_sha256": "82f6f29a0809967d60d3af85450cabf93160ca71eddc5ffcb5da7cc666492b92"
+      }
+    },
+    "review_statement": "提交者确认已逐条完成人工复核，并对最终研究分类、实体消歧、关系方向、评分与工程判断负责。",
+    "reviewed_at": "2026-08-26",
+    "reviewer_identifier": "submission_owner",
+    "schema_version": "1.0"
+  },
+  "limitations": [
+    "Human sign-off is bound to the exact reviewed relationship ID sets by count and SHA-256 digest.",
+    "A terminal no-hit or unavailable public search is not evidence that no relationship exists.",
+    "High-specificity secret scanning supplements but does not replace Git hosting provider secret scanning."
+  ],
+  "public_repository_audit": {
+    "credential_like_files": [],
+    "high_specificity_secret_pattern_hits": [],
+    "large_files_over_20mb": [],
+    "missing_required_repository_files": [],
+    "pass": true
+  },
+  "snapshot_version": "2026-08-25.v2",
+  "status": "pass"
+}

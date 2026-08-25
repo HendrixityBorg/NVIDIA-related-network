@@ -1,0 +1,11 @@
+{
+  "access_constraints": "public no-login official JSON; bounded single request; SEC fair-access user agent",
+  "byte_count": 521857,
+  "filtered_match_rows": 13,
+  "license_note": "structured issuer facts retained for research; no redistribution right beyond public government data inferred",
+  "publisher": "U.S. Securities and Exchange Commission",
+  "raw_full_file_retained": false,
+  "retrieved_at": "2026-08-25T13:55:22.744354+00:00",
+  "sha256": "18ea4fbc84ee31d7320907ebf176df92013a28e4d304c95ef3f9674dfd373410",
+  "source_url": "https://www.sec.gov/files/company_tickers_exchange.json"
+}

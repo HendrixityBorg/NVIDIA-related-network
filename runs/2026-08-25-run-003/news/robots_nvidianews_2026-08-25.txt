@@ -1,0 +1,10 @@
+#
+# Welcome to NVIDIA
+#
+# Last updated 12 March 2019
+#
+
+User-agent: *
+Disallow: /file
+
+Sitemap: https://nvidianews.nvidia.com/sitemap.xml

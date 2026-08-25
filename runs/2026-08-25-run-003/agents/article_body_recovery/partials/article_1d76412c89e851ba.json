@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_1d76412c89e851ba",
+    "audit_record_sha256": "ec9f86b89e3e03ef59338642ff9ef5e742b63b8a500b631a89310777fa3acb4a",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250906004710",
+    "candidate_url": "https://web.archive.org/web/20250906004710id_/https://blogs.nvidia.com/blog/jupiter-exascale-supercomputer-live/",
+    "canonical_url": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputer-live",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fjupiter-exascale-supercomputer-live&timestamp=20250905",
+    "response_sha256": "17cf30cc83e4ab662736c3a40766c2c68e2c6cc07054e5dbe50d70aa35035479",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "ec9f86b89e3e03ef59338642ff9ef5e742b63b8a500b631a89310777fa3acb4a",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_1d76412c89e851ba",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputer-live",
+    "content_or_audit_sha256": "ec9f86b89e3e03ef59338642ff9ef5e742b63b8a500b631a89310777fa3acb4a",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-09-05",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Now Live: Europe’s First Exascale Supercomputer, JUPITER, Accelerates Climate Research, Neuroscience, Quantum Simulation"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": "npn-runtime-visible-page-v1",
+  "page": 23,
+  "page_size": 45,
+  "range": {
+    "start": 991,
+    "end": 997,
+    "total": 997
+  },
+  "runtime_total": 997,
+  "initial_runtime_observation_total": 996,
+  "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+  "publisher": "NVIDIA Corporation",
+  "retrieved_at": "2026-08-25T12:01:53.080Z",
+  "access": "Public page, no login; ordinary in-app browser load; no robots, CAPTCHA, rate-limit, proxy, or access-control bypass.",
+  "selection_audit": {
+    "dual_renderer_dom_count": 20,
+    "renderer_one_candidates": 10,
+    "expected_visible_directory_cards": 7,
+    "dropped_transitional_cards": [
+      {
+        "candidate_position": 1,
+        "name": "ASUSTek Computer Inc",
+        "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/asustek-computer-inc/",
+        "reason": "duplicate_full_fingerprint_in_transitional_dom"
+      },
+      {
+        "candidate_position": 1,
+        "name": "ASUSTek Computer Inc",
+        "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/asustek-computer-inc/",
+        "reason": "retained_previous_page_react_card"
+      },
+      {
+        "candidate_position": 1,
+        "name": "Ingram Micro Inc",
+        "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/ingram-micro-inc/",
+        "reason": "retained_previous_page_react_card"
+      }
+    ]
+  },
+  "records": [
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/nvent/",
+      "name": "nVent",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/nvent/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/nvent-logo.svg",
+      "partner_types": [
+        "Power and Cooling",
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software",
+        "Compute",
+        "DGX AI Compute Systems",
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 23,
+      "position": 1,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+      "evidence_locator": "visible directory card 1 of page 23 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:52.889Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/paivotal/",
+      "name": "paivotal",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/paivotal/",
+      "logo_url": null,
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "Compute",
+        "Networking",
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 23,
+      "position": 2,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+      "evidence_locator": "visible directory card 2 of page 23 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:52.918Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/pro-com-datensysteme-gmbh/",
+      "name": "pro-com DATENSYSTEME GmbH",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/pro-com-datensysteme-gmbh/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/pro-com-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute",
+        "Visualization"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 23,
+      "position": 3,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+      "evidence_locator": "visible directory card 3 of page 23 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:52.958Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/sysgen-gmbh/",
+      "name": "sysGen GmbH",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/sysgen-gmbh/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/sysgen-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute",
+        "DGX AI Compute Systems",
+        "Networking",
+        "Visualization"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 23,
+      "position": 4,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+      "evidence_locator": "visible directory card 4 of page 23 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:52.989Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/think-about-it-gmbh/",
+      "name": "think about IT GmbH",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/think-about-it-gmbh/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/tait-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute",
+        "Visualization",
+        "NVIDIA Virtual Desktops",
+        "DGX AI Compute Systems"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 23,
+      "position": 5,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+      "evidence_locator": "visible directory card 5 of page 23 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:53.020Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xamplify-services/",
+      "name": "xAmplify Services",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xamplify-services/",
+      "logo_url": null,
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "DGX AI Compute Systems"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 23,
+      "position": 6,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+      "evidence_locator": "visible directory card 6 of page 23 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:53.048Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xfusion-digital-technologies-co-ltd/",
+      "name": "xFusion Digital Technologies Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xfusion-digital-technologies-co-ltd/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/xfusion-logo.svg",
+      "partner_types": [
+        "Education Services",
+        "OEM"
+      ],
+      "competencies": [
+        "Compute",
+        "Networking",
+        "Visualization",
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 23,
+      "position": 7,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=23&limit=45",
+      "evidence_locator": "visible directory card 7 of page 23 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:53.078Z"
+    }
+  ]
+}

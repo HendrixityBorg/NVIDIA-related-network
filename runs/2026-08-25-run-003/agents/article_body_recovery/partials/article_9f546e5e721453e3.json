@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_9f546e5e721453e3",
+    "audit_record_sha256": "d3cc0a8c611dd33082e0e1228b545ee60acb52b5afb9d2854496ddd11fbbebe7",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260426075427",
+    "candidate_url": "https://web.archive.org/web/20260426075427id_/https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy/",
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-gpu-early-universe-astronomy&timestamp=20260423",
+    "response_sha256": "54761f830ea784dfa823c0f3fa52fe1a3e4b66d03ef0a772baa48f9d122d1096",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "d3cc0a8c611dd33082e0e1228b545ee60acb52b5afb9d2854496ddd11fbbebe7",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_9f546e5e721453e3",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-gpu-early-universe-astronomy",
+    "content_or_audit_sha256": "d3cc0a8c611dd33082e0e1228b545ee60acb52b5afb9d2854496ddd11fbbebe7",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-04-23",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Making Sense of the Early Universe"
+  }
+}

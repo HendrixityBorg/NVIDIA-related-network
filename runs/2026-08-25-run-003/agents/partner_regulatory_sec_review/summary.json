@@ -1,0 +1,41 @@
+{
+  "approved_candidates": 254,
+  "canonical_frontier_rows": 316,
+  "claim_counts": {
+    "customer:confirmed": 9,
+    "customer:inferred": 14,
+    "supplier:confirmed": 8
+  },
+  "claim_directness_counts": {
+    "explicit": 17,
+    "unclear": 14
+  },
+  "claim_type_fact_directness_counts": {
+    "customer:confirmed:explicit": 9,
+    "customer:inferred:unclear": 14,
+    "supplier:confirmed:explicit": 8
+  },
+  "claim_unique_endpoint_counts": {
+    "customer:confirmed": 9,
+    "customer:inferred": 14,
+    "supplier:confirmed": 7
+  },
+  "claims": 31,
+  "collection_access_control_bypass": false,
+  "collection_frontier_status_counts": {
+    "non_sec_route_required": 146,
+    "regulatory_hit_pending_review": 89,
+    "searched_no_nvidia_hit": 81
+  },
+  "collection_gate_retrieved_documents": 470,
+  "collection_partner_entities": 316,
+  "collection_partner_entities_with_cik": 170,
+  "collection_partner_entities_with_hits": 89,
+  "decision_counts": {
+    "approved": 254,
+    "rejected_non_directional": 1719
+  },
+  "input_contexts": 1973,
+  "pending_decisions": 0,
+  "terminal_decisions": 1973
+}

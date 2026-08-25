@@ -1,0 +1,93 @@
+{
+  "blocked_article_blind_spots": 39,
+  "cutoff": "2026-08-25",
+  "full_frontier_expected_rows": 4913,
+  "full_frontier_terminal_rows": 4913,
+  "high_quality_relation_priority_candidates": 1546,
+  "high_quality_relation_priority_terminal_status_counts": {
+    "ambiguous": 2,
+    "ambiguous_representative_selected": 5,
+    "inferred_listed_candidate": 23,
+    "non_listed": 23,
+    "rejected_non_entity": 246,
+    "rejected_prior_review": 43,
+    "resolved_listed": 223,
+    "resolved_listed_parent_inferred": 12,
+    "unresolved": 969
+  },
+  "high_quality_relation_review_queue": 999,
+  "high_quality_unresolved_after_research": 0,
+  "listed_endpoint_overlay_rows": 282,
+  "low_quality_frontier_excluded_rows": 3367,
+  "mapping_evidence_records": 47,
+  "ntt_data_cutoff_correction": "9613 delisted 2025-09-26; NTT DATA variants map inferred to active listed parent NTT TSE:9432",
+  "pass": true,
+  "pass_semantics": "all high-quality relation-priority candidates have one researched terminal row; this is not a claim that every ambiguous name is listed/non-listed",
+  "pending_bookkeeping": 0,
+  "relation_priority_candidates": 3613,
+  "relation_priority_terminal_status_counts": {
+    "ambiguous": 2,
+    "ambiguous_representative_selected": 5,
+    "inferred_listed_candidate": 24,
+    "non_listed": 23,
+    "rejected_non_entity": 364,
+    "rejected_prior_review": 43,
+    "resolved_listed": 236,
+    "resolved_listed_parent_inferred": 12,
+    "unresolved": 2904
+  },
+  "research_policy_schema": "embedded research_policy object in every researched_resolution_ledger row",
+  "research_validation_violations": [],
+  "researched_resolution_expected_rows": 1546,
+  "researched_resolution_ledger_rows": 1546,
+  "researched_terminal_classification_counts": {
+    "ambiguous_after_research": 545,
+    "researched_non_entity": 643,
+    "researched_nonlisted_or_private": 76,
+    "resolved_listed": 253,
+    "resolved_listed_parent_inferred": 29
+  },
+  "resolution_kind_counts": {
+    "acquired_or_wholly_owned_subsidiary_to_listed_parent": 1,
+    "brand_to_listed_parent": 11,
+    "contextual_inferred_entity": 29,
+    "direct_issuer": 241,
+    "multi_listed_group_market_cap_representative": 5,
+    "non_entity_or_product_noise": 436,
+    "non_listed_company": 23,
+    "prior_review_ambiguous": 3,
+    "prior_review_rejected": 47,
+    "prior_review_unresolved": 2732,
+    "unresolved": 1385
+  },
+  "rules": {
+    "blocked_articles": "blind spot only; no body refetch or promotion",
+    "brand_parent_endpoint_status": "inferred",
+    "contextual_endpoint_status": "unknown",
+    "fuzzy_promotion": false,
+    "multi_listed_selection": "largest August 2026 market cap representative; all candidates retained; unknown endpoint"
+  },
+  "scope": "non-NPN frozen NVIDIA sources only",
+  "source_observation_counts": {
+    "nvidia_blog_body": 2050,
+    "nvidia_blog_mention": 5005,
+    "nvidia_filing_or_presentation": 5438,
+    "nvidia_press_release": 516,
+    "nvidia_product_solution_page": 594,
+    "reviewed_peer": 13
+  },
+  "terminal_status_counts": {
+    "ambiguous": 3,
+    "ambiguous_representative_selected": 5,
+    "inferred_listed_candidate": 29,
+    "non_listed": 23,
+    "rejected_non_entity": 436,
+    "rejected_prior_review": 47,
+    "resolved_listed": 241,
+    "resolved_listed_parent_inferred": 12,
+    "unresolved": 4117
+  },
+  "total_observations": 13616,
+  "unique_candidates": 4913,
+  "unresolved_research_candidates": 4120
+}

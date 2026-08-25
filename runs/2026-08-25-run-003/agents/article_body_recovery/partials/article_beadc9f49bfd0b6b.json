@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_beadc9f49bfd0b6b",
+    "audit_record_sha256": "dab47d5488afe19bcd8e4d1cfa44267131dc864e83e57d3ed826b93332351250",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20251026041507",
+    "candidate_url": "https://web.archive.org/web/20251026041507id_/https://blogs.nvidia.com/blog/ai-day-sydney/",
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-day-sydney",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-day-sydney&timestamp=20251022",
+    "response_sha256": "7a37f3d5ab0f61317239705e713225997e3a8a0ae0862a4859e02025f498e1bc",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "dab47d5488afe19bcd8e4d1cfa44267131dc864e83e57d3ed826b93332351250",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_beadc9f49bfd0b6b",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-day-sydney",
+    "content_or_audit_sha256": "dab47d5488afe19bcd8e4d1cfa44267131dc864e83e57d3ed826b93332351250",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-10-22",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "‘The Next Generation of Compute Is Driving AI,’ Technology Leader Says at NVIDIA AI Day Sydney"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "audited_at": "2026-08-25T18:46:00+08:00",
+  "scope": "Official NVIDIA article manifest rows published 2026-01-01 through 2026-08-25 inclusive",
+  "policy": {
+    "authentication": "No login used or required by the source archive.",
+    "access_controls": "No robots, paywall, CAPTCHA, rate-limit, TLS, WAF or other control was bypassed.",
+    "request_identity": "arti-nvidia-research/1.0 (public research; contact: repository README)",
+    "storage_license_note": "NVIDIA retains copyright. HTML snapshots are frozen solely for research audit and reproducibility; no republication license is inferred.",
+    "secrets_or_personal_data": "None transmitted or stored."
+  },
+  "routes": [
+    {
+      "host": "nvidianews.nvidia.com",
+      "robots_url": "https://nvidianews.nvidia.com/robots.txt",
+      "robots_snapshot": "../../news/robots_nvidianews_2026-08-25.txt",
+      "robots_result": "Article/archive paths were not disallowed in the frozen robots response.",
+      "access_class": "public_no_login",
+      "attempt_policy": "Bounded curl with HTTP/1.1, connect/read timeouts, user agent and delay.",
+      "result": "77 of 77 selected NVIDIA Newsroom canonical bodies fetched and hash-frozen."
+    },
+    {
+      "host": "blogs.nvidia.com",
+      "robots_url": "https://blogs.nvidia.com/robots.txt",
+      "robots_result": "The host reset the connection; no robots body could be retrieved from this environment.",
+      "access_class": "public_canonical_route_attempted",
+      "attempt_policy": "One request per selected article after the host-level reset pattern was known; no repeated hammering. A single browser-route diagnostic also ended in ERR_CONNECTION_RESET.",
+      "result": "0 of 206 canonical Blog bodies fetched; all 206 recorded access_blocked.",
+      "safe_alternative": "The already frozen, public NVIDIA Newsroom archive title and description were deterministically scanned and recorded as official_archive_index_fallback. They are explicitly not represented as article-body evidence."
+    },
+    {
+      "host": "nvidianews.nvidia.com",
+      "route": "https://nvidianews.nvidia.com/news?year=2026&page=N",
+      "access_class": "public_no_login",
+      "result": "Frozen upstream archive observations supply title, date, canonical URL, publisher label, description and DOM locator for all selected rows."
+    }
+  ],
+  "outcome": {
+    "manifest_rows": 283,
+    "newsroom_body_snapshots": 77,
+    "blog_body_access_blocked": 206,
+    "terminal_ledger_rows": 283,
+    "index_fallback_scans": 206,
+    "body_coverage_complete": false,
+    "ledger_closure_complete": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_a1f3a83c92658110",
+    "audit_record_sha256": "8773717c6089afebfbaf19c6d11ea2d1614eee38e3b930bbd29c66b42afed4ac",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260318035346",
+    "candidate_url": "https://web.archive.org/web/20260318035346id_/https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/",
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fnvidia-cloudxr-apple-vision-pro&timestamp=20260317",
+    "response_sha256": "bb41a5d984604f853f39b9da1e2e729f8ed08466ee7db26e448f1aa662716954",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "8773717c6089afebfbaf19c6d11ea2d1614eee38e3b930bbd29c66b42afed4ac",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_a1f3a83c92658110",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro",
+    "content_or_audit_sha256": "8773717c6089afebfbaf19c6d11ea2d1614eee38e3b930bbd29c66b42afed4ac",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "processing_status": "access_blocked",
+    "published_date": "2026-03-17",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro"
+  }
+}

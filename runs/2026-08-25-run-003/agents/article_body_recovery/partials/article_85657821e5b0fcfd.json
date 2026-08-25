@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_85657821e5b0fcfd",
+    "audit_record_sha256": "2ab2a3a9d4f5419a705789e18e48d880b019485b2f6d6726e6d768f75eb5c698",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260218033836",
+    "candidate_url": "https://web.archive.org/web/20260218033836id_/https://blogs.nvidia.com/blog/india-ai-mission-infrastructure-models/",
+    "canonical_url": "https://blogs.nvidia.com/blog/india-ai-mission-infrastructure-models",
+    "error": "RuntimeError: attempt 1: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Findia-ai-mission-infrastructure-models&timestamp=20260217",
+    "response_sha256": "913361669eb93472760322d61bdcc6b316594a6f07209406d5e20b14aa6d6b81",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "2ab2a3a9d4f5419a705789e18e48d880b019485b2f6d6726e6d768f75eb5c698",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_85657821e5b0fcfd",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/india-ai-mission-infrastructure-models",
+    "content_or_audit_sha256": "2ab2a3a9d4f5419a705789e18e48d880b019485b2f6d6726e6d768f75eb5c698",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n | attempt 2: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n",
+    "processing_status": "access_blocked",
+    "published_date": "2026-02-17",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "India Fuels Its AI Mission With NVIDIA"
+  }
+}

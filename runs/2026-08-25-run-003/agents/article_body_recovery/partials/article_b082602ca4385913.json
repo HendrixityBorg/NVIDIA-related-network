@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_b082602ca4385913",
+    "audit_record_sha256": "32b9bba883c3867c5a382d7cb2fafde74bdc79295a73cb28ba9dccbedd9a5f93",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260601061727",
+    "candidate_url": "https://web.archive.org/web/20260601061727id_/https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
+    "canonical_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fcosmos-3-physical-ai-open-world-foundation-model&timestamp=20260531",
+    "response_sha256": "8fb489f87823fd71fa6158467309f4e258d580b969f5a4d1abc5d7c11a207358",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "32b9bba883c3867c5a382d7cb2fafde74bdc79295a73cb28ba9dccbedd9a5f93",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_b082602ca4385913",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model",
+    "content_or_audit_sha256": "32b9bba883c3867c5a382d7cb2fafde74bdc79295a73cb28ba9dccbedd9a5f93",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-05-31",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "How Cosmos 3 Helps Physical AI Think Before It Acts"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_0aaccff57b486ba0",
+    "audit_record_sha256": "17c4560b4c658ac752e6c402409e44f23e2709a56ffc750f6cb44a7c6e2d5e82",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260107234119",
+    "candidate_url": "https://web.archive.org/web/20260107234119id_/https://blogs.nvidia.com/blog/caterpillar-ces-2026/",
+    "canonical_url": "https://blogs.nvidia.com/blog/caterpillar-ces-2026",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fcaterpillar-ces-2026&timestamp=20260107",
+    "response_sha256": "ec9671b27288c2c7376c9b1c6ce4cef936eb10eec783eede011f30ecb817df74",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "17c4560b4c658ac752e6c402409e44f23e2709a56ffc750f6cb44a7c6e2d5e82",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_0aaccff57b486ba0",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/caterpillar-ces-2026",
+    "content_or_audit_sha256": "17c4560b4c658ac752e6c402409e44f23e2709a56ffc750f6cb44a7c6e2d5e82",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-01-07",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Steel, Sensors and Silicon: How Caterpillar Is Bringing Edge AI to the Jobsite"
+  }
+}

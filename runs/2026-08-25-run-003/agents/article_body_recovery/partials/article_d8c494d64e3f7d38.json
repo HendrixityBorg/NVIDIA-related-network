@@ -1,0 +1,1209 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "NVIDIA Honors Americas Partners Advancing Agentic and Physical AI | NVIDIA Blog",
+    "article_id": "article_d8c494d64e3f7d38",
+    "audit_record_sha256": "c63841727e7c77a2247e4309e062586200d26e6dbd7290191ace662592eb57cd",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250319164230",
+    "candidate_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+    "canonical_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 113564,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+    "replay_http_status": 200,
+    "replay_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fpartner-network-awards-2025&timestamp=20250319",
+    "response_sha256": "a7c0ee4fea8d8cd3f74fe5a13f6105d5a3399dd796f8f1f075a49f14c89cd771",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "NVIDIA Honors Americas Partners Advancing Agentic and Physical AI",
+      "entity_name_normalized_hint": "Honors Americas",
+      "entity_name_raw": "Honors Americas",
+      "evidence_locator": "article.title",
+      "listing_status": "unresolved",
+      "mention_source": "title_pattern",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025"
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Trailblazer Partner of the Year — Advizex is recognized for its commitment to driving innovation in AI and high-performance computing, helping industries like healthcare, manufacturing, retail and government seamlessly integrate advanced AI technologies into existing business frameworks. This enables organizations to achieve significant operations efficiencies, enhanced decision-making, and accelerated digital transformation.",
+      "entity_name_normalized_hint": "Advizex",
+      "entity_name_raw": "Advizex",
+      "evidence_locator": "body.block[10]",
+      "exchange": null,
+      "linked_url": "https://preview.webflow.com/preview/advizex?utm_medium=preview_link&utm_source=designer&utm_content=advizex&preview=73098b3ac9cbb5c8a18856b19b2062bc&pageId=67080a9932c4b5ab87c8e521&itemId=67d81abf7811444080e98ccb&locale=en&workflow=preview",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Rising Star Partner of the Year — AHEAD is recognized for its leadership, technical expertise and deployment of NVIDIA software, NVIDIA DGX systems, NVIDIA HGX and networking technologies to advance AI, benefitting customers across healthcare, financial services, life sciences and higher education.",
+      "entity_name_normalized_hint": "AHEAD",
+      "entity_name_raw": "AHEAD",
+      "evidence_locator": "body.block[11]",
+      "exchange": null,
+      "linked_url": "https://www.ahead.com/news/ahead-named-nvidia-2025-rising-star-partner-of-the-year",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Networking Partner of the Year — Computacenter is recognized for advancing high-performance computing and data centers with NVIDIA networking technologies. The company achieved this by using the NVIDIA AI Enterprise software platform, DGX platforms and NVIDIA networking to drive innovation and growth throughout industries with efficient, accelerated data centers.",
+      "entity_name_normalized_hint": "Computacenter",
+      "entity_name_raw": "Computacenter",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "linked_url": "https://www.computacenter.com/en/who-we-are/news/nvidia-award-2025",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Solution Integration Partner of the Year — EXXACT is recognized for its efforts in helping research institutions and businesses tap into generative AI, large language models and high-performance computing. The company harnesses NVIDIA GPUs and networking technologies to deliver powerful computing platforms that accelerate innovation and tackle complex computational challenges across various industries.",
+      "entity_name_normalized_hint": "EXXACT",
+      "entity_name_raw": "EXXACT",
+      "evidence_locator": "body.block[13]",
+      "exchange": null,
+      "linked_url": "https://mars.exxactcorp.com/News-Events/Exxact-Named-2025-NVIDIA-Partner-Network-Solution-Integration-Partner-of-the-Year",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Enterprise Partner of the Year — World Wide Technology (WWT) is recognized for its leadership in advancing AI adoption of customers across industry verticals worldwide. The company expanded its end-to-end AI capabilities by integrating NVIDIA Blueprints into its AI Proving Ground and has made a $500 million commitment to AI development over three years to help speed enterprise generative AI deployments.",
+      "entity_name_normalized_hint": "World Wide Technology (WWT",
+      "entity_name_raw": "World Wide Technology (WWT",
+      "evidence_locator": "body.block[14]",
+      "exchange": null,
+      "linked_url": "https://www.wwt.com/press-release/world-wide-technology-named-nvidias-2025-americas-enterprise-partner-of-the-year-and-2025-americas-npn-financial-services-partner-of-the-year",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Software Partner of the Year — Mark III is recognized for the work of its cross-functional team spanning data scientists, developers, 3D artists, systems engineers, and HPC and AI architects, as well as its close collaborations with enterprises and institutions, to deploy NVIDIA software, including NVIDIA AI Enterprise and NVIDIA Omniverse, across industries. These efforts have helped many customers build software-powered pipelines and data flywheels with machine learning, generative AI, high-performance computing and digital twins.",
+      "entity_name_normalized_hint": "Mark III",
+      "entity_name_raw": "Mark III",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "linked_url": "https://www.markiiisys.com/blog/mark-iii-recognized-as-2025-nvidia-partner-network-americas-higher-education-research-and-americas-software-partner-of-the-year/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Higher Education Research Partner of the Year — Mark III is recognized for its close engagement with universities, academic institutions and research organizations to cultivate the next generation of leaders across AI, machine learning, generative AI, high-performance computing and digital twins.",
+      "entity_name_normalized_hint": "Mark III",
+      "entity_name_raw": "Mark III",
+      "evidence_locator": "body.block[16]",
+      "exchange": null,
+      "linked_url": "https://www.markiiisys.com/blog/mark-iii-recognized-as-2025-nvidia-partner-network-americas-higher-education-research-and-americas-software-partner-of-the-year/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Healthcare Partner of the Year — Lambda is recognized for empowering healthcare and biotech organizations with AI training, fine-tuning and inferencing solutions to speed innovation and drive breakthroughs in AI-driven drug discovery. The company provides AI training, fine-tuning and inferencing solutions at every scale — from individual workstations to comprehensive AI factories — that help healthcare providers seamlessly integrate NVIDIA accelerated computing and software into their infrastructure.",
+      "entity_name_normalized_hint": "Lambda",
+      "entity_name_raw": "Lambda",
+      "evidence_locator": "body.block[17]",
+      "exchange": null,
+      "linked_url": "https://lambdalabs.com/blog/2025-nvidia-healthcare-partner-of-the-year",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Innovation Partner of the Year — Cambridge Computer is recognized for supporting customers deploying transformative technologies, including NVIDIA Grace Hopper, NVIDIA Blackwell and the NVIDIA Omniverse platform for physical AI.",
+      "entity_name_normalized_hint": "Cambridge Computer",
+      "entity_name_raw": "Cambridge Computer",
+      "evidence_locator": "body.block[19]",
+      "exchange": null,
+      "linked_url": "https://www.cambridgecomputer.com/news/cambridge-named-nvidias-2025-americas-innovation-partner-of-the-year/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Service Delivery Partner of the Year — SoftServe is recognized for its impact in driving enterprise adoption of NVIDIA AI and Omniverse with custom NVIDIA Blueprints that tap into NVIDIA NIM microservices and NVIDIA NeMo and Riva software. SoftServe helps customers create generative AI services for industries spanning manufacturing, retail, financial services, auto, healthcare and life sciences.",
+      "entity_name_normalized_hint": "SoftServe",
+      "entity_name_raw": "SoftServe",
+      "evidence_locator": "body.block[20]",
+      "exchange": null,
+      "linked_url": "https://www.softserveinc.com/en-us/not-found",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Service Delivery Partner of the Year — SoftServe is recognized for its impact in driving enterprise adoption of NVIDIA AI and Omniverse with custom NVIDIA Blueprints that tap into NVIDIA NIM microservices and NVIDIA NeMo and Riva software. SoftServe helps customers create generative AI services for industries spanning manufacturing, retail, financial services, auto, healthcare and life sciences.",
+      "entity_name_normalized_hint": "Riva",
+      "entity_name_raw": "Riva",
+      "evidence_locator": "body.block[20]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/ai-data-science/products/riva/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Distribution Partner of the Year — TD SYNNEX has been recognized for the second consecutive year for supporting customers in accelerating AI growth through rapid delivery of NVIDIA accelerated computing and software, as part of its Destination AI initiative.",
+      "entity_name_normalized_hint": "TD SYNNEX",
+      "entity_name_raw": "TD SYNNEX",
+      "evidence_locator": "body.block[21]",
+      "exchange": null,
+      "linked_url": "https://news.tdsynnex.com/news/td-synnex-recognized-as-americas-distributor-of-the-year-by-nvidia/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Rising Star Consulting Partner of the Year — Tata Consultancy Services (TCS) is recognized for its growth and commitment to providing industry-specific solutions that help customers adopt AI faster and at scale. Through its recently launched business unit and center of excellence built on NVIDIA AI Enterprise and Omniverse, TCS is poised to accelerate adoption of agentic AI and physical AI solutions to speed innovation for customers worldwide.",
+      "entity_name_normalized_hint": "Tata Consultancy Services (TCS",
+      "entity_name_raw": "Tata Consultancy Services (TCS",
+      "evidence_locator": "body.block[22]",
+      "exchange": null,
+      "linked_url": "https://www.tcs.com/who-we-are/newsroom/news-alert",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Canadian Partner of the Year — Hypertec is recognized for its advancement of high-performance computing and generative AI across Canada. The company has employed the full-stack NVIDIA platform to accelerate AI for financial services, higher education and research.",
+      "entity_name_normalized_hint": "Hypertec",
+      "entity_name_raw": "Hypertec",
+      "evidence_locator": "body.block[23]",
+      "exchange": null,
+      "linked_url": "https://hypertec.com/hypertec-nvidia-canadian-channel-partner-of-the-year/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Public Sector Partner of the Year — Government Acquisitions (GAI) is recognized for its rapid AI deployment and robust customer relationships, helping serve the unique needs of the federal government by adding AI to operations to improve public safety and efficiency.",
+      "entity_name_normalized_hint": "Government Acquisitions (GAI",
+      "entity_name_raw": "Government Acquisitions (GAI",
+      "evidence_locator": "body.block[24]",
+      "exchange": null,
+      "linked_url": "https://gaiisai.com/government-acquisitions-inc-gai-honored-as-nvidias-2025-public-sector-partner-of-the-year/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Learn more about the NPN program .",
+      "entity_name_normalized_hint": "NPN program",
+      "entity_name_raw": "NPN program",
+      "evidence_locator": "body.block[25]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/about-nvidia/partners/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "2811a726ee4b3c2c5ab37b44c6dc0cf01447445484e526b63f85581131283876",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "AHEAD",
+      "entity_name_raw": "AHEAD",
+      "evidence_excerpt": "Rising Star Partner of the Year — AHEAD is recognized for its leadership, technical expertise and deployment of NVIDIA software, NVIDIA DGX systems, NVIDIA HGX and networking technologies to advance AI, benefitting customers across healthcare, financial services, life sciences and higher education.",
+      "evidence_locator": "body.block[11]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_e27767ddd918ffd3bb",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Financial Services",
+          "source_node_id": "financial-services"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Higher Education",
+          "source_node_id": "higher-education"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Life Sciences",
+          "source_node_id": "life-sciences-domain"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Networking",
+          "source_node_id": "networking"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA DGX",
+          "source_node_id": "dgx-platform"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "241b827993e499da18c3c1540ce2d169ab28fa78a721e57be056e8976fbdb389",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Computacenter",
+      "entity_name_raw": "Computacenter",
+      "evidence_excerpt": "Networking Partner of the Year — Computacenter is recognized for advancing high-performance computing and data centers with NVIDIA networking technologies. The company achieved this by using the NVIDIA AI Enterprise software platform, DGX platforms and NVIDIA networking to drive innovation and growth throughout industries with efficient, accelerated data centers.",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_cb13deab4a510e0330",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "High-Performance Computing",
+          "source_node_id": "high-performance-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA AI Enterprise",
+          "source_node_id": "nvidia-ai-enterprise"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Enterprise",
+          "source_node_id": "nvidia-ai-enterprise"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Industries",
+          "source_node_id": "industries"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Networking",
+          "source_node_id": "networking"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DRIVE",
+          "source_node_id": "drive"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "2a8c9205a9babee4c364eb84662929c41a036546e2a618f82877c35f46a9db1b",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "EXXACT",
+      "entity_name_raw": "EXXACT",
+      "evidence_excerpt": "Solution Integration Partner of the Year — EXXACT is recognized for its efforts in helping research institutions and businesses tap into generative AI, large language models and high-performance computing. The company harnesses NVIDIA GPUs and networking technologies to deliver powerful computing platforms that accelerate innovation and tackle complex computational challenges across various industries.",
+      "evidence_locator": "body.block[13]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_cac23360eef3d0c23c",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "High-Performance Computing",
+          "source_node_id": "high-performance-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Generative AI",
+          "source_node_id": "generative-agentic-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Industries",
+          "source_node_id": "industries"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Networking",
+          "source_node_id": "networking"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "ce7056dc74c1343ec1ec7f47cb88b811c043bcb7881e9d2314367568f5ddf7bd",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "World Wide Technology (WWT",
+      "entity_name_raw": "World Wide Technology (WWT",
+      "evidence_excerpt": "Enterprise Partner of the Year — World Wide Technology (WWT) is recognized for its leadership in advancing AI adoption of customers across industry verticals worldwide. The company expanded its end-to-end AI capabilities by integrating NVIDIA Blueprints into its AI Proving Ground and has made a $500 million commitment to AI development over three years to help speed enterprise generative AI deployments.",
+      "evidence_locator": "body.block[14]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_a754ce2791ea905d63",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Blueprints",
+          "source_node_id": "nvidia-blueprints"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Generative AI",
+          "source_node_id": "generative-agentic-ai"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "12fcd66d5fd67a0223887ccd518e53bbdfa88e884295bc288d0e0ea297e18f7f",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Mark III",
+      "entity_name_raw": "Mark III",
+      "evidence_excerpt": "Software Partner of the Year — Mark III is recognized for the work of its cross-functional team spanning data scientists, developers, 3D artists, systems engineers, and HPC and AI architects, as well as its close collaborations with enterprises and institutions, to deploy NVIDIA software, including NVIDIA AI Enterprise and NVIDIA Omniverse, across industries. These efforts have helped many customers build software-powered pipelines and data flywheels with machine learning, generative AI, high-performance computing and digital twins.",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_63f0af9f27b6309cbf",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "High-Performance Computing",
+          "source_node_id": "high-performance-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA AI Enterprise",
+          "source_node_id": "nvidia-ai-enterprise"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Machine Learning",
+          "source_node_id": "machine-learning"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Enterprise",
+          "source_node_id": "nvidia-ai-enterprise"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Generative AI",
+          "source_node_id": "generative-agentic-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "HPC and AI",
+          "source_node_id": "hpc-and-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Industries",
+          "source_node_id": "industries"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "740694b5d7231b167c3ed006d847014fbb251e1d83213aaae5c2ba70764cd7b9",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Lambda",
+      "entity_name_raw": "Lambda",
+      "evidence_excerpt": "Healthcare Partner of the Year — Lambda is recognized for empowering healthcare and biotech organizations with AI training, fine-tuning and inferencing solutions to speed innovation and drive breakthroughs in AI-driven drug discovery. The company provides AI training, fine-tuning and inferencing solutions at every scale — from individual workstations to comprehensive AI factories — that help healthcare providers seamlessly integrate NVIDIA accelerated computing and software into their infrastructure.",
+      "evidence_locator": "body.block[17]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_88da6f63d2c3dc5e0a",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Accelerated Computing",
+          "source_node_id": "accelerated-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Drug Discovery",
+          "source_node_id": "drug-discovery"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Infrastructure",
+          "source_node_id": "infrastructure"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Training",
+          "source_node_id": "ai-training"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Solutions",
+          "source_node_id": "solutions"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DRIVE",
+          "source_node_id": "drive"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "386bd66a3904b324d767dedb523a93aefe4392b84c345e6f6c08edb39f47e69a",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Cambridge Computer",
+      "entity_name_raw": "Cambridge Computer",
+      "evidence_excerpt": "Innovation Partner of the Year — Cambridge Computer is recognized for supporting customers deploying transformative technologies, including NVIDIA Grace Hopper, NVIDIA Blackwell and the NVIDIA Omniverse platform for physical AI.",
+      "evidence_locator": "body.block[19]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_b176c9bb68b130d533",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Physical AI",
+          "source_node_id": "physical-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Blackwell",
+          "source_node_id": "blackwell"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Hopper",
+          "source_node_id": "hopper"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "5827404bb9a5672eb4199197d370efc88a1cdf1a14a8f745fde941e7d484701f",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "SoftServe",
+      "entity_name_raw": "SoftServe",
+      "evidence_excerpt": "Service Delivery Partner of the Year — SoftServe is recognized for its impact in driving enterprise adoption of NVIDIA AI and Omniverse with custom NVIDIA Blueprints that tap into NVIDIA NIM microservices and NVIDIA NeMo and Riva software. SoftServe helps customers create generative AI services for industries spanning manufacturing, retail, financial services, auto, healthcare and life sciences.",
+      "evidence_locator": "body.block[20]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_885b88d692be5b26e9",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Healthcare and Life Sciences",
+          "source_node_id": "healthcare-and-life-sciences"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA NIM Microservices",
+          "source_node_id": "nim-microservices"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Financial Services",
+          "source_node_id": "financial-services"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NIM Microservices",
+          "source_node_id": "nim-microservices"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Blueprints",
+          "source_node_id": "nvidia-blueprints"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Generative AI",
+          "source_node_id": "generative-agentic-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Life Sciences",
+          "source_node_id": "life-sciences-domain"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Manufacturing",
+          "source_node_id": "manufacturing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Industries",
+          "source_node_id": "industries"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NeMo",
+          "source_node_id": "nemo"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Riva",
+          "source_node_id": "riva"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "5827404bb9a5672eb4199197d370efc88a1cdf1a14a8f745fde941e7d484701f",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Riva",
+      "entity_name_raw": "Riva",
+      "evidence_excerpt": "Service Delivery Partner of the Year — SoftServe is recognized for its impact in driving enterprise adoption of NVIDIA AI and Omniverse with custom NVIDIA Blueprints that tap into NVIDIA NIM microservices and NVIDIA NeMo and Riva software. SoftServe helps customers create generative AI services for industries spanning manufacturing, retail, financial services, auto, healthcare and life sciences.",
+      "evidence_locator": "body.block[20]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_fbfb921f84b12b1bfb",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Healthcare and Life Sciences",
+          "source_node_id": "healthcare-and-life-sciences"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA NIM Microservices",
+          "source_node_id": "nim-microservices"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Financial Services",
+          "source_node_id": "financial-services"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NIM Microservices",
+          "source_node_id": "nim-microservices"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Blueprints",
+          "source_node_id": "nvidia-blueprints"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Generative AI",
+          "source_node_id": "generative-agentic-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Life Sciences",
+          "source_node_id": "life-sciences-domain"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Manufacturing",
+          "source_node_id": "manufacturing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Industries",
+          "source_node_id": "industries"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NeMo",
+          "source_node_id": "nemo"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Riva",
+          "source_node_id": "riva"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "28d01e123764024f0598af4b3d9bf51ff88313960cd0ccb4bedc8d7bed5884a9",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "TD SYNNEX",
+      "entity_name_raw": "TD SYNNEX",
+      "evidence_excerpt": "Distribution Partner of the Year — TD SYNNEX has been recognized for the second consecutive year for supporting customers in accelerating AI growth through rapid delivery of NVIDIA accelerated computing and software, as part of its Destination AI initiative.",
+      "evidence_locator": "body.block[21]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_258e9afeb7155c3a1b",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Accelerated Computing",
+          "source_node_id": "accelerated-computing"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "70580155b91815b26c0e1675248e66d572cbc2f2f1ddb0a9c2615beb43f3e8e6",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Tata Consultancy Services (TCS",
+      "entity_name_raw": "Tata Consultancy Services (TCS",
+      "evidence_excerpt": "Rising Star Consulting Partner of the Year — Tata Consultancy Services (TCS) is recognized for its growth and commitment to providing industry-specific solutions that help customers adopt AI faster and at scale. Through its recently launched business unit and center of excellence built on NVIDIA AI Enterprise and Omniverse, TCS is poised to accelerate adoption of agentic AI and physical AI solutions to speed innovation for customers worldwide.",
+      "evidence_locator": "body.block[22]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_c73df5715cc3305e3d",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA AI Enterprise",
+          "source_node_id": "nvidia-ai-enterprise"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Enterprise",
+          "source_node_id": "nvidia-ai-enterprise"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Solutions",
+          "source_node_id": "ai-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Physical AI",
+          "source_node_id": "physical-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Agentic AI",
+          "source_node_id": "v2-ai-agentic"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Solutions",
+          "source_node_id": "solutions"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 524,
+      "archive_timestamp": "20250319164230",
+      "article_id": "article_d8c494d64e3f7d38",
+      "body_recovery_method": "wayback",
+      "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+      "classification_rationale": "explicit partnership/collaboration/integration wording",
+      "content_fingerprint": "7fbe75bcdd156811d2aeda715f3fbaa6c8217d579c9934074a98139c600b40c3",
+      "direction_hint": "NVIDIA partners_with entity",
+      "entity_name_normalized_hint": "Hypertec",
+      "entity_name_raw": "Hypertec",
+      "evidence_excerpt": "Canadian Partner of the Year — Hypertec is recognized for its advancement of high-performance computing and generative AI across Canada. The company has employed the full-stack NVIDIA platform to accelerate AI for financial services, higher education and research.",
+      "evidence_locator": "body.block[23]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "over_365_days_within_research_window",
+      "freshness_factor_for_root_scoring": 0.55,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_147697bc0ec0df5aaf",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Higher Education and Research",
+          "source_node_id": "higher-education-and-research"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "High-Performance Computing",
+          "source_node_id": "high-performance-computing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Financial Services",
+          "source_node_id": "financial-services"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Higher Education",
+          "source_node_id": "higher-education"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Generative AI",
+          "source_node_id": "generative-agentic-ai"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-03-19",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "partner",
+      "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "c63841727e7c77a2247e4309e062586200d26e6dbd7290191ace662592eb57cd",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 524,
+    "archive_timestamp": "20250319164230",
+    "article_id": "article_d8c494d64e3f7d38",
+    "block_count": 25,
+    "body_coverage_status": "complete",
+    "body_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/partner-network-awards-2025",
+    "content_or_audit_sha256": "823aaefdafd23796ab225b4d360fc322f6de37fcdca8e5f69dc2c97e50873826",
+    "entity_mention_count": 17,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 7236,
+    "extracted_text_sha256": "c6d0547ab29a51c67750000e0d221afcbd038c8820ad229eaf2613823da4e0bd",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+    "freshness_bucket": "over_365_days_within_research_window",
+    "freshness_factor_for_root_scoring": 0.55,
+    "observation_count": 12,
+    "processing_reason": "body parsed; 17 entity mentions; 12 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2025-03-19",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20250319164230id_/https://blogs.nvidia.com/blog/partner-network-awards-2025/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "NVIDIA Honors Americas Partners Advancing Agentic and Physical AI"
+  }
+}

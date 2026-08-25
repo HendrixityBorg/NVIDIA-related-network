@@ -1,0 +1,430 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "Korea Joins AI Industrial Revolution: NVIDIA CEO Jensen Huang Unveils Historic Partnership at APEC Summit | NVIDIA Blog",
+    "article_id": "article_2219d4a0caedcef4",
+    "audit_record_sha256": "0cfcad0614de417226edfa55b85754fda0f502ea5d079c65a25f46ecd38ff24a",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20251101013116",
+    "candidate_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+    "canonical_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 113180,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+    "replay_http_status": 200,
+    "replay_sha256": "2d788d4363534cf25f75f1d9e23703f30943708089926cbfe5148f17490137bb",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fkorea-ai-apec-ceo-summit&timestamp=20251031",
+    "response_sha256": "35a5b235f41c0e51bdd0e560f1a3bb80543116faf7277897ee633ed111c85f87",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Kindling that tradition, NVIDIA celebrated GeForce’s 25-year run in Korea with a GeForce Gamer Festival in Seoul this week. The festival featured the latest GeForce RTX technology, with NCSOFT giving attendees an exclusive hands-on with unreleased games AION 2 and CINDER CITY , both featuring NVIDIA DLSS 4 with Multi-Frame Generation.",
+      "entity_name_normalized_hint": "GeForce Gamer Festival",
+      "entity_name_raw": "GeForce Gamer Festival",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/en-us/geforce/news/geforce-gamer-festival-korea-aion-2-cinder-city-pubg-ally/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Samsung is using NVIDIA CUDA-X, cuLitho, Nemotron models and Omniverse to build digital twins for semiconductor manufacturing, while advancing its robotics portfolio with NVIDIA Cosmos and Isaac GR00T.",
+      "entity_name_normalized_hint": "Samsung",
+      "entity_name_raw": "Samsung",
+      "evidence_locator": "body.block[14]",
+      "exchange": null,
+      "linked_url": "https://nvidianews.nvidia.com/news/samsung-ai-factory",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "SK Group is designing an AI factory capable of hosting up to 60,000 GPUs, including an AI cloud powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs. SK Telecom will offer sovereign infrastructure for domestic manufacturers and startups to build digital twins and robotics applications.",
+      "entity_name_normalized_hint": "SK Group",
+      "entity_name_raw": "SK Group",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "linked_url": "https://nvidianews.nvidia.com/news/sk-group-ai-factory",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Hyundai Motor Group is collaborating with the Korean government and NVIDIA to build an NVIDIA AI factory with 50,000 NVIDIA Blackwell GPUs to enable AI model training, validations and deployment for manufacturing, autonomous driving and robotics. The company plans to use NVIDIA DRIVE AGX Thor, NeMo, Nemotron and Omniverse to simulate factory operations.",
+      "entity_name_normalized_hint": "Hyundai Motor Group",
+      "entity_name_raw": "Hyundai Motor Group",
+      "evidence_locator": "body.block[16]",
+      "exchange": null,
+      "linked_url": "https://nvidianews.nvidia.com/news/hyundai-motor-group-ai-factory",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 298,
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "body_sha256": "2d788d4363534cf25f75f1d9e23703f30943708089926cbfe5148f17490137bb",
+      "classification_rationale": "co-mention only; no qualifying relationship verb",
+      "content_fingerprint": "af8933a142c11ac31c7d814c31d78270130725f0f2653dac70bc00ffa4a1988b",
+      "direction_hint": "direction unknown",
+      "entity_name_normalized_hint": "GeForce Gamer Festival",
+      "entity_name_raw": "GeForce Gamer Festival",
+      "evidence_excerpt": "Kindling that tradition, NVIDIA celebrated GeForce’s 25-year run in Korea with a GeForce Gamer Festival in Seoul this week. The festival featured the latest GeForce RTX technology, with NCSOFT giving attendees an exclusive hands-on with unreleased games AION 2 and CINDER CITY , both featuring NVIDIA DLSS 4 with Multi-Frame Generation.",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": true,
+      "observation_id": "obs_4d02496901b9ec2027",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "GeForce",
+          "source_node_id": "geforce"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DLSS",
+          "source_node_id": "dlss"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "unknown",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "semantic_status": "unknown",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 298,
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "body_sha256": "2d788d4363534cf25f75f1d9e23703f30943708089926cbfe5148f17490137bb",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "4d5695f1d36279ccc69e4fcd1c91a63e458e06107ef17d17452187db9e6ac18f",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Samsung",
+      "entity_name_raw": "Samsung",
+      "evidence_excerpt": "Samsung is using NVIDIA CUDA-X, cuLitho, Nemotron models and Omniverse to build digital twins for semiconductor manufacturing, while advancing its robotics portfolio with NVIDIA Cosmos and Isaac GR00T.",
+      "evidence_locator": "body.block[14]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_ce6586059a5cd38762",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Manufacturing",
+          "source_node_id": "manufacturing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Semiconductor",
+          "source_node_id": "semiconductor"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac GR00T",
+          "source_node_id": "isaac-gr00t"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Nemotron",
+          "source_node_id": "nemotron"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "cuLitho",
+          "source_node_id": "culitho"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Cosmos",
+          "source_node_id": "cosmos"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "CUDA-X",
+          "source_node_id": "cuda-x"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 298,
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "body_sha256": "2d788d4363534cf25f75f1d9e23703f30943708089926cbfe5148f17490137bb",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "997a7896425834bbfff8685ca77a4fa65740b2d17ba8339e7eddeb59c68a4680",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "SK Group",
+      "entity_name_raw": "SK Group",
+      "evidence_excerpt": "SK Group is designing an AI factory capable of hosting up to 60,000 GPUs, including an AI cloud powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs. SK Telecom will offer sovereign infrastructure for domestic manufacturers and startups to build digital twins and robotics applications.",
+      "evidence_locator": "body.block[15]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_ad05cdcc423313bedb",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "RTX PRO 6000 Blackwell Server Edition",
+          "source_node_id": "rtx-pro-6000-blackwell-server-edition"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Infrastructure",
+          "source_node_id": "infrastructure"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Digital Twins",
+          "source_node_id": "digital-twins"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Blackwell",
+          "source_node_id": "blackwell"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 298,
+      "archive_timestamp": "20251101013116",
+      "article_id": "article_2219d4a0caedcef4",
+      "body_recovery_method": "wayback",
+      "body_sha256": "2d788d4363534cf25f75f1d9e23703f30943708089926cbfe5148f17490137bb",
+      "classification_rationale": "product adoption/use wording",
+      "content_fingerprint": "068ff18a9166e8442a97506759598dfcb8f44e8cbed8a93fe4d6ee0e16601dc5",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Hyundai Motor Group",
+      "entity_name_raw": "Hyundai Motor Group",
+      "evidence_excerpt": "Hyundai Motor Group is collaborating with the Korean government and NVIDIA to build an NVIDIA AI factory with 50,000 NVIDIA Blackwell GPUs to enable AI model training, validations and deployment for manufacturing, autonomous driving and robotics. The company plans to use NVIDIA DRIVE AGX Thor, NeMo, Nemotron and Omniverse to simulate factory operations.",
+      "evidence_locator": "body.block[16]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_b7dd45c2731bead883",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA DRIVE AGX Thor",
+          "source_node_id": "drive-agx-thor"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DRIVE AGX Thor",
+          "source_node_id": "drive-agx-thor"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Manufacturing",
+          "source_node_id": "manufacturing"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Government",
+          "source_node_id": "government"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Blackwell",
+          "source_node_id": "blackwell"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Omniverse",
+          "source_node_id": "omniverse"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Nemotron",
+          "source_node_id": "nemotron"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robotics",
+          "source_node_id": "robotics"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "DRIVE",
+          "source_node_id": "drive"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NeMo",
+          "source_node_id": "nemo"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-10-31",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+      "semantic_status": "fact",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "0cfcad0614de417226edfa55b85754fda0f502ea5d079c65a25f46ecd38ff24a",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 298,
+    "archive_timestamp": "20251101013116",
+    "article_id": "article_2219d4a0caedcef4",
+    "block_count": 31,
+    "body_coverage_status": "complete",
+    "body_sha256": "2d788d4363534cf25f75f1d9e23703f30943708089926cbfe5148f17490137bb",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit",
+    "content_or_audit_sha256": "2d788d4363534cf25f75f1d9e23703f30943708089926cbfe5148f17490137bb",
+    "entity_mention_count": 4,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 6508,
+    "extracted_text_sha256": "e1545803c0633473b2a13d099af339e2f3dbcf70ed6dc4dca29ccd2d8af814da",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+    "freshness_bucket": "181_365_days",
+    "freshness_factor_for_root_scoring": 0.75,
+    "observation_count": 4,
+    "processing_reason": "body parsed; 4 entity mentions; 4 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2025-10-31",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20251101013116id_/https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "Korea Joins AI Industrial Revolution: NVIDIA CEO Jensen Huang Unveils Historic Partnership at APEC Summit"
+  }
+}

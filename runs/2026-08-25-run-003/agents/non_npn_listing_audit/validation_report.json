@@ -1,0 +1,17 @@
+{
+  "candidate_rows": 1546,
+  "duplicate_resolution_ids": false,
+  "generated_at": "2026-08-25T14:07:04+00:00",
+  "inferred_resolution_rows": 29,
+  "missing_researched_candidate_ids": [],
+  "pass": true,
+  "researched_terminal_rows": 1546,
+  "selected_unknown_entity_ids": [],
+  "terminal_category_counts": {
+    "ambiguous_after_research": 545,
+    "non_entity": 645,
+    "private_or_delisted": 76,
+    "resolved_exact": 251,
+    "resolved_inferred_parent": 29
+  }
+}

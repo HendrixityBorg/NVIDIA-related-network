@@ -1,0 +1,46 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c54af45a057e6e45",
+    "audit_record_sha256": "d98e63eed6857188f259d32e69aad500dbd7dc92314871ccc92326e692a98b70",
+    "availability_attempts": [
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstudio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop&timestamp=20250402",
+        "result": "no_available_snapshot"
+      },
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstudio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop%2F&timestamp=20250402",
+        "result": "no_available_snapshot"
+      }
+    ],
+    "canonical_url": "https://blogs.nvidia.com/blog/studio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop",
+    "error": "RuntimeError: {\"availability_attempts\": [{\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstudio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop&timestamp=20250402\", \"result\": \"no_available_snapshot\"}, {\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstudio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop%2F&timestamp=20250402\", \"result\": \"no_available_snapshot\"}], \"result\": \"no_acceptable_snapshot\"}",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "recovery_method": "blocked",
+    "result": "no_acceptable_snapshot",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "d98e63eed6857188f259d32e69aad500dbd7dc92314871ccc92326e692a98b70",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c54af45a057e6e45",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/studio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop",
+    "content_or_audit_sha256": "d98e63eed6857188f259d32e69aad500dbd7dc92314871ccc92326e692a98b70",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: {\"availability_attempts\": [{\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstudio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop&timestamp=20250402\", \"result\": \"no_available_snapshot\"}, {\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fstudio-ai-adobe-premiere-pro-geforce-rtx-50-series-laptop%2F&timestamp=20250402\", \"result\": \"no_available_snapshot\"}], \"result\": \"no_acceptable_snapshot\"}",
+    "processing_status": "access_blocked",
+    "published_date": "2025-04-02",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "NVIDIA GeForce RTX 50 Series Accelerates Adobe Premiere Pro and Media Encoder’s 4:2:2 Color Sampling"
+  }
+}

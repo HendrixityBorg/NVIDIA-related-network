@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_357555c0d8d398e4",
+    "audit_record_sha256": "46ca60f3b5a0b19f9678aca916ecb902c1b4395f8d8337469b8194fcf5e9b6fe",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260310140710",
+    "candidate_url": "https://web.archive.org/web/20260310140710id_/https://blogs.nvidia.com/blog/ai-5-layer-cake/",
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-5-layer-cake",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-5-layer-cake&timestamp=20260310",
+    "response_sha256": "9931f2ce0deb9f4e0bce0956d3cc94c4539cafe76b76a97a2ab768cde9d9f859",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "46ca60f3b5a0b19f9678aca916ecb902c1b4395f8d8337469b8194fcf5e9b6fe",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_357555c0d8d398e4",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-5-layer-cake",
+    "content_or_audit_sha256": "46ca60f3b5a0b19f9678aca916ecb902c1b4395f8d8337469b8194fcf5e9b6fe",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-03-10",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "AI Is a 5-Layer Cake"
+  }
+}

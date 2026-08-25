@@ -1,0 +1,54 @@
+{
+  "publisher": "NVIDIA Corporation",
+  "discovered_at": "2026-08-25T19:30:00+08:00",
+  "discovery_status": "confirmed_from_public_frontend_code",
+  "marketplace_source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/",
+  "frontend_script_url": "https://marketplace.nvidia.com/enterprise/_next/static/chunks/pages/%5Blocale%5D/enterprise/partners-c23981a93af94574.js",
+  "frontend_script_archive_url": "https://web.archive.org/web/20260103024039id_/https://marketplace.nvidia.com/enterprise/_next/static/chunks/pages/%5Blocale%5D/enterprise/partners-c23981a93af94574.js",
+  "frontend_script_sha256_of_decoded_body": "3551581f2438bc16ac024eec536dd6b087ce06e3994d06756bb6efd308af3c1c",
+  "evidence_locator": "minified page chunk: string literals `https://api.store.nvidia.com/`, `products/v1/partner-locator?scope=partners&`, and `products/v1/partner-locator?scope=filter` inside the partners page data-loading function",
+  "api_base": "https://api.store.nvidia.com/",
+  "partner_endpoint_template": "https://api.store.nvidia.com/products/v1/partner-locator?scope=partners&locale=en-us&page={page}&limit={limit}",
+  "filter_endpoint": "https://api.store.nvidia.com/products/v1/partner-locator?scope=filter&locale=en-us",
+  "archived_response_example": {
+    "url": "https://api.store.nvidia.com/products/v1/partner-locator?locale=en-us&scope=partners&page=1&limit=45",
+    "archive_url": "https://web.archive.org/web/20260427080333id_/https://api.store.nvidia.com/products/v1/partner-locator?locale=en-us&scope=partners&page=1&limit=45",
+    "sha256_of_decoded_body": "f540e3aeb8961081c6652c16430c622e277240c33b377bcedffe60ddf9a3514a",
+    "pagination_total_records_at_capture": 1015,
+    "record_count": 45,
+    "fields_observed": [
+      "name",
+      "logo",
+      "types",
+      "competencies",
+      "levels",
+      "code",
+      "specialization",
+      "pcid",
+      "exemplar"
+    ]
+  },
+  "live_ui_observation": {
+    "observed_at": "2026-08-25T18:40:00+08:00",
+    "runtime_total_records": 996,
+    "page": 1,
+    "limit": 15,
+    "snapshot": "pages/page_001.json"
+  },
+  "access_results": {
+    "marketplace_browser": "one successful public page load followed by connection resets",
+    "api_curl_http2": "stream INTERNAL_ERROR before response",
+    "api_curl_http1_ipv4": "timeout with zero bytes",
+    "api_browser": "blocked by client",
+    "bypass_attempted": false
+  },
+  "completion_implication_at_discovery": "The endpoint was reproducibly identified, but a public endpoint definition and archived partial response did not yet prove collection of the then-live 996-record population.",
+  "final_capture_update": {
+    "status": "superseded_by_later_complete_runtime_capture",
+    "final_runtime_total": 997,
+    "page_count": 23,
+    "raw_observations": 997,
+    "capture_manifest": "../agents/npn_runtime_browser/capture_manifest.json",
+    "drift_note": "The official visible page changed from 996 to 997 during the same research day. The later complete 997-card population is frozen; the 996 observation remains temporal provenance."
+  }
+}

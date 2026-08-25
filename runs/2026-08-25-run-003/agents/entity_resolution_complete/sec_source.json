@@ -1,0 +1,9 @@
+{
+  "access_constraints": "public_no_login; descriptive User-Agent; no access-control bypass",
+  "content_sha256": "18ea4fbc84ee31d7320907ebf176df92013a28e4d304c95ef3f9674dfd373410",
+  "fixture": "sec_company_tickers_exchange_filtered.jsonl",
+  "fixture_scope": "Only rows supporting accepted resolutions are retained; source hash covers the full retrieved response.",
+  "publisher": "U.S. Securities and Exchange Commission",
+  "retrieved_at": "2026-08-25T11:06:14.554183+00:00",
+  "url": "https://www.sec.gov/files/company_tickers_exchange.json"
+}

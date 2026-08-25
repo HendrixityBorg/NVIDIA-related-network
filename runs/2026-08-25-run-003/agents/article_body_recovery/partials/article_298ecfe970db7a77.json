@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_298ecfe970db7a77",
+    "audit_record_sha256": "a6a49bd8b8333b791ab4b605c06a8e271f94e43c5b1a0a871f15f232c68356a8",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20251119020119",
+    "candidate_url": "https://web.archive.org/web/20251119020119id_/https://blogs.nvidia.com/blog/gordon-bell-finalists-2025/",
+    "canonical_url": "https://blogs.nvidia.com/blog/gordon-bell-finalists-2025",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fgordon-bell-finalists-2025&timestamp=20251118",
+    "response_sha256": "dd22542f20895fbca553007c1f6604bec85cc8ab3657f51d7a238c728677e997",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "a6a49bd8b8333b791ab4b605c06a8e271f94e43c5b1a0a871f15f232c68356a8",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_298ecfe970db7a77",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/gordon-bell-finalists-2025",
+    "content_or_audit_sha256": "a6a49bd8b8333b791ab4b605c06a8e271f94e43c5b1a0a871f15f232c68356a8",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-11-18",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Gordon Bell Prize Winners Push Open Science Boundaries With NVIDIA-Powered Supercomputers"
+  }
+}

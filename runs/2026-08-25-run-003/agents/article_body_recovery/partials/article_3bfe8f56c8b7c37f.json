@@ -1,0 +1,41 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_3bfe8f56c8b7c37f",
+    "audit_record_sha256": "a6e8290121498e5d1ca0c112ba466ad8b3dd6c5e054107968b55ccf652dbae65",
+    "availability_attempts": [],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20260323003238",
+    "candidate_url": "https://web.archive.org/web/20260323003238id_/https://blogs.nvidia.com/blog/roche-ai-factories-omniverse/",
+    "canonical_url": "https://blogs.nvidia.com/blog/roche-ai-factories-omniverse",
+    "error": "RuntimeError: attempt 1: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Froche-ai-factories-omniverse&timestamp=20260316",
+    "response_sha256": "166a2ed630eeb82eac695a1ce4ff6427dae9f709b89b5641614994fc85199c3b",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "a6e8290121498e5d1ca0c112ba466ad8b3dd6c5e054107968b55ccf652dbae65",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_3bfe8f56c8b7c37f",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/roche-ai-factories-omniverse",
+    "content_or_audit_sha256": "a6e8290121498e5d1ca0c112ba466ad8b3dd6c5e054107968b55ccf652dbae65",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ConnectionError: curl exit 35: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to web.archive.org:443 \n | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2026-03-16",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Roche Scales NVIDIA AI Factories Globally to Accelerate Drug Discovery, Diagnostic Solutions and Manufacturing Breakthroughs"
+  }
+}

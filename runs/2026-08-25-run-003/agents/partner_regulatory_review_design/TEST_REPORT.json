@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "test_file": "test_direction_policy.py",
+  "fixture_file": "direction_fixtures.jsonl",
+  "fixture_rows": 7,
+  "tests_passed": 17,
+  "tests_failed": 0,
+  "command": "python -m pytest -q test_direction_policy.py",
+  "validated_rules": [
+    "NVIDIA is customer => Partner supplies_to NVIDIA",
+    "Partner purchases NVIDIA => NVIDIA sells_to Partner",
+    "directness and fact_status are orthogonal",
+    "company and third-party news are capped at inferred",
+    "Partner and other roles are retained",
+    "dual supplier/customer roles are allowed",
+    "unknown product defaults to corporate_general",
+    "reposts do not increase independent-source count",
+    "research-window boundaries are inclusive",
+    "out-of-window and prohibited-access inputs are rejected"
+  ]
+}

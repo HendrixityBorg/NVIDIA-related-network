@@ -1,0 +1,238 @@
+{
+  "fragment": "v2_dc_hpc",
+  "base_snapshot": "runs/2026-08-25-run-002/agents/product_tree/canonical_index.jsonl",
+  "research_cutoff": "2026-08-25",
+  "generated_at": "2026-08-25T20:00:00+08:00",
+  "add_keys": [
+    "agx-platform",
+    "ai-physics-domain",
+    "atmospheric-science-domain",
+    "blackwell-tensor-cores",
+    "carbon-capture-storage-modeling",
+    "chemistry-materials-domain",
+    "cloud-access",
+    "computational-engineering-domain",
+    "cuda-q",
+    "cuda-qx",
+    "cuda-x-data-science",
+    "cupqc",
+    "cuquantum",
+    "cuquantum-appliance",
+    "data-center-solutions",
+    "data-science",
+    "earth-2",
+    "earth-2-corrdiff",
+    "earth-2-fourcastnet-3",
+    "earth-2-global-data-assimilation",
+    "earth-2-medium-range",
+    "earth-2-nowcasting",
+    "earth-2-visualization-service",
+    "earth-2-weather-analytics-blueprint",
+    "earth2studio",
+    "edge-deployment",
+    "egx-platform",
+    "engineering-simulation",
+    "financial-modeling",
+    "grace-cpu-architecture",
+    "index",
+    "index-paraview-plugin",
+    "ising",
+    "life-sciences-domain",
+    "logical-orchestration",
+    "molecular-dynamics-simulation",
+    "nemoclaw-blueprint",
+    "neuralvdb",
+    "nixl",
+    "nvaqc",
+    "nvqlink",
+    "nvshmem",
+    "office-access",
+    "on-prem-data-center",
+    "physics-ai-reference-pipelines",
+    "physicsnemo",
+    "qec-decoding",
+    "qpu-calibration",
+    "quantum-cloud",
+    "rtx-virtual-workstation",
+    "rubin-tensor-cores",
+    "space-1-vera-rubin-module",
+    "space-computing",
+    "sustainable-computing",
+    "urban-weather-digital-twin",
+    "virtual-ai-development",
+    "virtual-applications",
+    "virtual-design-engineering",
+    "virtual-pc",
+    "virtual-productivity-apps",
+    "warp",
+    "weather-climate-simulation",
+    "weather-forecasting"
+  ],
+  "augment_existing_keys": [
+    "accelerated-computing",
+    "blackwell",
+    "bluefield-platform",
+    "cloud-computing",
+    "computer-aided-engineering",
+    "confidential-computing",
+    "cuda-toolkit",
+    "cuda-x",
+    "dgx-platform",
+    "dgx-spark",
+    "dgx-station",
+    "dgx-superpod",
+    "gb200-nvl4",
+    "gb200-nvl72",
+    "gb300-nvl72",
+    "generative-agentic-ai",
+    "hgx-b300",
+    "hgx-platform",
+    "hpc-and-ai",
+    "hpc-overview",
+    "hpc-sdk",
+    "igx-platform",
+    "inference",
+    "multi-instance-gpu",
+    "nccl",
+    "nvlink",
+    "nvlink-c2c",
+    "nvlink-switch",
+    "omniverse-cloud",
+    "ovx-systems",
+    "quantum-computing",
+    "rapids",
+    "rendering",
+    "scientific-visualization",
+    "simulation-and-modeling",
+    "spectrum-x",
+    "tensor-cores",
+    "virtualization"
+  ],
+  "aliases_to_add": {
+    "grace-cpu-architecture": [
+      "Grace Architecture"
+    ],
+    "generative-agentic-ai": [
+      "Generative / Agentic AI"
+    ],
+    "rtx-virtual-workstation": [
+      "RTX vWS"
+    ],
+    "virtual-pc": [
+      "vPC"
+    ],
+    "virtual-applications": [
+      "vApps"
+    ],
+    "hpc-and-ai": [
+      "HPC and AI"
+    ],
+    "nixl": [
+      "NVIDIA Inference Transfer Library"
+    ],
+    "earth-2-medium-range": [
+      "Atlas architecture"
+    ],
+    "earth-2-nowcasting": [
+      "StormScope"
+    ],
+    "earth-2-global-data-assimilation": [
+      "HealDA"
+    ],
+    "computer-aided-engineering": [
+      "CAE"
+    ],
+    "quantum-computing": [
+      "NVIDIA Quantum"
+    ],
+    "nvaqc": [
+      "NVAQC"
+    ]
+  },
+  "conflicts": [
+    {
+      "canonical_key": "spectrum-x",
+      "v1_type": "product",
+      "v2_observed_type": "platform",
+      "resolution": "preserve both observations; root merger applies global type precedence and context-specific path",
+      "evidence_source_id": "DC001",
+      "evidence_locator": "Full-Stack Infrastructure > Spectrum-X, lines 92-97"
+    },
+    {
+      "canonical_key": "inference",
+      "v1_type": "solution",
+      "v2_observed_type": "workload",
+      "resolution": "preserve both observations; root merger applies global type precedence and context-specific path",
+      "evidence_source_id": "DC001",
+      "evidence_locator": "Workloads > AI Inference, lines 113-121"
+    },
+    {
+      "canonical_key": "generative-agentic-ai",
+      "v1_type": "solution",
+      "v2_observed_type": "workload",
+      "resolution": "preserve both observations; root merger applies global type precedence and context-specific path",
+      "evidence_source_id": "DC001",
+      "evidence_locator": "Workloads > Generative AI, lines 123-130"
+    },
+    {
+      "canonical_key": "hpc-overview",
+      "v1_type": "solution",
+      "v2_observed_type": "workload",
+      "resolution": "preserve both observations; root merger applies global type precedence and context-specific path",
+      "evidence_source_id": "DC001",
+      "evidence_locator": "Workloads > High-Performance Computing, lines 131-138"
+    },
+    {
+      "canonical_key": "rendering",
+      "v1_type": "solution",
+      "v2_observed_type": "workload",
+      "resolution": "preserve both observations; root merger applies global type precedence and context-specific path",
+      "evidence_source_id": "DC001",
+      "evidence_locator": "Workloads > Rendering, lines 139-146"
+    },
+    {
+      "canonical_key": "virtualization",
+      "v1_type": "solution",
+      "v2_observed_type": "workload",
+      "resolution": "preserve both observations; root merger applies global type precedence and context-specific path",
+      "evidence_source_id": "DC001",
+      "evidence_locator": "Workloads > Virtualization, lines 147-154"
+    },
+    {
+      "canonical_key": "nccl",
+      "v1_type": "technology",
+      "v2_observed_type": "software",
+      "resolution": "preserve both observations; root merger applies global type precedence and context-specific path",
+      "evidence_source_id": "HPC007",
+      "evidence_locator": "Communication Libraries, lines 109-115"
+    },
+    {
+      "canonical_key": "hpc-and-ai",
+      "v1_name": "HPC and AI",
+      "v2_name": "AI for Science",
+      "resolution": "AI for Science is current page H1; keep HPC and AI as navigation alias",
+      "evidence_source_id": "HPC002",
+      "evidence_locator": "H1 and navigation, lines 28-33 and 126-151"
+    },
+    {
+      "canonical_key": "sustainable-computing",
+      "issue": "legacy HPC solution link now redirects to corporate sustainability",
+      "resolution": "retain redirected alias but do not model a current standalone product/solution page",
+      "evidence_source_id": "HPC005",
+      "evidence_locator": "HTTP redirect and target H1 Corporate Sustainability"
+    },
+    {
+      "canonical_key": "gb200-nvl72",
+      "issue": "NVAQC component body contains 'GB200 NVL2' while heading/link and quantum overview identify GB200 NVL72",
+      "resolution": "treat NVL2 as page copy error; canonicalize to GB200 NVL72 and retain conflict note",
+      "evidence_source_id": "HPC014",
+      "evidence_locator": "Components, lines 99-104; compare Overview line 41 and linked product"
+    }
+  ],
+  "merge_rules": [
+    "Never overwrite v1 evidence; append v2 evidence observations.",
+    "Canonical identity is by canonical_key, not by tree path.",
+    "A node may appear under both product and solution contexts while remaining one canonical object.",
+    "Redirected aliases remain provenance records but do not prove current standalone availability."
+  ]
+}

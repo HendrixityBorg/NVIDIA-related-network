@@ -1,0 +1,47 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c34b9e9981815d8b",
+    "audit_record_sha256": "168f25952718a5729ed4c255f9b5cf0ca2f4ca4370009cc4b07bc71489c1d083",
+    "availability_attempts": [
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Ffoxconn-smart-hospital-robot&timestamp=20250518",
+        "result": "no_available_snapshot"
+      }
+    ],
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20250519052814",
+    "candidate_url": "https://web.archive.org/web/20250519052814id_/https://blogs.nvidia.com/blog/foxconn-smart-hospital-robot/",
+    "canonical_url": "https://blogs.nvidia.com/blog/foxconn-smart-hospital-robot",
+    "error": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "http_status": 200,
+    "recovery_method": "blocked",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Ffoxconn-smart-hospital-robot%2F&timestamp=20250518",
+    "response_sha256": "3385cdbe2f0365a02a03a209de7bb780df7e72a2825be678ab3fee622d6312ab",
+    "result": "replay_failed",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "168f25952718a5729ed4c255f9b5cf0ca2f4ca4370009cc4b07bc71489c1d083",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_c34b9e9981815d8b",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/foxconn-smart-hospital-robot",
+    "content_or_audit_sha256": "168f25952718a5729ed4c255f9b5cf0ca2f4ca4370009cc4b07bc71489c1d083",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: attempt 1: ValueError: missing/short entry-content body (0 characters) | attempt 2: ValueError: missing/short entry-content body (0 characters)",
+    "processing_status": "access_blocked",
+    "published_date": "2025-05-18",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "Foxconn Taps NVIDIA to Accelerate Physical and Digital Robotics for Global Healthcare Industry"
+  }
+}

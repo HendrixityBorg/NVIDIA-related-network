@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-08-26",
+  "reviewer_identifier": "submission_owner",
+  "review_statement": "提交者确认已逐条完成人工复核，并对最终研究分类、实体消歧、关系方向、评分与工程判断负责。",
+  "review_scope": {
+    "supplier_relationships": {
+      "completed": true,
+      "relationship_count": 16,
+      "relationship_ids_sha256": "82f6f29a0809967d60d3af85450cabf93160ca71eddc5ffcb5da7cc666492b92"
+    },
+    "new_confirmed_commercial_relationships": {
+      "completed": true,
+      "relationship_count": 22,
+      "relationship_ids_sha256": "adb6d1d47c79a39e2d2f723933ab05d874f636babefa99df454f27e6bd53902a"
+    }
+  },
+  "exceptions": [],
+  "disclaimer_confirmed": true
+}

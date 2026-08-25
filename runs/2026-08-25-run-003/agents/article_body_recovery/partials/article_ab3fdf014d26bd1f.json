@@ -1,0 +1,441 @@
+{
+  "access": {
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "actual_html_title": "ADAM Robot Bartender Makes Drinks at Vegas Golden Knights Game | NVIDIA Blog",
+    "article_id": "article_ab3fdf014d26bd1f",
+    "audit_record_sha256": "6f4486459e42ef9173abe5bc1b3e7ebb16252f063c291faf9c2d601e7799d447",
+    "cache_control": "max-age=21600",
+    "candidate_timestamp": "20251213071911",
+    "candidate_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+    "canonical_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "http_status": 200,
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "replay_byte_count": 106363,
+    "replay_content_type": "text/html; charset=UTF-8",
+    "replay_final_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+    "replay_http_status": 200,
+    "replay_sha256": "afde106d6daa91bd80c2dacc2fb75a2b2efcffec41093455170e742e2213620a",
+    "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fadam-robot-vegas-golden-knights-thor&timestamp=20251212",
+    "response_sha256": "a3853247d024a313e8166a4289b290699d80e630cbcc510c5b4e0c7d5db65428",
+    "result": "body_processed",
+    "source_family": "internet_archive_wayback_replay"
+  },
+  "mentions": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "ADAM’s skills such as pouring and shaking were refined in simulation using Isaac Lab , NVIDIA’s open source robot learning framework. The result: a robot that doesn’t just follow instructions — it adapts to its environment with precision.",
+      "entity_name_normalized_hint": "Isaac Lab",
+      "entity_name_raw": "Isaac Lab",
+      "evidence_locator": "body.block[6]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/lab",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "ADAM runs on NVIDIA Jetson AGX Orin , the powerful edge AI platform capable of 275 TOPS of compute. Using Isaac ROS 2 libraries, ADAM captures camera feeds, detects objects and calibrates the workspace in real time. ADAM’s perception stack — built with TAO Toolkit and optimized with TensorRT — enables it to identify cups, measure liquid levels and adjust movements with less than 40 milliseconds of latency.",
+      "entity_name_normalized_hint": "Isaac ROS 2",
+      "entity_name_raw": "Isaac ROS 2",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/isaac/ros",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "ADAM runs on NVIDIA Jetson AGX Orin , the powerful edge AI platform capable of 275 TOPS of compute. Using Isaac ROS 2 libraries, ADAM captures camera feeds, detects objects and calibrates the workspace in real time. ADAM’s perception stack — built with TAO Toolkit and optimized with TensorRT — enables it to identify cups, measure liquid levels and adjust movements with less than 40 milliseconds of latency.",
+      "entity_name_normalized_hint": "TAO Toolkit",
+      "entity_name_raw": "TAO Toolkit",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/tao-toolkit",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "ADAM runs on NVIDIA Jetson AGX Orin , the powerful edge AI platform capable of 275 TOPS of compute. Using Isaac ROS 2 libraries, ADAM captures camera feeds, detects objects and calibrates the workspace in real time. ADAM’s perception stack — built with TAO Toolkit and optimized with TensorRT — enables it to identify cups, measure liquid levels and adjust movements with less than 40 milliseconds of latency.",
+      "entity_name_normalized_hint": "TensorRT",
+      "entity_name_raw": "TensorRT",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "linked_url": "https://developer.nvidia.com/tensorrt",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "context_excerpt": "Recently unveiled at GTC DC , Dex combines the mobility of an autonomous wheeled platform with the precision of dual-arm dexterity. It’s designed to handle such light-to-medium industrial tasks as machine operation, parts sorting, material handling and packaging — all with the flexibility to take on different tools and workflows.",
+      "entity_name_normalized_hint": "GTC DC",
+      "entity_name_raw": "GTC DC",
+      "evidence_locator": "body.block[12]",
+      "exchange": null,
+      "linked_url": "https://www.nvidia.com/gtc/dc/",
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved",
+      "mention_source": "anchor",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    }
+  ],
+  "observations": [
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 256,
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "body_sha256": "afde106d6daa91bd80c2dacc2fb75a2b2efcffec41093455170e742e2213620a",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "9e90dc5d4a9f8a2fdd4d20ce3f958299c6e8bf258ed5397324aa4e2af482664b",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Isaac Lab",
+      "entity_name_raw": "Isaac Lab",
+      "evidence_excerpt": "ADAM’s skills such as pouring and shaking were refined in simulation using Isaac Lab , NVIDIA’s open source robot learning framework. The result: a robot that doesn’t just follow instructions — it adapts to its environment with precision.",
+      "evidence_locator": "body.block[6]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_3a6be7d04c89c2d8e7",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Robot Learning",
+          "source_node_id": "learning"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac Lab",
+          "source_node_id": "isaac-lab"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 256,
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "body_sha256": "afde106d6daa91bd80c2dacc2fb75a2b2efcffec41093455170e742e2213620a",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "ba693b649f8fee2e993e47c7bcebea5a52b0b21640c78403da44fbb9434c92b3",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "Isaac ROS 2",
+      "entity_name_raw": "Isaac ROS 2",
+      "evidence_excerpt": "ADAM runs on NVIDIA Jetson AGX Orin , the powerful edge AI platform capable of 275 TOPS of compute. Using Isaac ROS 2 libraries, ADAM captures camera feeds, detects objects and calibrates the workspace in real time. ADAM’s perception stack — built with TAO Toolkit and optimized with TensorRT — enables it to identify cups, measure liquid levels and adjust movements with less than 40 milliseconds of latency.",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_bb299e9c0d3261454a",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Jetson",
+          "source_node_id": "jetson-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Platform",
+          "source_node_id": "ai-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "TAO Toolkit",
+          "source_node_id": "v2-ai-tao"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac ROS",
+          "source_node_id": "isaac-ros"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "TensorRT",
+          "source_node_id": "v2-ai-inference-tensorrt"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Edge AI",
+          "source_node_id": "edge-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Jetson",
+          "source_node_id": "jetson-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 256,
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "body_sha256": "afde106d6daa91bd80c2dacc2fb75a2b2efcffec41093455170e742e2213620a",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "ba693b649f8fee2e993e47c7bcebea5a52b0b21640c78403da44fbb9434c92b3",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "TAO Toolkit",
+      "entity_name_raw": "TAO Toolkit",
+      "evidence_excerpt": "ADAM runs on NVIDIA Jetson AGX Orin , the powerful edge AI platform capable of 275 TOPS of compute. Using Isaac ROS 2 libraries, ADAM captures camera feeds, detects objects and calibrates the workspace in real time. ADAM’s perception stack — built with TAO Toolkit and optimized with TensorRT — enables it to identify cups, measure liquid levels and adjust movements with less than 40 milliseconds of latency.",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_d2f9558510577693e9",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Jetson",
+          "source_node_id": "jetson-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Platform",
+          "source_node_id": "ai-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "TAO Toolkit",
+          "source_node_id": "v2-ai-tao"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac ROS",
+          "source_node_id": "isaac-ros"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "TensorRT",
+          "source_node_id": "v2-ai-inference-tensorrt"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Edge AI",
+          "source_node_id": "edge-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Jetson",
+          "source_node_id": "jetson-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    },
+    {
+      "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+      "age_days_at_cutoff": 256,
+      "archive_timestamp": "20251213071911",
+      "article_id": "article_ab3fdf014d26bd1f",
+      "body_recovery_method": "wayback",
+      "body_sha256": "afde106d6daa91bd80c2dacc2fb75a2b2efcffec41093455170e742e2213620a",
+      "classification_rationale": "powered-by/built-on wording; commercial role not explicit",
+      "content_fingerprint": "ba693b649f8fee2e993e47c7bcebea5a52b0b21640c78403da44fbb9434c92b3",
+      "direction_hint": "NVIDIA sells_to entity",
+      "entity_name_normalized_hint": "TensorRT",
+      "entity_name_raw": "TensorRT",
+      "evidence_excerpt": "ADAM runs on NVIDIA Jetson AGX Orin , the powerful edge AI platform capable of 275 TOPS of compute. Using Isaac ROS 2 libraries, ADAM captures camera feeds, detects objects and calibrates the workspace in real time. ADAM’s perception stack — built with TAO Toolkit and optimized with TensorRT — enables it to identify cups, measure liquid levels and adjust movements with less than 40 milliseconds of latency.",
+      "evidence_locator": "body.block[8]",
+      "exchange": null,
+      "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+      "freshness_bucket": "181_365_days",
+      "freshness_factor_for_root_scoring": 0.75,
+      "listing_evidence_locator": null,
+      "listing_status": "unresolved_requires_entity_resolution",
+      "news_cooccurrence_warning": false,
+      "observation_id": "obs_91173fc348f3d3f782",
+      "product_context": [
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "NVIDIA Jetson",
+          "source_node_id": "jetson-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "AI Platform",
+          "source_node_id": "ai-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "TAO Toolkit",
+          "source_node_id": "v2-ai-tao"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac ROS",
+          "source_node_id": "isaac-ros"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "TensorRT",
+          "source_node_id": "v2-ai-inference-tensorrt"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Edge AI",
+          "source_node_id": "edge-ai"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Jetson",
+          "source_node_id": "jetson-platform"
+        },
+        {
+          "mapping_origin": "runs/2026-08-25-run-003/product_tree_v2/canonical_index_v2.jsonl",
+          "product_name": "Isaac",
+          "source_node_id": "isaac"
+        }
+      ],
+      "product_mapping_status": "explicit_in_same_block",
+      "published_date": "2025-12-12",
+      "publisher": "NVIDIA Blog",
+      "relationship_hint": "customer",
+      "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+      "semantic_status": "inferred",
+      "snapshot_path": null,
+      "source_family": "internet_archive_wayback_replay",
+      "source_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+      "ticker": null
+    }
+  ],
+  "processing": {
+    "access_audit_sha256": "6f4486459e42ef9173abe5bc1b3e7ebb16252f063c291faf9c2d601e7799d447",
+    "access_constraints": "public no-login Internet Archive replay; original publisher copyright retained; no republication grant inferred",
+    "age_days_at_cutoff": 256,
+    "archive_timestamp": "20251213071911",
+    "article_id": "article_ab3fdf014d26bd1f",
+    "block_count": 15,
+    "body_coverage_status": "complete",
+    "body_sha256": "afde106d6daa91bd80c2dacc2fb75a2b2efcffec41093455170e742e2213620a",
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor",
+    "content_or_audit_sha256": "afde106d6daa91bd80c2dacc2fb75a2b2efcffec41093455170e742e2213620a",
+    "entity_mention_count": 5,
+    "evidence_locator": "body.block[N] in deterministic entry-content parse",
+    "evidence_locator_scheme": "body.block[N] in deterministic article-body/entry-content parse",
+    "extracted_character_count": 3247,
+    "extracted_text_sha256": "d50523ce04e8b0dd82a7026211bb02b40334bff3a16ba043f86c521e22694585",
+    "fetched_at": "2026-08-25T11:03:35.536056+00:00",
+    "final_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+    "freshness_bucket": "181_365_days",
+    "freshness_factor_for_root_scoring": 0.75,
+    "observation_count": 4,
+    "processing_reason": "body parsed; 5 entity mentions; 4 conservative relationship observations",
+    "processing_status": "processed_with_candidates",
+    "published_date": "2025-12-12",
+    "publisher": "NVIDIA Blog",
+    "raw_content_retained": false,
+    "recovery_method": "wayback",
+    "retrieved_url": "https://web.archive.org/web/20251213071911id_/https://blogs.nvidia.com/blog/adam-robot-vegas-golden-knights-thor/",
+    "source_family": "internet_archive_wayback_replay",
+    "title": "Cheers to AI: ADAM Robot Bartender Makes Drinks at Vegas Golden Knights Game"
+  }
+}

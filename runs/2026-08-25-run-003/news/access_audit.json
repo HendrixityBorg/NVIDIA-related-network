@@ -1,0 +1,32 @@
+{
+  "research_cutoff": "2026-08-25",
+  "sources": [
+    {
+      "host": "nvidianews.nvidia.com",
+      "robots_url": "https://nvidianews.nvidia.com/robots.txt",
+      "robots_retrieved": true,
+      "robots_snapshot": "robots_nvidianews_2026-08-25.txt",
+      "decision": "allowed",
+      "reason": "The public /news archive is not disallowed; /file is disallowed and was not fetched.",
+      "access": "public_no_login",
+      "collector_behavior": "sequential year pagination, descriptive user agent, delay, bounded retry, content validation"
+    },
+    {
+      "host": "blogs.nvidia.com",
+      "robots_url": "https://blogs.nvidia.com/robots.txt",
+      "robots_retrieved": false,
+      "decision": "no_bulk_enumeration_from_blog_host",
+      "reason": "Direct robots, sitemap, REST, and static-script requests reset during this run. No bypass or concurrency increase was attempted.",
+      "access": "public rendered HTML pages remained readable in the official UI",
+      "secondary_observation": "The public recent-news UI exposed Load More and an inline WordPress REST base, but the REST route reset. The official Newsroom archive supplied the Blog URL mother table."
+    }
+  ],
+  "restrictions": {
+    "login_used": false,
+    "paywall_bypassed": false,
+    "captcha_bypassed": false,
+    "rate_limit_bypassed": false,
+    "restricted_paths_fetched": false,
+    "redistribution_license_inferred": false
+  }
+}

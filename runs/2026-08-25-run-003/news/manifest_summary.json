@@ -1,0 +1,19 @@
+{
+  "after_cutoff_exclusions": 0,
+  "archive_pages": 78,
+  "canonical_articles_before_cutoff_filter": 765,
+  "cutoff_date_inclusive": "2026-08-25",
+  "duplicate_archive_observations": 6,
+  "generated_at": "2026-08-25T10:26:44.198593+00:00",
+  "included_articles": 765,
+  "newsroom_press_releases": 168,
+  "nvidia_blog_articles": 597,
+  "pages_with_zero_items": [],
+  "pending_body_review": 765,
+  "raw_archive_observations": 771,
+  "unknown_type_articles": 0,
+  "years": [
+    2025,
+    2026
+  ]
+}

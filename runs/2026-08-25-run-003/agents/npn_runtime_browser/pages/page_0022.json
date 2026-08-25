@@ -1,0 +1,999 @@
+{
+  "schema_version": "npn-runtime-visible-page-v1",
+  "page": 22,
+  "page_size": 45,
+  "range": {
+    "start": 946,
+    "end": 990,
+    "total": 997
+  },
+  "runtime_total": 997,
+  "initial_runtime_observation_total": 996,
+  "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+  "publisher": "NVIDIA Corporation",
+  "retrieved_at": "2026-08-25T12:01:43.594Z",
+  "access": "Public page, no login; ordinary in-app browser load; no robots, CAPTCHA, rate-limit, proxy, or access-control bypass.",
+  "selection_audit": {
+    "dual_renderer_dom_count": 96,
+    "renderer_one_candidates": 48,
+    "expected_visible_directory_cards": 45,
+    "dropped_transitional_cards": [
+      {
+        "candidate_position": 1,
+        "name": "ASUSTek Computer Inc",
+        "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/asustek-computer-inc/",
+        "reason": "duplicate_full_fingerprint_in_transitional_dom"
+      },
+      {
+        "candidate_position": 1,
+        "name": "ASUSTek Computer Inc",
+        "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/asustek-computer-inc/",
+        "reason": "retained_previous_page_react_card"
+      },
+      {
+        "candidate_position": 1,
+        "name": "Ingram Micro Inc",
+        "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/ingram-micro-inc/",
+        "reason": "retained_previous_page_react_card"
+      }
+    ]
+  },
+  "records": [
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/wiwynn-corporation/",
+      "name": "Wiwynn Corporation",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/wiwynn-corporation/",
+      "logo_url": null,
+      "partner_types": [
+        "OEM"
+      ],
+      "competencies": [
+        "Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 1,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 1 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.277Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/wolf-advanced-technology/",
+      "name": "Wolf Advanced Technology",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/wolf-advanced-technology/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Visualization"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 2,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 2 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.307Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/woolpert-inc/",
+      "name": "Woolpert Inc",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/woolpert-inc/",
+      "logo_url": null,
+      "partner_types": [
+        "Architecture / Engineering / Construction"
+      ],
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 3,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 3 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.336Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/world-wide-technology/",
+      "name": "World Wide Technology",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/world-wide-technology/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/world-wide-technology-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Networking",
+        "DGX AI Compute Systems",
+        "NVIDIA Enterprise Software",
+        "NVIDIA Virtual Desktops",
+        "Compute",
+        "DGX Cloud",
+        "Visualization"
+      ],
+      "specializations": [
+        "AI Factory"
+      ],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 4,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 4 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.369Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/world-wide-technology-emea/",
+      "name": "World Wide Technology EMEA",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/world-wide-technology-emea/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/world-wide-technology-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "DGX Cloud",
+        "NVIDIA Enterprise Software",
+        "Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 5,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 5 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.404Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/worley/",
+      "name": "Worley",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/worley/",
+      "logo_url": null,
+      "partner_types": [
+        "Architecture / Engineering / Construction"
+      ],
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 6,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 6 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.432Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/wortmann-ag/",
+      "name": "Wortmann AG",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/wortmann-ag/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute",
+        "Visualization"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 7,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 7 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.459Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuhan-chaoqing-technology-co-ltd/",
+      "name": "Wuhan ChaoQing Technology Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuhan-chaoqing-technology-co-ltd/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/chaoqing-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Networking",
+        "Compute",
+        "Visualization"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 8,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 8 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.489Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuhan-shengzhe-network-technology-co-ltd/",
+      "name": "Wuhan Shengzhe Network Technology Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuhan-shengzhe-network-technology-co-ltd/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/wh-szwlkj-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "NVIDIA Virtual Desktops",
+        "Visualization"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 9,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 9 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.522Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuhan-towaytech-co-ltd/",
+      "name": "Wuhan Towaytech Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuhan-towaytech-co-ltd/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/towaynet-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "NVIDIA Virtual Desktops"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 10,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 10 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.554Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuxi-kaiwu-artificial-intelligence-technology-co-ltd/",
+      "name": "Wuxi Kaiwu Artificial Intelligence Technology Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/wuxi-kaiwu-artificial-intelligence-technology-co-ltd/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 11,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 11 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.582Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xenon-systems-pty-ltd/",
+      "name": "XENON Systems Pty Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xenon-systems-pty-ltd/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/xenon-logo.svg",
+      "partner_types": [
+        "Education Services",
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Networking",
+        "Compute",
+        "DGX AI Compute Systems",
+        "NVIDIA Technologies",
+        "Visualization",
+        "NVIDIA Virtual Desktops",
+        "DGX Cloud"
+      ],
+      "specializations": [
+        "AI Factory"
+      ],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 12,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 12 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.613Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xiilab-co-ltd/",
+      "name": "XIILAB Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xiilab-co-ltd/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "DGX AI Compute Systems"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 13,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 13 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.640Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xebia/",
+      "name": "Xebia",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xebia/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software",
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 14,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 14 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.668Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xenya-d-o-o/",
+      "name": "Xenya d.o.o.",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xenya-d-o-o/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 15,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 15 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.696Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xiamen-yuanchou-intelligent-computing-technology-co-ltd/",
+      "name": "Xiamen Yuanchou Intelligent Computing Technology Co.,Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xiamen-yuanchou-intelligent-computing-technology-co-ltd/",
+      "logo_url": null,
+      "partner_types": [
+        "OEM"
+      ],
+      "competencies": [
+        "Compute",
+        "NVIDIA Enterprise Software",
+        "Networking",
+        "Visualization"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 16,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 16 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.725Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/xsuperzone-technology-corp/",
+      "name": "Xsuperzone Technology Corp",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/xsuperzone-technology-corp/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/xsuperzone-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute",
+        "Visualization",
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 17,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 17 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.768Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/yi-tunnel-sandstar/",
+      "name": "YI Tunnel Sandstar",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/yi-tunnel-sandstar/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/sandstar-logo.svg",
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "Networking",
+        "Compute",
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 18,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 18 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.802Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/ytl-communication/",
+      "name": "YTL Communication",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/ytl-communication/",
+      "logo_url": "https://marketplace.nvidia.com/enterprise/_next/static/media/m48-wreath-star-76b900.2ebad63f.svg",
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 19,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 19 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.834Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/yuan-high-tech/",
+      "name": "YUAN High-Tech",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/yuan-high-tech/",
+      "logo_url": null,
+      "partner_types": [
+        "OEM"
+      ],
+      "competencies": [
+        "Embedded Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 20,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 20 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.863Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/yotta-data-services-private-limited/",
+      "name": "Yotta Data Services Private Limited",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/yotta-data-services-private-limited/",
+      "logo_url": null,
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "NVIDIA Virtual Desktops",
+        "Networking",
+        "Compute",
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [
+        "Reference Platform NCP"
+      ],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 21,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 21 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.890Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/younite-ai-oy/",
+      "name": "Younite AI Oy",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/younite-ai-oy/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 22,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 22 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.925Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zte-corproation/",
+      "name": "ZTE corproation",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zte-corproation/",
+      "logo_url": null,
+      "partner_types": [
+        "OEM"
+      ],
+      "competencies": [
+        "Compute",
+        "Networking"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 23,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 23 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.952Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zadara/",
+      "name": "Zadara",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zadara/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/zadara-logo.svg",
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 24,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 24 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:42.981Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zanders-group/",
+      "name": "Zanders Group",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zanders-group/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 25,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 25 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.009Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zefire/",
+      "name": "Zefire",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zefire/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/zefire-logo.svg",
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software",
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 26,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 26 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.042Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zero-one-technology-co-ltd/",
+      "name": "Zero One Technology Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zero-one-technology-co-ltd/",
+      "logo_url": null,
+      "partner_types": [
+        "Distributor"
+      ],
+      "competencies": [
+        "Compute",
+        "DGX AI Compute Systems",
+        "NVIDIA Virtual Desktops",
+        "DGX Cloud",
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 27,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 27 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.068Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zero-tc-cloud-computing-shanghai-co-ltd/",
+      "name": "Zero TC Cloud Computing (Shanghai) Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zero-tc-cloud-computing-shanghai-co-ltd/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/zero-tc.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "NVIDIA Virtual Desktops"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 28,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 28 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.100Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zespro/",
+      "name": "Zespro",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zespro/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 29,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 29 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.128Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zhejiang-yindun-cloud-technology-co-ltd/",
+      "name": "Zhejiang Yindun Cloud Technology Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zhejiang-yindun-cloud-technology-co-ltd/",
+      "logo_url": null,
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 30,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 30 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.154Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/zhongsheng-cloud-beijing-information-technology-co-ltd/",
+      "name": "Zhongsheng Cloud Beijing Information Technology Co Ltd",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/zhongsheng-cloud-beijing-information-technology-co-ltd/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Networking"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 31,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 31 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.182Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/appliedai-unternehmertum/",
+      "name": "appliedAI (UnternehmerTUM)",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/appliedai-unternehmertum/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 32,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 32 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.209Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/arcade-solutions-ag/",
+      "name": "arcade solutions AG",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/arcade-solutions-ag/",
+      "logo_url": null,
+      "partner_types": [
+        "Cloud Partner"
+      ],
+      "competencies": [
+        "NVIDIA Virtual Desktops"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 33,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 33 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.235Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/atnorth-ehf/",
+      "name": "atNorth ehf",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/atnorth-ehf/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/atnorth-logo.svg",
+      "partner_types": [
+        "Cloud Partner",
+        "Data Center Partner"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software",
+        "Compute",
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 34,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 34 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.270Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/codecentric-ag/",
+      "name": "codecentric AG",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/codecentric-ag/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 35,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 35 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.300Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/e-con-systems-india-private-limited/",
+      "name": "e-con Systems India Private Limited",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/e-con-systems-india-private-limited/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/e-con-systems-logo.svg",
+      "partner_types": [
+        "Advanced Technology Partner"
+      ],
+      "competencies": [
+        "Embedded Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 36,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 36 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.332Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/einfochips/",
+      "name": "eInfochips",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/einfochips/",
+      "logo_url": null,
+      "partner_types": [
+        "Advanced Technology Partner"
+      ],
+      "competencies": [
+        "Embedded Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 37,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 37 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.360Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/eplustechnology/",
+      "name": "ePlusTechnology",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/eplustechnology/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/eplus-logo.svg",
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "NVIDIA Virtual Desktops",
+        "Networking",
+        "Visualization",
+        "Compute",
+        "DGX AI Compute Systems"
+      ],
+      "specializations": [
+        "AI Factory"
+      ],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 38,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 38 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.393Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/edforce/",
+      "name": "edForce",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/edforce/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/edforce-logo.svg",
+      "partner_types": [
+        "Education Services"
+      ],
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 39,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 39 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.424Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/ixsystems-inc/",
+      "name": "iXsystems Inc",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/ixsystems-inc/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute",
+        "Networking"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 40,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 40 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.450Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/inmind-ai/",
+      "name": "inmind.ai",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/inmind-ai/",
+      "logo_url": "https://www.nvidia.com/content/dam/logos/inmind-logo.svg",
+      "partner_types": [
+        "Solution Advisor"
+      ],
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 41,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 41 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.483Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/itm8/",
+      "name": "itm8",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/itm8/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 42,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 42 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.509Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/khazna/",
+      "name": "khazna",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/khazna/",
+      "logo_url": null,
+      "partner_types": [
+        "Data Center Partner"
+      ],
+      "competencies": [
+        "NVIDIA Technologies"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 43,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 43 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.536Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/mh-service-gmbh/",
+      "name": "mh SERVICE GmbH",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/mh-service-gmbh/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "NVIDIA Enterprise Software",
+        "Compute",
+        "Networking"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 44,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 44 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.565Z"
+    },
+    {
+      "listing_id": "https://marketplace.nvidia.com/en-us/enterprise/partners/mkiscore/",
+      "name": "mkiscore",
+      "profile_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/mkiscore/",
+      "logo_url": null,
+      "partner_types": [
+        "Solution Provider"
+      ],
+      "competencies": [
+        "Compute",
+        "NVIDIA Enterprise Software",
+        "DGX AI Compute Systems"
+      ],
+      "specializations": [],
+      "partner_levels": [],
+      "locations": [],
+      "page": 22,
+      "position": 45,
+      "source_url": "https://marketplace.nvidia.com/en-us/enterprise/partners/?locale=en-us&page=22&limit=45",
+      "evidence_locator": "visible directory card 45 of page 22 after audited transitional-DOM reconciliation",
+      "retrieved_at": "2026-08-25T12:01:43.592Z"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "access": {
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_499a05815b14be6b",
+    "audit_record_sha256": "f74340e82039ff0f71bcddd8de0b89ec23bc3474332744591f60d255b6d9c6a4",
+    "availability_attempts": [
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-pays-off-survey-reveals-financial-industrys-latest-technological-trends&timestamp=20250205",
+        "result": "no_available_snapshot"
+      },
+      {
+        "http_status": 200,
+        "request_url": "https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-pays-off-survey-reveals-financial-industrys-latest-technological-trends%2F&timestamp=20250205",
+        "result": "no_available_snapshot"
+      }
+    ],
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-pays-off-survey-reveals-financial-industrys-latest-technological-trends",
+    "error": "RuntimeError: {\"availability_attempts\": [{\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-pays-off-survey-reveals-financial-industrys-latest-technological-trends&timestamp=20250205\", \"result\": \"no_available_snapshot\"}, {\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-pays-off-survey-reveals-financial-industrys-latest-technological-trends%2F&timestamp=20250205\", \"result\": \"no_available_snapshot\"}], \"result\": \"no_acceptable_snapshot\"}",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "recovery_method": "blocked",
+    "result": "no_acceptable_snapshot",
+    "source_family": "internet_archive_wayback_availability_audit"
+  },
+  "mentions": [],
+  "observations": [],
+  "processing": {
+    "access_audit_sha256": "f74340e82039ff0f71bcddd8de0b89ec23bc3474332744591f60d255b6d9c6a4",
+    "access_constraints": "public direct/RSS/Wayback routes exhausted with bounded requests; no access control bypass",
+    "article_id": "article_499a05815b14be6b",
+    "body_coverage_status": "access_blocked",
+    "body_sha256": null,
+    "body_snapshot_path": null,
+    "canonical_url": "https://blogs.nvidia.com/blog/ai-pays-off-survey-reveals-financial-industrys-latest-technological-trends",
+    "content_or_audit_sha256": "f74340e82039ff0f71bcddd8de0b89ec23bc3474332744591f60d255b6d9c6a4",
+    "evidence_locator": "access_audit.availability_attempts[*] (exact canonical path and trailing-slash equivalent)",
+    "fetched_at": "2026-08-25T12:16:50.788509+00:00",
+    "processing_reason": "RuntimeError: {\"availability_attempts\": [{\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-pays-off-survey-reveals-financial-industrys-latest-technological-trends&timestamp=20250205\", \"result\": \"no_available_snapshot\"}, {\"http_status\": 200, \"request_url\": \"https://archive.org/wayback/available?url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fai-pays-off-survey-reveals-financial-industrys-latest-technological-trends%2F&timestamp=20250205\", \"result\": \"no_available_snapshot\"}], \"result\": \"no_acceptable_snapshot\"}",
+    "processing_status": "access_blocked",
+    "published_date": "2025-02-05",
+    "publisher": "NVIDIA Blog",
+    "recovery_method": "blocked",
+    "source_family": "internet_archive_wayback_availability_audit",
+    "title": "AI Pays Off: Survey Reveals Financial Industry’s Latest Technological Trends"
+  }
+}
