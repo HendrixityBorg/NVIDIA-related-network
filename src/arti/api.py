@@ -178,6 +178,7 @@ def create_app(data_path: str | None = None) -> FastAPI:
         as_of: date | None = None,
         include_unknown: bool = True,
         limit: Annotated[int, Query(ge=1, le=100)] = 100,
+        cursor: str | None = None,
     ) -> dict:
         return {
             "data": service.graph(
@@ -194,6 +195,7 @@ def create_app(data_path: str | None = None) -> FastAPI:
                 as_of=as_of,
                 include_unknown=include_unknown,
                 limit=limit,
+                cursor=cursor,
             )
         }
 

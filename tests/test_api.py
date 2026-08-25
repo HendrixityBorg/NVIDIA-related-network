@@ -77,3 +77,34 @@ def test_evidence_can_be_queried_by_relationship() -> None:
             relationship.evidence_ids
         )
         assert all(item["source"]["url"] for item in payload["data"])
+
+
+def test_graph_supports_cursor_pagination_and_explicit_cursor_errors() -> None:
+    with TestClient(create_app()) as client:
+        first = client.get(
+            "/v1/graph", params={"company": "NVDA", "limit": 2}
+        )
+        assert first.status_code == 200
+        first_data = first.json()["data"]
+        assert first_data["truncated"] is True
+        assert first_data["next_cursor"] is not None
+
+        second = client.get(
+            "/v1/graph",
+            params={
+                "company": "NVDA",
+                "limit": 2,
+                "cursor": first_data["next_cursor"],
+            },
+        )
+        assert second.status_code == 200
+        first_ids = {edge["id"] for edge in first_data["edges"]}
+        second_ids = {edge["id"] for edge in second.json()["data"]["edges"]}
+        assert first_ids.isdisjoint(second_ids)
+
+        bad_cursor = client.get(
+            "/v1/graph",
+            params={"company": "NVDA", "cursor": "not-a-cursor"},
+        )
+        assert bad_cursor.status_code == 400
+        assert bad_cursor.json()["error"]["code"] == "invalid_cursor"

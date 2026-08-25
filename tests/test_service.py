@@ -103,6 +103,21 @@ def test_pagination_and_bad_cursor(service: ResearchService) -> None:
         service.list_relationships(company="nvidia", cursor="bad!cursor", limit=2)
 
 
+def test_graph_cursor_paginates_without_duplicate_edges(service: ResearchService) -> None:
+    first = service.graph(company="nvidia", limit=2)
+    assert first["truncated"] is True
+    assert first["next_cursor"] is not None
+
+    second = service.graph(
+        company="nvidia", limit=2, cursor=first["next_cursor"]
+    )
+    assert {edge.id for edge in first["edges"]}.isdisjoint(
+        {edge.id for edge in second["edges"]}
+    )
+    with pytest.raises(InvalidCursorError):
+        service.graph(company="nvidia", limit=2, cursor="bad!cursor")
+
+
 def test_explicit_status_filter(service: ResearchService) -> None:
     result = service.list_relationships(
         company="nvidia", statuses={FactStatus.CONFIRMED}, limit=100

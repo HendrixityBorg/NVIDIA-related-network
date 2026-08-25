@@ -92,6 +92,8 @@ Blog 正文覆盖 558/597，另 39 篇为有完整访问审计的 terminal block
 仓库不复制完整第三方网页、Blog 正文、PDF 或媒体文件。它冻结结构化事实、短摘录、
 URL、publisher、发布时间/获取时间、页码或区块 locator、访问限制和 SHA-256。
 reviewer 运行 API 或理解结论时不需要重新抓取受限数据。
+代码使用 MIT 许可证；第三方来源权利与结构化数据再使用边界见
+[DATA_NOTICE.md](DATA_NOTICE.md)，MIT 不会重新许可第三方网页、商标、Logo、PDF 或媒体。
 
 Reviewer 可直接审阅以下冻结产物，无需重新访问原站点：
 
@@ -216,7 +218,10 @@ OpenAPI：`http://127.0.0.1:8000/docs`；健康检查：`GET /health`。
   --published-from 2025-01-01 --published-to 2026-08-25 --limit 20
 
 # 一跳关系图
-.venv/bin/arti graph --company NVDA --type peer --min-confidence 60
+.venv/bin/arti graph --company NVDA --type peer --min-confidence 60 --limit 50
+# 使用上一页返回的 next_cursor 获取下一页
+.venv/bin/arti graph --company NVDA --type peer --min-confidence 60 \
+  --limit 50 --cursor '上一页返回的cursor'
 ```
 
 CLI 成功退出码为 `0`；语法/枚举/日期/范围坏输入、坏游标、不存在实体或缺文件均返回
@@ -241,7 +246,8 @@ CLI 成功退出码为 `0`；语法/枚举/日期/范围坏输入、坏游标、
 关系和图查询支持 `company`、可重复 `relation_type`/`direction`/`status`、
 `commercial_directness`、
 `min_confidence`/`min_relevance`、`product`、`as_of`、`include_unknown` 和 `limit`；
-关系查询还支持 `cursor`。证据查询支持 `relationship_id`、`publisher`、
+关系和图查询还支持 `cursor`。图响应在仍有后续结果时返回 `truncated=true` 和
+`next_cursor`。证据查询支持 `relationship_id`、`publisher`、
 `source_family`、`published_from`/`published_to`、`human_verified`、`limit` 和 `cursor`。
 CLI 对应关系类型参数名为 `--type`，证据 relationship ID 是可选位置参数。
 
@@ -289,8 +295,8 @@ decision ledgers 和 source metadata：
 
 `--skip-gates` 仅供本地开发 schema 检查，禁止用于发布。详细方法见
 [research/METHODOLOGY.md](research/METHODOLOGY.md)，更新清单见
-[research/UPDATE_RUNBOOK.md](research/UPDATE_RUNBOOK.md)，公开提交前还应完成
-[research/DELIVERY_CHECKLIST_ZH.md](research/DELIVERY_CHECKLIST_ZH.md)中的本人签字项。
+[research/UPDATE_RUNBOOK.md](research/UPDATE_RUNBOOK.md)；已完成的人工复核范围、签字状态和
+本地交付检查见 [research/DELIVERY_CHECKLIST_ZH.md](research/DELIVERY_CHECKLIST_ZH.md)。
 
 快照 validator 接受 `--snapshot PATH` 或单一位置参数；两者均省略时才读取
 `ARTI_DATA_PATH`，再回退到 checked-in 默认路径。因此验证临时构建时必须显式传入
@@ -304,7 +310,7 @@ builder 与 snapshot validator 都拒绝任何 `retrieved_at > generated_at` 的
 ## 测试与失败案例
 
 测试覆盖 Pydantic 引用与评分、59/69 状态上限、单产品 key、ticker/alias 解析、
-关系/方向/分数/产品/时间筛选、cursor 分页、unknown 默认纳入及显式排除、API 404/422、
+关系/方向/分数/产品/时间筛选、关系/图/证据 cursor 分页、unknown 默认纳入及显式排除、API 400/404/422、
 CLI 结构化失败，以及同键重复/不同产品边界。
 
 关键失败路径是 final builder 的 fail-closed gate：缺少任一产品、文章、NPN、实体、

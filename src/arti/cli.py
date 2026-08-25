@@ -121,6 +121,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--include-unknown", action=argparse.BooleanOptionalAction, default=True
     )
     graph.add_argument("--limit", type=bounded_int(1, 100), default=100)
+    graph.add_argument("--cursor")
 
     sub.add_parser("serve", help="start the HTTP API")
     return parser
@@ -225,6 +226,7 @@ def main(argv: list[str] | None = None) -> int:
                         as_of=args.as_of,
                         include_unknown=args.include_unknown,
                         limit=args.limit,
+                        cursor=args.cursor,
                     )
                 }
             )

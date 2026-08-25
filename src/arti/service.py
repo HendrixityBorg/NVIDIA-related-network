@@ -291,6 +291,7 @@ class ResearchService:
         as_of: date | None = None,
         include_unknown: bool = True,
         limit: int = 100,
+        cursor: str | None = None,
     ) -> dict:
         page = self.list_relationships(
             company=company,
@@ -304,6 +305,7 @@ class ResearchService:
             as_of=as_of,
             include_unknown=include_unknown,
             limit=limit,
+            cursor=cursor,
         )
         relations = page.items
         entity_ids = {
