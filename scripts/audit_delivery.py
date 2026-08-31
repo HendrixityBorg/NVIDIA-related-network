@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed delivery audit for the frozen ARTI research service."""
+"""Fail-closed delivery audit for the frozen relationship research service."""
 
 from __future__ import annotations
 

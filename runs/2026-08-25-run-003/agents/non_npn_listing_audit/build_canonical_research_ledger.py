@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Materialize arti.research_policy-compatible ledger and additive registry."""
+"""Materialize listed_company_network.research_policy-compatible ledger and additive registry."""
 
 from __future__ import annotations
 

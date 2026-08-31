@@ -24,7 +24,7 @@ from urllib.request import Request, urlopen
 
 
 BASE = "https://nvidianews.nvidia.com/news"
-USER_AGENT = "arti-nvidia-research/1.0 (public research; contact: repository README)"
+USER_AGENT = "listed-company-network-research/1.0 (public research; contact: repository README)"
 ARTICLE_RE = re.compile(r'<article class="index-item[^>]*>(.*?)</article>', re.S | re.I)
 DATE_RE = re.compile(r'index-item-text-info-date[^>]*>(.*?)</span>', re.S | re.I)
 TITLE_RE = re.compile(

@@ -27,7 +27,7 @@ def _response(page) -> dict:
 
 def create_app(data_path: str | None = None) -> FastAPI:
     app = FastAPI(
-        title="ARTI NVIDIA Relationship Research API",
+        title="ListedCompany Related Network API",
         version="0.2.0",
         description="Point-in-time, evidence-linked listed-company relationships. Not investment advice.",
     )
@@ -207,9 +207,9 @@ app = create_app()
 
 def main() -> None:
     uvicorn.run(
-        "arti.api:app",
-        host=os.getenv("ARTI_HOST", "127.0.0.1"),
-        port=int(os.getenv("ARTI_PORT", "8000")),
+        "listed_company_network.api:app",
+        host=os.getenv("LCN_HOST", "127.0.0.1"),
+        port=int(os.getenv("LCN_PORT", "8000")),
         reload=False,
     )
 

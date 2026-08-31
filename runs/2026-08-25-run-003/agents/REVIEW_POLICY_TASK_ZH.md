@@ -5,7 +5,7 @@
 - 输入 candidate review、上下文观察、基础 registry 与 global overlay。
 - 对 exact miss、多个精确发行人和母公司不明确候选逐一研究。
 - 输出统一 `researched_resolution_ledger.jsonl`；每条必须通过
-  `arti.research_policy.ResearchedEntityResolution`。
+  `listed_company_network.research_policy.ResearchedEntityResolution`。
 - DENSO/Geely 可作有证据的 inferred resolution；禁止模糊名称晋级。
 - 多上市主体必须列全并以同日同币种、证据完整的最大市值选择。
 - 每个候选必须落入 researched terminal category，0 pending。

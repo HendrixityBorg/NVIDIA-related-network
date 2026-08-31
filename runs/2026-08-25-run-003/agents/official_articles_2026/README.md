@@ -68,7 +68,7 @@ Products are matched against the frozen `product_tree_v2/canonical_index_v2.json
 and `taxonomy_observations.jsonl`. If no product is explicit in the evidence
 unit, the scope is `corporate_general`; the processor does not force a mapping.
 
-Final listed-company filtering uses the frozen `arti/data/snapshot_2026-08-25.json`
+Final listed-company filtering uses the frozen `data/snapshot_2026-08-25.json`
 entity registry or an exchange/ticker expression printed in the article.
 Unresolved names are intentionally excluded from `observations.jsonl`, not
 discarded. Because the frozen registry contains only 53 currently resolved

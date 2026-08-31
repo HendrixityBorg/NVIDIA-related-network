@@ -26,7 +26,7 @@ from urllib.request import Request, urlopen
 
 
 USER_AGENT = (
-    "arti-interview-research/1.0 contact-not-provided@example.invalid "
+    "listed-company-network-research/1.0 contact-not-provided@example.invalid "
     "public research no credentials"
 )
 SEARCH_URL = "https://efts.sec.gov/LATEST/search-index"

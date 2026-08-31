@@ -22,7 +22,7 @@ from urllib.request import Request, urlopen
 
 
 SEC_URL = "https://www.sec.gov/files/company_tickers_exchange.json"
-DEFAULT_UA = "arti-nvidia-research/1.0 contact=research@example.invalid"
+DEFAULT_UA = "listed-company-network-research/1.0 contact=research@example.invalid"
 STRICT_SUFFIXES = re.compile(
     r"\b(?:incorporated|inc|corporation|corp|company|co|limited|ltd|plc|sa|ag|se|nv|llc|lp)\b",
     re.I,
@@ -268,18 +268,18 @@ def choose_reference_securities(matches: list[dict], prior_entity: dict | None) 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--arti-root", type=Path, required=True)
+    parser.add_argument("--repository-root", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--sec-user-agent", default=DEFAULT_UA)
     args = parser.parse_args()
-    arti = args.arti_root.resolve()
-    run = arti / "runs" / "2026-08-25-run-003"
+    repository_root = args.repository_root.resolve()
+    run = repository_root / "runs" / "2026-08-25-run-003"
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).isoformat()
 
     observations = collect(run)
-    snapshot_path = arti / "data" / "snapshot_2026-08-25.json"
+    snapshot_path = repository_root / "data" / "snapshot_2026-08-25.json"
     snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
     existing = {entity["id"]: entity for entity in snapshot["entities"]}
     alias_map: dict[str, set[str]] = defaultdict(set)

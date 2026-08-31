@@ -29,7 +29,7 @@ PUBLISHER = "NVIDIA Corporation"
 BASE = "https://marketplace.nvidia.com"
 ROBOTS_URL = f"{BASE}/robots.txt"
 DIRECTORY_PATH = "/en-us/enterprise/partners/"
-USER_AGENT = "arti-research/1.0 (public-market-research; no-auth)"
+USER_AGENT = "listed-company-network-research/1.0 (public-market-research; no-auth)"
 
 
 def now() -> str:

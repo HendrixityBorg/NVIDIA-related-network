@@ -85,7 +85,7 @@ The builder performs no network requests. It deterministically regenerates the
 frozen observations from the reviewed literals in `build_fragment.py`:
 
 ```bash
-cd arti/runs/2026-08-25-run-003/agents/v2_dc_hpc
+cd runs/2026-08-25-run-003/agents/v2_dc_hpc
 python3 build_fragment.py
 jq . validation_report.json
 ```

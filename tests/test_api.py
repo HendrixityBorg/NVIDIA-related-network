@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 
-from arti.api import create_app
+from listed_company_network.api import create_app
 
 
 def test_health_and_filtered_relationships() -> None:

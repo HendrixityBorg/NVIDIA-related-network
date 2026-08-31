@@ -3,7 +3,7 @@ from datetime import date
 import pytest
 from pydantic import ValidationError
 
-from arti.models import (
+from listed_company_network.models import (
     FactStatus,
     RelationDirection,
     Relationship,
@@ -11,7 +11,7 @@ from arti.models import (
     ScoreBreakdown,
     TemporalStatus,
 )
-from arti.service import matches_product
+from listed_company_network.service import matches_product
 
 
 def relationship_payload(**overrides):

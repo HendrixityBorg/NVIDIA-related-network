@@ -16,8 +16,8 @@ from urllib.parse import quote
 
 
 HERE = Path(__file__).resolve().parent
-ARTI = HERE.parents[3]
-SNAPSHOT = ARTI / "data" / "snapshot_2026-08-25.json"
+REPOSITORY_ROOT = HERE.parents[3]
+SNAPSHOT = REPOSITORY_ROOT / "data" / "snapshot_2026-08-25.json"
 AS_OF = "2026-08-25"
 
 
@@ -587,7 +587,7 @@ def build() -> None:
             "routes": issuer_routes,
             "route_status": "routed" if issuer_routes else "unrouted_region",
             "snapshot_provenance": {
-                "path": "arti/data/snapshot_2026-08-25.json",
+                "path": "data/snapshot_2026-08-25.json",
                 "snapshot_version": snapshot.get("meta", {}).get("snapshot_version"),
                 "snapshot_sha256": snapshot_sha,
                 "as_of": AS_OF,

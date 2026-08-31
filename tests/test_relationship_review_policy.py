@@ -1,7 +1,7 @@
 import importlib.util
 from pathlib import Path
 
-from arti.research_policy import ResearchedEntityResolution
+from listed_company_network.research_policy import ResearchedEntityResolution
 
 
 BUILDER_PATH = (

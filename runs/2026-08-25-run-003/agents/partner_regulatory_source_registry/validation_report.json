@@ -54,7 +54,7 @@
     "Vietnam": 1
   },
   "snapshot": {
-    "path": "arti/data/snapshot_2026-08-25.json",
+    "path": "data/snapshot_2026-08-25.json",
     "sha256": "96e763be41627d0a49704bc14f42c4146a0c6c96d0d3078d389f658c158719d2",
     "snapshot_version": "2026-08-25.v2",
     "unchanged_by_this_agent": true

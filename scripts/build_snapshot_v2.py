@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
-from arti.models import Snapshot
+from listed_company_network.models import Snapshot
 
 
 PEER_CATEGORY_TO_SCOPE = {

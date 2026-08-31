@@ -14,7 +14,7 @@ from urllib.request import Request, urlopen
 
 HERE = Path(__file__).resolve().parent
 URL = "https://www.sec.gov/files/company_tickers_exchange.json"
-UA = "arti-nvidia-research/1.0 contact=research@example.invalid"
+UA = "listed-company-network-research/1.0 contact=research@example.invalid"
 
 
 def norm(value: str) -> str:

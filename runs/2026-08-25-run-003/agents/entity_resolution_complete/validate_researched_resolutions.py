@@ -8,7 +8,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from arti.research_policy import (
+from listed_company_network.research_policy import (
     ResearchedEntityResolution,
     missing_researched_candidate_ids,
 )

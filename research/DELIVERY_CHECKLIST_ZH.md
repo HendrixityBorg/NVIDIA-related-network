@@ -45,7 +45,7 @@ make delivery-audit
 make compile
 make test
 make smoke
-git diff --check -- arti
+git diff --check
 ```
 
 本研究使用合法公开资料并保留访问边界，不构成投资建议。

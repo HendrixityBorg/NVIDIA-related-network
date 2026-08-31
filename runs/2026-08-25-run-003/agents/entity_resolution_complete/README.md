@@ -37,7 +37,7 @@ From the repository root:
 
 ```bash
 python3 runs/2026-08-25-run-003/agents/entity_resolution_complete/build_reviewed_registry.py \
-  --arti-root . \
+  --repository-root . \
   --output runs/2026-08-25-run-003/agents/entity_resolution_complete
 python3 runs/2026-08-25-run-003/agents/entity_resolution_complete/validate_outputs.py
 ```

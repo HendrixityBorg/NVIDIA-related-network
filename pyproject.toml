@@ -3,9 +3,9 @@ requires = ["hatchling>=1.25"]
 build-backend = "hatchling.build"
 
 [project]
-name = "arti-nvidia-relations"
+name = "listed-company-related-network"
 version = "0.2.0"
-description = "Reproducible NVIDIA listed-company relationship research service"
+description = "Reproducible, evidence-linked listed-company relationship research service"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -21,10 +21,10 @@ dev = [
 ]
 
 [project.scripts]
-arti = "arti.cli:main"
+listed-company-network = "listed_company_network.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/arti"]
+packages = ["src/listed_company_network"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src", "."]

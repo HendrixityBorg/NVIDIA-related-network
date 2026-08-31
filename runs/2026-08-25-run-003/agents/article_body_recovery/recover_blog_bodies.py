@@ -25,12 +25,13 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 
-USER_AGENT = "arti-nvidia-research/1.0 (public research; contact: repository README)"
+USER_AGENT = "listed-company-network-research/1.0 (public research; contact: repository README)"
 CUTOFF = date(2026, 8, 25)
 RSS_URL = "https://feeds.feedburner.com/nvidiablog"
 RSS_TERMS_URL = "https://www.nvidia.com/en-us/about-nvidia/rss/"
 WAYBACK_AVAILABILITY = "https://archive.org/wayback/available"
 WAYBACK_ROBOTS = "https://archive.org/robots.txt"
+REPOSITORY_ROOT = Path(__file__).resolve().parents[4]
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -54,9 +55,12 @@ def portable_paths(value):
     if isinstance(value, list):
         return [portable_paths(item) for item in value]
     if isinstance(value, str):
-        marker = "/arti/"
-        if marker in value and value.startswith("/"):
-            return value.split(marker, 1)[1]
+        candidate = Path(value)
+        if candidate.is_absolute():
+            try:
+                return str(candidate.resolve().relative_to(REPOSITORY_ROOT))
+            except ValueError:
+                pass
     return value
 
 
@@ -76,14 +80,14 @@ def canonical_key(url: str) -> str:
 
 
 def curl_bytes(url: str, accept: str, max_time: int = 50) -> tuple[bytes, int, str, dict]:
-    marker = b"\n__ARTI_HTTP_META__"
+    marker = b"\n__LCN_HTTP_META__"
     result = subprocess.run(
         [
             "curl", "--http1.1", "--location", "--compressed", "--silent", "--show-error",
             "--max-time", str(max_time), "--connect-timeout", "12",
             "--user-agent", USER_AGENT, "--header", f"Accept: {accept}",
             "--dump-header", "-",
-            "--write-out", "\n__ARTI_HTTP_META__%{http_code}\t%{url_effective}\t%{content_type}",
+            "--write-out", "\n__LCN_HTTP_META__%{http_code}\t%{url_effective}\t%{content_type}",
             url,
         ],
         stdout=subprocess.PIPE,

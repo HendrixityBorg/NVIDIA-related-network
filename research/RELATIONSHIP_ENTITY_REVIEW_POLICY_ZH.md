@@ -69,7 +69,7 @@ validator 只接受有证据的最大值主体；缺值、币种不同、日期�
 6. `reject` 不生成 claim，investee 仍仅来自最新 13F；
 7. claim 分数、breakdown、FactStatus 和 39/49 上限一致。
 
-实现入口为 `src/arti/research_policy.py`、关系 builder/validator，以及
+实现入口为 `src/listed_company_network/research_policy.py`、关系 builder/validator，以及
 `entity_resolution_complete/validate_researched_resolutions.py`。最终统一 ledger 尚未生成时，
 release validator 应 fail-closed，而不是沿用 exact-alias miss 作为“已完成”。
 实体 validator 通过后会写出

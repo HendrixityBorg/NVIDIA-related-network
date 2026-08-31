@@ -2,7 +2,7 @@
 
 ## 结论
 
-本目录从正式快照 `arti/data/snapshot_2026-08-25.json` 中提取所有 `relation_type=partner` 且 `listing_status=listed` 的实体，为每个发行人建立按上市地区分流的公开监管/交易所披露入口。共覆盖 329 个上市 Partner、23 个上市地区、400 条发行人—来源路由；31 个来源定义中有 30 个截至 2026-08-25 可公开读取，另有 1 个仅用于防误用的未来来源（EU ESAP）。
+本目录从正式快照 `data/snapshot_2026-08-25.json` 中提取所有 `relation_type=partner` 且 `listing_status=listed` 的实体，为每个发行人建立按上市地区分流的公开监管/交易所披露入口。共覆盖 329 个上市 Partner、23 个上市地区、400 条发行人—来源路由；31 个来源定义中有 30 个截至 2026-08-25 可公开读取，另有 1 个仅用于防误用的未来来源（EU ESAP）。
 
 验证结果为 `status: pass`、`pending_count: 0`。本任务没有修改正式 snapshot。
 

@@ -8,7 +8,7 @@ control was bypassed, and no third-party full text is retained.
 
 ## Outcome
 
-The canonical arti.research_policy.ResearchedEntityResolution ledger has 5,009
+The canonical listed_company_network.research_policy.ResearchedEntityResolution ledger has 5,009
 unique, terminal rows:
 
 | Terminal category | Rows |
@@ -89,10 +89,10 @@ research ledger.
 
 Run, from the repository root:
 
-    python3 arti/runs/2026-08-25-run-003/agents/non_npn_listing_audit/build_audit.py
-    python3 arti/runs/2026-08-25-run-003/agents/non_npn_listing_audit/build_researched_resolution.py
-    python3 arti/runs/2026-08-25-run-003/agents/non_npn_listing_audit/build_canonical_research_ledger.py
-    PYTHONPATH=arti/src python3 arti/runs/2026-08-25-run-003/agents/entity_resolution_complete/validate_researched_resolutions.py --candidate-review arti/runs/2026-08-25-run-003/agents/non_npn_listing_audit/canonical_candidate_review.jsonl --ledger arti/runs/2026-08-25-run-003/agents/non_npn_listing_audit/researched_resolution_ledger.jsonl --global-overlay arti/runs/2026-08-25-run-003/agents/non_npn_listing_audit/validator_combined_overlay --report arti/runs/2026-08-25-run-003/agents/non_npn_listing_audit/researched_resolution_validation_report.json
+    python3 runs/2026-08-25-run-003/agents/non_npn_listing_audit/build_audit.py
+    python3 runs/2026-08-25-run-003/agents/non_npn_listing_audit/build_researched_resolution.py
+    python3 runs/2026-08-25-run-003/agents/non_npn_listing_audit/build_canonical_research_ledger.py
+    PYTHONPATH=src python3 runs/2026-08-25-run-003/agents/entity_resolution_complete/validate_researched_resolutions.py --candidate-review runs/2026-08-25-run-003/agents/non_npn_listing_audit/canonical_candidate_review.jsonl --ledger runs/2026-08-25-run-003/agents/non_npn_listing_audit/researched_resolution_ledger.jsonl --global-overlay runs/2026-08-25-run-003/agents/non_npn_listing_audit/validator_combined_overlay --report runs/2026-08-25-run-003/agents/non_npn_listing_audit/researched_resolution_validation_report.json
 
 The SEC screen is a separate bounded network step and need not be rerun to
 understand or validate the frozen delivery. If deliberately refreshed, it

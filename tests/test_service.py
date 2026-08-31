@@ -2,9 +2,9 @@ from datetime import date
 
 import pytest
 
-from arti.models import FactStatus, RelationType
-from arti.repository import SnapshotRepository
-from arti.service import InvalidCursorError, NotFoundError, ResearchService
+from listed_company_network.models import FactStatus, RelationType
+from listed_company_network.repository import SnapshotRepository
+from listed_company_network.service import InvalidCursorError, NotFoundError, ResearchService
 
 
 @pytest.fixture(scope="module")

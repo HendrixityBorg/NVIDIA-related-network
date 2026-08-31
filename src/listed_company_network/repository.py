@@ -8,7 +8,7 @@ from .models import Snapshot
 
 
 def default_data_path() -> Path:
-    configured = os.getenv("ARTI_DATA_PATH")
+    configured = os.getenv("LCN_DATA_PATH")
     if configured:
         return Path(configured).expanduser().resolve()
     return Path(__file__).resolve().parents[2] / "data" / "snapshot_2026-08-25.json"

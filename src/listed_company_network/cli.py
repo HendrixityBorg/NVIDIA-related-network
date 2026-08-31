@@ -49,11 +49,12 @@ def output(value: Any) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = JSONArgumentParser(
-        prog="arti", description="Query the frozen NVIDIA relationship snapshot"
+        prog="listed-company-network",
+        description="Query a frozen listed-company relationship snapshot",
     )
     parser.add_argument(
         "--data",
-        default=os.getenv("ARTI_DATA_PATH"),
+        default=os.getenv("LCN_DATA_PATH"),
         help="snapshot JSON path (defaults to checked-in data)",
     )
     sub = parser.add_subparsers(dest="command", required=True)

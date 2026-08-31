@@ -8,7 +8,7 @@ import hashlib
 from collections import Counter
 from pathlib import Path
 
-from arti.research_policy import (
+from listed_company_network.research_policy import (
     LOW_CONFIDENCE_PARTNER_CAPS,
     ResearchedEntityResolution,
     low_confidence_partner_score_is_valid,
@@ -17,7 +17,7 @@ from arti.research_policy import (
 
 HERE = Path(__file__).resolve().parent
 RUN = HERE.parents[1]
-ARTI = RUN.parents[1]
+REPOSITORY_ROOT = RUN.parents[1]
 
 
 def rows(path: Path) -> list[dict]:
@@ -26,7 +26,7 @@ def rows(path: Path) -> list[dict]:
 
 def manifest_path(value: str) -> Path:
     path = Path(value)
-    return path if path.is_absolute() else ARTI / path
+    return path if path.is_absolute() else REPOSITORY_ROOT / path
 
 
 def overlay_registry_ids(manifest: dict) -> set[str]:

@@ -69,7 +69,7 @@ verification.
 
 Issuer-parent candidates that miss an exact alias or match multiple listed
 issuers require a `researched_terminal` record conforming to
-`arti.research_policy.ResearchedEntityResolution`. An alias miss alone is not a
+`listed_company_network.research_policy.ResearchedEntityResolution`. An alias miss alone is not a
 terminal category. Inferred parent resolution is capped at 69 and retains its
 research evidence. If multiple listed issuers remain plausible, every option
 must have a comparable market cap on the same date and in the same currency;

@@ -28,9 +28,9 @@ compile:
 	.venv/bin/python -m compileall -q src scripts tests runs/2026-08-25-run-003
 
 smoke:
-	.venv/bin/python -m arti.cli company NVDA
-	.venv/bin/python -m arti.cli relationships --company NVDA --limit 1
-	.venv/bin/python -m arti.cli evidence --limit 1
+	.venv/bin/python -m listed_company_network.cli company NVDA
+	.venv/bin/python -m listed_company_network.cli relationships --company NVDA --limit 1
+	.venv/bin/python -m listed_company_network.cli evidence --limit 1
 
 api:
-	.venv/bin/uvicorn arti.api:app --host 127.0.0.1 --port 8000
+	.venv/bin/uvicorn listed_company_network.api:app --host 127.0.0.1 --port 8000

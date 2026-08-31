@@ -21,7 +21,7 @@ Research cutoff: **2026-08-25**. This artifact supersedes v1 without modifying i
 
 ## Reproduce
 
-Run these commands from the repository root (`arti/`):
+Run these commands from the repository root:
 
 ```bash
 python3 runs/2026-08-25-run-003/product_tree_v2/build_v2.py

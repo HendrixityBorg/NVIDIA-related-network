@@ -94,10 +94,10 @@ def main(argv: list[str] | None = None) -> int:
     if args.input:
         raw = args.input.read_text(encoding="utf-8")
     else:
-        user_agent = os.getenv("ARTI_SEC_USER_AGENT", "").strip()
+        user_agent = os.getenv("LCN_SEC_USER_AGENT", "").strip()
         if not user_agent or "example.invalid" in user_agent:
             print(
-                "Set ARTI_SEC_USER_AGENT to a descriptive application/contact value.",
+                "Set LCN_SEC_USER_AGENT to a descriptive application/contact value.",
                 file=sys.stderr,
             )
             return 2

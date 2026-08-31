@@ -11,8 +11,8 @@ from pathlib import Path
 
 
 HERE = Path(__file__).resolve().parent
-ARTI = HERE.parents[3]
-SNAPSHOT = ARTI / "data" / "snapshot_2026-08-25.json"
+REPOSITORY_ROOT = HERE.parents[3]
+SNAPSHOT = REPOSITORY_ROOT / "data" / "snapshot_2026-08-25.json"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -153,7 +153,7 @@ def main() -> int:
         "status": status,
         "pending_count": 0 if status == "pass" else len(errors),
         "snapshot": {
-            "path": "arti/data/snapshot_2026-08-25.json",
+            "path": "data/snapshot_2026-08-25.json",
             "sha256": snapshot_sha,
             "snapshot_version": snapshot.get("meta", {}).get("snapshot_version") if snapshot else None,
             "unchanged_by_this_agent": True,

@@ -29,7 +29,7 @@ python3 agents/global_listing_overlay/build_outputs.py
 python3 agents/global_listing_overlay/validate_outputs.py
 ```
 
-Run those commands from `arti/runs/2026-08-25-run-003/`.
+Run those commands from `runs/2026-08-25-run-003/`.
 
 ## Merge guidance
 

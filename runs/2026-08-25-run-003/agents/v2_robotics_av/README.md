@@ -133,7 +133,7 @@ the later listed-company filter can exclude them transparently.
 The frozen outputs require no network access:
 
 ```bash
-cd arti/runs/2026-08-25-run-003/agents/v2_robotics_av
+cd runs/2026-08-25-run-003/agents/v2_robotics_av
 python3 build_outputs.py
 python3 -m json.tool merge_patch.json >/dev/null
 python3 -m json.tool validation_report.json >/dev/null

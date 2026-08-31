@@ -97,7 +97,7 @@ and products.
 The generator makes no network requests and needs only Python 3:
 
 ```bash
-cd arti/runs/2026-08-25-run-003/agents/v2_network_ai_design
+cd runs/2026-08-25-run-003/agents/v2_network_ai_design
 python3 build_outputs.py
 python3 -m json.tool merge_patch.json >/dev/null
 python3 -m json.tool validation_report.json >/dev/null

@@ -29,7 +29,7 @@ MARKETPLACE_ROBOTS = f"{MARKETPLACE}/robots.txt"
 DIRECTORY = f"{MARKETPLACE}/en-us/enterprise/partners/"
 API = "https://api.store.nvidia.com/products/v1/partner-locator"
 API_ROBOTS = "https://api.store.nvidia.com/robots.txt"
-UA = "arti-research/2.0 (public-market-research; no-auth; serial)"
+UA = "listed-company-network-research/2.0 (public-market-research; no-auth; serial)"
 
 
 def utc_now() -> str:

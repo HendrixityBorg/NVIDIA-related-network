@@ -582,7 +582,7 @@ for entity in ["General Motors", "Toyota", "Mercedes-Benz", "JLR", "Volvo Cars",
 
 MERGE_PATCH = {
     "schema_version": "1.0",
-    "base": "arti/runs/2026-08-25-run-002/agents/product_tree/product_taxonomy.jsonl",
+    "base": "runs/2026-08-25-run-002/agents/product_tree/product_taxonomy.jsonl",
     "base_snapshot": "2026-08-25 product tree v1",
     "shard": "robotics_autonomous_vehicles",
     "instructions": "Root integrator should deduplicate by canonical_key, retain all observed paths/evidence, and resolve listed type conflicts explicitly.",

@@ -3,7 +3,7 @@ from datetime import date
 import pytest
 from pydantic import ValidationError
 
-from arti.research_policy import (
+from listed_company_network.research_policy import (
     ResearchedEntityResolution,
     low_confidence_partner_profile,
     low_confidence_partner_score_is_valid,

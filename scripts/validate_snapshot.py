@@ -4,11 +4,11 @@ from collections import Counter
 import json
 from pathlib import Path
 
-from arti.repository import SnapshotRepository
+from listed_company_network.repository import SnapshotRepository
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Validate a frozen ARTI v2 snapshot")
+    parser = argparse.ArgumentParser(description="Validate a frozen relationship v2 snapshot")
     parser.add_argument("snapshot_path", nargs="?", type=Path, help="snapshot JSON path")
     parser.add_argument("--snapshot", dest="snapshot_option", type=Path, help="snapshot JSON path")
     parser.add_argument(

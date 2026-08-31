@@ -1,6 +1,6 @@
-# 上市公司关联上市合作主体研究Agent
+# ListedCompany Related Network
 
-本项目用于在投研过程中梳理目标上市公司的产业链上市合作伙伴，通过构建包括上市公司监管材料、公司投资者文件、公司官网、公司blog/news、公司合作伙伴生态网络以及第三方信息源的完整数据源，完整梳理官方承认的合作方。我们会为每个数据源配备相应的数据抓取和整理agent，收集数据并按照一定的置信度设置最终获得完整且可查的合作伙伴关系网络。本次存档以英伟达为例。
+这是一个通用、可复现、证据可追溯的上市公司关系研究工具。它用于在投研过程中梳理目标上市公司的供应商、客户、合作伙伴、投资对象与可比公司，并把方向、产品范围、事实状态、时效、来源和可解释评分连接为可查询的关系网络。研究流程覆盖上市公司监管材料、投资者文件、公司官网、Blog/News、合作伙伴生态网络与合法公开的第三方来源；当前提交的冻结 fixture 与完整研究运行以 NVIDIA 为例，工具接口与数据模型不绑定单一公司。
 
 > 本项目不保证覆盖NVIDIA公司的全部商业关系。
 
@@ -178,7 +178,7 @@ SEC 域名仅表示材料由 EDGAR 托管，不自动表示正文属于监管申
 需要 Python 3.11+。服务使用冻结 snapshot，不需要真实凭据。
 
 ```bash
-cd arti
+cd ListedCompany-related-network
 python3 -m venv .venv
 .venv/bin/pip install -e '.[dev]'
 cp .env.example .env  # 可选；只含示例，不提交真实信息
@@ -192,7 +192,7 @@ cp .env.example .env  # 可选；只含示例，不提交真实信息
 .venv/bin/pytest
 
 # 启动 API
-.venv/bin/uvicorn arti.api:app --host 127.0.0.1 --port 8000
+.venv/bin/uvicorn listed_company_network.api:app --host 127.0.0.1 --port 8000
 ```
 
 OpenAPI：`http://127.0.0.1:8000/docs`；健康检查：`GET /health`。
@@ -201,24 +201,24 @@ OpenAPI：`http://127.0.0.1:8000/docs`；健康检查：`GET /health`。
 
 ```bash
 # 公司解析
-.venv/bin/arti company NVDA
+.venv/bin/listed-company-network company NVDA
 
 # NVIDIA 的 supplier，按置信度/相关度过滤
-.venv/bin/arti relationships --company NVDA --type supplier \
+.venv/bin/listed-company-network relationships --company NVDA --type supplier \
   --commercial-directness direct --min-confidence 60 --min-relevance 60 --limit 20
 
 # 指定方向、产品和时间
-.venv/bin/arti relationships --company NVDA --direction partners_with \
+.venv/bin/listed-company-network relationships --company NVDA --direction partners_with \
   --product networking --as-of 2026-08-25 --limit 50
 
 # 证据查询
-.venv/bin/arti evidence --source-family official_article \
+.venv/bin/listed-company-network evidence --source-family official_article \
   --published-from 2025-01-01 --published-to 2026-08-25 --limit 20
 
 # 一跳关系图
-.venv/bin/arti graph --company NVDA --type peer --min-confidence 60 --limit 50
+.venv/bin/listed-company-network graph --company NVDA --type peer --min-confidence 60 --limit 50
 # 使用上一页返回的 next_cursor 获取下一页
-.venv/bin/arti graph --company NVDA --type peer --min-confidence 60 \
+.venv/bin/listed-company-network graph --company NVDA --type peer --min-confidence 60 \
   --limit 50 --cursor '上一页返回的cursor'
 ```
 
@@ -297,7 +297,7 @@ decision ledgers 和 source metadata：
 本地交付检查见 [research/DELIVERY_CHECKLIST_ZH.md](research/DELIVERY_CHECKLIST_ZH.md)。
 
 快照 validator 接受 `--snapshot PATH` 或单一位置参数；两者均省略时才读取
-`ARTI_DATA_PATH`，再回退到 checked-in 默认路径。因此验证临时构建时必须显式传入
+`LCN_DATA_PATH`，再回退到 checked-in 默认路径。因此验证临时构建时必须显式传入
 该临时文件，避免误校验旧的默认 snapshot。`make validate SNAPSHOT=path/to/file.json`
 提供相同能力。
 
@@ -363,11 +363,11 @@ AI/Agent 只用于来源边界枚举、公开页面和 PDF 候选抽取、Logo/�
 ## 仓库结构
 
 ```text
-arti/
+ListedCompany-related-network/
 ├── data/                         # reviewer 直接使用的冻结 snapshot
 ├── research/                     # 方法、AI 使用与更新清单
 ├── runs/2026-08-25-run-003/      # 完整 manifest/observations/decisions/gates
 ├── scripts/                      # fail-closed build 与 validators
-├── src/arti/                     # HTTP API、CLI、模型与查询服务
+├── src/listed_company_network/   # HTTP API、CLI、模型与查询服务
 └── tests/                        # 正常与失败/边界测试
 ```

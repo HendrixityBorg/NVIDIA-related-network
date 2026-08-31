@@ -4,7 +4,7 @@
   "policy": {
     "authentication": "No login used or required by the source archive.",
     "access_controls": "No robots, paywall, CAPTCHA, rate-limit, TLS, WAF or other control was bypassed.",
-    "request_identity": "arti-nvidia-research/1.0 (public research; contact: repository README)",
+    "request_identity": "listed-company-network-research/1.0 (public research; contact: repository README)",
     "storage_license_note": "NVIDIA retains copyright. HTML snapshots are frozen solely for research audit and reproducibility; no republication license is inferred.",
     "secrets_or_personal_data": "None transmitted or stored."
   },

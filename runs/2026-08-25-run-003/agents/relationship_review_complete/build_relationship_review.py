@@ -13,7 +13,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
-from arti.research_policy import (
+from listed_company_network.research_policy import (
     LOW_CONFIDENCE_PARTNER_CAPS,
     ResearchedEntityResolution,
     low_confidence_partner_profile,
@@ -23,14 +23,14 @@ from arti.research_policy import (
 
 HERE = Path(__file__).resolve().parent
 RUN = HERE.parents[1]
-ARTI = RUN.parents[1]
+REPOSITORY_ROOT = RUN.parents[1]
 CUTOFF = date(2026, 8, 25)
 TERMINAL = {"approve_unknown", "reject", "needs_more_evidence", "approved"}
 
 
 def repository_path(path: Path) -> str:
     try:
-        return str(path.resolve().relative_to(ARTI))
+        return str(path.resolve().relative_to(REPOSITORY_ROOT))
     except ValueError:
         return f"external_input/{path.name}"
 
@@ -954,7 +954,7 @@ def main() -> int:
 
     # Current v1 is a reviewed reference, not fresh evidence. It can flag prior
     # role coverage but cannot create a claim missing from run-003 evidence.
-    snapshot = json.loads((ARTI / "data" / "snapshot_2026-08-25.json").read_text(encoding="utf-8"))
+    snapshot = json.loads((REPOSITORY_ROOT / "data" / "snapshot_2026-08-25.json").read_text(encoding="utf-8"))
     prior_by_entity_type: dict[tuple[str, str], list[str]] = defaultdict(list)
     for rel in snapshot.get("relationships", []):
         typ = rel.get("relation_type")

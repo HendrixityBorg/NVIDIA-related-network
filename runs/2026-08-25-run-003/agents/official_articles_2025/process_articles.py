@@ -24,7 +24,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 
-USER_AGENT = "arti-nvidia-research/1.0 (public research; contact: repository README)"
+USER_AGENT = "listed-company-network-research/1.0 (public research; contact: repository README)"
 CUTOFF = date(2026, 8, 25)
 START = date(2025, 1, 1)
 END = date(2025, 12, 31)
@@ -183,14 +183,14 @@ def fetch(url: str, expected_title: str, publisher: str, attempts: int = 5) -> t
     errors: list[str] = []
     for attempt in range(1, attempts + 1):
         try:
-            marker = b"\n__ARTI_HTTP_META__"
+            marker = b"\n__LCN_HTTP_META__"
             result = subprocess.run(
                 [
                     "curl", "--http1.1", "--location", "--silent", "--show-error",
                     "--max-time", "50", "--connect-timeout", "15",
                     "--user-agent", USER_AGENT,
                     "--header", "Accept: text/html,application/xhtml+xml",
-                    "--write-out", "\n__ARTI_HTTP_META__%{http_code}\t%{url_effective}",
+                    "--write-out", "\n__LCN_HTTP_META__%{http_code}\t%{url_effective}",
                     url,
                 ],
                 check=False,

@@ -1,9 +1,9 @@
 import json
 from pathlib import Path
 
-from arti.cli import main
-from arti.models import RelationType
-from arti.repository import SnapshotRepository
+from listed_company_network.cli import main
+from listed_company_network.models import RelationType
+from listed_company_network.repository import SnapshotRepository
 
 
 def test_cli_relationship_query(capsys) -> None:
