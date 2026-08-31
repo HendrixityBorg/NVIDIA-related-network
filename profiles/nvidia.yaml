@@ -1,0 +1,37 @@
+schema_version: "1.0"
+project_slug: nvidia
+target:
+  id: nvidia
+  legal_name: NVIDIA Corporation
+  display_name: NVIDIA
+  aliases: [NVIDIA Corp., Nvidia]
+  country: United States
+  jurisdiction: United States / Delaware
+  securities:
+    - ticker: NVDA
+      exchange: Nasdaq
+      listing_region: United States
+      listing_region_code: US
+      cik: "0001045810"
+      cusip: 67066G104
+      primary: true
+  official_domains: [nvidia.com, nvidianews.nvidia.com, blogs.nvidia.com]
+  investor_relations_urls:
+    - https://investor.nvidia.com/
+cutoff_at: "2026-08-25T23:59:59+08:00"
+evidence_start_date: "2025-01-01"
+snapshot_version: nvidia-2026-08-25
+languages: [en, zh]
+listed_counterparties_only: true
+peer_granularity: top_level_product_category
+investment_scope: subject_investments_only
+coverage:
+  - supplier、customer、partner、investor_or_investee、peer
+  - NVIDIA 10-K 与 13F、2025-01-01 至截点的官方新闻/博客
+  - 产品与解决方案树、完整 NVIDIA Partner Network、第三方新闻线索
+  - 全部上市对手方监管/IR 反向复核
+exclusions:
+  - 不纳入机构投资者持有 NVIDIA 的关系
+  - 不绕过登录、付费墙、robots、验证码或限流
+  - 非上市公司不进入最终关系图
+disclaimer: 本项目仅供研究与工程演示，不构成投资建议。

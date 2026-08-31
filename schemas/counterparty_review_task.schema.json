@@ -1,0 +1,269 @@
+{
+  "$defs": {
+    "Entity": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "legal_name": {
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "display_name": {
+          "title": "Display Name",
+          "type": "string"
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country"
+        },
+        "listing_status": {
+          "$ref": "#/$defs/ListingStatus"
+        },
+        "listing_regions": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Listing Regions",
+          "type": "array"
+        },
+        "securities": {
+          "items": {
+            "$ref": "#/$defs/SecurityIdentifier"
+          },
+          "title": "Securities",
+          "type": "array"
+        },
+        "ultimate_parent_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ultimate Parent Id"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "id",
+        "legal_name",
+        "display_name",
+        "listing_status",
+        "listing_regions"
+      ],
+      "title": "Entity",
+      "type": "object"
+    },
+    "ListingStatus": {
+      "enum": [
+        "listed",
+        "private",
+        "delisted",
+        "unknown"
+      ],
+      "title": "ListingStatus",
+      "type": "string"
+    },
+    "SecurityIdentifier": {
+      "properties": {
+        "ticker": {
+          "title": "Ticker",
+          "type": "string"
+        },
+        "exchange": {
+          "title": "Exchange",
+          "type": "string"
+        },
+        "listing_region": {
+          "title": "Listing Region",
+          "type": "string"
+        },
+        "listing_region_code": {
+          "maxLength": 2,
+          "minLength": 2,
+          "title": "Listing Region Code",
+          "type": "string"
+        },
+        "cik": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cik"
+        },
+        "cusip": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cusip"
+        },
+        "isin": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Isin"
+        },
+        "mic": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mic"
+        },
+        "primary": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Primary"
+        },
+        "status_at_cutoff": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Status At Cutoff"
+        },
+        "security_type": {
+          "default": "common_equity",
+          "title": "Security Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ticker",
+        "exchange",
+        "listing_region",
+        "listing_region_code"
+      ],
+      "title": "SecurityIdentifier",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "subject_entity_id": {
+      "title": "Subject Entity Id",
+      "type": "string"
+    },
+    "counterparty": {
+      "$ref": "#/$defs/Entity"
+    },
+    "observed_names": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Observed Names",
+      "type": "array"
+    },
+    "search_terms": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Search Terms",
+      "type": "array"
+    },
+    "jurisdictions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Jurisdictions",
+      "type": "array"
+    },
+    "filing_forms": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Filing Forms",
+      "type": "array"
+    },
+    "source_relationship_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Relationship Ids",
+      "type": "array"
+    },
+    "required_outputs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Required Outputs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "subject_entity_id",
+    "counterparty"
+  ],
+  "title": "CounterpartyReviewTask",
+  "type": "object"
+}

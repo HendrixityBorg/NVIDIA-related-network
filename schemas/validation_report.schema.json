@@ -1,0 +1,71 @@
+{
+  "properties": {
+    "pass": {
+      "title": "Pass",
+      "type": "boolean"
+    },
+    "release_ready": {
+      "title": "Release Ready",
+      "type": "boolean"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "errors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Errors",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "counts": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Counts",
+      "type": "object"
+    },
+    "stage_statuses": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Stage Statuses",
+      "type": "object"
+    },
+    "checks": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "title": "Checks",
+      "type": "object"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "pass",
+    "release_ready",
+    "generated_at",
+    "errors",
+    "warnings",
+    "counts",
+    "stage_statuses",
+    "checks"
+  ],
+  "title": "ValidationReport",
+  "type": "object"
+}

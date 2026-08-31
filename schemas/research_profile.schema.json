@@ -1,0 +1,345 @@
+{
+  "$defs": {
+    "CompletionStatus": {
+      "enum": [
+        "complete",
+        "not_found_after_documented_search",
+        "not_applicable",
+        "access_blocked",
+        "incomplete",
+        "adapter_required"
+      ],
+      "title": "CompletionStatus",
+      "type": "string"
+    },
+    "Requirement": {
+      "enum": [
+        "required",
+        "optional",
+        "if_applicable"
+      ],
+      "title": "Requirement",
+      "type": "string"
+    },
+    "ResearchSecurity": {
+      "properties": {
+        "ticker": {
+          "title": "Ticker",
+          "type": "string"
+        },
+        "exchange": {
+          "title": "Exchange",
+          "type": "string"
+        },
+        "listing_region": {
+          "title": "Listing Region",
+          "type": "string"
+        },
+        "listing_region_code": {
+          "maxLength": 2,
+          "minLength": 2,
+          "title": "Listing Region Code",
+          "type": "string"
+        },
+        "cik": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cik"
+        },
+        "isin": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Isin"
+        },
+        "cusip": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cusip"
+        },
+        "mic": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mic"
+        },
+        "primary": {
+          "default": true,
+          "title": "Primary",
+          "type": "boolean"
+        },
+        "status_at_cutoff": {
+          "default": "listed",
+          "title": "Status At Cutoff",
+          "type": "string"
+        },
+        "security_type": {
+          "default": "common_equity",
+          "title": "Security Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ticker",
+        "exchange",
+        "listing_region",
+        "listing_region_code"
+      ],
+      "title": "ResearchSecurity",
+      "type": "object"
+    },
+    "SourceFamily": {
+      "enum": [
+        "annual_filing",
+        "portfolio_filing",
+        "investor_presentations",
+        "official_articles",
+        "product_solutions",
+        "ecosystem_directory",
+        "third_party_news",
+        "counterparty_regulatory",
+        "peer_research"
+      ],
+      "title": "SourceFamily",
+      "type": "string"
+    },
+    "SourcePolicy": {
+      "properties": {
+        "family": {
+          "$ref": "#/$defs/SourceFamily"
+        },
+        "requirement": {
+          "$ref": "#/$defs/Requirement"
+        },
+        "lookback_years": {
+          "anyOf": [
+            {
+              "maximum": 20,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lookback Years"
+        },
+        "forms": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Forms",
+          "type": "array"
+        },
+        "discovery_terms": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Discovery Terms",
+          "type": "array"
+        },
+        "accepted_terminal_states": {
+          "items": {
+            "$ref": "#/$defs/CompletionStatus"
+          },
+          "title": "Accepted Terminal States",
+          "type": "array"
+        }
+      },
+      "required": [
+        "family",
+        "requirement"
+      ],
+      "title": "SourcePolicy",
+      "type": "object"
+    },
+    "SubjectIdentity": {
+      "properties": {
+        "id": {
+          "pattern": "^[a-z0-9][a-z0-9_-]*$",
+          "title": "Id",
+          "type": "string"
+        },
+        "legal_name": {
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "display_name": {
+          "title": "Display Name",
+          "type": "string"
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country"
+        },
+        "jurisdiction": {
+          "title": "Jurisdiction",
+          "type": "string"
+        },
+        "securities": {
+          "items": {
+            "$ref": "#/$defs/ResearchSecurity"
+          },
+          "minItems": 1,
+          "title": "Securities",
+          "type": "array"
+        },
+        "official_domains": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Official Domains",
+          "type": "array"
+        },
+        "investor_relations_urls": {
+          "items": {
+            "format": "uri",
+            "maxLength": 2083,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Investor Relations Urls",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "legal_name",
+        "display_name",
+        "jurisdiction",
+        "securities"
+      ],
+      "title": "SubjectIdentity",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "project_slug": {
+      "pattern": "^[a-z0-9][a-z0-9_-]*$",
+      "title": "Project Slug",
+      "type": "string"
+    },
+    "target": {
+      "$ref": "#/$defs/SubjectIdentity"
+    },
+    "cutoff_at": {
+      "format": "date-time",
+      "title": "Cutoff At",
+      "type": "string"
+    },
+    "evidence_start_date": {
+      "format": "date",
+      "title": "Evidence Start Date",
+      "type": "string"
+    },
+    "snapshot_version": {
+      "title": "Snapshot Version",
+      "type": "string"
+    },
+    "languages": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Languages",
+      "type": "array"
+    },
+    "listed_counterparties_only": {
+      "default": true,
+      "title": "Listed Counterparties Only",
+      "type": "boolean"
+    },
+    "peer_granularity": {
+      "default": "top_level_product_category",
+      "title": "Peer Granularity",
+      "type": "string"
+    },
+    "investment_scope": {
+      "default": "subject_investments_only",
+      "title": "Investment Scope",
+      "type": "string"
+    },
+    "source_policies": {
+      "items": {
+        "$ref": "#/$defs/SourcePolicy"
+      },
+      "title": "Source Policies",
+      "type": "array"
+    },
+    "coverage": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Coverage",
+      "type": "array"
+    },
+    "exclusions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Exclusions",
+      "type": "array"
+    },
+    "disclaimer": {
+      "default": "Research output only; not investment advice.",
+      "title": "Disclaimer",
+      "type": "string"
+    }
+  },
+  "required": [
+    "project_slug",
+    "target",
+    "cutoff_at",
+    "evidence_start_date",
+    "snapshot_version"
+  ],
+  "title": "ResearchProfile",
+  "type": "object"
+}

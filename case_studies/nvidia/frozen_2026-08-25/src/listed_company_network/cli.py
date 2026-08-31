@@ -50,7 +50,7 @@ def output(value: Any) -> None:
 def build_parser() -> argparse.ArgumentParser:
     parser = JSONArgumentParser(
         prog="listed-company-network",
-        description="Build, validate and query evidence-linked listed-company relationship research",
+        description="Query a frozen listed-company relationship snapshot",
     )
     parser.add_argument(
         "--data",
@@ -58,29 +58,6 @@ def build_parser() -> argparse.ArgumentParser:
         help="snapshot JSON path (defaults to checked-in data)",
     )
     sub = parser.add_subparsers(dest="command", required=True)
-
-    init_run = sub.add_parser("init-run", help="initialize a generic research run")
-    init_run.add_argument("--profile", required=True)
-    init_run.add_argument("--run", required=True)
-    init_run.add_argument("--overwrite", action="store_true")
-
-    review_tasks = sub.add_parser(
-        "review-tasks", help="generate reverse regulatory-review tasks for all listed counterparties"
-    )
-    review_tasks.add_argument("--profile", required=True)
-    review_tasks.add_argument("--run", required=True)
-
-    validate_run = sub.add_parser("validate-run", help="validate dynamic completion gates")
-    validate_run.add_argument("--profile", required=True)
-    validate_run.add_argument("--run", required=True)
-
-    build_snapshot = sub.add_parser("build-snapshot", help="build a release snapshot after validation")
-    build_snapshot.add_argument("--profile", required=True)
-    build_snapshot.add_argument("--run", required=True)
-    build_snapshot.add_argument("--output", required=True)
-
-    verify_case = sub.add_parser("verify-case", help="verify a frozen case manifest")
-    verify_case.add_argument("--manifest", required=True)
 
     company = sub.add_parser("company", help="resolve a company by id, ticker or alias")
     company.add_argument("query")
@@ -163,25 +140,6 @@ def main(argv: list[str] | None = None) -> int:
 
         serve()
         return 0
-
-    if args.command in {
-        "init-run",
-        "review-tasks",
-        "validate-run",
-        "build-snapshot",
-        "verify-case",
-    }:
-        try:
-            from .research.cli import execute
-
-            result = execute(args)
-            output(result)
-            if args.command in {"validate-run", "verify-case"} and not result.get("pass"):
-                return 1
-            return 0
-        except (ValueError, FileNotFoundError, FileExistsError) as exc:
-            output({"error": {"code": "research_error", "message": str(exc)}})
-            return 2
 
     try:
         service = ResearchService(SnapshotRepository(args.data))

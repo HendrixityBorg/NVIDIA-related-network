@@ -1,0 +1,876 @@
+{
+  "$defs": {
+    "AccessPolicy": {
+      "properties": {
+        "access": {
+          "title": "Access",
+          "type": "string"
+        },
+        "login_required": {
+          "default": false,
+          "title": "Login Required",
+          "type": "boolean"
+        },
+        "paywall": {
+          "default": false,
+          "title": "Paywall",
+          "type": "boolean"
+        },
+        "robots_checked_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Robots Checked At"
+        },
+        "redistribution": {
+          "title": "Redistribution",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "access",
+        "redistribution"
+      ],
+      "title": "AccessPolicy",
+      "type": "object"
+    },
+    "CommercialDirectness": {
+      "description": "Whether the commercial flow is direct, indirect, both, or unresolved.",
+      "enum": [
+        "direct",
+        "indirect",
+        "both",
+        "unclear",
+        "not_applicable"
+      ],
+      "title": "CommercialDirectness",
+      "type": "string"
+    },
+    "Entity": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "legal_name": {
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "display_name": {
+          "title": "Display Name",
+          "type": "string"
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Country"
+        },
+        "listing_status": {
+          "$ref": "#/$defs/ListingStatus"
+        },
+        "listing_regions": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Listing Regions",
+          "type": "array"
+        },
+        "securities": {
+          "items": {
+            "$ref": "#/$defs/SecurityIdentifier"
+          },
+          "title": "Securities",
+          "type": "array"
+        },
+        "ultimate_parent_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ultimate Parent Id"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "id",
+        "legal_name",
+        "display_name",
+        "listing_status",
+        "listing_regions"
+      ],
+      "title": "Entity",
+      "type": "object"
+    },
+    "Evidence": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "locator": {
+          "title": "Locator",
+          "type": "string"
+        },
+        "excerpt": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Excerpt"
+        },
+        "visual_description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Visual Description"
+        },
+        "supports": {
+          "title": "Supports",
+          "type": "string"
+        },
+        "inference_basis": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Inference Basis",
+          "type": "array"
+        },
+        "human_verified": {
+          "title": "Human Verified",
+          "type": "boolean"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "locator",
+        "supports",
+        "human_verified"
+      ],
+      "title": "Evidence",
+      "type": "object"
+    },
+    "EvidenceRole": {
+      "enum": [
+        "primary",
+        "corroborating",
+        "lead_only"
+      ],
+      "title": "EvidenceRole",
+      "type": "string"
+    },
+    "FactStatus": {
+      "enum": [
+        "confirmed",
+        "inferred",
+        "unknown"
+      ],
+      "title": "FactStatus",
+      "type": "string"
+    },
+    "ListingStatus": {
+      "enum": [
+        "listed",
+        "private",
+        "delisted",
+        "unknown"
+      ],
+      "title": "ListingStatus",
+      "type": "string"
+    },
+    "RelationDirection": {
+      "enum": [
+        "supplies_to",
+        "sells_to",
+        "buys_from",
+        "uses_or_buys_from",
+        "partners_with",
+        "invests_in",
+        "competes_with",
+        "unknown"
+      ],
+      "title": "RelationDirection",
+      "type": "string"
+    },
+    "RelationType": {
+      "enum": [
+        "supplier",
+        "customer",
+        "partner",
+        "investor_or_investee",
+        "peer"
+      ],
+      "title": "RelationType",
+      "type": "string"
+    },
+    "Relationship": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "source_entity_id": {
+          "title": "Source Entity Id",
+          "type": "string"
+        },
+        "target_entity_id": {
+          "title": "Target Entity Id",
+          "type": "string"
+        },
+        "relation_type": {
+          "$ref": "#/$defs/RelationType"
+        },
+        "direction": {
+          "$ref": "#/$defs/RelationDirection",
+          "default": "unknown"
+        },
+        "direction_explanation": {
+          "title": "Direction Explanation",
+          "type": "string"
+        },
+        "commercial_directness": {
+          "$ref": "#/$defs/CommercialDirectness",
+          "default": "not_applicable"
+        },
+        "relation_subtype": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Relation Subtype"
+        },
+        "product_scope_id": {
+          "default": "corporate_general",
+          "title": "Product Scope Id",
+          "type": "string"
+        },
+        "product_scopes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Product Scopes",
+          "type": "array"
+        },
+        "channels": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Channels",
+          "type": "array"
+        },
+        "fact_status": {
+          "$ref": "#/$defs/FactStatus"
+        },
+        "temporal_status": {
+          "$ref": "#/$defs/TemporalStatus"
+        },
+        "as_of": {
+          "format": "date",
+          "title": "As Of",
+          "type": "string"
+        },
+        "valid_from": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid From"
+        },
+        "valid_to": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid To"
+        },
+        "confidence_score": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Confidence Score",
+          "type": "integer"
+        },
+        "relevance_score": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Relevance Score",
+          "type": "integer"
+        },
+        "confidence_breakdown": {
+          "$ref": "#/$defs/ScoreBreakdown"
+        },
+        "relevance_explanation": {
+          "title": "Relevance Explanation",
+          "type": "string"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "evidence_roles": {
+          "additionalProperties": {
+            "$ref": "#/$defs/EvidenceRole"
+          },
+          "title": "Evidence Roles",
+          "type": "object"
+        },
+        "relationship_evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Relationship Evidence Ids",
+          "type": "array"
+        },
+        "entity_resolution_evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Entity Resolution Evidence Ids",
+          "type": "array"
+        },
+        "origin_terminal_statuses": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Origin Terminal Statuses",
+          "type": "array"
+        },
+        "inference_explanations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Inference Explanations",
+          "type": "array"
+        },
+        "low_confidence_partner_inclusion": {
+          "default": false,
+          "title": "Low Confidence Partner Inclusion",
+          "type": "boolean"
+        },
+        "entity_resolution_inferred": {
+          "default": false,
+          "title": "Entity Resolution Inferred",
+          "type": "boolean"
+        },
+        "entity_resolution_research_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Entity Resolution Research Ids",
+          "type": "array"
+        },
+        "observation_count": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Observation Count",
+          "type": "integer"
+        },
+        "independent_source_count": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Independent Source Count",
+          "type": "integer"
+        },
+        "quantitative": {
+          "additionalProperties": true,
+          "title": "Quantitative",
+          "type": "object"
+        },
+        "asserted_by": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Asserted By",
+          "type": "array"
+        },
+        "counterevidence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Counterevidence",
+          "type": "array"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "source_entity_id",
+        "target_entity_id",
+        "relation_type",
+        "direction_explanation",
+        "fact_status",
+        "temporal_status",
+        "as_of",
+        "confidence_score",
+        "relevance_score",
+        "confidence_breakdown",
+        "relevance_explanation",
+        "evidence_ids"
+      ],
+      "title": "Relationship",
+      "type": "object"
+    },
+    "ResearchMeta": {
+      "properties": {
+        "subject_entity_id": {
+          "title": "Subject Entity Id",
+          "type": "string"
+        },
+        "cutoff_at": {
+          "format": "date-time",
+          "title": "Cutoff At",
+          "type": "string"
+        },
+        "evidence_start_date": {
+          "format": "date",
+          "title": "Evidence Start Date",
+          "type": "string"
+        },
+        "snapshot_version": {
+          "title": "Snapshot Version",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "disclaimer": {
+          "title": "Disclaimer",
+          "type": "string"
+        },
+        "coverage": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Coverage",
+          "type": "array"
+        },
+        "exclusions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Exclusions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "subject_entity_id",
+        "cutoff_at",
+        "evidence_start_date",
+        "snapshot_version",
+        "generated_at",
+        "disclaimer",
+        "coverage",
+        "exclusions"
+      ],
+      "title": "ResearchMeta",
+      "type": "object"
+    },
+    "ScoreBreakdown": {
+      "properties": {
+        "source_authority": {
+          "maximum": 25,
+          "minimum": 0,
+          "title": "Source Authority",
+          "type": "number"
+        },
+        "explicitness": {
+          "maximum": 25,
+          "minimum": 0,
+          "title": "Explicitness",
+          "type": "number"
+        },
+        "entity_resolution": {
+          "maximum": 15,
+          "minimum": 0,
+          "title": "Entity Resolution",
+          "type": "number"
+        },
+        "independence": {
+          "maximum": 15,
+          "minimum": 0,
+          "title": "Independence",
+          "type": "number"
+        },
+        "timeliness": {
+          "maximum": 10,
+          "minimum": 0,
+          "title": "Timeliness",
+          "type": "number"
+        },
+        "quantification": {
+          "maximum": 10,
+          "minimum": 0,
+          "title": "Quantification",
+          "type": "number"
+        },
+        "relationship_type_specificity": {
+          "default": 0,
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Relationship Type Specificity",
+          "type": "number"
+        },
+        "conflict_penalty": {
+          "default": 0,
+          "maximum": 20,
+          "minimum": 0,
+          "title": "Conflict Penalty",
+          "type": "number"
+        }
+      },
+      "required": [
+        "source_authority",
+        "explicitness",
+        "entity_resolution",
+        "independence",
+        "timeliness",
+        "quantification"
+      ],
+      "title": "ScoreBreakdown",
+      "type": "object"
+    },
+    "SecurityIdentifier": {
+      "properties": {
+        "ticker": {
+          "title": "Ticker",
+          "type": "string"
+        },
+        "exchange": {
+          "title": "Exchange",
+          "type": "string"
+        },
+        "listing_region": {
+          "title": "Listing Region",
+          "type": "string"
+        },
+        "listing_region_code": {
+          "maxLength": 2,
+          "minLength": 2,
+          "title": "Listing Region Code",
+          "type": "string"
+        },
+        "cik": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cik"
+        },
+        "cusip": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cusip"
+        },
+        "isin": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Isin"
+        },
+        "mic": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mic"
+        },
+        "primary": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Primary"
+        },
+        "status_at_cutoff": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Status At Cutoff"
+        },
+        "security_type": {
+          "default": "common_equity",
+          "title": "Security Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ticker",
+        "exchange",
+        "listing_region",
+        "listing_region_code"
+      ],
+      "title": "SecurityIdentifier",
+      "type": "object"
+    },
+    "Source": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Url",
+          "type": "string"
+        },
+        "publisher": {
+          "title": "Publisher",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "source_type": {
+          "title": "Source Type",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "access_policy": {
+          "$ref": "#/$defs/AccessPolicy"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        },
+        "source_family": {
+          "title": "Source Family",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "url",
+        "publisher",
+        "title",
+        "source_type",
+        "retrieved_at",
+        "access_policy",
+        "source_family"
+      ],
+      "title": "Source",
+      "type": "object"
+    },
+    "TemporalStatus": {
+      "enum": [
+        "current",
+        "point_in_time",
+        "historical",
+        "planned",
+        "expired",
+        "unknown"
+      ],
+      "title": "TemporalStatus",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "meta": {
+      "$ref": "#/$defs/ResearchMeta"
+    },
+    "entities": {
+      "items": {
+        "$ref": "#/$defs/Entity"
+      },
+      "title": "Entities",
+      "type": "array"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/Source"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/Evidence"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "relationships": {
+      "items": {
+        "$ref": "#/$defs/Relationship"
+      },
+      "title": "Relationships",
+      "type": "array"
+    }
+  },
+  "required": [
+    "meta",
+    "entities",
+    "sources",
+    "evidence",
+    "relationships"
+  ],
+  "title": "Snapshot",
+  "type": "object"
+}

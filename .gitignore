@@ -1,20 +1,20 @@
-.venv/
-.env
-.env.*
-!.env.example
-__pycache__/
-.pytest_cache/
-*.py[cod]
-.coverage
-htmlcov/
-*.egg-info/
 .DS_Store
+.env
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+*.egg-info/
 dist/
 build/
+.coverage
+htmlcov/
 
-# Research runs retain hashes, locators, and short excerpts—not full webpage bodies.
-runs/**/body_snapshots/**
-*.html.gz
-
-# Agent development outputs are not publication artifacts.
-runs/**/test_output*/
+# 研究运行时可能生成的受限/大体积正文；只提交允许再分发的证据定位与摘要。
+**/raw/
+**/full_body_snapshots/
+**/*.html.gz
+**/*.pdf

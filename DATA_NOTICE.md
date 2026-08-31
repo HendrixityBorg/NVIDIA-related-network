@@ -1,10 +1,7 @@
-# Data and source notice
+# 数据与许可说明
 
-The MIT license applies to repository code and original documentation. It does
-not relicense third-party source documents, trademarks, logos, webpages or PDF
-media. Those remain subject to their publishers' rights and terms.
+本仓库只允许使用合法可访问的公开资料。研究账本保存事实判断所需的 URL、发布者、发布时间或获取时间、证据定位、有限摘录/视觉描述、内容哈希与访问/再分发说明；不以重新抓取网页作为 reviewer 理解 NVIDIA 案例的前提。
 
-The checked-in snapshot contains derived factual assertions, short descriptions,
-source metadata, locators and hashes. It intentionally does not redistribute full
-third-party pages, presentations or media assets. Consult each source record's
-`access_policy` before updating or redistributing additional material.
+仓库不提交密钥、个人数据、客户机密、登录后内容、付费墙内容、验证码后内容、受限原始数据、完整第三方网页/PDF/媒体或其他未经授权材料。页面被 robots、登录、付费墙、验证码、限流或访问策略阻止时，记录 `access_blocked` 等终态，不绕过控制。
+
+公开资料的著作权和数据库权利仍属于各自权利人。证据摘录仅用于定位和复核；任何后续运行者均须独立确认其访问和再分发权利。

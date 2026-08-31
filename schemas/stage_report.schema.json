@@ -1,0 +1,117 @@
+{
+  "$defs": {
+    "CompletionStatus": {
+      "enum": [
+        "complete",
+        "not_found_after_documented_search",
+        "not_applicable",
+        "access_blocked",
+        "incomplete",
+        "adapter_required"
+      ],
+      "title": "CompletionStatus",
+      "type": "string"
+    },
+    "SourceFamily": {
+      "enum": [
+        "annual_filing",
+        "portfolio_filing",
+        "investor_presentations",
+        "official_articles",
+        "product_solutions",
+        "ecosystem_directory",
+        "third_party_news",
+        "counterparty_regulatory",
+        "peer_research"
+      ],
+      "title": "SourceFamily",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "stage": {
+      "$ref": "#/$defs/SourceFamily"
+    },
+    "status": {
+      "$ref": "#/$defs/CompletionStatus"
+    },
+    "expected": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Expected"
+    },
+    "processed": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Processed",
+      "type": "integer"
+    },
+    "terminal": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Terminal",
+      "type": "integer"
+    },
+    "pending": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Pending",
+      "type": "integer"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "inputs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Inputs",
+      "type": "array"
+    },
+    "outputs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Outputs",
+      "type": "array"
+    },
+    "checks": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "title": "Checks",
+      "type": "object"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "errors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Errors",
+      "type": "array"
+    }
+  },
+  "required": [
+    "stage",
+    "status",
+    "generated_at"
+  ],
+  "title": "StageReport",
+  "type": "object"
+}

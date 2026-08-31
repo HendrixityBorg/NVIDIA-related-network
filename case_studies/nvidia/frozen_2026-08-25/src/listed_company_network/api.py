@@ -28,7 +28,7 @@ def _response(page) -> dict:
 def create_app(data_path: str | None = None) -> FastAPI:
     app = FastAPI(
         title="ListedCompany Related Network API",
-        version="0.3.0",
+        version="0.2.0",
         description="Point-in-time, evidence-linked listed-company relationships. Not investment advice.",
     )
     service = ResearchService(SnapshotRepository(data_path))

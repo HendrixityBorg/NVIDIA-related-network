@@ -1,0 +1,161 @@
+{
+  "$defs": {
+    "DiscoveryDecision": {
+      "enum": [
+        "candidate",
+        "accepted",
+        "rejected"
+      ],
+      "title": "DiscoveryDecision",
+      "type": "string"
+    },
+    "Officiality": {
+      "enum": [
+        "first_party",
+        "regulator_or_exchange",
+        "independent_media",
+        "syndicated_or_aggregated",
+        "unknown"
+      ],
+      "title": "Officiality",
+      "type": "string"
+    },
+    "SourceFamily": {
+      "enum": [
+        "annual_filing",
+        "portfolio_filing",
+        "investor_presentations",
+        "official_articles",
+        "product_solutions",
+        "ecosystem_directory",
+        "third_party_news",
+        "counterparty_regulatory",
+        "peer_research"
+      ],
+      "title": "SourceFamily",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "family": {
+      "$ref": "#/$defs/SourceFamily"
+    },
+    "url": {
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Url",
+      "type": "string"
+    },
+    "publisher": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Publisher"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Title"
+    },
+    "discovered_via": {
+      "title": "Discovered Via",
+      "type": "string"
+    },
+    "discovery_query": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Discovery Query"
+    },
+    "officiality": {
+      "$ref": "#/$defs/Officiality"
+    },
+    "decision": {
+      "$ref": "#/$defs/DiscoveryDecision",
+      "default": "candidate"
+    },
+    "decision_reason": {
+      "title": "Decision Reason",
+      "type": "string"
+    },
+    "adapter": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Adapter"
+    },
+    "discovered_at": {
+      "format": "date-time",
+      "title": "Discovered At",
+      "type": "string"
+    },
+    "robots_url": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Robots Url"
+    },
+    "access_notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Access Notes"
+    }
+  },
+  "required": [
+    "id",
+    "family",
+    "url",
+    "discovered_via",
+    "officiality",
+    "decision_reason",
+    "discovered_at"
+  ],
+  "title": "SourceCandidate",
+  "type": "object"
+}

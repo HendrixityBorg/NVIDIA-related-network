@@ -1,0 +1,20 @@
+.venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.coverage
+htmlcov/
+*.egg-info/
+.DS_Store
+dist/
+build/
+
+# Research runs retain hashes, locators, and short excerpts—not full webpage bodies.
+runs/**/body_snapshots/**
+*.html.gz
+
+# Agent development outputs are not publication artifacts.
+runs/**/test_output*/

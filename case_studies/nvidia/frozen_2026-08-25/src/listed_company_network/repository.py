@@ -11,20 +11,7 @@ def default_data_path() -> Path:
     configured = os.getenv("LCN_DATA_PATH")
     if configured:
         return Path(configured).expanduser().resolve()
-    repo_root = Path(__file__).resolve().parents[2]
-    demo = (
-        repo_root
-        / "case_studies"
-        / "nvidia"
-        / "frozen_2026-08-25"
-        / "data"
-        / "snapshot_2026-08-25.json"
-    )
-    if demo.is_file():
-        return demo
-    raise FileNotFoundError(
-        "LCN_DATA_PATH is not set and the checked-in NVIDIA demo snapshot is unavailable"
-    )
+    return Path(__file__).resolve().parents[2] / "data" / "snapshot_2026-08-25.json"
 
 
 class SnapshotRepository:

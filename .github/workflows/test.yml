@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          cache: pip
-      - run: pip install -e '.[dev]'
-      - run: python -m compileall -q src scripts tests runs/2026-08-25-run-003
-      - run: python scripts/validate_snapshot.py --snapshot data/snapshot_2026-08-25.json
+          python-version: "3.12"
+      - run: python -m pip install -e '.[dev]'
       - run: pytest
+      - run: listed-company-network verify-case --manifest case_studies/nvidia/case_manifest.json

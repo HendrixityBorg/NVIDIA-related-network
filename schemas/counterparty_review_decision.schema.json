@@ -1,0 +1,94 @@
+{
+  "$defs": {
+    "ReviewTerminal": {
+      "enum": [
+        "relationship_confirmed",
+        "mention_found_but_direction_unknown",
+        "mention_found_not_relationship",
+        "no_exact_mention",
+        "filings_not_publicly_accessible",
+        "no_filings_in_window",
+        "issuer_identity_ambiguous",
+        "manual_review_required"
+      ],
+      "title": "ReviewTerminal",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "task_id": {
+      "title": "Task Id",
+      "type": "string"
+    },
+    "counterparty_entity_id": {
+      "title": "Counterparty Entity Id",
+      "type": "string"
+    },
+    "terminal_status": {
+      "$ref": "#/$defs/ReviewTerminal"
+    },
+    "reviewed_at": {
+      "format": "date-time",
+      "title": "Reviewed At",
+      "type": "string"
+    },
+    "reviewed_sources": {
+      "minimum": 0,
+      "title": "Reviewed Sources",
+      "type": "integer"
+    },
+    "exact_mentions": {
+      "minimum": 0,
+      "title": "Exact Mentions",
+      "type": "integer"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "relationship_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Relationship Ids",
+      "type": "array"
+    },
+    "counterevidence": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Counterevidence",
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "rationale": {
+      "title": "Rationale",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "task_id",
+    "counterparty_entity_id",
+    "terminal_status",
+    "reviewed_at",
+    "reviewed_sources",
+    "exact_mentions",
+    "rationale"
+  ],
+  "title": "CounterpartyReviewDecision",
+  "type": "object"
+}

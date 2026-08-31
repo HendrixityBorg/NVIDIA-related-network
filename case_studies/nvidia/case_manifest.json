@@ -1,0 +1,40 @@
+{
+  "case_id": "nvidia-2026-08-25",
+  "frozen_source_commit": "08991833ca76bb0e8bbec3f10b30896a35a7fb72",
+  "frozen_tree_id": "276b13b9384cf24894e6cd594439c916ba122973",
+  "expected_tracked_files": 991,
+  "legacy_root": "case_studies/nvidia/frozen_2026-08-25",
+  "subject_entity_id": "nvidia",
+  "cutoff_at": "2026-08-25T23:59:59+08:00",
+  "snapshot_path": "data/snapshot_2026-08-25.json",
+  "expected_counts": {
+    "entities": 329,
+    "sources": 5753,
+    "evidence": 9458,
+    "relationships": 2016
+  },
+  "expected_relation_counts": {
+    "supplier": 16,
+    "customer": 180,
+    "partner": 1792,
+    "investor_or_investee": 7,
+    "peer": 21
+  },
+  "key_artifact_sha256": {
+    "data/snapshot_2026-08-25.json": "03649682cc95824e1f0c92d149aa3e6e589d4e63fecc66d12f57ac9fe5bf9134",
+    "runs/2026-08-25-run-003/run_manifest.json": "ae68a377b02b9846c6052f991b1a42078a46a89e75f80aa2e68fda3fdf0f1dd1",
+    "runs/2026-08-25-run-003/product_tree_v2/validation_report.json": "958ace6908e344b4aa8d3b59cc1adc9453cdd240c9b26f9b25623693c911fc0e",
+    "runs/2026-08-25-run-003/agents/relationship_review_complete/decision_ledger.jsonl": "e1f16baa9c5da0c82879d9824af9a850f8e98f16817759ab2b55675844be81f8",
+    "research/HUMAN_REVIEW_SIGNOFF.json": "6c2f5f5131b163df282528c76f66cc117d0f4de4dd6a69099f602a4a0915c050"
+  },
+  "regulatory_reverse_review": {
+    "canonical_listed_counterparties": 316,
+    "relationship_claims": 48,
+    "customer_claims": 40,
+    "supplier_claims": 8,
+    "confirmed": 22,
+    "inferred": 26,
+    "pending": 0
+  },
+  "disclaimer": "仅供研究与工程演示，不构成投资建议。"
+}
